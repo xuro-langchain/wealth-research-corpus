@@ -1,75 +1,56 @@
 ---
 type: regulatory-overlay
 title: Municipal AMT Threshold Regulatory Overlay
-description: Explains the 2026 AMT phase-out thresholds, the private-activity preference treatment that remains in place, and the completed out-of-cycle municipal research re-issue. It distinguishes the regulatory overlay from research and binding allocation action.
-tags: [municipal-bonds, alternative-minimum-tax, private-activity-bonds, qualified-501c3, taxable-fixed-income]
+description: Regulatory overlay for the 2026 AMT exemption phase-out thresholds and municipal-bond interest treatment. It explains how the threshold change constrains the historical municipal research premise while preserving the qualified-501(c)(3) treatment.
+tags: [municipal-bonds, alternative-minimum-tax, private-activity-bonds, qualified-501c3, regulatory-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T15:23:39.050Z
+    at: 2026-09-17T21:44:02.449Z
 sources:
-  - id: openwiki-source-d4d55878a53be93639d11eff
-    resource: repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
-  - id: openwiki-source-0325e37b3340c7a33cd38137
-    resource: repo://guidelines/allocation/us-taxable-fixed-income.md
-  - id: openwiki-source-d23120db2fa553b5cde8ad5b
-    resource: repo://guidelines/authority/discretion-matrix.md
-  - id: openwiki-source-f6f11dc2c2c5325137161d1d
-    resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
-  - id: openwiki-source-90027641669e5dccfbf71ee0
-    resource: repo://research/FI/US/MUNI-CREDIT/2026-04.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T15:23:39.050Z" }
+  - id: openwiki-source-28793825e738ee3b286c0cbe
+    resource: repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
+  - id: openwiki-source-782f1a3fffc4f6dec3274631
+    resource: repo://internal_guidelines/allocation/us-taxable-fixed-income.md
+  - id: openwiki-source-2ddd4f14dfe61f21d64eb273
+    resource: repo://internal_guidelines/authority/discretion-matrix.md
+  - id: openwiki-source-04ccfa0b608194f7a35603a3
+    resource: repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
 ---
 
-## Scope and effective-date boundary
+## Scope and effective date
 
-IRS Revenue Procedure 2025-41 is a synthetic demonstration document and “nothing here is guidance, and no reliance is possible.” Within the corpus, it applies to taxable years beginning “on or after 2026-01-01.” It is a regulatory overlay: it states tax treatment and thresholds, not a portfolio allocation instruction. [Revenue Procedure notice](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L3-L8) [Revenue Procedure N.8](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L44-L46)
+This page records the tax-treatment overlay in the repository’s synthetic Revenue Procedure 2025-41. The source explicitly says it is a demonstration document, not guidance on which reliance is possible. It applies to taxable years beginning on or after **2026-01-01**; it is not a portfolio recommendation or a replacement for mandate guidance. [Revenue Procedure notice and effective date](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L3-L8) [Revenue Procedure N.8](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L44-L46)
 
-For those taxable years, N.2 sets the section 55(d)(1) AMT exemption at $90,100 for an unmarried individual other than a surviving spouse and $140,200 for married joint filers or a surviving spouse; married filing separately receives half the joint amount. N.3 says the exemption “is reduced by twenty-five cents for each dollar” of AMTI above $500,000 for an unmarried individual and $1,000,000 for a joint return. Those thresholds are not determined by section 1(f) and are not indexed before 2030-01-01. [Revenue Procedure N.2–N.3](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22)
+For those years, the section 55(d)(1) exemption is $90,100 for an unmarried individual other than a surviving spouse and $140,200 for joint filers or surviving spouses; the married-filing-separately amount is half the joint amount. The exemption is reduced by $0.25 for each dollar of AMTI above $500,000 for an unmarried individual and $1,000,000 for a joint return. The stated thresholds are not section 1(f)-indexed before 2030-01-01. [Revenue Procedure N.2–N.3](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22)
 
-IRS Revenue Procedure 2025-41 **supersedes** Rev. Proc. 2024-58 section 2.11 in its entirety. That supersession is distinct from the later research lifecycle described below. [Revenue Procedure N.1](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12) [Revenue Procedure N.7](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42)
+The procedure **supersedes** section 2.11 of Rev. Proc. 2024-58 in full. That document-level supersession does not itself state that any internal research note or allocation guide has been superseded, withdrawn, or suspended. [Revenue Procedure N.1](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12) [Revenue Procedure N.7](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42)
 
-## Preserved tax treatments
+## Bond-treatment boundary
 
-IRS Revenue Procedure 2025-41 **preserves** the specified-private-activity-bond preference treatment: interest “remains an item of tax preference” under section 57(a)(5)(A), is included in AMTI, and is subject to the stated deduction adjustment. N.4 also says the procedure does not modify the specified-bond definition—section 141 private-activity bonds issued after 1986-08-07 with section 103-excluded interest—or the treatment itself. The threshold event therefore expands the population to which the preference can matter; it does not eliminate the preference. [Revenue Procedure N.4](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28)
+Revenue Procedure 2025-41 **preserves** the specified-private-activity-bond treatment: interest remains a section 57(a)(5)(A) tax-preference item and is included in AMTI, subject to the stated deduction adjustment. It also does not modify the definition: a specified bond is a section 141 private-activity bond issued after 1986-08-07 whose interest is excluded from gross income under section 103. [Revenue Procedure N.4](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28)
 
-IRS Revenue Procedure 2025-41 **preserves** the qualified-501(c)(3) treatment. A qualified section 145 bond is excluded from “private activity bond” for this purpose; its interest “is not an item of tax preference and is not included in alternative minimum taxable income.” N.5 adds that this treatment “is preserved in full and is unaffected” by N.2 or N.3. The threshold change consequently does not reach qualified-501(c)(3) interest. [Revenue Procedure N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34)
+Separately, Revenue Procedure 2025-41 **preserves** qualified section 145 501(c)(3) bond interest as neither a tax-preference item nor AMTI. N.5 expressly says that the N.2–N.3 amounts do not apply to that interest and that its treatment is unaffected. The historical municipal note likewise distinguishes nonprofit hospitals and private higher education, which it describes as predominantly qualified 501(c)(3) issuance, from airport special-facility paper, which it describes as predominantly non-501(c)(3). [Revenue Procedure N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34) [Municipal research M.5](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L46-L52)
 
-N.6 leaves separate exceptions intact for specified qualified residential-rental exempt-facility bonds, qualified mortgage bonds, qualified veterans’ mortgage bonds, and qualifying pre-1986 refunding bonds. It makes no inference about items the procedure does not address. [Revenue Procedure N.6](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L36-L38) [Revenue Procedure N.7](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42)
+The procedure also leaves intact the listed exceptions for certain qualified residential-rental exempt-facility bonds, qualified mortgage bonds, qualified veterans’ mortgage bonds, and qualifying pre-1986 refunding bonds. It directs no inference about items it does not address. [Revenue Procedure N.6–N.7](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L36-L42)
 
-## Completed research re-issue
+## Constraint on the historical research premise
 
-FI-US-MUNI-CREDIT 2026-04 **supersedes** FI-US-MUNI-CREDIT 2025-06 in its entirety for positions taken on or after 2026-05-01; the earlier edition remains the basis of record for positions taken while it stood. Published 2026-04-09, the replacement was re-issued out of cycle in response to Revenue Procedure 2025-41 under the prior note’s M.8 review trigger. [Municipal research 2026-04, publication and M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L18) [Municipal research 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L27)
+Revenue Procedure 2025-41 **constrains** the load-bearing threshold premise in FI-US-MUNI-CREDIT 2025-06. The procedure establishes the new $500,000 and $1,000,000 phase-out thresholds and says taxpayers above the applicable threshold are subject to N.4 even if they were not subject to AMT under prior thresholds. The note says its private-activity overweight depended on most top-bracket clients being outside AMT under the then-effective thresholds, identifies that assumption as load-bearing, and says the recommendation does not survive a reduction that brings materially more such holders into AMT. [Revenue Procedure N.3–N.4](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L28) [Municipal research M.2](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32)
 
-The completed re-issue moves the desk view from overweight to neutral and withdraws the former private-activity concentration. It attributes the outcome to the fixed $500,000/$1,000,000 phase-out thresholds: its modelling places a majority of the formerly assumed-outside-AMT top-bracket client base inside AMT for 2026, compresses the after-tax advantage to about 15 basis points from 90–110 basis points, and places that residual inside transaction costs. [Municipal research 2026-04 M.1–M.2](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24) [Municipal research 2026-04 M.2](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L37-L53)
+This is a constraint on the note’s threshold assumption, not an elimination of the preference treatment: the procedure **preserves** the specified-private-activity-bond preference while the note separately identifies the threshold—not that long-settled treatment—as its exposure. [Revenue Procedure N.4](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28) [Municipal research M.2](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L26-L32)
 
-The re-issue retains a modest preference limited to qualified-501(c)(3) obligations of nonprofit hospitals and private higher education because those sectors are predominantly qualified-501(c)(3) issuance. It withdraws the airport special-facility preference in full because that paper is predominantly non-501(c)(3) private-activity issuance. This preserves the required distinction between a generally withdrawn private-activity concentration and the tax treatment that remains intact for qualified-501(c)(3) obligations. [Municipal research 2026-04 M.3](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L67)
+The note marks an announced change to federal tax treatment of municipal interest for immediate review and re-issue rather than scheduled review. That is a research lifecycle trigger; it does not establish that a re-issue has occurred. [Municipal research M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L74)
 
-Within its neutral research view, FI-US-MUNI-CREDIT 2026-04 recommends no new non-501(c)(3) private-activity positions; it does not recommend forced sales of existing positions and instead describes orderly reduction. Its eight-to-fifteen-year duration preference is unchanged. These are research conclusions, not binding transition instructions. [Municipal research 2026-04 M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L69-L78) [Municipal research 2026-04 M.6](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L86-L89)
+## Operational boundary
 
-```mermaid
-flowchart TD
-    Threshold["2026 phase-out thresholds"] --> Exposure["More top-bracket clients exposed to AMT"]
-    Exposure --> Reissue["Out-of-cycle 2026-04 research re-issue"]
-    Reissue --> Neutral["Research view moves to neutral"]
-    Reissue --> Qualified["Retain qualified 501(c)(3) preference"]
-    Reissue --> Withdraw["Withdraw non-501(c)(3) concentration"]
-    Neutral --> Suspend["Suspend derived mandate weight"]
-    Suspend --> Committee["Committee re-adopts any binding weight"]
-```
+The taxable fixed-income guide describes FI-US-MUNI-CREDIT 2025-06 as the research basis for its top-bracket municipal overweight and states that the note is current and not re-issued since publication. This overlay does not select a municipal weight, change a guide target, or authorize a trade. [Allocation guide A.3](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Municipal research status](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16)
 
-This flow shows the completed research lifecycle and the separate mandate-governance response; the revenue procedure itself does not select a municipal weight. [Municipal research 2026-04, publication and M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L27) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35)
+If a guide-cited research note is later superseded or withdrawn, the guide and discretion matrix define a separate conditional control path: suspend the derived weight, escalate to the committee, and do not carry the prior weight forward or directly adopt a replacement research recommendation. That conditional process must not be read as a statement that the current guide is suspended. [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
-## Mandate and authority boundary
+### Review checklist
 
-The US Taxable Account Fixed Income Allocation Guide **implements** the historical 2025-06 view as a 22% municipal target against an 18% neutral weight for top-bracket clients, with a private-activity concentration. It assigns below-top-bracket clients the 18% neutral weight without that concentration. Because the guide still cites the now-superseded 2025-06 note, A.1 makes the derived weight suspended rather than carried forward pending committee re-adoption against the replacement note. [Allocation guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.3](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23)
-
-A.5 couples the suspended municipal overweight to its funding trade: the 28% investment-grade-corporate target and municipal 22% target return to their 32% and 18% neutral references, respectively. A suspension-caused band condition is not an ordinary-drift rebalance. [Allocation guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43)
-
-The discretion matrix requires the manager to escalate a superseded cited note to the committee, record the superseded and replacement notes, every derived weight, and affected accounts, and refrain from carrying forward the prior weight or directly adopting the 2026-04 research recommendation. Turning a research view into a binding weight is a committee act. A regulatory breach cannot be cleared at any authority level. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37) [Discretion matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47)
-
-### Operating checklist
-
-1. Determine whether the account action concerns a historical position, for which the applicable research edition remains the basis of record, or a current action, for which the 2026-04 re-issue and current guidance apply. [Municipal research 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L27)
-2. Apply the AMT overlay at the taxpayer and bond-treatment level; do not generalize the specified-private-activity preference to qualified-501(c)(3) bonds. [Revenue Procedure N.4–N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34)
-3. Treat the historical 2025-06-derived municipal and paired corporate weights as suspended, use the guide’s neutral references, and do not mechanically treat the condition as drift. [Allocation guide A.1, A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43)
-4. Escalate the required record to the committee; do not use the regulatory overlay or the neutral research view as a manager-selected allocation instruction. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35)
+1. Confirm the taxable-year boundary and taxpayer filing status before applying the exemption and phase-out amounts. [Revenue Procedure N.2–N.3](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22)
+2. Classify the bond treatment: do not generalize specified-private-activity-bond preference treatment to qualified section 145 501(c)(3) bonds. [Revenue Procedure N.4–N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34)
+3. Treat the changed thresholds as a constraint on the historical note’s stated after-tax premise, while retaining the distinction between that premise and the preserved qualified-501(c)(3) treatment. [Revenue Procedure N.3 and N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L22) [Revenue Procedure N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34) [Municipal research M.2 and M.5](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.5](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L46-L52)
+4. Keep tax overlay, research review, and any mandate action separate; use the governing guide and authority process for any future research-status change. [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)

@@ -1,126 +1,112 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:1ab13194ef5b078c11217437ac9c67e2edf1a654f52c70b6388285ec141200b9",
+  "pageVersion": "sha256:6c3a90cb58547eaed4c207448839cdb92647bb955428d825025d295a9698c2e8",
   "claims": [
     {
       "id": "claim_d762c63b078e43589251f4936641057f",
-      "statement": "For taxable years beginning on or after 2026-01-01, Revenue Procedure 2025-41 sets the AMT exemption amounts and reduces the exemption by $0.25 for every dollar of AMTI above $500,000 for an unmarried taxpayer and $1,000,000 for joint filers; those thresholds are not section 1(f)-indexed before 2030.",
+      "statement": "For taxable years beginning on or after 2026-01-01, Revenue Procedure 2025-41 sets AMT exemption amounts of $90,100 for an unmarried individual other than a surviving spouse and $140,200 for joint filers or surviving spouses, and reduces the exemption by $0.25 for each dollar of AMTI above $500,000 for an unmarried individual or $1,000,000 for a joint return; the thresholds are not section 1(f)-indexed before 2030-01-01.",
       "evidence": [
         {
-          "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22",
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22",
           "version": "repo-lines-v1:sha256:77e48bf911b3febcc0dd734eaf9a5a2de337677e1e61b5a7af01d9da42c6a324:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1NDczYzllMDA1ODRmZjA2ZGM5MTkyMTRlNmM5YTcwYTEwNTE1ZTM1OWJmOGYwMGMwNDVjNzM2MjE1MTNjNjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5YzVmNzg3N2VjODhiNGIzOTI2NjFmYWQyMWU0ZDJiNGJmYWNkMGNmMWY3N2Q0ZTk1ZTZhY2U5NTY2MDlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwNTJhNWZkODY4NjQ1ZTVmNDk3ZmExOWUxNzMwZjQ0ZThmNmRjZDgxZDJmZjAyYWVlYjRmMjRlNjgzMDllMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3MGFmZWJlMDBmNGZkM2M1ZTVkMmY5MTk3YmUwNDJkZTY3OWNlNmFlOTk5NzJjNzdhMjRiNjRkMzQzMjdmMTcifQ"
         }
       ]
     },
     {
-      "id": "claim_5065fed00a1e4c46aa48673d8839c74c",
-      "statement": "FI-US-MUNI-CREDIT 2026-04 supersedes FI-US-MUNI-CREDIT 2025-06 in its entirety for positions taken on or after 2026-05-01, while the former edition remains the basis of record for positions taken while it stood; the replacement was re-issued out of cycle in response to Revenue Procedure 2025-41.",
-      "evidence": [
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L18",
-          "version": "repo-lines-v1:sha256:89d11fa08cb5d9e101a14be42db5a6897726440a1ee793cbb10960b3622f1423:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI1NmVmYTlhMmY2MmExZTU5OTU4ZDQyOTI5YWI3OGE3YjhlM2FiYWQyY2E2N2M5MzMxYjk2NjRjNjdiMTA2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTQzZjI3NmIxYzA5NDE0NjZhMjYzOGFjMGExMDFkZDZkYzIxODE2MjM0ZjNlZjFjMjlmOTc2YjJkY2Q1Yzk2NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzdhZTQxNGQxYWVkODE2ZGEzYTM0OGQ5NDdmYjdkNjM2ZjEwYWM1YWQxN2YxYzg1ZDcyM2IwN2Y5YzViNDc2MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVkZTEzZmNlZGQyYjVlMmY5MzZmZDk4MWIzYzhmZDUyZjBjMWIzM2YxMDhiYTExMjRkNjJiZjViNGY2MzIwMSJ9"
-        },
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L27",
-          "version": "repo-lines-v1:sha256:78616ad966da751e60814d6c0bc7bd889962ef5c907bf73b745d6c53e6af3e8d:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRjMTRiOGIxNWJhZWU2NTJlNGY1NTkwYTE1NmYyOTBmNWFjZjE4OWMyOTU3NzU5ZDM0MGM2YjU0NDhjMTgzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTNkZmJjMDhlYTBiNjI3OWYxODc4YTM0ZGNlNmRmNDVmMDNkM2NmZGU0YmJlYzNiMWY1YTIzZDM4NmVmMWRhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTEwODMyYzU2NTE1MzA5ZDkxMjc1MTgwZTBiZmU1ZTkyNzA0MTkxMjJjNTM3YjIyMjIzNjZmYjY2ZDM4YTkzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmI3MmZiYzgxNDVkMzEzN2QxODllYTliNjAzZDk3ZTdlYWQ1MGU3NWY4YTRiY2RmNWZjYTg4ZGFhMGM1ZmEyMSJ9"
-        }
-      ]
-    },
-    {
       "id": "claim_ba55ddeb95d246a1973ed2c99dc33c21",
-      "statement": "IRS Revenue Procedure 2025-41 N.4 preserves FI-US-MUNI-CREDIT 2025-06 M.2's specified-private-activity-bond preference treatment: the interest remains an item of tax preference and is included in AMTI, so the 2026 change alters threshold exposure rather than eliminating the preference.",
+      "statement": "Revenue Procedure 2025-41 preserves specified-private-activity-bond interest as a section 57(a)(5)(A) tax-preference item included in AMTI and does not modify its definition; FI-US-MUNI-CREDIT 2025-06 identifies the phase-out threshold, rather than that treatment, as the exposure for its historical after-tax thesis.",
       "evidence": [
         {
-          "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28",
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28",
           "version": "repo-lines-v1:sha256:8d9c4266428c6a1d221c563364e8f1a0b3d9d6aefaefcdd9883319af1c9f655c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJiZWMyZGRmYTQwMmI2YmQ3NGEzODQ5NTA0ZWVkZjRlOGU5N2I3YzNlYTNkY2E1MmJiYTg4N2E3MWU3Mjc2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNiMmUxODEwMzBlNDdiM2NhMDZkYTZmNmVmMmU3ODZkNzQ3M2VlZGZmOTU0ZWNiZjg4MzVkNjQ5MzA3YTViYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNmMmEwZmIzZGQzYjA4NDRmNGQ5NDAwNDMxZjBmOGEwYjQ5YTQ2Njc3ZTM1ZDJkMGFkNzY5NGRlZTM0MjA0ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTE5ZDlhMzViY2Q3MTI5ZTQ2Nzg2MGJhYWY1M2M3NGQ1NzhhYmQyNGU2OTAxYzRmYWU1OGEzMTEwMTk1ZmRlZCJ9"
         },
         {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-06.md#L24-L30",
-          "version": "repo-lines-v1:sha256:ee31736f805b90b46012e8b598d9750c83822038e1275b4cf34c5d6816ea98b9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjBjY2FkYWNhMTZjMTQ1YjdkYzMyODUwZjIwNzllOTRhNTI3MTA2OTI5N2QxM2Q4ZTEwYjg1MzQ1ODlhOWU2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVjMjZjNjlmNzY0MWM2MGRmMzE3ZjRiZWEzZDliYWE4NTM4NzQyNDJiMTgyZDk4Y2FmZmZjMmNlYzY1YWU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzMwN2ViMjEzYWFhNDk5MzMwODFmM2U5NDE4OTA3MjhhZjA4OTg4NWJlYjVjMjk4ODMyMjY2MTEyYjQ3YmMxZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_22d4901565164f5db9ff524dc4484f82",
-      "statement": "IRS Revenue Procedure 2025-41 N.5 preserves qualified section 145 501(c)(3) bond interest as neither an AMT preference item nor AMTI; FI-US-MUNI-CREDIT 2026-04 consequently retains a modest preference for nonprofit hospitals and private higher education while withdrawing the airport special-facility preference because it is predominantly non-501(c)(3) private-activity issuance.",
-      "evidence": [
-        {
-          "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",
-          "version": "repo-lines-v1:sha256:f756d1c2acf7f543786adae88180f2048b899fe99fd479484205e3c45a2189d1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU2ZTAyMjAwY2IyMWIzNzE2NzJlZDc5Y2I5MGE5YWE3ZmU2YjFlNGVhMjBjNjc5ZjBjNWIzNTVjYjgzNGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY5ZGRjYTA4YjAyNTUxMjQwNTNlODAwZTM4NzdiMmNlYzUxM2Q2OTk1OGY5NWE3ZDZiYTE3MzgxODFhYWQ2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE0MTc5ODlmMWYwM2E0MGMyZDFhNTE0ZTMxN2RlZWEwMGZlZGZiY2U4ZWNiYTIzM2ZlZDEwM2FmYTIyYjUyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ4Nzg5ZjNhZjlmMDNiMjUyMmM4NWUwZTc3Mzc4YTU2MGU5YjhlM2NjOWE2NGMzYjE4YjgzN2NlOWJiYmIzMCJ9"
-        },
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L67",
-          "version": "repo-lines-v1:sha256:a4e8c951a5abb66348b914b44fc5e57307c97ee3f948e3702e49a9ffb4f7d9f5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmYzI3ODI3ZTZlOWI1NzVjOTUxY2FjNWIzYTg4ZTY5YjdkNWZiYjI3MDAxMDgwMDg1NjFiNDVlN2M1NjNhZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZmN2UzZjQxNzFjZTIwZDUwMTQ5YzNjMDkzNjlhZjFhOTc1M2M2NTY0NmE3OGU2MDJmZTc2NzdjNDIxMDhiMjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzODgyMDIwNDM2ZGZjMTg5ZDYxZDJkNmRiOGRmNzNlMjFjYmZmMGE1YTQwN2M1YmEzYTJlODY2ODg5NmQ4NWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFlOGVhZWYyMDUyYmY1NzFhM2M1MTRlNDcwZDk0MWVlZmE1MDU4NzFmODY2MmQxNzgxODA4N2JhMTQ0NTg0MDUifQ"
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32",
+          "version": "repo-lines-v1:sha256:54d2fc500bef603fe10a428e2700bf910796c6c546fa5c4b2b47395d81560651:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NWViNzM3ZTYwOWMyYjU1ZTE4MTdjZjRhNTYyNTQ0ZGU0YWQxYjcyYzVhODQyMWYxNTM3ZjhlZDIxYjU4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVjMjZjNjlmNzY0MWM2MGRmMzE3ZjRiZWEzZDliYWE4NTM4NzQyNDJiMTgyZDk4Y2FmZmZjMmNlYzY1YWU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRhN2U5YmMyMTg1MTlkOTZlYWYzYWFlNDE5MGJiYTlhZTZmNWRmODM1ZWVmMDc4MTllNzUwMWIxNjZkZDQ5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
         }
       ]
     },
     {
       "id": "claim_e9d062e41f30403286ba8e9d366f3cdf",
-      "statement": "IRS Revenue Procedure 2025-41 N.1 supersedes Rev. Proc. 2024-58 section 2.11 in its entirety, separately from the change's effect on the municipal research premise.",
+      "statement": "Revenue Procedure 2025-41 supersedes Rev. Proc. 2024-58 section 2.11 in its entirety; this document-level supersession does not state that any internal research note or allocation guide is superseded, withdrawn, or suspended.",
       "evidence": [
         {
-          "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12",
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12",
           "version": "repo-lines-v1:sha256:051acc44dbfbde9324d4e0f53106ff61f09e49fb78d86942549c7f438b51d6f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjVlZGRkN2Y2YWJmNGQwYmViMzgyZTFlZTIyYmNmYzU4ODA1OWEzNzA1ZjRmN2IwNTIxYmFhYjhmZmQ4ZmNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFkZjA4YWMwZDQ2NmZlZjQzNzFjMjk1MjYwOWJkOTQyODYxMDMwODdkZmY1Y2Q5YzAyMTY3MjZiZmQ5NzFlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJhNjhkNTdlNDAwYWE5NTA1MTdhYTU2NDE5Mzg3YmYzNjJkMjQ0ZDg1Y2NhMWYzZGM0NjY0YTA5ZTc5YjY5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2JjYmI5ZjJlMWUwNjhjMmQ5ODQ3YTJjMjQyMGM5YmFhNDEwOTk2NGU3MDdmYTFmNDM0NGVkMWQwNTRkNDUyMyJ9"
         },
         {
-          "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42",
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42",
           "version": "repo-lines-v1:sha256:5410c2c5c087b2c47c199a0300258c20828a7cead4cc613681f54cfbbfab39c5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjc5MTIzYmUzNzAzNjIzZDEyZjY3MTFlMjdiYzRhMDk3M2I2OWVlODc0NDM3YTYzMmQ4NjFiOWEwMDEwZTAwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFkODZjYmU4NTIxZWVjYWJjOTBjODJiZjlhMTNhOGIwZDJhZTlmZGZiMTQzM2I1ZGUwOGExMDAxMDY2ZTdkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzA1NzdiZGU3ZGJhYmU0OTY4NjhmYWVlNDhmNTY4Mzg2MzIzYzViOTY5MTQ5OGM2OWIyMjUzMDU1YTBmMjQwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjg1NTUzYTgyODNjOGVjYzRjNTUxNmIxYzg3ZThmY2MzMjVhNzVhZDk1YmZmM2RkMDc0OTM5Nzc0ZmE0Y2JhOCJ9"
         }
       ]
     },
     {
-      "id": "claim_f89b2abcf00c4a03b34950b4d82d12cc",
-      "statement": "FI-US-MUNI-CREDIT 2026-04 moves municipal credit from overweight to neutral and withdraws the private-activity concentration because its modelling places a majority of the formerly assumed-outside-AMT top-bracket client base inside AMT, reducing the after-tax advantage to approximately 15 basis points and inside transaction costs.",
+      "id": "claim_bad07f5a54a5447891fdba4d8b7d0c66",
+      "statement": "Revenue Procedure 2025-41 constrains the load-bearing threshold premise of FI-US-MUNI-CREDIT 2025-06: the procedure sets the new phase-out thresholds and subjects taxpayers above them to N.4 even if they were not subject to AMT under prior thresholds, while the note says its recommendation would not survive a reduction that brings materially more top-bracket holders into AMT.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24",
-          "version": "repo-lines-v1:sha256:d242d63c1bc857d1c0282cc48dc90a1b66955097599091bfb572f45e6e5a917d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRjMTRiOGIxNWJhZWU2NTJlNGY1NTkwYTE1NmYyOTBmNWFjZjE4OWMyOTU3NzU5ZDM0MGM2YjU0NDhjMTgzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmZjYmU5OTI5YTQ0NDcxMWYzZmYxNzMzMWY3M2U0M2FlNTM4YzJlNzcwOWE0N2ZkNmUxOTk4OWM4NmNhNmM5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTEwODMyYzU2NTE1MzA5ZDkxMjc1MTgwZTBiZmU1ZTkyNzA0MTkxMjJjNTM3YjIyMjIzNjZmYjY2ZDM4YTkzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjhhZGExMjA0MzgwMTczMjI5M2VmM2Y1MDdhZTJjNWFjZjgzNzk0YWEwMWEwMTVjYmEzNTcxMzliYTQ4NTcyMyJ9"
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L28",
+          "version": "repo-lines-v1:sha256:92d28921125e37c07a98f500d5f357cf65b19dfb5522e56a95098f927ddeb3ea:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwNWVjYzg1MjVjNjcwYjAzMDk3NTMwMjMwNjk0NzA5OWIxNmNlOWZhNjMyZmI1NjY5Mzk0OWQ4NjA4OGQ0OTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZjYjJlMTgxMDMwZTQ3YjNjYTA2ZGE2ZjZlZjJlNzg2ZDc0NzNlZWRmZjk1NGVjYmY4ODM1ZDY0OTMwN2E1YmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhNmQ1ODI1YTk2MThkZGEzM2NiYjM3OGRmYTgwNjZhZjY0YjMzM2Q3MzIzNjIzNjg5MzQzMTA4YjA5OTk2YTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjExOWQ5YTM1YmNkNzEyOWU0Njc4NjBiYWFmNTNjNzRkNTc4YWJkMjRlNjkwMWM0ZmFlNThhMzExMDE5NWZkZWQifQ"
         },
         {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L37-L53",
-          "version": "repo-lines-v1:sha256:2c57158b42eefb9e7b058046722e273200cca8eb174b66c3a187bccf7c956ba4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0Y2NmZDUyMGZkMjc0MjJhNTU3M2UzZDM2ZTQwYTI2YjZhYmQyZDk5NDY1YWUwYjZhYTFhN2QxNGQ4NjJiMTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyZTMxMTI3N2Q5YTEzZGExYzBjYzI1NWY0Y2Y0ODIzZWIyYzBiZjZiNWUzZDVlMDBmZGNiNDQ5NzZiYTMwZWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjM2YWI2ZmViMGJlYTIzYjFjNzMxYTMyNzkyODQ2YjU4M2Q1YTc2NDI0Nzg1OWRlOWJhYmYxZTc4YWFhZDY5ODMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI4MzdlZDZjZjIyMGIwYzk3M2Y0ODM4OGE1MWJlMTUyNDc5YTA1MzNiYjYwMTQzMzk1ZWFiYjU5NzAxMzgwNzMifQ"
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32",
+          "version": "repo-lines-v1:sha256:54d2fc500bef603fe10a428e2700bf910796c6c546fa5c4b2b47395d81560651:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NWViNzM3ZTYwOWMyYjU1ZTE4MTdjZjRhNTYyNTQ0ZGU0YWQxYjcyYzVhODQyMWYxNTM3ZjhlZDIxYjU4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVjMjZjNjlmNzY0MWM2MGRmMzE3ZjRiZWEzZDliYWE4NTM4NzQyNDJiMTgyZDk4Y2FmZmZjMmNlYzY1YWU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRhN2U5YmMyMTg1MTlkOTZlYWYzYWFlNDE5MGJiYTlhZTZmNWRmODM1ZWVmMDc4MTllNzUwMWIxNjZkZDQ5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
         }
       ]
     },
     {
-      "id": "claim_d8f2feda278844dfb8b35d0f24f0597d",
-      "statement": "Because the taxable fixed-income guide cites superseded FI-US-MUNI-CREDIT 2025-06, its derived municipal weight is suspended rather than carried forward; the paired municipal overweight and corporate underweight return to their neutral references, and the discretion matrix requires committee escalation rather than manager re-derivation or direct adoption of the replacement research view.",
+      "id": "claim_2251c822ece04eeb95d6e7f6f835f3dd",
+      "statement": "Revenue Procedure 2025-41 preserves qualified section 145 501(c)(3) bond interest as neither an AMT preference item nor AMTI and states that the N.2–N.3 amounts do not affect it; FI-US-MUNI-CREDIT 2025-06 separately identifies nonprofit hospitals and private higher education as predominantly qualified 501(c)(3) issuance.",
       "evidence": [
         {
-          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43",
-          "version": "repo-lines-v1:sha256:7455bcbd520d2a4b04f0412b87dcc44d51557a09950f8322556190f7febf3316:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMDEyMGFiZDdkMzVjMWQ4YWJiNmYyYWU2YjAzMjEyNWE1NWVjMjZjZDMzN2U3MzMzZTM4N2FlMDg1NWU1MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmMTU4ODVhYjE0ZjAyYmUyNjcyZDg3MWI3NjA0MjM5NDZhNTc2MmU0NmNkNzY2N2Q0ZDY0Zjc4ZTcxYWFhZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjNTRiY2EzMTU4MzE3MTk3MGY0MDA4YmE2OGI4OWU3ZGYyN2FiMjM0NWI2NzcxMjAwMDY5MzUyMjcwYzg0Y2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMWMxOTJlYzZhM2MxMjYxYjU1OGViYzllNmQyMTNkMGEzMTk1NmI1NmQ1NTNlODIyMTc4NDFjOWRkMWM3NjAifQ"
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",
+          "version": "repo-lines-v1:sha256:f756d1c2acf7f543786adae88180f2048b899fe99fd479484205e3c45a2189d1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU2ZTAyMjAwY2IyMWIzNzE2NzJlZDc5Y2I5MGE5YWE3ZmU2YjFlNGVhMjBjNjc5ZjBjNWIzNTVjYjgzNGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY5ZGRjYTA4YjAyNTUxMjQwNTNlODAwZTM4NzdiMmNlYzUxM2Q2OTk1OGY5NWE3ZDZiYTE3MzgxODFhYWQ2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE0MTc5ODlmMWYwM2E0MGMyZDFhNTE0ZTMxN2RlZWEwMGZlZGZiY2U4ZWNiYTIzM2ZlZDEwM2FmYTIyYjUyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ4Nzg5ZjNhZjlmMDNiMjUyMmM4NWUwZTc3Mzc4YTU2MGU5YjhlM2NjOWE2NGMzYjE4YjgzN2NlOWJiYmIzMCJ9"
         },
         {
-          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L46-L52",
+          "version": "repo-lines-v1:sha256:2e71a0841d95296d3f7e25f4af74477b3acf3573b881d35804c02a34a9e8420c:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDAyYjJhYjk1M2Q1ZTg0MDNmYTcyMTNmOGVjMzkyNWYxODdlMDdmNzI5MzhjMjBkYTY0YjY0MjJkMjY0NWI0ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAzNzQwN2QzYWQ2ZjdjOTJlNTQ3NjMyYzMxMDFjNjk2ODA1ODRlNjUxYWZhYTExNDcxNzgwZDc4MGRlN2IxOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGE1ZDVlZGJhMTNiMTM5NTdmZDlmZDUwYTY4YmFkNmUyMTE3OGQ5ZTkxZDg3MzE4OTY4MDRjNjhmYzBiMmI3NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDJhMmM3MzUwMWNmODBkOWM3MzVkNTAxODZhODlkN2NkNGIyYmYwZjU1NDExNmEwNzUyNmE5NTk2NDQwMzdmYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_efa8c6cb1858410ebd7c1ec1df95b574",
+      "statement": "FI-US-MUNI-CREDIT 2025-06 is marked current and not re-issued since publication; although it requires immediate review and re-issue after a change to its described municipal-interest tax treatment, that trigger does not establish that a re-issue has occurred.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16",
+          "version": "repo-lines-v1:sha256:c6e017480ac17d4c4cc9d4cfe4f7a0beeb91345fd8e92f6d5978217e8d9fd1c1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZWM4ZGVjMDg1OTAwYzM3YjI4OTA4NzYxYzU1NjBhYzUzMjY2ZGIyMzVjYTBmOWRhOWY0Y2RjYjY3ODg5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU1YWRmYmVhOGRkOTVhNTQxOTY5YzQyOTQ3MGVlOWY5MTQyNzA2ODU2ZGM2OTYwZWYxZjI3NzIyMmE4NWFhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDEwZDgwNzk5ZjVmZjljNTJkNTEwODIxNjJmMzcxYzBjNjFlOTc4ODJiZThmNjJhYzY3Yjg1NWYwYjI5MjkyMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVkZTEzZmNlZGQyYjVlMmY5MzZmZDk4MWIzYzhmZDUyZjBjMWIzM2YxMDhiYTExMjRkNjJiZjViNGY2MzIwMSJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L74",
+          "version": "repo-lines-v1:sha256:7f15c8eccce8fc54aafc162b232d2b7e1202ef6c98c1c1af0c8cbc84a092c224:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU2MjBkNmEwZWFkN2RiM2M1NDAxZjJhNmZkODk4NTdiYjEwMmNlZDlkZWY4NDBiODA0NGU5YzI3MDNiZTllOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzMyNmIzZDRkYjY4Mzc1NmFjNjk4N2ZjMzdmMmNkMjE0OGQ5MmM3MjZhNDIwNTRjMWYxYjI0YjcxNTY2Y2Q3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjhjNzk4NjJhYTNkMjIwNThlZDkyMTU5MzExNTNkOTJhMmU4MzViZmQwNDRmOGRhMGJiZmI0NDg5NmMzMTJhMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9db6c52941554378bce04a22c0420467",
+      "statement": "The taxable fixed-income guide and discretion matrix prescribe suspension and committee escalation only when a cited research note is later superseded or withdrawn; that conditional path does not state that the currently cited FI-US-MUNI-CREDIT 2025-06 guidance is suspended.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
+          "version": "repo-lines-v1:sha256:008b63307c128094a6ac8cbf9ac50127983559e55ffd1101214614c429ff895b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
           "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9"
         },
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L37",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
           "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_5c8677c3d7bc4f22badb6f3dbbb33ee3",
-      "statement": "FI-US-MUNI-CREDIT 2026-04 recommends no new non-501(c)(3) private-activity positions, no forced sale of existing positions, and an orderly reduction; it retains the eight-to-fifteen-year duration preference, but these are research conclusions rather than binding allocation instructions.",
-      "evidence": [
-        {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L35",
-          "version": "repo-lines-v1:sha256:ddef6d87372a88b6768c2582f9a3a85a6223669a47e9175e25763c07d27ea6e6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhkOTA2OWZmZGQwOWMyNWQ0OTcyYjc4MjYxOGM4OTI3NzY5ZmE0ODlkMjYxYjE3YWJiYWQxNjY1ZTNjM2Y4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiJ9"
         },
         {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L69-L78",
-          "version": "repo-lines-v1:sha256:aafaa65f68faf7ded8e29862db0739bd3914146e85c0c241d27449096d1a0807:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlNWQ3OTZhMmI1NDgxYmM5ZDVkNTQ3ZDYyMjE4MTgzNWYzYTQyMWQxMjg5ODMyMDdhMWRlOTVjMzY0NzNkZDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjc2N2YxYWE0YTk4MTNiODY3OTRhZTZlNDQ5MGFlYTdlMTczZDIxOGM3ZTM2YTBjNTczODBlZDU0MTdkYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJhOTY4NDYxZDhiNjIwMTkyYjYzMGZhYzZmMjlkOTc5ZDdiMDUyYzA2MDc3NGE4NDVkN2UzYTBkNTE1YmE0MTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NDkzZDg0NTA1MzYwZmY0MmNmNmMyY2UyY2JjYTQ4NDkyNWU0OTgzNWMwY2UyMzJmYWZmOGQ4ZWZiOTEyNTAifQ"
-        },
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L86-L89",
-          "version": "repo-lines-v1:sha256:11590c8bc4fabed7125ccfa6839947fe1269521075f1f5fcc67d1319a331e1b0:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQ3NzZmYmM1OGRhMzI5OGUyZmVlZTBiZDFmNjdjMDA4YjJkY2ZkNjczOTBmY2RkYzNhMjljYzU3ZjgyMzUzZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjhhMzNkOTE4NDRjNjU4N2Q2MjM5Y2FjNmIxNTA0MGFhMmY5NTIxMDZkM2ExZDFlZWZiNjRmMzI2MmQ0MjYyNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTI5MGZjMTE1ODM2NWFkZmMyZDY1MjI5ZWJmMTUzOGJlNWE4YTQ5ODlmZTFhNTJmMzBiM2JlYWYzZTg4YzFjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTQzMDdkYzg5NjJhMDQyMjYxNjFmMmIwZTViOTRmOWRiMjNmNzA1NGIwZjQ5ZjZiZjZiZmMyOGVkYjBlN2UyMCJ9"
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16",
+          "version": "repo-lines-v1:sha256:c6e017480ac17d4c4cc9d4cfe4f7a0beeb91345fd8e92f6d5978217e8d9fd1c1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTEzZWM4ZGVjMDg1OTAwYzM3YjI4OTA4NzYxYzU1NjBhYzUzMjY2ZGIyMzVjYTBmOWRhOWY0Y2RjYjY3ODg5MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU1YWRmYmVhOGRkOTVhNTQxOTY5YzQyOTQ3MGVlOWY5MTQyNzA2ODU2ZGM2OTYwZWYxZjI3NzIyMmE4NWFhYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDEwZDgwNzk5ZjVmZjljNTJkNTEwODIxNjJmMzcxYzBjNjFlOTc4ODJiZThmNjJhYzY3Yjg1NWYwYjI5MjkyMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVkZTEzZmNlZGQyYjVlMmY5MzZmZDk4MWIzYzhmZDUyZjBjMWIzM2YxMDhiYTExMjRkNjJiZjViNGY2MzIwMSJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T15:23:39.050Z"
+    "at": "2026-09-17T21:44:02.449Z"
   }
 }

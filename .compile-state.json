@@ -1,18 +1,27 @@
 {
   "schema_version": 1,
-  "compiled_from": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
+  "compiled_from": "82add30d34c88cafb66e155cf801e9f38daad71c",
   "status": "complete",
-  "compiled_at": "2026-09-17T21:12:55Z",
+  "compiled_at": "2026-09-17T21:59:16Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35275035011",
+  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35276837930",
   "claims": {
-    "total": 160,
-    "added": 18,
-    "retracted": 0,
-    "carried": 142
+    "total": 167,
+    "added": 23,
+    "retracted": 16,
+    "carried": 144
   },
   "changed_sources": [
-    "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md"
+    "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+    "bulletins/FED/2026-09-fomc-statement.md",
+    "bulletins/FED/2026-09-rates-on-reserve-balances-and-primary-credit.md",
+    "bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+    "bulletins/SEC/2026-04-order-ia-7104-qualified-client.md",
+    "guidelines/allocation/gl-multi-asset-bands.md",
+    "guidelines/allocation/us-taxable-fixed-income.md",
+    "guidelines/authority/discretion-matrix.md",
+    "guidelines/suitability/concentrated-positions.md",
+    "guidelines/suitability/private-markets-eligibility.md"
   ],
   "compile_mode": "fast"
 }

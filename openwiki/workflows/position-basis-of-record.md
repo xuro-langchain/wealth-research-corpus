@@ -1,71 +1,84 @@
 ---
 type: position-assembly
 title: Assembling a Position Basis of Record
-description: Assemble a municipal-credit position record by separating the historical 2025-06 basis, the 2026 tax overlay, the 2026-04 replacement research, and the committee decision needed to restore a binding mandate weight.
+description: A defensible decision sequence for recording a municipal-credit position’s historical research basis, applying the AMT overlay by tax-year date, and using current allocation and authority controls without rewriting history.
 tags: [position-governance, municipal-credit, research-editions, regulatory-overlay, escalation, audit]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T15:23:39.050Z
+    at: 2026-09-17T21:44:02.449Z
 sources:
-  - id: openwiki-source-d4d55878a53be93639d11eff
-    resource: repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
-  - id: openwiki-source-0325e37b3340c7a33cd38137
-    resource: repo://guidelines/allocation/us-taxable-fixed-income.md
-  - id: openwiki-source-d23120db2fa553b5cde8ad5b
-    resource: repo://guidelines/authority/discretion-matrix.md
+  - id: openwiki-source-28793825e738ee3b286c0cbe
+    resource: repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
+  - id: openwiki-source-782f1a3fffc4f6dec3274631
+    resource: repo://internal_guidelines/allocation/us-taxable-fixed-income.md
+  - id: openwiki-source-2ddd4f14dfe61f21d64eb273
+    resource: repo://internal_guidelines/authority/discretion-matrix.md
+  - id: openwiki-source-04ccfa0b608194f7a35603a3
+    resource: repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-  - id: openwiki-source-f6f11dc2c2c5325137161d1d
-    resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
-  - id: openwiki-source-90027641669e5dccfbf71ee0
-    resource: repo://research/FI/US/MUNI-CREDIT/2026-04.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T15:23:39.050Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
 ---
 
-## Purpose and decision boundaries
+## Purpose and record boundary
 
-Use this workflow for a United States taxable fixed-income municipal-credit position that was opened, maintained, changed, or reviewed across the 2025-06/2026-04 research transition. Frozen research and regulator bulletins are published as new editions rather than edited in place; living guidance is revised in place. A frozen edition remains the basis of record for positions taken while it was in force, even when the review occurs later. [Corpus model](repo://README.md#L39-L48)
+Use this procedure when opening, changing, maintaining, or reviewing United States municipal-credit exposure in a taxable fixed-income account. It creates a position basis of record: a dated record of what research supported the historical position, what living guidance governed the account action, and what regulatory facts must be considered for the applicable tax year. It is not a mechanism for backdating a later conclusion into the historical record.
 
-Keep four decisions distinct: the historical research basis selected by the position date; the tax and mandate constraints applicable to an action; the desk's replacement research; and committee adoption of a binding portfolio weight. The taxable fixed-income guide sets binding weights and may not assert a view unsupported by research, while the discretion matrix permits a mandate to be tighter and prohibits discretionary approval of a stated regulatory breach. [Taxable guide purpose](repo://guidelines/allocation/us-taxable-fixed-income.md#L1-L5) [Discretion matrix D.1](repo://guidelines/authority/discretion-matrix.md#L7-L11) [Discretion matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47)
+The corpus deliberately separates **frozen authority** from **living guidance**. Published research and regulator documents are not edited in place; a later edition would be a new file, while internal guidelines are revised in place. Thus, retain the research edition that stood when the position was taken as historical evidence even when reviewing it later. [Corpus authority model](repo://README.md#L39-L48) [Municipal research status and applicability](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16)
 
-## Select the historical edition
+Keep these owners and decisions separate:
 
-For municipal positions taken from **2025-07-01 through 2026-04-30**, record FI-US-MUNI-CREDIT **edition 2025-06** as the edition in force. It applied from 2025-07-01; its explicit supersession notice says that 2026-04 takes effect on 2026-05-01 and that 2025-06 remains the basis of record for positions taken while it stood. FI-US-MUNI-CREDIT edition 2026-04 **supersedes** edition 2025-06 for positions taken on or after **2026-05-01**. [Municipal 2025-06 applicability and notice](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5) [Municipal 2025-06 publication](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L16-L18) [Municipal 2026-04 applicability and supersession](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L18) [Municipal 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L22-L27)
+- **Research edition:** identifies the desk thesis and its stated assumptions as of the position date.
+- **Regulatory overlay:** identifies tax treatment applicable to the client’s taxable year; it does not select an allocation weight.
+- **Living allocation guide:** sets the default account weights and implementation limits that a portfolio manager may hold without escalation.
+- **Authority process:** determines whether an exception or a future research supersession requires approval; it cannot clear a stated regulatory breach. [Allocation guide standing](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion matrix D.1 and D.5](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11) [Discretion matrix D.5](repo://internal_guidelines/authority/discretion-matrix.md#L39-L47)
 
-The historical 2025-06 record is an overweight thesis: a two-to-four percentage-point municipal increase funded from investment-grade corporate credit, with the size dependent on its after-tax premise rather than credit fundamentals alone. In the taxable guide, that became a 22% municipal target versus 18% neutral for top-bracket clients, paired with a 28% investment-grade-corporate target versus 32% neutral. Preserve those facts as the historical basis; do not rewrite them to neutral merely because the later note exists. [Municipal 2025-06 M.1–M.3](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L20-L24) [Municipal 2025-06 M.2–M.3](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L26-L40) [Taxable guide A.3](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Taxable guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
+## 1. Establish the historical research basis
+
+Record the position date first. FI-US-MUNI-CREDIT **2025-06** was published on 2025-06-12 and applies to positions taken on or after **2025-07-01**. It is currently marked “Current” and “Not re-issued since publication.” For a position within that applicability, record this edition—not a hypothetical replacement—as the historical municipal research basis. If a position predates that date, identify the actually applicable authority rather than inferring it from this note. [Municipal research status and applicability](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16)
+
+Capture the cited thesis precisely. The note moved municipal credit from neutral to overweight, expressed as a two-to-four percentage-point increase funded from investment-grade corporate credit. Its load-bearing case is after-tax treatment for top-bracket holders; its credit fundamentals alone support only neutral to modest overweight. The guide implements that view for top-bracket accounts as 22% municipal versus 18% neutral and 28% investment-grade corporate versus 32% neutral. These are historical research and current-guide facts, respectively; do not relabel the historical thesis as a new decision. [Municipal research M.1–M.3](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L18-L38) [Allocation guide A.3 and A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation guide A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
+
+The basis record should include the position and action dates, account tax-bracket classification, edition and sections relied upon, stated thesis and invalidation trigger, current guide version/sections, holdings affected, and any approval or review record. This makes a later review reproducible without altering the contemporaneous rationale.
+
+## 2. Apply the tax overlay by taxable-year date
+
+Revenue Procedure 2025-41 applies to taxable years beginning on or after **2026-01-01**. For those tax years, its AMT exemption phase-out begins above $500,000 of AMTI for an unmarried individual and $1,000,000 for a joint return; those thresholds are not indexed before taxable years beginning in 2030. Apply this overlay according to the client’s taxable-year facts. It does not change which research edition was historical evidence for a position date. [Revenue Procedure 2025-41 N.1–N.3](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22)
+
+The overlay is material because 2025-06 identifies a reduced phase-out threshold that draws materially more top-bracket holders into AMT as the event that defeats its after-tax rationale. The same note calls for immediate review and re-issue when the tax treatment described in its after-tax case changes. Revenue Procedure 2025-41 also leaves specified private-activity-bond interest as an AMT preference item, while preserving the qualified-501(c)(3) bond exception. [Municipal research M.2, M.7–M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.7–M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L58-L72) [Revenue Procedure 2025-41 N.4–N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34)
+
+Do not infer a replacement research recommendation, a new binding weight, or an automatic suspension from the tax overlay alone. The currently cited municipal research has not been re-issued, and the living guide still identifies it as a research basis. The changed AMT premise instead requires a documented research/guide review and, where the manager cannot resolve the action within the extant mandate and authority, escalation through the applicable approval process. The disposition remains unresolved until the responsible research and governance owners document it. [Municipal research status](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16) [Allocation guide A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L49-L51) [Discretion matrix D.1–D.3](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
 
 ```mermaid
 flowchart TD
-    Date["Position date"] --> Historic{"Before 2026-05-01"}
-    Historic -- "Yes" --> Old["2025-06 historical basis"]
-    Historic -- "No" --> New["2026-04 research basis"]
-    Old --> Overlay["Check current tax and mandate constraints"]
-    New --> Overlay
-    Overlay --> Suspend["Suspend derived mandate weight"]
-    Suspend --> Package["Escalate documented package"]
-    Package --> Committee["Committee adopts binding weight"]
+    PositionDate["Record position date and cited edition"] --> TaxYear["Identify applicable taxable year"]
+    TaxYear --> AMT["Apply AMT regulatory overlay"]
+    AMT --> Review{"Does the overlay affect the recorded thesis"}
+    Review -- "No" --> Controls["Apply current mandate limits and ordinary controls"]
+    Review -- "Yes" --> Document["Document research and guide review"]
+    Document --> Authority["Escalate if action exceeds current authority"]
+    Authority --> Controls
+    Controls --> Record["Retain basis and decision evidence"]
 ```
 
-This flow shows date-based historical selection and the separate suspension and committee-adoption path after supersession. [Municipal 2025-06 notice](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5) [Municipal 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L22-L27) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35)
+This decision sequence preserves the historical basis while applying current tax and mandate controls; it does not prescribe an unissued research disposition. [Municipal research M.2 and M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L72) [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11)
 
-## Apply current constraints without rewriting history
+## 3. Apply current living guidance before acting
 
-Revenue Procedure 2025-41 applies to taxable years beginning on or after **2026-01-01**. It sets AMT phase-out thresholds at $500,000 for an unmarried taxpayer and $1,000,000 for a joint return, and states that those thresholds are not indexed before 2030. This tax-date boundary precedes the 2026-05-01 research-edition boundary, so it is a current overlay on actions and review rather than a retroactive replacement of the recorded 2025-06 edition. [Revenue Procedure N.1–N.3](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22) [Municipal 2026-04 publication](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L18) [Municipal 2025-06 notice](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5)
+For a top-bracket account, apply the guide’s current 22% municipal target and 18% neutral reference, subject to its sector and duration controls. The private-activity concentration and the guide’s sector preferences are binding limits: no preferred sector may exceed 35% of municipal allocation, restricted sectors require approval, and municipal duration is held in the eight-to-fifteen-year band. The linked corporate target is 28% against 32% neutral. [Allocation guide A.3–A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L35) [Allocation guide A.4](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L25-L31)
 
-The 2025-06 note identified a reduced AMT phase-out threshold as the risk that invalidates its load-bearing after-tax premise and required immediate review and re-issue for a change to that treatment. The 2026-04 note attributes its out-of-cycle reissue to Revenue Procedure 2025-41 and concludes that the broader AMT-affected population eliminates the overweight's supporting advantage. [Municipal 2025-06 M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L26-L34) [Municipal 2025-06 M.7–M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L60-L74) [Municipal 2026-04 publication](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L18) [Municipal 2026-04 M.2](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L29-L53)
+At month end, ordinary market-value drift outside the plus-or-minus-two-point tolerance band is rebalanced in the next monthly cycle. A mandate-specific limit can be tighter than the discretion matrix and controls in that case. Any proposed action that would breach a stated regulatory requirement cannot be cleared as an investment-discretion exception. [Allocation guide A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43) [Discretion matrix D.1 and D.5](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11) [Discretion matrix D.5](repo://internal_guidelines/authority/discretion-matrix.md#L39-L47)
 
-Revenue Procedure 2025-41 preserves the AMT preference treatment for specified private-activity-bond interest and the qualified-501(c)(3) exception. Accordingly, the 2026-04 research withdraws the broad private-activity concentration but retains a modest preference for qualified 501(c)(3) hospital and private-higher-education obligations; it withdraws the airport special-facility preference. This is replacement research, not itself a mandate instruction. [Revenue Procedure N.4–N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34) [Municipal 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L27) [Municipal 2026-04 M.3–M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L77)
+## 4. Use the supersession control only when its condition occurs
 
-## Suspend, escalate, and re-adopt
+The guide and discretion matrix provide a distinct, conditional path if a mandate-cited research note is later superseded or withdrawn. In that event, suspend the derived weight rather than carrying it forward; escalate to the committee, identify the superseded and replacement notes, all derived weights, and affected accounts, and do not directly adopt replacement research. For the municipal/corporate pair, the guide says suspension returns both the municipal overweight and corporate underweight to neutral, and a resulting band condition is not automatically rebalanced. [Allocation guide A.1 and A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
-The taxable fixed-income guide states that a weight derived from a superseded or withdrawn cited note is suspended, not carried forward, until the committee re-adopts it against the replacement. The discretion matrix requires the manager to escalate rather than re-derive the weight, carry the prior weight forward, or directly adopt the replacement recommendation. Thus the 2026-04 neutral research view does not automatically convert the guide's historical 22% target into a new binding target. [Taxable guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Taxable guide A.3](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
+That is a future conditional control, not a finding that it has occurred here. If an escalation is cleared, record the condition, authority level, facts relied upon, and date; audit treats a clearance without recorded basis as unapproved. [Discretion matrix D.6](repo://internal_guidelines/authority/discretion-matrix.md#L49-L51)
 
-Suspend the municipal overweight and its paired investment-grade-corporate underweight together; the guide returns both to neutral. A resulting tolerance-band breach is not ordinary market drift and must not be mechanically rebalanced, because the correct replacement weight is a committee decision. The replacement note's recommendation against forced sales informs research analysis, but does not eliminate the mandate suspension or escalation requirement. [Taxable guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Municipal 2026-04 M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L69-L78)
+## Review checklist
 
-Prepare an escalation naming the superseded note, replacement note, every derived weight, and affected accounts. If cleared, retain the condition, clearing authority level, facts relied upon, and date; audit treats a clearance without recorded basis as an unapproved position. The committee then evaluates the replacement research and current constraints and expressly adopts any new binding weight. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35) [Discretion matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51)
-
-### Operator checklist
-
-- Record the position date, mandate, edition in force, cited sections, thesis assumptions, and invalidation trigger. [Municipal 2025-06 M.2 and M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L26-L34) [Municipal 2025-06 M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L72-L74)
-- Apply Revenue Procedure 2025-41 from the 2026-01-01 taxable-year boundary and the mandate guide in force for the action; retain, rather than overwrite, the historical edition selected by the position date. [Revenue Procedure N.1](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L12) [Corpus model](repo://README.md#L41-L48)
-- For the 2025-06 municipal-derived targets, suspend the municipal and linked corporate offsets together, document the D.4 package, and wait for committee re-adoption before setting a new binding weight. [Taxable guide A.1 and A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Taxable guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
+1. Preserve the position-date research edition and its stated assumptions; do not overwrite historical evidence.
+2. Determine whether the client’s taxable year is within the Revenue Procedure 2025-41 effective period and evaluate its AMT facts.
+3. Document the effect of the changed AMT premise on the still-current 2025-06 thesis and obtain research/governance review or escalation as required; do not invent a replacement view or weight.
+4. Before any action, apply current account classification, mandate weights, sector limits, duration band, tolerance treatment, and authority restrictions.
+5. Retain the factual review, approvals, and rationale with the position record. If a cited note is actually superseded or withdrawn later, use the separate D.4 suspension-and-committee path.

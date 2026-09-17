@@ -1,75 +1,71 @@
 ---
 type: allocation-guidance
-title: US Taxable Fixed Income Allocation Guidance
-description: Binding portfolio controls for the US taxable fixed-income sleeve, including the now-suspended municipal overweight and its paired corporate-credit response. Explains the committee escalation required after FI-US-MUNI-CREDIT 2025-06 was superseded, without turning the 2026-04 research view into a binding allocation.
+title: US Taxable Fixed-Income Allocation Guidance
+description: Binding targets, limits, funding linkage, rebalancing treatment, and escalation controls for US taxable fixed-income accounts. Covers the live municipal overweight and the procedure that applies if its cited research is later superseded or withdrawn.
 tags: [allocation, fixed-income, taxable-accounts, municipal-bonds, investment-grade-credit, governance]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T15:23:39.050Z
+    at: 2026-09-17T21:44:02.449Z
 sources:
-  - id: openwiki-source-d4d55878a53be93639d11eff
-    resource: repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
-  - id: openwiki-source-0325e37b3340c7a33cd38137
-    resource: repo://guidelines/allocation/us-taxable-fixed-income.md
-  - id: openwiki-source-d23120db2fa553b5cde8ad5b
-    resource: repo://guidelines/authority/discretion-matrix.md
-  - id: openwiki-source-f6f11dc2c2c5325137161d1d
-    resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
-  - id: openwiki-source-90027641669e5dccfbf71ee0
-    resource: repo://research/FI/US/MUNI-CREDIT/2026-04.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T15:23:39.050Z" }
+  - id: openwiki-source-782f1a3fffc4f6dec3274631
+    resource: repo://internal_guidelines/allocation/us-taxable-fixed-income.md
+  - id: openwiki-source-2ddd4f14dfe61f21d64eb273
+    resource: repo://internal_guidelines/authority/discretion-matrix.md
+  - id: openwiki-source-34464a9ae84e5251bb0b43e6
+    resource: repo://internal_research/FI/US/IG-SPREADS/2025-09.md
+  - id: openwiki-source-04ccfa0b608194f7a35603a3
+    resource: repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
 ---
 
-## Scope and authority
+## Scope, standing, and authority
 
-The US Taxable Account Fixed Income Allocation Guide is binding internal guidance for portfolio-manager holdings in US taxable client accounts, rather than research or client-specific advice. It covers US Treasuries, agency mortgage-backed securities, investment-grade corporate credit, and municipal credit; non-US developed sovereign and emerging-market debt belong to the multi-asset sleeve. A mandate-specific tighter band prevails over the discretion matrix and the matrix cannot broaden this guide's limits. [Allocation guide A.1–A.2](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L15) [Discretion matrix D.1](repo://guidelines/authority/discretion-matrix.md#L7-L11)
+This is binding allocation guidance for United States taxable client accounts, not a research conclusion or client-specific investment advice. It governs holdings a portfolio manager may make without escalation in the taxable fixed-income sleeve: United States Treasuries, agency mortgage-backed securities, investment-grade corporate credit, and municipal credit. Non-US developed sovereign and emerging-market debt are assigned to the multi-asset sleeve and governed by the global bands guide. [Allocation guide A.1–A.2](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L15)
 
-The guide requires quarterly review and an out-of-cycle review when a cited research note is re-issued or withdrawn. Its A.8 text still names FI-US-MUNI-CREDIT 2025-06 and FI-US-IG-SPREADS 2025-09 as its research basis. [Allocation guide A.8](repo://guidelines/allocation/us-taxable-fixed-income.md#L49-L51)
+The guide supplies the applicable default weights. A mandate may impose a tighter band than the discretion matrix, but cannot grant broader discretion; where the mandate guide is tighter, it governs. Base and senior portfolio-manager authority, and the committee triggers, are determined under the matrix. [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion matrix D.1](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11)
 
-## Municipal basis: superseded and suspended
+## Binding municipal and corporate allocation
 
-FI-US-MUNI-CREDIT 2026-04 **supersedes** FI-US-MUNI-CREDIT 2025-06 in its entirety for positions taken on or after 2026-05-01; the former edition remains the basis of record for positions taken while it stood. The 2026-04 note moves the desk view from overweight to neutral, withdraws the private-activity concentration, and retains only a narrower qualified-501(c)(3) preference. [Municipal research 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L27) [Municipal research 2025-06 notice](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5)
+For an account in the top federal marginal bracket, municipal credit has a **22%** target weight of the fixed-income sleeve, compared with an **18%** neutral weight. The four-point overweight is concentrated in private-activity bonds and is an after-tax position adopted from FI-US-MUNI-CREDIT 2025-06, not a credit-only position. For accounts below the top federal bracket, municipal credit remains at the **18%** neutral weight and the private-activity concentration does not apply. [Allocation guide A.3](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23)
 
-The former note's municipal overweight was an after-tax position for top-bracket holders, not a credit-only position. It identified the AMT phase-out threshold as its load-bearing assumption and said that a reduction drawing materially more such holders into AMT would invalidate the recommendation; its credit fundamentals alone supported only neutral to modest overweight. [Municipal research 2025-06 M.2–M.3](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L26-L40)
+The cited municipal note is currently marked **Current** and states that it has not been re-issued since publication. Its desk view is an overweight expressed as a two-to-four-point municipal increase funded from investment-grade corporate credit. It identifies the benefit as an after-tax advantage available only to top-bracket holders; its credit fundamentals alone support neutral to modest overweight. [Municipal research status and M.1](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L22) [Municipal research M.2–M.3](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L38)
 
-Revenue Procedure 2025-41 applies to taxable years beginning on or after 2026-01-01. It sets AMT exemption phase-out thresholds of $500,000 for an unmarried individual and $1,000,000 for joint filers, and says those thresholds are not indexed before 2030-01-01. Specified private-activity-bond interest remains an AMT preference item, while qualified 501(c)(3) bond interest remains excluded from alternative minimum taxable income. [Revenue Procedure N.3–N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34)
+Investment-grade corporate credit has a **28%** target against a **32%** neutral weight. This four-point underweight is the funding source for the municipal overweight, so the two weights are a deliberate pair rather than independent tilts. The separate IG-spreads research also describes an approximately four-point corporate underweight whose proceeds fund a higher-conviction sleeve position rather than cash. [Allocation guide A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L37) [IG-spreads research G.5](repo://internal_research/FI/US/IG-SPREADS/2025-09.md#L32-L34)
 
-FI-US-MUNI-CREDIT 2026-04 **attributes** the failure of the prior after-tax premise to those thresholds: its modelling says that more of the top-bracket client base becomes subject to AMT and the prior advantage falls inside transaction costs. The 2026-04 note therefore withdraws the overweight rather than supporting it on the prior edition's fundamentals. This is the analytical reason for the research re-issue, not a committee-adopted portfolio instruction. [Municipal research 2026-04 M.2](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L29-L53)
+## Municipal implementation limits
 
-## Required control response
+Within the municipal allocation, the FI-US-MUNI-CREDIT 2025-06 sector preferences are binding limits. No preferred sector may exceed **35%** of the municipal allocation. A position in standalone senior living, single-asset student housing, or single-obligor industrial-development paper requires approval regardless of rating. Municipal duration must remain between **eight and fifteen years**; any extension beyond 15 years requires approval and may not be approved portfolio-wide. [Allocation guide A.4](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L27)
 
-Because the live guide cites the superseded 2025-06 note, **A.1 suspends** the municipal weight derived from that note: it may not be carried forward until the committee re-adopts a weight against the replacement. The printed 22% municipal target for top-bracket clients, its 18% neutral reference, and the associated private-activity concentration describe the former committee implementation; they are not an executable replacement target while the basis is suspended. [Allocation guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.3](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23)
+Tax-loss harvesting does not bypass these limits. Test the replacement bond, not just the bond sold: a replacement that takes a preferred sector above its 35% limit is a limit breach on settlement. [Allocation guide A.7](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L45-L47)
 
-**A.5 couples** the municipal suspension to corporate credit: the four-point corporate underweight is suspended with the municipal overweight and both return to their stated neutral weights. Accordingly, the former 28% investment-grade-corporate target returns to its 32% neutral reference with the municipal allocation at its 18% neutral reference; leaving the corporate underweight in place would retain a structural credit short without the paired municipal trade. [Allocation guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
+## Tolerance bands and approvals
+
+Each target has a **±2 percentage-point** market-value tolerance band, measured at month end. Ordinary drift beyond that band is rebalanced in the next monthly cycle. A weight outside its stated tolerance band requires approval under D.3; committee approval is required for an exception to a stated band. [Allocation guide A.1, A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L10) [Allocation guide A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43) [Discretion matrix D.1, D.3](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L23)
+
+## Future research supersession: suspend, pair, and escalate
+
+The live guide names FI-US-MUNI-CREDIT 2025-06 and FI-US-IG-SPREADS 2025-09 as its current research basis and requires quarterly review, plus an out-of-cycle review whenever a cited note is re-issued or withdrawn. The municipal note separately requires immediate review and re-issue if federal tax treatment described in its after-tax case changes. [Allocation guide A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L49-L51) [Municipal research M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L74)
+
+If a cited note is later superseded or withdrawn, the weight derived from it is suspended rather than carried forward until the committee re-adopts a weight against the replacement note. For the municipal/corporate pair, suspension of the municipal overweight also suspends the corporate underweight, returning both to their stated neutral references. This is a conditional control path; it does **not** mean that the current municipal weight is suspended. [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L37) [Municipal research status](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16)
 
 ```mermaid
 flowchart TD
-    Detect["Identify that cited 2025-06 research is superseded"] --> Suspend["Suspend municipal derived weight"]
+    Detect["Cited research is superseded or withdrawn"] --> Suspend["Suspend derived municipal weight"]
     Suspend --> Pair["Suspend paired corporate underweight"]
-    Pair --> Neutral["Use stated neutral references"]
-    Neutral --> Record["Record notes weights and affected accounts"]
-    Record --> Escalate["Escalate to committee"]
-    Escalate --> Adopt["Committee re-adopts any binding weight"]
-    Detect --> NoDirect["Do not retain prior weight or adopt research directly"]
+    Pair --> Neutral["Return both weights to neutral references"]
+    Neutral --> Package["Record notes weights and affected accounts"]
+    Package --> Committee["Escalate to committee"]
+    Committee --> Adopt["Committee re-adopts a binding weight"]
+    Detect --> NoDirect["Do not carry forward or re-derive the weight"]
 ```
 
-This is the required supersession path for the municipal/corporate pair; it is distinct from an ordinary tolerance-band drift. [Allocation guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
+This flow shows the required response only if a cited research dependency changes; it is separate from ordinary tolerance-band drift. [Allocation guide A.1, A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
-The manager must escalate to the committee rather than re-derive a weight, retain the previous weight, or directly adopt the 2026-04 recommendation. The escalation record identifies the superseded note, replacement note where one exists, every derived weight, and affected accounts. For a cleared escalation, also record the condition, clearing authority level, facts relied upon, and date. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37) [Discretion matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51)
+A suspension-caused band condition is not ordinary drift and must not be mechanically rebalanced. The manager must escalate to the committee instead of re-deriving a weight, retaining the prior weight, or adopting replacement research directly. The escalation identifies the superseded note, replacement note if one exists, every derived weight, and affected accounts. A cleared escalation must record the condition, the clearing authority level, facts relied on, and date. [Allocation guide A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37) [Discretion matrix D.6](repo://internal_guidelines/authority/discretion-matrix.md#L49-L51)
 
-The 2026-04 research view is not a binding transition instruction. In particular, its neutral recommendation, narrower 501(c)(3) preference, no-new-position view for non-501(c)(3) private-activity paper, and orderly-reduction observation remain research content until the committee expressly adopts binding guidance. [Municipal research 2026-04 M.1, M.3–M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24) [Municipal research 2026-04 M.3–M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L78) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L33-L35)
+## Operating checklist
 
-## Remaining live controls
-
-The guide applies a ±2-percentage-point market-value tolerance band to each target at month end and sends ordinary drift beyond the band to the next monthly rebalance. A suspension-caused condition is expressly not ordinary drift and must not be mechanically rebalanced. [Allocation guide A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L43)
-
-The guide also sets municipal implementation controls: no preferred sector may exceed 35% of the municipal allocation; positions in standalone senior living, single-asset student housing, or single-obligor industrial-development paper require approval; and municipal duration is held in the eight-to-fifteen-year band, with an extension beyond 15 years requiring approval that cannot be granted portfolio-wide. Tax-loss-harvesting replacements must satisfy the sector limit on settlement. [Allocation guide A.4](repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Allocation guide A.7](repo://guidelines/allocation/us-taxable-fixed-income.md#L45-L47) [Discretion matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L27)
-
-Do not use the remaining controls to infer an unadopted 2026-04 implementation. The replacement research says the 2025-06 duration view is unchanged, retains the qualified-501(c)(3) hospital and private-higher-education preference, and withdraws the airport preference; it does not amend the live allocation guide. [Municipal research 2026-04 M.3–M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L62-L78) [Municipal research 2026-04 M.6](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L86-L89)
-
-## Operator checklist
-
-1. Treat FI-US-MUNI-CREDIT 2025-06 as historical basis of record, but treat its municipal derived weight as suspended for current action because the guide cites a superseded note. [Municipal research 2025-06 notice](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5) [Allocation guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11)
-2. Apply the paired response: suspend the municipal overweight and corporate underweight and use the guide's stated neutral references pending committee action. [Allocation guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
-3. Prepare the D.4 escalation package and retain the D.6 cleared-escalation record. Do not submit a manager-derived target or an automatic implementation of 2026-04 research. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37) [Discretion matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51)
-4. Continue to apply ordinary bands, municipal limits, duration approval, and replacement-bond checks where applicable; do not misclassify the suspension as a monthly-drift rebalance. [Allocation guide A.4, A.6–A.7](repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Allocation guide A.6–A.7](repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L47)
+1. Confirm the account is in this sleeve and apply the mandate-specific limit if it is tighter than the matrix. [Allocation guide A.2](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L13-L15) [Discretion matrix D.1](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11)
+2. Apply the client’s federal-bracket classification to the 22% top-bracket municipal target or 18% below-top-bracket neutral target; maintain the linked 28% corporate target for the active municipal overweight. [Allocation guide A.3](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation guide A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
+3. Test municipal sector, restricted-sector, duration, and tax-loss-harvesting replacement controls before execution or settlement. [Allocation guide A.4, A.7](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Allocation guide A.7](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L45-L47)
+4. At month end, distinguish ordinary drift from a future research-basis suspension. Rebalance ordinary drift in the next monthly cycle with required approval for an out-of-band weight; suspend, document, and escalate the latter rather than selecting a replacement weight. [Allocation guide A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43) [Discretion matrix D.3–D.4](repo://internal_guidelines/authority/discretion-matrix.md#L17-L35)

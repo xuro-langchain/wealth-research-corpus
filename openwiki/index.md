@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Files
 
-- [Wealth Research Positioning Quickstart](quickstart.md) - Entry point for defensible wealth positioning and eligibility questions. Routes readers to research conclusions, binding internal guidance, regulatory overlays, and the position basis-of-record workflow without conflating their authority.
+- [Wealth Research Positioning Quickstart](quickstart.md) - Routing guide for wealth-positioning, eligibility, regulatory, and historical-review questions. It separates frozen research, living internal guidance, regulatory overlays, and the documented position basis of record.
 
 # Directories
 

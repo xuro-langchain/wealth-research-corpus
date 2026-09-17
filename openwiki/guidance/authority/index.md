@@ -1,3 +1,3 @@
 # Files
 
-- [Discretion, Escalation, and Non-Clearable Conditions](discretion-and-escalation.md) - Cross-mandate authority tiers and control paths for investment exceptions, research-basis suspensions, regulatory and eligibility prohibitions, and audit-ready approval records.
+- [Discretion, Escalation, and Non-Clearable Conditions](discretion-and-escalation.md) - Cross-mandate authority limits and operating controls for discretionary investment decisions. Covers approvals, prospective research-supersession escalation, absolute prohibitions, and the records needed for audit.

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:1361aadbc3a6b3d9c6fa69ba831a0a4c68ede2892c0a704efd6ce750d59097c8",
+  "pageVersion": "sha256:c722d5c024590b1f46efd6ad0d1931abff77cca4aacb8561159042a4806a7144",
   "claims": [
     {
       "id": "claim_8a8eb091add4471397e46f999657f510",
       "statement": "A single-security position is concentrated when it exceeds 15% of the client’s liquid portfolio market value, with a lower threshold of more than 10% when the security is the client’s employer or an affiliate.",
       "evidence": [
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L7-L10",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L7-L10",
           "version": "repo-lines-v1:sha256:3a68da1bc323cfdc71377d3942ea9084c67f4b699bf78636ad8b7b1408f511a3:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzhkZDc3NjY0MTYyMDliZTNlOThjYzQ1M2Y1MDIzYzE5YjYzMjQzMjg3MzhhZGZiZmUzMTk3OTJkM2Q1YTg4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjJiNGU2Y2Q0Y2YyMGE3ZWMyZmU5MDkyYTViZmZkZTg3NTFkMjMwN2JhMzE0OGQ5MTgwNDhlYzJkN2IzOGZkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzAyNzEyZjJjN2JlMjNkMmNlNTYyZmFhZmMyMjNhOTU1OTJmOWFmODI4YjU0OTUwZmIwZmY5NDkyM2Q0NTc4MCJ9"
         }
       ]
@@ -17,11 +17,11 @@
       "statement": "Concentration classification is separate from initiation authority: managers may take issuer positions up to 3% and senior managers up to 5% of account market value, while positions above 5% require committee approval and a written concentration rationale and remain subject to the concentrated-position suitability requirement.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L13-L15",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L13-L15",
           "version": "repo-lines-v1:sha256:05f4d72c5a4de854e2d8a88ccd13989f4f164818be580948472670d6311a46c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1Mzk4N2Q4MDk3M2EyMTE4MDdiNjI1ZTRlMjVhYjJhZjM3YjIxNzU3NTliMTYyNzhkNGIyNTUzZDI3NWNlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZmODYzOTc4NWZhNmYwMWFkMTZkYTA3Y2M4NjdlMzMyMjg1ZTg0MjIzZWVmYjFhNmM5NjYwYjkyMmYzYTRiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiMzAyMjlmMDk1M2M4MGUxOTVjZDAwMTJjMDkxOWVhNWM4ZGJkYzBjMGNkN2FiMzEzNjVkNmQ1OTdlY2UyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTZiMDhlYmZlNWUyNTc3YzU3MDgyZWJkMTI5M2UyODA4M2NlN2ZkOGY0ZDc1YWUzNTNjNWFmMGMzYTNmMjAxNCJ9"
         },
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L11-L13",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L11-L13",
           "version": "repo-lines-v1:sha256:702712f2c7be23d2ce562faafc223a95592f9af828b54950fb0ff94923d45780:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYxMTgwMDU1OTNiNWZlMTM3NjMxYjZjOTU0Yzc5MDljYWIzYWY5ZmJkOWQyYjFjYWIxZDMyNGFmOWIxZWMxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGFhMmM5NGZjOGQ4NWExOTM4MDhiY2YyNDQwODI5ZTA5OWRiZWEwNTQwOGI4NDAwZWQzZTVkN2VkMDVjYWUwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDJlMWY2OTkyODZmNGJkNzYwNTQyMzYwMTJjZjEzNjJjNDM4ZmZkNzNlMDNhZjI4NzRjMWM5NjQ1NjI0MTBmZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhmMmJkNzBjNmNkNDc1MDgyZWMyZTdjNmEyNDUyMjE0ZDU4ODE1NTFkNWFhNTQ1OWQ5NjZjZDg4MmMwZDBhMCJ9"
         }
       ]
@@ -31,7 +31,7 @@
       "statement": "Each concentrated position requires a documented suitability determination at acquisition and at every annual review that records the client’s reason for holding, unwind tax cost, and any restriction preventing an unwind.",
       "evidence": [
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L11-L13",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L11-L13",
           "version": "repo-lines-v1:sha256:702712f2c7be23d2ce562faafc223a95592f9af828b54950fb0ff94923d45780:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYxMTgwMDU1OTNiNWZlMTM3NjMxYjZjOTU0Yzc5MDljYWIzYWY5ZmJkOWQyYjFjYWIxZDMyNGFmOWIxZWMxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGFhMmM5NGZjOGQ4NWExOTM4MDhiY2YyNDQwODI5ZTA5OWRiZWEwNTQwOGI4NDAwZWQzZTVkN2VkMDVjYWUwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDJlMWY2OTkyODZmNGJkNzYwNTQyMzYwMTJjZjEzNjJjNDM4ZmZkNzNlMDNhZjI4NzRjMWM5NjQ1NjI0MTBmZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzhmMmJkNzBjNmNkNDc1MDgyZWMyZTdjNmEyNDUyMjE0ZDU4ODE1NTFkNWFhNTQ1OWQ5NjZjZDg4MmMwZDBhMCJ9"
         }
       ]
@@ -41,7 +41,7 @@
       "statement": "A retention preference alone is not a suitability determination: the file must document that concentration risk was explained and the client’s decision was informed, and low tax basis does not excuse the determination or establish suitability.",
       "evidence": [
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L15-L19",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L15-L19",
           "version": "repo-lines-v1:sha256:bccbbdbbfc9c07f2ce310f77008097c69f9453682d9802553ee91a3be96dffef:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2I3NDllZjk1N2NkYmYwNmY3NDEzYzIzZDZjMWJmNjJhMjE5YzdiNWIyYWIxZDM4MTY4ZDQ2YTFkZjI1MThhMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWU1Y2M2M2VlZjJlNTNkOTE0ZDNlNmJmNzkzOTM4ZGU5ODdhZWMzNzg0NzllNTQ4ODUwOTc1ZDkyM2I3NDllZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmU5NGNkYmUyY2Q0Nzc0Mzc0Y2YxY2I2MDg5MjM3NDAwYzg1NmVmNWZjNDBkNGE1ZDdkYzkyYmU5MzAxZGNjNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmFhODZiMzU3YmU3YzQ2MTBmYmY2N2EzYWYwN2E1ODk0NWI2NDc2ZjYyNTgwMDFkNDU2YWYxZTdiMzY4MGExNiJ9"
         }
       ]
@@ -51,11 +51,11 @@
       "statement": "Hedging a concentrated position requires D.3 approval regardless of size, and collars, prepaid forwards, and exchange funds require written treatment of tax consequences before execution.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L17-L29",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L29",
           "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
         },
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L21-L23",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L21-L23",
           "version": "repo-lines-v1:sha256:c88a79a469e46dbaa8abeced3a87fd752dd20eeb170a8e9e2c84d059daa07e4b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzc5NDEyNzU5MzY5ODViOWViN2FjZTZkNGE5OWRiZDBjOTU2MmU2ODVlODAzNzlkNDJmOTYwNjA2ZTQ2N2NmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkyYTAyNDZlYjBjYmJjNDkxZGJmMWFlMDcwZjBkODczYjI5MGYwZWU4YzVmYzNjNWU2ZjI1ZmU0ZjQ3MWYxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU2NGFiMTg1MTg1YmUyNmM1NjFkZjI4MmE2OTk5ZDAxZDEzNWVmYzVhOTNlOTQ5MDdhYzEwOWQxNTA5OGUyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWIwNzI1MDYzZTc4Y2VjZTA1ZTQyODQ3MzFlYjc2M2RiYmViMmE3YzNjNzk5MTNkYjQ3NTIyMjIwZmNmMjA3YiJ9"
         }
       ]
@@ -65,11 +65,11 @@
       "statement": "For employer securities, the file must record applicable trading windows, blackout periods, pre-clearance requirements, and any Rule 10b5-1 plan; discretionary trading during a blackout is prohibited and cannot be cleared by approval.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L39-L47",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L39-L47",
           "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
         },
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L25-L29",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29",
           "version": "repo-lines-v1:sha256:a8d03d90d5398c20c94bba69b743d6e3c7561be03fe00dd9b98b61a619780a67:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkxMzc4Mzk1NDQxYTU0MjExYzQ2NDhlYzE3ZDY2MTY4N2I4NDMxNGE3OGQ1M2U5Njc1ZDRlM2FmNDk4MjhjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc2ZDZiMmYzZjdjNjZiNGFiZjhjMjQwM2JhZmQ2ZTFkMGFhYjMzMzVhYzNiM2Y5OWEwMGRlMGNiY2Q5ODZhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q4ZjI5MTA3YzE1N2FlZTM5MDcxMGZiODFmMWZkODIzMjI4NGJhMzZjNjBkNGQ1ODUyNWFlZDFlMGVhNTBjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmJhZGU5MzA2YjRiMTIxODAwNThmMmIzZDJmN2RjNTQ5MDA5Mjg0ZDc0ODMzOWJiMWQ2ZjUxMWU4Y2IxNWM4OSJ9"
         }
       ]
@@ -79,7 +79,7 @@
       "statement": "Every concentrated position requires a written unwind plan reviewed annually; a plan unchanged in three consecutive reviews is evidence it is not being applied and must be escalated under D.4.",
       "evidence": [
         {
-          "resource": "repo://guidelines/suitability/concentrated-positions.md#L31-L33",
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L31-L33",
           "version": "repo-lines-v1:sha256:4839ea3001daa6a227e482d420be43dff2d4b5bb054c18ca784d894367bd757b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2IwMWQ0ZDExOWEwZTBjYmNiZTNiY2YzMDgzYzY3MzZjMzg4ZDdlYzI4MjFlYThkYzI4ZGY3MjFmZDM1ODEzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2NjZmQ4ZjNkYmJjNWM4NTEwNmY5MzNkYmMzYTNlOWRhNjA1MGRlYTZhYzBmYWNkZGQ2NDY2YTZhNjRkMjRjMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDk2ZjFiOWIyOGE1MzJkNjZiNDRkMTEzZTMzMDg4YzgyZTY2ZDg3Yzg1YjM3OWE3YjE0NmNjOWY5ZjAwNDFkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
@@ -89,7 +89,7 @@
       "statement": "A cleared escalation must record the condition, clearing authority, facts relied on, and date; without that recorded basis it is treated in audit as an unapproved position.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L49-L51",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L49-L51",
           "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         }
       ]
@@ -97,6 +97,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T14:58:26.570Z"
+    "at": "2026-09-17T21:44:02.449Z"
   }
 }

@@ -1,97 +1,94 @@
 ---
 type: authority-guidance
 title: Discretion, Escalation, and Non-Clearable Conditions
-description: Cross-mandate authority tiers and control paths for investment exceptions, research-basis suspensions, regulatory and eligibility prohibitions, and audit-ready approval records.
+description: Cross-mandate authority limits and operating controls for discretionary investment decisions. Covers approvals, prospective research-supersession escalation, absolute prohibitions, and the records needed for audit.
 tags: [authority, discretion, escalation, compliance, audit, mandate-governance]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T14:58:26.570Z
+    at: 2026-09-17T21:44:02.449Z
 sources:
-  - id: openwiki-source-c3964754a7b1728d0f7277ad
-    resource: repo://guidelines/allocation/gl-multi-asset-bands.md
-  - id: openwiki-source-0325e37b3340c7a33cd38137
-    resource: repo://guidelines/allocation/us-taxable-fixed-income.md
-  - id: openwiki-source-d23120db2fa553b5cde8ad5b
-    resource: repo://guidelines/authority/discretion-matrix.md
-  - id: openwiki-source-3bc54a0d1492ae47d652db72
-    resource: repo://guidelines/suitability/concentrated-positions.md
-  - id: openwiki-source-8454ea8f656b7e0eb040b7c7
-    resource: repo://guidelines/suitability/private-markets-eligibility.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:58:26.570Z" }
+  - id: openwiki-source-923e8a4660b350ffa68a69b7
+    resource: repo://internal_guidelines/allocation/gl-multi-asset-bands.md
+  - id: openwiki-source-782f1a3fffc4f6dec3274631
+    resource: repo://internal_guidelines/allocation/us-taxable-fixed-income.md
+  - id: openwiki-source-2ddd4f14dfe61f21d64eb273
+    resource: repo://internal_guidelines/authority/discretion-matrix.md
+  - id: openwiki-source-a3829d4e9c678bcdeb1949dc
+    resource: repo://internal_guidelines/suitability/concentrated-positions.md
+  - id: openwiki-source-fb21b102a1ad2b7795bf786c
+    resource: repo://internal_guidelines/suitability/private-markets-eligibility.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
 ---
 
 ## Scope and governing boundary
 
-The discretion matrix is the cross-mandate ceiling on a portfolio manager's authority for discretionary mandates. A mandate guide can impose a tighter limit or band, but cannot expand the discretion granted by the matrix. Use the governing mandate guide to identify the applicable limit—such as the taxable fixed-income bands in **A.6** or global multi-asset bands in **B.3**—then use the matrix to determine whether approval or escalation is required. [Discretion matrix D.1](repo://guidelines/authority/discretion-matrix.md#L7-L11) [Taxable fixed-income guide A.1, A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Global multi-asset bands B.1–B.3](repo://guidelines/allocation/gl-multi-asset-bands.md#L7-L19)
+The discretion matrix is the cross-mandate ceiling on discretionary authority. A mandate guide may set a tighter limit or band, but it cannot grant broader discretion. First identify the applicable mandate rule, then apply the matrix to determine the authority and escalation path. This matters for both the [global multi-asset bands](../allocation/global-multi-asset-bands.md) and the [US taxable fixed-income guide](../allocation/us-taxable-fixed-income.md): their mandate-specific bands govern when tighter, while the matrix supplies the cross-mandate authority boundary. [Discretion matrix D.1](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11) [Global bands B.1–B.3](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L7-L19) [Taxable fixed-income guide A.1, A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11)
 
-This page distinguishes three outcomes that must not be conflated:
+Keep these outcomes separate:
 
-1. **Within discretion:** execute within the manager's applicable authority and mandate limits.
-2. **Approvable exception or escalation:** obtain the authority required by the matrix and preserve the recorded basis before treating the position as cleared.
-3. **Non-clearable condition:** do not execute or offer the strategy. Approval does not cure a regulatory, eligibility, or blackout prohibition. [Discretion matrix D.3–D.6](repo://guidelines/authority/discretion-matrix.md#L17-L51)
+1. **Within discretion** — the action is within both the applicable mandate limit and the manager's authority.
+2. **Approval condition** — the action may proceed only after the required clearance and record are obtained.
+3. **Condition that may not be cleared by approval** — do not offer, trade, or establish the position. No authority tier can cure the prohibition. [Discretion matrix D.3–D.6](repo://internal_guidelines/authority/discretion-matrix.md#L17-L51)
 
-## Authority tiers and aggregation
+## Authority tiers and account-level triggers
 
-| Authority level | Authority and trigger |
+| Authority | Permitted scope or required trigger |
 |---|---|
-| Portfolio manager | Base discretion; may take a single-issuer position up to 3% of account market value. |
-| Senior portfolio manager | Expanded discretion; may take a single-issuer position up to 5% and may clear one escalation condition for one account. |
-| Committee | Required above 5% issuer exposure, for an account with more than one escalation condition, and for an exception to a stated band. A position above 5% also needs a written concentration rationale and remains subject to the concentrated-position suitability requirement. |
+| Portfolio manager | Base discretion; a single-issuer position up to 3% of account market value. |
+| Senior portfolio manager | Expanded discretion; a single-issuer position up to 5% and clearance of one escalation condition per account. |
+| Committee | Required for issuer exposure above 5%, an account with more than one escalation condition, and any exception to a stated band. An above-5% position also requires a written concentration rationale and is subject to the concentrated-position guide. |
 
-These tiers do not displace tighter mandate rules. A concentration is defined separately as more than 15% of liquid portfolio value, or more than 10% for employer or affiliate securities; its acquisition and annual review require a documented suitability determination. [Discretion matrix D.1–D.2](repo://guidelines/authority/discretion-matrix.md#L7-L15) [Concentrated-position guide C.1–C.2](repo://guidelines/suitability/concentrated-positions.md#L7-L13)
+The issuer-size threshold does not replace mandate limits or suitability controls. Separately, a concentrated position is one above 15% of liquid portfolio value, or above 10% if it is an employer or affiliate security. Its acquisition and each annual review require a documented suitability determination. [Discretion matrix D.1–D.2](repo://internal_guidelines/authority/discretion-matrix.md#L7-L15) [Concentrated-position guide C.1–C.2](repo://internal_guidelines/suitability/concentrated-positions.md#L7-L13)
 
-## Approvable conditions
+## Approval conditions
 
-**D.3** makes the following conditions approval triggers regardless of size:
+The following require approval regardless of size:
 
-- a weight outside its stated tolerance band, except when the apparent breach results from a research-basis suspension;
-- a position in a research-underweight sector when the mandate guide makes that preference a binding limit;
+- a weight outside its stated tolerance band, except a breach caused by a research-basis suspension, which follows the separate D.4 escalation path;
+- a position in a research-underweight sector where the mandate makes that research preference binding;
 - a hedge of a concentrated position;
-- municipal duration beyond the taxable fixed-income guide's stated band; this cannot be granted portfolio-wide; and
-- any private-markets commitment, after the **P.1** eligibility determination has been completed.
+- an extension of municipal duration beyond the taxable fixed-income band; this may not be granted portfolio-wide; and
+- a private-markets commitment, after the separate eligibility determination is completed. [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
 
-For example, the taxable fixed-income guide makes specified municipal sector preferences binding limits and directs restricted-sector positions to **D.3**; hedges require written consideration of tax consequences before execution. [Discretion matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L29) [Taxable fixed-income guide A.4](repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Concentrated-position guide C.4](repo://guidelines/suitability/concentrated-positions.md#L21-L23)
+The mandate guides specify the concrete limits that feed these triggers. For example, the taxable fixed-income guide makes specified municipal sector preferences binding, requires D.3 approval for its underweight sectors, and requires written consideration of tax consequences before a concentrated-position hedge is executed. [Taxable fixed-income guide A.4](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Concentrated-position guide C.4](repo://internal_guidelines/suitability/concentrated-positions.md#L21-L23)
 
-An ordinary taxable fixed-income target drift beyond its ±2-point market-value band is rebalanced in the next monthly cycle. That operational treatment does not convert a research suspension into an ordinary band exception. [Taxable fixed-income guide A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L43)
+## Research supersession: prospective suspend-and-escalate path
 
-## Superseded or withdrawn research: suspend, then escalate
-
-A research note cited by a mandate guide is a dependency of the weight derived from it. When that note is superseded or withdrawn, the affected weight is suspended; the portfolio manager must escalate to the committee rather than re-derive a weight, carry forward the prior research-derived weight, or adopt the replacement recommendation directly. Making a research view binding in a mandate is a committee act. The escalation record identifies the superseded note, replacement note if one exists, every affected weight, and every affected account. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
-
-The mandate guides define the immediate portfolio treatment. The global multi-asset guide returns a suspended research-based band to its prior committee-adopted level pending review. The taxable fixed-income guide suspends the research-derived weight and requires escalation; when its municipal overweight is suspended, the paired corporate underweight is also suspended and both return to neutral. A suspension-caused apparent band breach is not mechanically rebalanced because the replacement weight requires a committee decision. [Global multi-asset bands B.1](repo://guidelines/allocation/gl-multi-asset-bands.md#L7-L11) [Taxable fixed-income guide A.1, A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Taxable fixed-income guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43)
+This is a conditional control path; this page does **not** assert that a note currently cited by a mandate guide has been superseded or withdrawn. If a manager finds that a cited note has been superseded or withdrawn, suspend the weight derived from that note under the applicable mandate guide and escalate to the committee. The manager may not carry the prior weight forward, re-derive a replacement weight, or directly adopt the replacement note's recommendation. Adopting a research view as a binding weight is a committee act. The escalation identifies the superseded note, a replacement if one exists, every derived weight, and every affected account. [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
 ```mermaid
 flowchart TD
-    Detect["Detect cited research is superseded or withdrawn"] --> Suspend["Suspend affected research-derived weight"]
-    Suspend --> Identify["Record notes weights and accounts"]
-    Identify --> Escalate["Escalate to committee"]
-    Escalate --> Review["Committee reviews replacement research"]
-    Review --> Adopt["Committee re-adopts binding weight"]
-    Detect --> NoDerive["Do not retain or re-derive prior weight"]
+    Detect["Cited research is superseded or withdrawn"] --> Suspend["Suspend affected derived weight"]
+    Suspend --> Package["Record notes weights and accounts"]
+    Package --> Escalate["Escalate to committee"]
+    Escalate --> Adopt["Committee adopts binding weight"]
+    Detect --> Prohibit["Do not retain re-derive or directly adopt"]
 ```
 
-This flow shows the mandatory committee path for a suspended research basis; it is distinct from ordinary drift management and from a discretionary approval request. [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37) [Taxable fixed-income guide A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L43)
+This flow shows the prospective D.4 path; it is not ordinary tolerance-band drift and is not a manager-selected replacement process. [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
-## Conditions that approval may not clear
+The immediate suspension treatment is mandate-specific. A global multi-asset band based on affected research returns to its prior committee-adopted level pending review. In taxable fixed income, suspension of the municipal overweight also suspends the paired corporate underweight and returns both to neutral; a resulting band condition is not mechanically rebalanced because the committee must determine the replacement weight. [Global bands B.1](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L7-L11) [Taxable fixed-income guide A.1, A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Taxable fixed-income guide A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43)
 
-**D.5** identifies conditions that are prohibitions, not exceptions. No authority tier may clear:
+## Conditions that may not be cleared by approval
 
-- a discretionary trade in employer securities during an applicable blackout period;
-- a private-markets commitment for a client not eligible under **P.1**; or
-- a position that would breach a stated regulatory requirement.
+No authority tier may clear:
 
-Employer-security files must record applicable trading windows, blackout periods, pre-clearance requirements, and any Rule 10b5-1 plan; the blackout restriction is explicitly non-clearable. Private-markets eligibility must be determined and documented before the strategy is offered, is regulatory rather than portfolio-manager discretion, and is necessary but not sufficient: suitability and the applicable liquidity constraint remain required before commitment. [Discretion matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47) [Concentrated-position guide C.5](repo://guidelines/suitability/concentrated-positions.md#L25-L29) [Private-markets eligibility guide P.1, P.6](repo://guidelines/suitability/private-markets-eligibility.md#L7-L9) [Private-markets eligibility guide P.6](repo://guidelines/suitability/private-markets-eligibility.md#L31-L35)
+- trading employer securities on firm discretion during an applicable blackout period;
+- a private-markets commitment for a client who is ineligible under P.1; or
+- a position that would breach a stated regulatory requirement. [Discretion matrix D.5](repo://internal_guidelines/authority/discretion-matrix.md#L39-L47)
 
-A qualified-client determination is not interchangeable with accredited-investor status. The eligibility guide also treats a missing recorded basis as no determination in audit; therefore an approval record cannot substitute for the underlying eligibility record. [Private-markets eligibility guide P.4–P.5](repo://guidelines/suitability/private-markets-eligibility.md#L23-L29)
+For employer securities, retain applicable trading windows, blackout periods, pre-clearance requirements, and any Rule 10b5-1 plan in the file. The blackout restriction remains a prohibition rather than an exception. [Concentrated-position guide C.5](repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29)
 
-## Audit record and operating checklist
+Private-markets eligibility is a documented regulatory determination required before a strategy is offered; it is not within portfolio-manager discretion. It is separate from accredited-investor status and is necessary but insufficient: suitability and the applicable liquidity constraint must also be satisfied before commitment. Every determination must record its pathway, evidence, decision maker, and date; without that basis, audit treats it as no determination. See also the [private-markets eligibility guide](../suitability/private-markets-eligibility.md). [Eligibility guide P.1, P.4–P.6](repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L9) [Eligibility guide P.4–P.6](repo://internal_guidelines/suitability/private-markets-eligibility.md#L23-L35)
 
-For every **cleared escalation**, record the condition, the authority level that cleared it, the specific facts relied upon, and the date. An escalation cleared without this basis is treated in audit as an unapproved position and charged back to the clearing manager's file review. This documentation standard applies to an approvable escalation; it does not create a pathway to clear a **D.5** prohibition. [Discretion matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51) [Discretion matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47)
+## Required record and operator checklist
 
-Before execution or continued maintenance of an exception-sensitive position:
+Every **cleared escalation** must record the condition, clearing authority level, specific facts relied on, and date. Without that recorded basis, audit treats the position as unapproved and charges it back to the clearing manager's file review. This recordkeeping requirement applies to an approvable escalation; it never turns a non-clearable condition into an approvable one. [Discretion matrix D.5–D.6](repo://internal_guidelines/authority/discretion-matrix.md#L39-L51)
 
-1. Identify the governing mandate limit and any research dependency.
-2. Check account-level aggregation of escalation conditions and select the authority tier under **D.1**.
-3. If a cited note is superseded or withdrawn, suspend the derived weight and prepare the **D.4** committee escalation; do not calculate a manager-selected replacement.
-4. Test whether the condition is a **D.5** prohibition. If so, stop rather than request approval.
-5. For an approvable matter, obtain the required clearance and retain the complete **D.6** basis. For private markets, retain the separate eligibility determination as well.
+Before executing or maintaining an exception-sensitive position:
+
+1. Identify the governing mandate limit, any tighter mandate rule, and any cited research dependency.
+2. Check issuer size and the number of escalation conditions for the account, then select the matrix authority tier.
+3. If cited research is superseded or withdrawn, follow D.4: suspend, document the affected notes, weights, and accounts, and escalate to the committee.
+4. Test D.5 before requesting approval. Stop if the condition is non-clearable.
+5. For an approvable matter, obtain the required clearance and retain the D.6 basis. For private markets, retain the separate eligibility determination as well.

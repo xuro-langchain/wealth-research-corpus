@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:90495610e2ad052b5d23e8be4359f9164cffcfd69ba1fd9fd576c7d5819faef5",
+  "pageVersion": "sha256:26eb43f033f8a15a5ddcd6a3dda687048647b90a1f989a24fd7d0edb6c034814",
   "claims": [
     {
       "id": "claim_8a9896e24a2941548f4f47043d5c7ba9",
@@ -8,7 +8,7 @@
       "evidence": [
         {
           "resource": "repo://README.md#L39-L48",
-          "version": "repo-lines-v1:sha256:6b60a73a4f29d6156a057ffda69e9a9b598ee2681173383ae36c97bdc8bf7e79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
+          "version": "repo-lines-v1:sha256:83e457b1c2094d777d22b8b4e5b3d09160f33b27d1886ae1d321b0af85186479:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
         }
       ]
     },
@@ -17,7 +17,7 @@
       "statement": "The US taxable fixed-income guide implements municipal research as binding targets and limits, including a 22% municipal target for top-bracket clients and research sector preferences that are binding limits.",
       "evidence": [
         {
-          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L31",
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L31",
           "version": "repo-lines-v1:sha256:13d3a1afe841d5eb322f2ce1e5632fd4e1c45c78fe8b4332d230185117d3ba44:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYwMjFkZjFiODRkZjBkOGMzMjIwMDQ5NTQ0ZDU1YzUwMjVkOTZhMmQ4MWE5MjkxZTgxM2FlZGZkZTQzN2Y1ZWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJiNzY4ZjY5ODNlZGZiYjc1ZjAyYjJiZjVkODg2OTlmNTlhNjVhZDQwZWEzMWVkM2I3YTYzMDFlZjQzYWY2ZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg3NTU3ZWNlNWMxOWY1NGY2NzExNTQzMTNkMjQ4ODY3NjUxNjI3MTBjMTE5OTExNDE1Mzk2ZjkyMzc1ZWI1OTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ3YmE5YzU1YmMzYzMxYWJkYWJkZjZiYmRhMTZiOGU4MmExMjVhNThhZWMzNGEyOGY2OTNiN2NmN2IwYTE2ZDAifQ"
         }
       ]
@@ -27,7 +27,7 @@
       "statement": "A portfolio manager who finds research cited by a mandate guide superseded or withdrawn must suspend the derived weight and escalate to the committee; the manager may neither carry forward the prior weight nor directly adopt replacement research.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L37",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
           "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
         }
       ]
@@ -37,11 +37,11 @@
       "statement": "Regulatory requirements, including private-markets eligibility, are outside investment discretion and cannot be cleared through approval.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L39-L47",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L39-L47",
           "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
         },
         {
-          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L10",
           "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
         }
       ]
@@ -51,7 +51,7 @@
       "statement": "FI-US-MUNI-CREDIT 2025-06 identifies its AMT phase-out threshold premise as load-bearing and states that the municipal overweight does not survive a reduction that draws materially more top-bracket holders into AMT.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30",
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32",
           "version": "repo-lines-v1:sha256:54d2fc500bef603fe10a428e2700bf910796c6c546fa5c4b2b47395d81560651:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NWViNzM3ZTYwOWMyYjU1ZTE4MTdjZjRhNTYyNTQ0ZGU0YWQxYjcyYzVhODQyMWYxNTM3ZjhlZDIxYjU4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVjMjZjNjlmNzY0MWM2MGRmMzE3ZjRiZWEzZDliYWE4NTM4NzQyNDJiMTgyZDk4Y2FmZmZjMmNlYzY1YWU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRhN2U5YmMyMTg1MTlkOTZlYWYzYWFlNDE5MGJiYTlhZTZmNWRmODM1ZWVmMDc4MTllNzUwMWIxNjZkZDQ5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
         }
       ]
@@ -61,7 +61,7 @@
       "statement": "For taxable years beginning on or after 2026-01-01, IRS Revenue Procedure 2025-41 sets AMT exemption phase-out thresholds of $500,000 for unmarried filers and $1,000,000 for joint filers, keeps specified private-activity-bond interest as an AMT preference item, and preserves the qualified 501(c)(3) exception.",
       "evidence": [
         {
-          "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34",
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34",
           "version": "repo-lines-v1:sha256:83f8bcde34b25959ff9a7cd8d29d90518e4ef4e5912117be96af6ca27254113f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwNWVjYzg1MjVjNjcwYjAzMDk3NTMwMjMwNjk0NzA5OWIxNmNlOWZhNjMyZmI1NjY5Mzk0OWQ4NjA4OGQ0OTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2OWRkY2EwOGIwMjU1MTI0MDUzZTgwMGUzODc3YjJjZWM1MTNkNjk5NThmOTVhN2Q2YmExNzM4MTgxYWFkNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhNmQ1ODI1YTk2MThkZGEzM2NiYjM3OGRmYTgwNjZhZjY0YjMzM2Q3MzIzNjIzNjg5MzQzMTA4YjA5OTk2YTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0ODc4OWYzYWY5ZjAzYjI1MjJjODVlMGU3NzM3OGE1NjBlOWI4ZTNjYzlhNjRjM2IxOGI4MzdjZTliYmJiMzAifQ"
         }
       ]
@@ -71,7 +71,7 @@
       "statement": "Private-markets research is limited to eligible clients with a genuine ten-year horizon and treats eligibility as a regulatory matter rather than a research conclusion.",
       "evidence": [
         {
-          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L16-L22",
+          "resource": "repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L16-L22",
           "version": "repo-lines-v1:sha256:f790b5c44264834aaca68228bee31fd111ec3b980744101e5b43869fcecdcf87:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzBlOThiODYzYmI4YTE3OGM1ZDY2NjE2M2VlZjZjNDg5ODQ4MzIxMGFlNmE2YmEwYzkwM2I0YTcxYzIzMTA3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY5OGM5OTQ0MWQxODRhYTcyYzNlMTcxMGEzMzc3NmMwMjBlMjk2YjFlNTM3OTA1MjJiYTRkNjFlNGI5YjFlNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjYyM2IzNDRiMDVhYjViYTExNTIwMzcxM2IyZWVjNTFjZGZiNTEzMTRlZTA3NmE4YzgwNzNhYWEzNzQwMDUyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDhhYzQxZmM2YjA3YjNhMjBmZTdlMzZjOGI5MjhjMGExYmVjZWFhNWRlYTRiYTZhM2RiZTA4N2E1YjRiN2MxMyJ9"
         }
       ]
@@ -81,15 +81,15 @@
       "statement": "SEC Order IA-7104 applies adjusted qualified-client tests from 2026-06-29, preserves a pre-effective-date determination only for its original contract or investment, and does not adjust accredited-investor or qualified-purchaser standards.",
       "evidence": [
         {
-          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
           "version": "repo-lines-v1:sha256:47d005692d8086255f6776eb3d77c06d940b2ece5eca4f174a79835276ccaa59:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1NmZjNTAzMDhjYTVmNjgyMGE1NTg5ZTY1YjFjZWQ4YmI3ZTgwODg5MzE3MzA1Y2MzM2QzZDYxY2JhOTQzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBhYTQwZjJmODYxZjY2MTA5YTg4NTcwYTc0NzU5ZTE1YmQxOTAwZjRmZmE4NTM3YWIzMjQ0YzIwNDY4MTQzYyJ9"
         },
         {
-          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
           "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9"
         },
         {
-          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
           "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9"
         }
       ]
@@ -99,15 +99,11 @@
       "statement": "EQ-US-SEMI-CAPEX 2026-02 changed the semiconductor-capex view from overweight to neutral for positions from 2026-03-01, and treats grid interconnection as limiting the rate of capacity addition rather than eventual demand.",
       "evidence": [
         {
-          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L30-L32",
-          "version": "repo-lines-v1:sha256:172759e37685263a763b27ecdacfc4248731c273dfc61a6c1ced1cfd91dcfa1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY4NDRkYjJiMWQ3MjUxYTBkN2Q4ZWYyNzA3NTk5Y2FkOTVjZTczNzVjNzA5NTQwYmM0MDYxMTg0MzM3MDE3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODAwMWZmMmY3YmI1YWQ1MGM0MGU0MmM4N2ZlOTI3OWZlNTU2YjYzZGY5MzQ0NWFiOTc5NTAyN2JlZDU5OWVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM2NTVmYjI1NmIyOTU2YTljZWM0NzQwNzljYWExMDdkNmE1OGVlZmIyNzQ4MTY4N2FiOWVjM2VhYzMxMzBjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U5MDNhNWJlMzcxOTE3ZmU0ZDM3MjMwMThlOThjNDYwMWJmMmVkMDg3ZmQxZTIyZWY5M2RmY2ZmNDVjZTAyYiJ9"
-        },
-        {
-          "resource": "repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L12-L18",
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L12-L18",
           "version": "repo-lines-v1:sha256:f02b2aa39608c726d6327ac00240e7b06a9f511ee6a71938ed3971bf03b1421b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxMTJhODJjNGU0ZmVlNmRhYTEzNWFkYjA1ZjA3OTA2MDgxODAxOWIxYTNjMzNmYmE3Nzg3N2JlNDkzYzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJmZDAzOGE4Y2MxMDNjMzUwZWVjOGI1MDUyNzllOTUyZTZlMzI2NTNiMjNiNWQyYWY0YThiODA1N2E4ZjMxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQwYTQ3ZjljNGIyMzliYzgwZDJmYjY4YmRhNDBjYmQyNDBjM2ZkZjg0NTBlZDc1NzBlYWUyNGNiOWRhMWRkNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTNmNjAyNjljMjA1ODJjNDVhNWMzYjE3ZGE1MjcwNTkyNmY0NDAyOGU2MmI3YjVhZGU4OTIxNWFjZmM3OTNmZSJ9"
         },
         {
-          "resource": "repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L30-L32",
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L30-L32",
           "version": "repo-lines-v1:sha256:a15e5426d3387894326482875631ff114153a5f22e797b64c3fcf9fe3629dbe4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMyOWQ0NzhlOTIxZGU0ZDc1YjkzY2I5N2RjMzY5OWEyYTM2YzQ1ZTlmNzBlMWI0NmY0MGUzYjhkNTdiMWQ1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEyMTg1MzdiODlmMjBmOTRmOTBjOTdjYmRjZDZjMDA4Mzg2NTkyZWE5M2YwZDRkNzRiNzg2NjQ3YWQ0YTZmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGRlZjk3ZmNmZDQyM2Q0ZmRiMmIxOTMyNzllODM0ZTYxZDUyMGJiMTZmMDliNDkzNmJmODA3MjliOWEwMDcyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzkzOGExNjBlOTdhM2ZiZGU1Y2IxMGUzOTY1OTBlNWEwZTExNWE0ZWY1ODE4OTQ1ZGZlZWU1MzFlYTdmZmMxYiJ9"
         }
       ]
@@ -117,40 +113,12 @@
       "statement": "A cleared escalation requires a record of the condition, clearing authority, specific facts relied on, and date; a private-markets eligibility record additionally requires pathway, evidence, decision maker, and date.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L49-L51",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L49-L51",
           "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
         },
         {
-          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L27-L29",
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L27-L29",
           "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
-        }
-      ]
-    },
-    {
-      "id": "claim_4b6e7ba0e5144fb287922a7d26987e86",
-      "statement": "FI-US-MUNI-CREDIT 2026-04 supersedes FI-US-MUNI-CREDIT 2025-06 for positions taken on or after 2026-05-01, while 2025-06 remains the basis of record for positions taken while it stood.",
-      "evidence": [
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5",
-          "version": "repo-lines-v1:sha256:138ae7cc396fc1ba5333a55a9a6279a3e79ee22266815947109c756a5403c4aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRhMGQ0YWJiOWVlNDkxNzg3NzBjNDQ5NDM5Yzg3YTFjZDYxODhiNGU0OGQzOTQ2ZWIyMTFhZTc4M2EyNGI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4ODkwYzNhYTUxNjY2ZDc5MTgwMmI1NjA5ODg2MDdkNTNkODZhMWYyOWEyOWMxNWZjNDk3N2JhYmY2NzY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNmN2E1MTE0MjA5YzI0ZGMwZDgyZGYwZTA0MmExMTZlZTM2ZTA0MDg1NjE2ZTI3ZGFkNDFjYTU0ZDAyY2YxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMwNDYxNWQwN2E0N2ZlMmIwNTEzNDkwMGMyMzkyYThmZTQzN2FlNWNhZGU4NzkzOTg0OTdjYmVhOWE1ODUwNSJ9"
-        },
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L27",
-          "version": "repo-lines-v1:sha256:9539e345c71ce0b0b7f4451ea1ba2c5ff12fecedef5275738570df37f7784de1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliNTZlZmE5YTJmNjJhMWU1OTk1OGQ0MjkyOWFiNzhhN2I4ZTNhYmFkMmNhNjdjOTMzMWI5NjY0YzY3YjEwNjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzZGZiYzA4ZWEwYjYyNzlmMTg3OGEzNGRjZTZkZjQ1ZjAzZDNjZmRlNGJiZWMzYjFmNWEyM2QzODZlZjFkYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM3YWU0MTRkMWFlZDgxNmRhM2EzNDhkOTQ3ZmI3ZDYzNmYxMGFjNWFkMTdmMWM4NWQ3MjNiMDdmOWM1YjQ3NjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZiNzJmYmM4MTQ1ZDMxMzdkMTg5ZWE5YjYwM2Q5N2U3ZWFkNTBlNzVmOGE0YmNkZjVmY2E4OGRhYTBjNWZhMjEifQ"
-        }
-      ]
-    },
-    {
-      "id": "claim_6add02bbfd8746cba1358a7115274307",
-      "statement": "FI-US-MUNI-CREDIT 2026-04 changes municipal research to neutral, withdraws the broad private-activity concentration, retains a modest qualified-501(c)(3) preference, and recommends no new non-501(c)(3) private-activity positions without recommending forced sales of existing positions.",
-      "evidence": [
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24",
-          "version": "repo-lines-v1:sha256:d242d63c1bc857d1c0282cc48dc90a1b66955097599091bfb572f45e6e5a917d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRjMTRiOGIxNWJhZWU2NTJlNGY1NTkwYTE1NmYyOTBmNWFjZjE4OWMyOTU3NzU5ZDM0MGM2YjU0NDhjMTgzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmZjYmU5OTI5YTQ0NDcxMWYzZmYxNzMzMWY3M2U0M2FlNTM4YzJlNzcwOWE0N2ZkNmUxOTk4OWM4NmNhNmM5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTEwODMyYzU2NTE1MzA5ZDkxMjc1MTgwZTBiZmU1ZTkyNzA0MTkxMjJjNTM3YjIyMjIzNjZmYjY2ZDM4YTkzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjhhZGExMjA0MzgwMTczMjI5M2VmM2Y1MDdhZTJjNWFjZjgzNzk0YWEwMWEwMTVjYmEzNTcxMzliYTQ4NTcyMyJ9"
-        },
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L78",
-          "version": "repo-lines-v1:sha256:68e696d60c4d58374e36fc7e5e8ab2359a28b76837d779f9d363c12e3d841256:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmYzI3ODI3ZTZlOWI1NzVjOTUxY2FjNWIzYTg4ZTY5YjdkNWZiYjI3MDAxMDgwMDg1NjFiNDVlN2M1NjNhZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjc2N2YxYWE0YTk4MTNiODY3OTRhZTZlNDQ5MGFlYTdlMTczZDIxOGM3ZTM2YTBjNTczODBlZDU0MTdkYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzODgyMDIwNDM2ZGZjMTg5ZDYxZDJkNmRiOGRmNzNlMjFjYmZmMGE1YTQwN2M1YmEzYTJlODY2ODg5NmQ4NWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NDkzZDg0NTA1MzYwZmY0MmNmNmMyY2UyY2JjYTQ4NDkyNWU0OTgzNWMwY2UyMzJmYWZmOGQ4ZWZiOTEyNTAifQ"
         }
       ]
     },
@@ -159,25 +127,25 @@
       "statement": "Under the US taxable fixed-income guide, suspension of the municipal overweight also suspends the paired investment-grade-corporate underweight and returns both to their stated neutral references; a suspension-caused condition is not mechanically rebalanced as ordinary drift.",
       "evidence": [
         {
-          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43",
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43",
           "version": "repo-lines-v1:sha256:7455bcbd520d2a4b04f0412b87dcc44d51557a09950f8322556190f7febf3316:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMDEyMGFiZDdkMzVjMWQ4YWJiNmYyYWU2YjAzMjEyNWE1NWVjMjZjZDMzN2U3MzMzZTM4N2FlMDg1NWU1MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmMTU4ODVhYjE0ZjAyYmUyNjcyZDg3MWI3NjA0MjM5NDZhNTc2MmU0NmNkNzY2N2Q0ZDY0Zjc4ZTcxYWFhZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjNTRiY2EzMTU4MzE3MTk3MGY0MDA4YmE2OGI4OWU3ZGYyN2FiMjM0NWI2NzcxMjAwMDY5MzUyMjcwYzg0Y2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMWMxOTJlYzZhM2MxMjYxYjU1OGViYzllNmQyMTNkMGEzMTk1NmI1NmQ1NTNlODIyMTc4NDFjOWRkMWM3NjAifQ"
         }
       ]
     },
     {
       "id": "claim_6d9dbebdfc934a1f8ee6e51acfeccf6d",
-      "statement": "For plan years beginning on or after 2027-01-01, DOL Release 2026-31’s wider discount-rate corridor, conditional contribution relief, and limited surplus uses supersede the pension-demand premise that supports FI-US-PENSION-LDI 2026-03’s long-credit overweight, triggering that note’s announced-rule review condition.",
+      "statement": "For plan years beginning on or after 2027-01-01, DOL Release 2026-31’s wider discount-rate corridor, conditional contribution relief, and limited surplus uses change the pension-demand premise that supports FI-US-PENSION-LDI 2026-03’s long-credit overweight and meet its announced-rule review trigger.",
       "evidence": [
         {
-          "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
           "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
           "version": "repo-lines-v1:sha256:f98242411fc60fd86b7dd276a2e4b796d96fc17ac946fb3822b8b4e5d5866b1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
           "version": "repo-lines-v1:sha256:0465fb517261d553b7fdcdad9c7085af8cf9bba5706e59efba84df08aef04cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9"
         }
       ]
@@ -188,14 +156,10 @@
       "evidence": [
         {
           "resource": "repo://README.md#L39-L48",
-          "version": "repo-lines-v1:sha256:6b60a73a4f29d6156a057ffda69e9a9b598ee2681173383ae36c97bdc8bf7e79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
+          "version": "repo-lines-v1:sha256:83e457b1c2094d777d22b8b4e5b3d09160f33b27d1886ae1d321b0af85186479:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
         },
         {
-          "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
-          "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9"
-        },
-        {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L16-L24",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L16-L24",
           "version": "repo-lines-v1:sha256:6e1c9a5f203cfbacae50cf48296314e90a92796279c37a902135b1de1614fe81:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI2ZmFiYTkxZjQzNmUwMjAxNjM0MzMxMjQ4Y2ZhZWYwNGM3NDNhZDFiOTFhZTk5MjBhMjg1MzlhYWM1ZmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzRkOTc5OTY2YmU3ZTIxNTg0MzkxODNlNTcyNDEzNjhiMjJkMDNjMWM4YTJkOTIwYzliMDlmNWI2M2E0NWVmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
         }
       ]
@@ -203,6 +167,6 @@
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T21:09:40.777Z"
+    "at": "2026-09-17T21:44:02.449Z"
   }
 }

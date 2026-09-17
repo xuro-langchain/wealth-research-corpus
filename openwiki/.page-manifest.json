@@ -2,116 +2,116 @@
   "schemaVersion": 1,
   "pages": {
     "/openwiki/guidance/allocation/global-multi-asset-bands.md": {
-      "pageVersion": "sha256:6b59499148b14010a1318e9f68ca1b177da269902a3ecadb5f6d141bf8e029e0",
+      "pageVersion": "sha256:75d8a29a1b948fcf9eb863477dfac8f0a21e800fdd113cc8e39363bec5181aca",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/guidance/allocation/us-taxable-fixed-income.md": {
-      "pageVersion": "sha256:340be747d827215cfecde1ebd91f26bd1c8f11880d1e066a099a1fe8d6b8fffc",
+      "pageVersion": "sha256:da7c0a17fffbb219c566f36df157a5c3a189e9afe7d8bddda232610c79f02740",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "5bb50ed7-3003-49e6-a66a-a4abf9a3195f",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/guidance/authority/discretion-and-escalation.md": {
-      "pageVersion": "sha256:3a6c01948a1b0fc889037c5eed969568e781286c87329b223d6b2278a1a97169",
+      "pageVersion": "sha256:3b40d7af9900538cf44ea735ce4216ee2758cb1ef26dd1c891946abd9a9dadc0",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/guidance/suitability/concentrated-positions.md": {
-      "pageVersion": "sha256:1361aadbc3a6b3d9c6fa69ba831a0a4c68ede2892c0a704efd6ce750d59097c8",
+      "pageVersion": "sha256:c722d5c024590b1f46efd6ad0d1931abff77cca4aacb8561159042a4806a7144",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/guidance/suitability/private-markets-eligibility.md": {
-      "pageVersion": "sha256:9ae9ddc7e48ae0bdd842b3d4088643decaf27b18f5ef9580e7f2d81aa7902ccc",
+      "pageVersion": "sha256:3919a4a0507f2fa213a4eba368779b928f569f0ae8eddecc2879f15210c4803e",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/quickstart.md": {
-      "pageVersion": "sha256:90495610e2ad052b5d23e8be4359f9164cffcfd69ba1fd9fd576c7d5819faef5",
+      "pageVersion": "sha256:26eb43f033f8a15a5ddcd6a3dda687048647b90a1f989a24fd7d0edb6c034814",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "eeaa200d-5d4e-4366-831e-24bf56cb1ea8",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/regulatory/municipal-amt-thresholds.md": {
-      "pageVersion": "sha256:1ab13194ef5b078c11217437ac9c67e2edf1a654f52c70b6388285ec141200b9",
+      "pageVersion": "sha256:6c3a90cb58547eaed4c207448839cdb92647bb955428d825025d295a9698c2e8",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "5bb50ed7-3003-49e6-a66a-a4abf9a3195f",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/regulatory/pension-funding-relief.md": {
-      "pageVersion": "sha256:326c6e212d2b23ed949765aeea47a56a38bd440f5825332098fae2608033e6fe",
+      "pageVersion": "sha256:f0c88cbd2770de1fa0625c49d9bf80096150461885e3bc0af916b17cb6d67c59",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "eeaa200d-5d4e-4366-831e-24bf56cb1ea8",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/regulatory/private-markets-qualified-client.md": {
-      "pageVersion": "sha256:b293a21c847a8478db265f96da8ee23ed14711795ac608b7e05d3c4e91e1bb42",
+      "pageVersion": "sha256:f92d4fdca437267c5bee8a37126a24814b1bb447379af9ca1ef047a1066fa495",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/research/equities/semiconductor-capex-and-power-constraint.md": {
-      "pageVersion": "sha256:c07cfe2993a51626948bdefc16528f46466a47d15d752241230215aac7f57c66",
+      "pageVersion": "sha256:b074d5b0d8a05d122ba8c885281b9d00c9097f59d9efa0bc9e6bbd07686e662b",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/research/fixed-income/duration-and-curve.md": {
-      "pageVersion": "sha256:b744ca6053149d8a5da4e074504c58725b4333183d9a927b522cba3589369ca3",
+      "pageVersion": "sha256:59c462d40758262771e7fbe4b8410c930e75e26fbc80f73f72dd4bb962e1ebc4",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/research/fixed-income/long-credit-and-pension-demand.md": {
-      "pageVersion": "sha256:2717a7917c58ae67dd88fb1f3822e85f64c2e48c1a7a0d17923dc4617d74f5f3",
+      "pageVersion": "sha256:f8e7cad06800d043a1d73ce68a70ac0b5bac5f295b4b39918dd930092d4f1f14",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "eeaa200d-5d4e-4366-831e-24bf56cb1ea8",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/research/fixed-income/municipal-credit-and-ig-funding.md": {
-      "pageVersion": "sha256:d5ebc9cd1fc8a6f1424d52cdbd9f232435296d15c76fb951d8ce9fb48981c32c",
+      "pageVersion": "sha256:9e196e4e1bdabae08b3dcb19958550ee6a7c6911971c1f2610cb0ce61001c2cf",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "5bb50ed7-3003-49e6-a66a-a4abf9a3195f",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/research/multi-asset/private-markets.md": {
-      "pageVersion": "sha256:260fb83268f1b53fc38fec5415bfc9d884d65a1b6e64cb408b591fc7fd91a542",
+      "pageVersion": "sha256:f29b8e89f57dfc8afe2e07814a07925dd24e80bd90f86578cf46b79457fe55f9",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/research/multi-asset/rates-regime-and-strategic-bands.md": {
-      "pageVersion": "sha256:f8d8a1ed7e55c8c9ba64a77a675da4e2388071a0b7ef8476430cb05059180da6",
+      "pageVersion": "sha256:bd5f23bc23f261c09d3a8bba1e9e46ae518408bc4b858a5a9d3e3fa1d379753d",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "fcc9dcc4-1ccd-451b-9500-6d7593f7acaf",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     },
     "/openwiki/workflows/position-basis-of-record.md": {
-      "pageVersion": "sha256:d78fb814d237de80d91f2db9a0fc0c2f3f4546eb094e0c9c7d8547b78860b49a",
+      "pageVersion": "sha256:6db54f1fb3e359706faf1a5e5512580ea5f840a25367fbb960c3ac4ef4bb3373",
       "completedBy": "openwiki/0.5.0",
-      "completedRunId": "5bb50ed7-3003-49e6-a66a-a4abf9a3195f",
-      "gitHead": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
-      "sourceFingerprint": "sha256:10625019199bbaa72a7b035e388d391abbbcb734c8c24bbdcb5cfd62c9047492"
+      "completedRunId": "492b701a-a394-488e-873e-9d9927add803",
+      "gitHead": "82add30d34c88cafb66e155cf801e9f38daad71c",
+      "sourceFingerprint": "sha256:bc23fc7c483bdd9b46efbb40b1399b6f194657b66bbfff777451498becb9d592"
     }
   }
 }

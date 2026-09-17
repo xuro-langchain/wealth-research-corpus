@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:2717a7917c58ae67dd88fb1f3822e85f64c2e48c1a7a0d17923dc4617d74f5f3",
+  "pageVersion": "sha256:f8e7cad06800d043a1d73ce68a70ac0b5bac5f295b4b39918dd930092d4f1f14",
   "claims": [
     {
       "id": "claim_081c05de84f949dd96757b55acb3da2b",
       "statement": "FI-US-PENSION-LDI, Edition 2026-03 was published on 2026-03-05, applies to positions taken on or after 2026-04-01, and changed the desk view from neutral to overweight long-dated investment-grade credit.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L5-L14",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L5-L14",
           "version": "repo-lines-v1:sha256:6b8a662f311669afe944ebb742f0c7051a4c69c251169e7b7e36855831c515da:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNzk2MWEzZmNiZTg3MGM5YWZmYzhjNTU3MDc2OGQ3YmZhN2E3ZWY2Mzk4ZjVkYTNmZDZkZmRjNTNmNmNlNzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkZjQ0NjM0ZDc4MWI3YWVjOTJkZmEyMzE2MjczNmQ2ODAwNDBlMzA3OWZmMDNmZGZhMDkxOTJjOTFkNzM0NjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMDQ2MTVkMDdhNDdmZTJiMDUxMzQ5MDBjMjM5MmE4ZmU0MzdhZTVjYWRlODc5Mzk4NDk3Y2JlYTlhNTg1MDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAyMTNjMTAyMGU4MDVlZTFiNDMyOGQ5NzA3OWYwZTdmYTNmNzBhN2FlNTNhMjIxNTlkNmUzNjc5NzJhNjg4MGIifQ"
         }
       ]
@@ -17,11 +17,11 @@
       "statement": "The 2026-03 long-credit overweight is a demand and supply-flow view: it expects corporate defined-benefit plans to buy long corporate paper through 2028, with demand large relative to net long-end issuance; issuance had been below that demand for six quarters.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L16-L18",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L16-L18",
           "version": "repo-lines-v1:sha256:59268b99c178cfde2699fb69003be477b80e2bb27de8f2384c734bd8c4557868:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI2ZmFiYTkxZjQzNmUwMjAxNjM0MzMxMjQ4Y2ZhZWYwNGM3NDNhZDFiOTFhZTk5MjBhMjg1MzlhYWM1ZmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxOTAzNzc0NGM5NjNjNGE3ZGFhYzBiNjE2MzJjNDhiMjJhMzBjZDA5OTc1Y2ZlNzM5Nzc2OWY5MTgzYWZmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzRkOTc5OTY2YmU3ZTIxNTg0MzkxODNlNTcyNDEzNjhiMjJkMDNjMWM4YTJkOTIwYzliMDlmNWI2M2E0NWVmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZlMzRlMzEwMDM3MTQwNjg2ZTI0ZWExMGEwZDg0NjRjZWY2OTYyODFhYTY1NDBiMzNlYWU3OTcyODdkZTg0ZCJ9"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L26-L28",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L26-L28",
           "version": "repo-lines-v1:sha256:a79e30815954dd31f1ca643fa4e1eac2e950a706d7a9c8af8703abc5284af3fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFjMWFlODA3NDZiYmE3NzdkMTc5MWVkYjg0NWIzMWFjZTk0ZWY3ZmRmZDJiYjdiOTg3MDdjMGU1NWE5N2QyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc0YmIzMDFlNTM2M2M1NDQzMjI5NmM0Zjk1OGRjODVlYjJhNDFmZDI4NGZmYzQxMDBhNTFlZWRjZTI2M2NkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyNzA2ODMyMGNhNzY3ZGRhZmY2ZTU5MjU0NjlmMjhiYmFmYTJjZTdhZjUwMzU2ZGIxNjRiYjk1Y2U3MWFjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJlMGMyMGNkYzBkNmZiYWQzZDg1NTA1OTMzYjI5NGJmODE2ZmZkYjZjNjNhYTZlMTA5ZTM1N2MxNzI0YmE1MCJ9"
         }
       ]
@@ -31,7 +31,7 @@
       "statement": "The FI-US-PENSION-LDI expression is bounded to the long end and single-A-and-better credit because it is a flow call rather than compensation for lower credit quality.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L30-L32",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L30-L32",
           "version": "repo-lines-v1:sha256:b0ca52961dbd7178863010b759b6164df73b86cd17210c83e85acf30189a9174:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRlYjVjMzE5NzJjYWFmNGM2MmVkZmU2N2Q1OTllZmYwMDI1MzM2NmRhOTNiYjFkNmIzNGM2OWNhYjlkYTUxNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODk3YTRmOGQ1NDMwYWJkN2M3ODkwOTNiNmEzZDIwY2Q3ZWFiY2FkMjg0YzQwNjg4OTI4ZGQ2YWZjZmI4NDk5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBhYzA4ZDgzNTlkNzBjMGM5NjJiZTE3NjIzOGY5ODYyNTE3N2Q1YjE2NzRmN2Y2OGU1MzNlZGI3N2U2MDAwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzc5MjZkNzJhNDk2OTBjZTYyYzAwZDEwNDI5YzI0ZmU1ODliMDM1ZjhmMTcwMTZmMjM1NzI4ODczMDM3NDVlZCJ9"
         }
       ]
@@ -41,11 +41,11 @@
       "statement": "The load-bearing premise of FI-US-PENSION-LDI 2026-03 is that pension funding rules make surplus worth protecting through contribution requirements and liability discount-rate measurement; allowing surplus release or re-risking could reverse flows and invalidate the overweight.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
           "version": "repo-lines-v1:sha256:f98242411fc60fd86b7dd276a2e4b796d96fc17ac946fb3822b8b4e5d5866b1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L40",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L38-L40",
           "version": "repo-lines-v1:sha256:b21753e9e94b455af0933f0158f259ef06ff176b12a7c9997e2808f4c91fe014:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDg3NjhjMTkxMGQ5YTI1M2RjMzM0MWM0MWY4N2UzMGJkZmU1OGYxMGYwODllNDkzMjZmNDU3ZmQyMGU4OWM5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlOWE0MDU3NGJmZWFhMWQxODJmNTI2MzU1MzdlOGVjZGZkOGIyZDRmNmYyZTVlYzU1MjdkNzY0MzVlOTY5ZCJ9"
         }
       ]
@@ -55,29 +55,29 @@
       "statement": "The long-end pension-flow overweight and FI-US-IG-SPREADS 2025-09 have distinct scopes: the former is a maturity-specific flow view, while the latter is an index-level valuation underweight, not a credit-deterioration call.",
       "evidence": [
         {
-          "resource": "repo://research/FI/US/IG-SPREADS/2025-09.md#L16-L26",
+          "resource": "repo://internal_research/FI/US/IG-SPREADS/2025-09.md#L16-L26",
           "version": "repo-lines-v1:sha256:d2ea2241c6d0b4c591a042742589d7aabd21260a3d72f03f05d2c53a561c2ce4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMGIzNDc1NGJjYWMyNWU5OGQ5ZTA3ZjFhMzNlYWE0Y2VlMjlhN2FkM2YzYTc0MjNmOTkwNmViYzVhZGVmNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYWQyYTMyNzk3ODUxYzFmMjQ5YWUzZWE4ZjJjMTU4M2I4NzIzMDQ3YWQ1OGU2NGE5YTdhZjU2NGFkMWRhOTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkMWQxYWVlNmEzM2RkYjE0OWIyODM0OWIyNDY2MjdhOTRiOTRkZjU1YmM1MTZkZjJiODcyNjM2M2Q0MGRkMjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllZGRmNWVkOTRjNzllNWMwOWRmM2Q5ZDhjNGRkOWViNmNmOTI2MTk3OTkzODJiODUyNTVhZjIyMjJmYjFmMjAifQ"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L34-L36",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L34-L36",
           "version": "repo-lines-v1:sha256:d818aa61a45dd61db399e318c7dec2cf883946cce0493acbc0c5d2eec7198a3e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDUyY2Y3NzUzYTdiZmRjZjkxMjVhYzRlMWVmYjI5ZjhhNzQzZDU0NGI4M2FhNGYxN2NiMDEyMmY1M2Q1YTYyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjI3Y2Q4ZGNkYTcwYmM2MDE5ZDRlZWRmMzIzNjI5NTJjYmRjMmRmOTQ1NTY3YTZiMWU5MmUwMmM0MzJmODFhNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZiMjM0ZTRhOTk0YWJlYjU2M2NiODQxYWM4YmI2YmM3ZjBkMjA1YWFhODlhNWMwNWNjZTZmNTQwZGM1YThmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzlmOGY5ZGJmNzg0YTMwMzAyNzE3NWE0Mjg2ZDdkNDNlZTc5ZGI1YjY4YjRlOWUzMDA1YTc4YzBjMzg5OGIyNyJ9"
         }
       ]
     },
     {
       "id": "claim_f0a03531e3074b20a51f4eff6e7a6533",
-      "statement": "DOL Release 2026-31 P.2-P.4 supersede the 2026-03 pension-demand premise prospectively for plan years beginning on or after 2027-01-01 by widening the discount-rate corridor, conditionally relieving qualifying plans of minimum contributions, and allowing limited specified uses of excess assets.",
+      "statement": "DOL Release 2026-31 P.2-P.4 prospectively constrain the 2026-03 pension-demand premise for plan years beginning on or after 2027-01-01 by widening the discount-rate corridor, conditionally relieving qualifying plans of minimum contributions, and allowing limited specified uses of excess assets.",
       "evidence": [
         {
-          "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
           "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
           "version": "repo-lines-v1:sha256:f98242411fc60fd86b7dd276a2e4b796d96fc17ac946fb3822b8b4e5d5866b1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
           "version": "repo-lines-v1:sha256:0465fb517261d553b7fdcdad9c7085af8cf9bba5706e59efba84df08aef04cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9"
         }
       ]
@@ -87,11 +87,11 @@
       "statement": "DOL Release 2026-31 does not itself prescribe a long-credit trade: it does not address investment fiduciary standards, and FI-US-PENSION-LDI’s announced funding-rule trigger calls for review rather than an inferred replacement allocation.",
       "evidence": [
         {
-          "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
           "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9"
         },
         {
-          "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L44-L46",
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L44-L46",
           "version": "repo-lines-v1:sha256:4cf5cfdb2857533d6e9f87c42c218796950aeaee3fd970b29f778ee10b1fc8fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQ4ZGNjMDA4ZDBjZTg2NjM5ZGMwODE2M2Y3MWNmNDgwOTUwODUzMzJiOTkxN2I4ZmExNjdiYWQyZDVmZTg5NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmZlOWE0MDU3NGJmZWFhMWQxODJmNTI2MzU1MzdlOGVjZGZkOGIyZDRmNmYyZTVlYzU1MjdkNzY0MzVlOTY5ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9"
         }
       ]
@@ -101,14 +101,34 @@
       "statement": "Where a governing mandate depends on superseded or withdrawn research, the discretion matrix requires suspension of the affected research-derived weight and committee escalation rather than manager re-derivation or direct adoption of replacement research.",
       "evidence": [
         {
-          "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L37",
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
           "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_47bd101f96594d859de4973f8b115c9d",
+      "statement": "Frozen research and external-source editions remain the basis of record for positions taken while they stood; later changes are recorded through a new edition rather than rewriting the prior edition.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L39-L48",
+          "version": "repo-lines-v1:sha256:83e457b1c2094d777d22b8b4e5b3d09160f33b27d1886ae1d321b0af85186479:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ffdc03bf56d8499d9a4f8b1dbbe5f185",
+      "statement": "DOL Release 2026-31 preserves benefit-accrual and vesting rules and all existing restrictions for plans below 80% funded, while P.4 does not permit sponsor reversion outside the existing statutory framework.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L23-L31",
+          "version": "repo-lines-v1:sha256:e8415128df2cea51c545c72e9305b1f5ba6282d80a97ca05283f6fe5b5797dfa:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk0ZmQzMmY3Y2Y2ZDJjYjk3NWYwYWU3ZmYwMTM5MTBkOWJjMzM0YjJiZWI3MmEyN2U3OGRhZTUwNTFmMjQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGJlMWRiYzdhMDk0OWZkODc1OWJmYTczMmU3NDBlMmM5NjhjMGEyZDdmOWUzMDM1MmJhMzIwY2Y5MTcyZDEwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T21:09:40.777Z"
+    "at": "2026-09-17T21:44:02.449Z"
   }
 }

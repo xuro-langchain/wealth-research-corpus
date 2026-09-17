@@ -1,83 +1,87 @@
 ---
 type: suitability-guidance
 title: Concentrated Position Suitability Guidance
-description: Controls for identifying concentrated single-security holdings and documenting their suitability, hedge decisions, employer-security restrictions, and annual unwind planning.
+description: Internal controls for classifying concentrated single-security holdings and maintaining suitability, hedge, employer-security, and unwind-plan records. Separates suitability controls from discretionary authority and non-clearable blackout restrictions.
 tags: [suitability, concentrated-positions, compliance, hedging, employer-securities, unwind-planning]
+sources:
+  - id: openwiki-source-2ddd4f14dfe61f21d64eb273
+    resource: repo://internal_guidelines/authority/discretion-matrix.md
+  - id: openwiki-source-a3829d4e9c678bcdeb1949dc
+    resource: repo://internal_guidelines/suitability/concentrated-positions.md
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T14:58:26.570Z
-sources:
-  - id: openwiki-source-d23120db2fa553b5cde8ad5b
-    resource: repo://guidelines/authority/discretion-matrix.md
-  - id: openwiki-source-3bc54a0d1492ae47d652db72
-    resource: repo://guidelines/suitability/concentrated-positions.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:58:26.570Z" }
+    at: 2026-09-17T21:44:02.449Z
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
 ---
 
-## Scope and threshold
+## Purpose and control boundary
 
-This guidance governs the continued holding, hedging, and unwinding of concentrated single-security positions in client accounts. It is internal compliance guidance, not research or client-specific investment advice. [Concentrated Position Suitability Guide, introduction](repo://guidelines/suitability/concentrated-positions.md#L1-L5)
+This is internal compliance guidance for holding, hedging, and unwinding concentrated single-security positions in client accounts; it is not research or client-specific investment advice. Suitability answers whether the concentration may be held and what must be documented. It does not supply an investment thesis or replace mandate-specific limits and the discretion matrix. A mandate may be more restrictive than the matrix, but may not grant broader discretion. [Concentrated Position Suitability Guide, introduction](repo://internal_guidelines/suitability/concentrated-positions.md#L1-L5) [Discretion Matrix D.1](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11)
 
-Treat a position as concentrated when it **exceeds** either applicable threshold:
+## Classification and authority are separate tests
 
-| Security and measurement | Concentration threshold |
+Classify a single-security position as concentrated when it **exceeds** the applicable percentage of the client’s liquid portfolio market value:
+
+| Security | Threshold |
 |---|---:|
-| Any single security | More than 15% of the client’s liquid portfolio market value |
-| Client’s employer or an affiliate | More than 10% of the client’s liquid portfolio market value |
+| Any single security | More than 15% |
+| Client’s employer or an affiliate | More than 10% |
 
-The employer/affiliate threshold is lower, so classify that exposure using the 10% test rather than the general 15% test. These suitability thresholds are distinct from the discretion matrix’s authority limits: a portfolio manager may initiate a single-issuer position up to 3% of account market value, a senior portfolio manager up to 5%, and exposure above 5% requires committee approval and a written concentration rationale. An above-5% position is also subject to the C.2 suitability requirement. [Concentrated Position Suitability Guide C.1](repo://guidelines/suitability/concentrated-positions.md#L7-L10) [Discretion Matrix D.2](repo://guidelines/authority/discretion-matrix.md#L13-L15)
+Apply the lower employer/affiliate threshold when it applies. [Concentrated Position Suitability Guide C.1](repo://internal_guidelines/suitability/concentrated-positions.md#L7-L10)
+
+Do not confuse this suitability classification with position-initiation authority. The matrix permits a portfolio manager to take a single-issuer position up to 3% of account market value and a senior portfolio manager up to 5%. Above 5% requires committee approval and a written concentration rationale; the position is then subject to the concentrated-position guide’s standing suitability requirement. The rationale and approval support authority; they do not substitute for the suitability record. [Discretion Matrix D.2](repo://internal_guidelines/authority/discretion-matrix.md#L13-L15) [Concentrated Position Suitability Guide C.2](repo://internal_guidelines/suitability/concentrated-positions.md#L11-L13)
 
 ## Standing suitability record
 
-Create a documented suitability determination both **at acquisition** and at **each annual review** for every concentrated position. The determination must record:
+For every concentrated position, create a documented suitability determination at acquisition and at each annual review. Record:
 
 - the client’s stated reason for holding;
 - the tax cost of unwinding; and
 - any restriction that prevents an unwind.
 
-A client’s preference to retain the security is not sufficient by itself. The file must also show that concentration risk was explained and that the client made an informed decision. Low tax basis may justify careful unwind planning, but it neither removes the determination requirement nor turns an unsuitable concentration into a suitable one. [Concentrated Position Suitability Guide C.2–C.3](repo://guidelines/suitability/concentrated-positions.md#L11-L19)
+A stated preference to retain the security is not, by itself, a suitability determination. The file must show that concentration risk was explained and that the client’s decision was informed. Low tax basis can require careful unwind planning, but it neither removes the determination requirement nor makes an unsuitable concentration suitable. [Concentrated Position Suitability Guide C.2–C.3](repo://internal_guidelines/suitability/concentrated-positions.md#L11-L19)
 
-## Operating control flow
+## Review lifecycle
 
 ```mermaid
 flowchart TD
-    Classify["Test liquid portfolio exposure"] --> IsConcentrated{"Above applicable threshold"}
-    IsConcentrated -- "No" --> Ordinary["Apply ordinary mandate and authority controls"]
-    IsConcentrated -- "Yes" --> Determine["Document suitability at acquisition or annual review"]
+    Classify["Test exposure against liquid portfolio value"] --> Threshold{"Exceeds applicable threshold"}
+    Threshold -- "No" --> OtherControls["Apply applicable mandate and authority controls"]
+    Threshold -- "Yes" --> Determine["Document suitability at acquisition or annual review"]
     Determine --> Record["Record holding reason tax cost and restrictions"]
-    Record --> Explain["Record risk explanation and informed decision"]
-    Explain --> Plan["Maintain written unwind plan and annual review"]
-    Plan --> Unchanged{"Unchanged for three reviews"}
+    Record --> Informed["Record risk explanation and informed decision"]
+    Informed --> Plan["Maintain written unwind plan"]
+    Plan --> Annual["Review suitability and plan annually"]
+    Annual --> Unchanged{"Plan unchanged for three reviews"}
+    Unchanged -- "No" --> Plan
     Unchanged -- "Yes" --> Escalate["Escalate under D.4"]
-    Unchanged -- "No" --> Maintain["Continue annual review cycle"]
 ```
 
-This flow shows the suitability and unwind-planning lifecycle once a holding crosses the applicable concentration threshold. [Concentrated Position Suitability Guide C.1–C.3, C.6](repo://guidelines/suitability/concentrated-positions.md#L7-L19) [Concentrated Position Suitability Guide C.6](repo://guidelines/suitability/concentrated-positions.md#L31-L33)
+This lifecycle shows the documentation and recurring-review controls that apply after a position meets the concentration definition. [Concentrated Position Suitability Guide C.1–C.3, C.6](repo://internal_guidelines/suitability/concentrated-positions.md#L7-L19) [Concentrated Position Suitability Guide C.6](repo://internal_guidelines/suitability/concentrated-positions.md#L31-L33)
 
-## Hedge decisions require approval
+## Hedging: approval plus written tax treatment
 
-A hedge of a concentrated position requires approval under **D.3 regardless of size**. Do not treat a hedge as an ordinary within-discretion trade merely because its notional amount is small. Before executing a collar, prepaid forward, or exchange fund, address its tax consequences in writing. [Concentrated Position Suitability Guide C.4](repo://guidelines/suitability/concentrated-positions.md#L21-L23) [Discretion Matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L29)
+A hedge of a concentrated position requires D.3 approval **regardless of size**. Before executing a collar, prepaid forward, or exchange fund, address its tax consequences in writing. This is an approval condition, not a conclusion about whether the investment rationale is sound. [Concentrated Position Suitability Guide C.4](repo://internal_guidelines/suitability/concentrated-positions.md#L21-L23) [Discretion Matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
 
-For any cleared hedge escalation, retain the condition, authority level that cleared it, specific facts relied on, and date. A cleared escalation without a recorded basis is treated in audit as an unapproved position. This documentation rule records a valid clearance; it does not create authority to override a prohibition. [Discretion Matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51) [Discretion Matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47)
+For a cleared escalation, record the condition, clearing authority level, specific facts relied on, and date. Without that recorded basis, audit treats the position as unapproved. This recordkeeping rule applies only to a condition that may be cleared; it cannot override a non-clearable prohibition. [Discretion Matrix D.5–D.6](repo://internal_guidelines/authority/discretion-matrix.md#L39-L51)
 
 ## Employer securities: file requirements and blackout stop
 
-For a concentrated employer-security position, additionally record every applicable trading window, blackout period, pre-clearance requirement, and any Rule 10b5-1 plan in force. [Concentrated Position Suitability Guide C.5](repo://guidelines/suitability/concentrated-positions.md#L25-L27)
+For an employer security, additionally record every applicable trading window, blackout period, pre-clearance requirement, and Rule 10b5-1 plan in force. [Concentrated Position Suitability Guide C.5](repo://internal_guidelines/suitability/concentrated-positions.md#L25-L27)
 
-> “A position in employer securities may not be traded on the firm's discretion during a blackout period. This is a prohibition and may not be cleared by approval.”
+> A position in employer securities may not be traded on the firm's discretion during a blackout period. This is a prohibition and may not be cleared by approval.
 
-This is a non-clearable stop, not an escalation or approval request. The discretion matrix likewise lists trading employer securities on firm discretion during a blackout period among conditions that may not be approved at any level. [Concentrated Position Suitability Guide C.5](repo://guidelines/suitability/concentrated-positions.md#L25-L29) [Discretion Matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47)
+This is a non-clearable stop, not an approval or escalation request: the suitability guide states the prohibition and the matrix says that no authority level may approve trading employer securities on firm discretion during a blackout period. [Concentrated Position Suitability Guide C.5](repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29) [Discretion Matrix D.5](repo://internal_guidelines/authority/discretion-matrix.md#L39-L47)
 
 ## Unwind plan and recurring escalation
 
-Every concentrated position must carry a written unwind plan, reviewed annually alongside the suitability determination. If that plan has not changed in **three consecutive reviews**, treat that as evidence that it is not being applied and escalate it under **D.4**. [Concentrated Position Suitability Guide C.6](repo://guidelines/suitability/concentrated-positions.md#L31-L33)
+Maintain a written unwind plan for every concentrated position and review it annually. A plan that has not changed in three consecutive reviews is evidence that it is not being applied and must be escalated under D.4. [Concentrated Position Suitability Guide C.6](repo://internal_guidelines/suitability/concentrated-positions.md#L31-L33)
 
-D.4 is the matrix’s committee-escalation path: it requires escalation rather than a portfolio manager independently carrying forward or deriving a replacement action when its trigger applies. Preserve the escalation record and route it to the committee rather than treating repeated unchanged plans as self-clearing. [Discretion Matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
+## Operator checklist
 
-## Review checklist
-
-1. Measure each single-security exposure against liquid portfolio market value and apply the lower employer/affiliate threshold where relevant. [Concentrated Position Suitability Guide C.1](repo://guidelines/suitability/concentrated-positions.md#L7-L10)
-2. At acquisition and annually, complete the suitability record, including holding rationale, unwind tax cost, restrictions, risk explanation, and informed client decision. [Concentrated Position Suitability Guide C.2–C.3](repo://guidelines/suitability/concentrated-positions.md#L11-L19)
-3. Maintain and annually review the written unwind plan; escalate under D.4 after three consecutive unchanged reviews. [Concentrated Position Suitability Guide C.6](repo://guidelines/suitability/concentrated-positions.md#L31-L33)
-4. Obtain D.3 approval and written tax analysis before executing any concentrated-position hedge. [Concentrated Position Suitability Guide C.4](repo://guidelines/suitability/concentrated-positions.md#L21-L23) [Discretion Matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L29)
-5. For employer securities, update required trading-status records and stop firm-discretion trading during a blackout; do not seek approval to cure the blackout. [Concentrated Position Suitability Guide C.5](repo://guidelines/suitability/concentrated-positions.md#L25-L29)
+1. Measure each single-security exposure against liquid portfolio market value and apply the employer/affiliate threshold where relevant. [Concentrated Position Suitability Guide C.1](repo://internal_guidelines/suitability/concentrated-positions.md#L7-L10)
+2. Separately apply the discretion matrix’s issuer-size authority tier; for exposure above 5%, obtain committee approval and a written concentration rationale. [Discretion Matrix D.2](repo://internal_guidelines/authority/discretion-matrix.md#L13-L15)
+3. At acquisition and annually, complete the suitability record, including holding reason, unwind tax cost, restrictions, risk explanation, and informed client decision. [Concentrated Position Suitability Guide C.2–C.3](repo://internal_guidelines/suitability/concentrated-positions.md#L11-L19)
+4. Maintain and annually review the unwind plan; escalate under D.4 after three consecutive unchanged reviews. [Concentrated Position Suitability Guide C.6](repo://internal_guidelines/suitability/concentrated-positions.md#L31-L33)
+5. Before a concentrated-position hedge, obtain D.3 approval and document the required tax treatment. [Concentrated Position Suitability Guide C.4](repo://internal_guidelines/suitability/concentrated-positions.md#L21-L23) [Discretion Matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
+6. For employer securities, maintain the required trading-status record and stop firm-discretion trading during a blackout; do not seek approval to cure it. [Concentrated Position Suitability Guide C.5](repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29) [Discretion Matrix D.5](repo://internal_guidelines/authority/discretion-matrix.md#L39-L47)
