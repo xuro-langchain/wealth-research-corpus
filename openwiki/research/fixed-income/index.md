@@ -1,5 +1,0 @@
-# Files
-
-- [US Duration and Curve Positioning](duration-and-curve.md) - The 2026-10 US fixed-income research view recommends a modest duration long in 5–10-year Treasuries with a 2s10s-steepening bias. It separates the desk’s narrow policy-path assumption from the September FOMC decision, implementation mechanics, and long-end supply and term-premium risks.
-- [US Long Credit and Pension Demand](long-credit-and-pension-demand.md) - Records the 2026-03 long-dated, high-quality investment-grade-credit flow view, its funding-rule premise, and the review required by prospective DOL funding relief. Separates the maturity-bucket demand thesis from index-level IG valuation and mandate implementation.
-- [US Municipal Credit and Investment-Grade Funding Views](municipal-credit-and-ig-funding.md) - Records the current municipal after-tax overweight thesis, its AMT-sensitive constraint, and the separate US investment-grade corporate-credit underweight. Distinguishes research conclusions from the allocation guide that may turn supported views into binding account weights.
