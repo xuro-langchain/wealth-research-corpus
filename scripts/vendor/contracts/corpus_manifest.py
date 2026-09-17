@@ -28,7 +28,7 @@ Two design choices make this a real boundary rather than a speed bump.
 Identifiers are git blob SHAs — sha1 of `blob <bytelen>\\0<content>` — so they
 are directly comparable to what the tree API returns, with no separate hashing
 scheme to keep in sync. Verified against this corpus: git reports
-78c39dfc765e0a4982801c7d084e71f7337cc68c for forms/HO/MS/HO-3/2018-09.md, and
+78c39dfc765e0a4982801c7d084e71f7337cc68c for research/FI/US/MUNI-CREDIT/2025-11.md, and
 `git_blob_sha` below reproduces it exactly.
 """
 
@@ -42,7 +42,7 @@ class CorpusIntegrityError(RuntimeError):
     """A corpus file does not match the manifest for its pinned commit.
 
     Never caught. A run that cannot trust its corpus must produce no answer: a
-    coverage answer citing mutated text is indistinguishable from a good one,
+    positioning answer citing mutated text is indistinguishable from a good one,
     which is worse than no answer at all.
     """
 

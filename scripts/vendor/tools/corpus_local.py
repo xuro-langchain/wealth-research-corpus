@@ -34,9 +34,9 @@ from contracts.corpus_manifest import CorpusIntegrityError, CorpusUnavailableErr
 logger = logging.getLogger(__name__)
 
 OWNER = os.environ.get("CORPUS_OWNER", "eugeneliu-86")
-REPO = os.environ.get("CORPUS_REPO", "openwiki-insurance-corpus")
+REPO = os.environ.get("CORPUS_REPO", "wealth-research-corpus")
 
-CACHE_ROOT = pathlib.Path(tempfile.gettempdir()) / "coverage-agent-corpus"
+CACHE_ROOT = pathlib.Path(tempfile.gettempdir()) / "research-agent-corpus"
 
 #: Text extensions worth preloading. Everything the tools read is text; the
 #: whole corpus is 1.2 MB, so holding it in memory costs nothing and removes an

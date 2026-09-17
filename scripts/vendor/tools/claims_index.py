@@ -18,8 +18,14 @@ from dataclasses import dataclass, field
 from contracts.evidence_anchor import parse_resource
 
 #: Role precedence for relation direction: the acting document comes first.
-PRECEDENCE = ("guideline", "bulletin", "state-amendatory", "endorsement", "base-form")
-BASE_FORMS = frozenset({"HO-3"})
+#: A regulator acts on a research view; internal guidance acts on both, because
+#: it is the thing that turns a view into something the firm is bound by. A
+#: multi-asset note acts on a single-asset note — the cross-asset desk's regime
+#: call modifies what the equity and fixed income desks conclude, not the other
+#: way round.
+PRECEDENCE = ("guideline", "bulletin", "cross-asset-note", "asset-note")
+#: The desk code whose notes take a view across asset classes.
+CROSS_ASSET = frozenset({"MA"})
 
 
 def document_role(path: str) -> str | None:
@@ -28,14 +34,12 @@ def document_role(path: str) -> str | None:
         return "bulletin"
     if path.startswith("guidelines/"):
         return "guideline"
-    if path.startswith("forms/"):
+    if path.startswith("research/"):
         parts = path.split("/")
         if len(parts) < 5:
             return None
-        _, _line, state, form, _edition = parts
-        if form in BASE_FORMS:
-            return "base-form"
-        return "endorsement" if state == "MS" else "state-amendatory"
+        _, asset_class, _region, _note, _edition = parts
+        return "cross-asset-note" if asset_class in CROSS_ASSET else "asset-note"
     return None
 
 
@@ -150,8 +154,8 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
             # documents, not a relationship.
             continue
         # Every DISTINCT-ROLE PAIR, not just highest-to-lowest. A claim citing a
-        # guideline, an endorsement and a base form carries two real relations —
-        # the guideline constrains the endorsement, and the endorsement writes
+        # guideline, a regulator notice and a research note carries two real
+        # relations — the guideline constrains the note, and the notice acts
         # back the base form. Collapsing to one edge loses the middle one.
         kind = normalize(claim["statement"])
         ordered = sorted(roles.items(), key=lambda kv: PRECEDENCE.index(kv[1]))
@@ -173,8 +177,8 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
             {
                 "from": edge["from"],
                 "to": edge["to"],
-                # None rather than a guess: preserves and writes-back are
-                # opposites, so a wrong type inverts a coverage answer.
+                # None rather than a guess: preserves and restores are
+                # opposites, so a wrong type inverts a positioning answer.
                 "type": max(edge["types"], key=edge["types"].get) if edge["types"] else None,
                 "types": edge["types"],
                 "claim_count": len(edge["claim_ids"]),
