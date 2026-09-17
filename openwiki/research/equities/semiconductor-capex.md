@@ -1,10 +1,11 @@
 ---
 type: market-view
-title: "Semiconductor capex"
-openwiki_generated: true
+title: US Semiconductor Capital Expenditure Cycle
+description: Dated US semiconductor-capital-equipment research record preserving the 2025-06 overweight basis of record and the 2026-02 neutral successor view. It also defines the bounded effect of grid-interconnection constraints on capacity-addition timing.
+tags: [equities, semiconductors, capital-expenditure, market-view, research-editions, power-infrastructure]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T02:15:41.124Z
+    at: 2026-09-17T14:28:14.346Z
 sources:
   - id: openwiki-source-f77a3c74be717f3eaf29eed6
     resource: repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md

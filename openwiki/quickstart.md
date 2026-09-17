@@ -1,16 +1,16 @@
 ---
 type: position-assembly
 title: Wealth Research Positioning Guide
-description: Decision-first entrypoint for wealth positioning, eligibility, regulatory-change, and escalation questions. It routes readers to research views, binding firm guidance, regulatory overlays, and the dated position basis of record.
-tags: [wealth-management, positioning, eligibility, regulatory-overlay, escalation]
+description: Decision-first routing for wealth positioning questions. Select the applicable research view, binding firm guidance, regulatory overlay, or dated position basis of record without substituting one authority for another.
+tags: [wealth-management, positioning, research, regulatory-overlay, escalation]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T02:15:41.124Z
+    at: 2026-09-17T14:28:14.346Z
 sources:
-  - id: openwiki-source-bffbf80292febad90f3a3085
-    resource: repo://bulletins/IRS/2026-03-amt-private-activity-bond-interest.md
-  - id: openwiki-source-5323f59d9d0f05ed7b45980d
-    resource: repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md
+  - id: openwiki-source-d4d55878a53be93639d11eff
+    resource: repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
+  - id: openwiki-source-4a3ba03e04222e6bc5743057
+    resource: repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md
   - id: openwiki-source-0325e37b3340c7a33cd38137
     resource: repo://guidelines/allocation/us-taxable-fixed-income.md
   - id: openwiki-source-d23120db2fa553b5cde8ad5b
@@ -19,69 +19,55 @@ sources:
     resource: repo://guidelines/suitability/private-markets-eligibility.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-  - id: openwiki-source-2549fa16e77a525ffc1484ab
-    resource: repo://research/FI/US/MUNI-CREDIT/2025-11.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T02:15:41.124Z" }
+  - id: openwiki-source-f6f11dc2c2c5325137161d1d
+    resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:28:14.346Z" }
 ---
 
 # Wealth Research Positioning Guide
 
-Use this page to select the authority that answers the question; it does not set a portfolio weight, determine eligibility, or clear an exception. The corpus separates four roles:
+> **Corpus boundary:** This is a routing guide for the synthetic corpus, not investment, tax, or legal advice. Regulatory-voice bulletins and their figures are synthetic; statutory citations are the corpus’s stated exception. [Corpus disclaimer](repo://README.md#L7-L19)
 
-- **Research view and assumption** explains an asset-class stance, its scope, edition, and what could invalidate it. Research informs a decision but is not a binding portfolio control.
-- **Binding firm guidance** supplies Committee-owned weights, bands, limits, suitability gates, and approvals. It is the operational rule for an in-scope mandate.
-- **Regulatory overlay** states an external requirement or effective-date condition. It constrains what the firm may do; approval cannot cure a regulatory breach.
-- **Position basis of record** reconstructs which research edition and control governed a dated position, then applies any relevant overlay and escalation procedure. A later edition does not erase the historical basis of record.
+## Select the authority before answering
 
-## Start with the decision
+A market-view note records a desk conclusion and its assumptions. Internal guidance supplies the firm’s binding weights, limits, eligibility process, and approvals. A regulatory overlay states the bounded external condition that constrains implementation. For a dated review, position assembly retains the research edition that applied when the position was taken, identifies the separate current control, and tests the relevant overlay; a later edition does not rewrite the historical record. [Frozen and living authority](repo://README.md#L41-L48) [Position-assembly procedure](repo://openwiki/position-assembly/supersession-and-escalation.md#L11-L19)
 
-| If the question is… | Start here | Then use |
+| Decision needed | Start here | Then route to |
 | --- | --- | --- |
-| What does the current or historical **equity** research view say? | [Semiconductor Capex](/openwiki/research/equities/semiconductor-capex.md) for the dated US semiconductor edition and stance; [AI Infrastructure Power](/openwiki/research/equities/ai-infrastructure-power.md) for the global utilities and electrical-equipment view. | Use [Position Assembly](/openwiki/position-assembly/supersession-and-escalation.md) when the position date crosses the semiconductor edition change. The power note modifies capacity timing, not the semiconductor portfolio weight. |
-| What is the **fixed-income research** view or its assumption? | [US Municipal Credit](/openwiki/research/fixed-income/municipal-credit.md) for the top-bracket after-tax municipal view; [Investment Grade Spreads](/openwiki/research/fixed-income/investment-grade-spreads.md) for the corporate-credit funding view; [US Duration and Curve](/openwiki/research/fixed-income/duration-and-curve.md) for the tactical duration expression. | Read the [IRS PAB AMT overlay](/openwiki/regulatory/irs-private-activity-bond-amt.md) for the municipal tax condition, and the [Federal Reserve policy-path overlay](/openwiki/regulatory/fed-policy-path.md) to distinguish conditional Fed language from the duration desk's scenario assumption. |
-| What control is actually **binding** for a taxable fixed-income account? | [Internal Guidance: US Taxable Fixed Income](/openwiki/guidance/allocation/taxable-fixed-income.md). | It owns sleeve targets, municipal limits, paired corporate funding, tolerance treatment, and the research-change suspension response; the research pages explain the inputs rather than authorizing a replacement weight. |
-| What is the **multi-asset** view or mandate implementation? | [Global Rates Regime](/openwiki/research/multi-asset/rates-regime.md) for the higher-real-rate and diversification assumptions; [Global Private Markets](/openwiki/research/multi-asset/private-markets.md) for the eligible-client horizon, preferred exposures, and liquidity analysis. | [Internal Guidance: Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md) owns strategic weights, tradable bands, private-markets pacing, and noneligible-client reallocation. |
-| May a client receive or make a **private-markets** commitment? | [Internal Guidance: Private Markets Eligibility and Suitability](/openwiki/guidance/suitability/private-markets-eligibility.md). | Apply the [SEC qualified-purchaser overlay](/openwiki/regulatory/sec-qualified-purchaser.md) for the applicable effective-date threshold and prior-determination boundary. Eligibility must be documented before offer; separately test suitability and liquidity, then obtain commitment approval. |
-| Has research changed, a regulation affected an assumption, or an exception need to be **escalated**? | [Position Assembly: Editions, Regulatory Changes, and Escalation](/openwiki/position-assembly/supersession-and-escalation.md). | Use [Internal Guidance: Discretion and Escalation](/openwiki/guidance/authority/discretion-and-escalation.md) for authority, non-clearable conditions, and audit documentation; consult the affected mandate guide for the prescribed interim treatment. |
+| **Market stance or stated assumption** | The relevant research page below. | Use mandate guidance before implementing a weight; research does not itself create one. [Rates Regime R.4](repo://research/MA/GL/RATES-REGIME/2026-02.md#L28-L30) |
+| **Binding account weight, band, limit, or mandate rule** | [Taxable Fixed Income Guidance](/openwiki/guidance/allocation/taxable-fixed-income.md) or [Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md). | Apply the applicable overlay and obtain approval where the guide requires it. [Taxable-guide standing](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Global-bands standing](repo://guidelines/allocation/gl-multi-asset-bands.md#L7-L11) |
+| **Regulatory status, tax treatment, threshold, or effective date** | The relevant overlay below. | Do not use an approval or research view as a substitute for the requirement; a regulatory breach cannot be cleared by approval. [Discretion Matrix D.5](repo://guidelines/authority/discretion-matrix.md#L39-L47) |
+| **Historical position, changed premise, supersession, or exception** | [Position Assembly](/openwiki/position-assembly/supersession-and-escalation.md). | Identify the date, edition, guide-derived control, and applicable overlay before applying the documented escalation path. [Position-assembly procedure](repo://openwiki/position-assembly/supersession-and-escalation.md#L13-L19) |
 
-## Authority sequence for a live position question
-
-1. **Identify the question and scope.** Select the relevant research page for the market view, but do not treat its recommendation as an adopted account weight.
-2. **Locate the binding guide.** For an implementable weight, band, limit, eligibility gate, or approval, use the applicable internal-guidance page. The Committee owns adoption of research-dependent controls.
-3. **Apply the overlay where facts trigger it.** Check the relevant regulator page for its effective date and bounded instrument, taxpayer, client, or determination scope. An overlay constrains implementation; it does not supply an investment substitute.
-4. **Fix the position date and preserve the record.** For review, reconstruction, supersession, withdrawal, or invalidated premise, use Position Assembly to identify the edition that stood when the position was taken and the current control state.
-5. **Suspend and escalate when required.** Do not carry a derived control forward, mechanically rebalance a suspension, or self-adopt replacement research. Escalate with the affected controls and accounts; only the required authority can adopt a successor control, and no authority can clear a regulatory prohibition.
-
-## Fast domain map
-
-### Equities
-
-- [Semiconductor Capex](/openwiki/research/equities/semiconductor-capex.md) — dated 2025-06 overweight record and 2026-02 neutral current view.
-- [AI Infrastructure Power](/openwiki/research/equities/ai-infrastructure-power.md) — global power and electrical-infrastructure beneficiaries; a modifier to capacity timing rather than a semiconductor allocation instruction.
+## Decision paths
 
 ### Fixed income
 
-- [US Municipal Credit](/openwiki/research/fixed-income/municipal-credit.md) — municipal research view, AMT-dependent premise, sectors, and curve expression.
-- [Investment Grade Spreads](/openwiki/research/fixed-income/investment-grade-spreads.md) — valuation-led corporate underweight and its paired funding role.
-- [US Duration and Curve](/openwiki/research/fixed-income/duration-and-curve.md) — modest five-to-ten-year duration and 2s10s steepening research expression.
-- [Internal Guidance: US Taxable Fixed Income](/openwiki/guidance/allocation/taxable-fixed-income.md) — binding taxable-sleeve controls.
-- [IRS Notice 2026-18 and Private Activity Bonds](/openwiki/regulatory/irs-private-activity-bond-amt.md) and [Federal Reserve Policy Path Statement](/openwiki/regulatory/fed-policy-path.md) — external overlays for the municipal tax premise and duration-policy premise, respectively.
+- **Municipal credit view:** Start with [US Municipal Credit](/openwiki/research/fixed-income/municipal-credit.md). The 2025-06 note’s two-to-four-point municipal increase is funded from investment-grade corporate credit and depends on its after-tax AMT-threshold premise; fundamentals alone support only neutral to modest overweight. [Municipal Credit M.1–M.3](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L16-L36)
+- **Municipal tax condition:** Then use the [IRS Private-Activity-Bond AMT Overlay](/openwiki/regulatory/irs-private-activity-bond-amt.md). **IRS Revenue Procedure 2025-41 N.3 supersedes FI-US-MUNI-CREDIT 2025-06 M.2** for the threshold-dependent premise for affected taxpayers in taxable years beginning on or after 2026-01-01; N.5 **preserves** the qualified-501(c)(3) exception. The procedure does not choose a replacement allocation. [Revenue Procedure N.3 and N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34) [Municipal Credit M.2 and M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30) [Municipal Credit M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L44-L50)
+- **Actual taxable-sleeve controls:** Use [Taxable Fixed Income Guidance](/openwiki/guidance/allocation/taxable-fixed-income.md), not the research note, for the 22% top-bracket municipal target, 18% neutral comparison, PAB concentration, and paired 28% investment-grade corporate target. [Allocation Guide A.3 and A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation Guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
+- **Corporate-credit view:** Use [Investment Grade Spreads](/openwiki/research/fixed-income/investment-grade-spreads.md) for the valuation-led corporate underweight and its roughly four-point sleeve expression. [IG Spreads G.1–G.5](repo://research/FI/US/IG-SPREADS/2025-09.md#L16-L34)
+- **Duration and curve:** Use [US Duration and Curve](/openwiki/research/fixed-income/duration-and-curve.md), then the [Federal Reserve Policy-Path Overlay](/openwiki/regulatory/fed-policy-path.md). The research expresses +0.4 years in the five-to-ten-year sector and makes a desk scenario assumption; the statement describes a rate decision, not a committed future path. [Duration Path D.1–D.2](repo://research/FI/US/DURATION-PATH/2026-10.md#L16-L24) [FED Statement F.1 and F.5](repo://bulletins/FED/2026-09-fomc-statement.md#L10-L12) [FED Statement F.5](repo://bulletins/FED/2026-09-fomc-statement.md#L26-L30)
+
+### Equities
+
+- Use [Semiconductor Capex](/openwiki/research/equities/semiconductor-capex.md) for the dated US semiconductor view. Edition 2026-02 **supersedes** edition 2025-06 for positions taken on or after 2026-03-01; the 2025-06 edition remains the basis of record for positions taken while it stood. [2025-06 supersession marker](repo://research/EQ/US/SEMI-CAPEX/2025-06.md#L1-L5) [2026-02 applicability and view](repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L12-L18)
+- Use [AI Infrastructure Power](/openwiki/research/equities/ai-infrastructure-power.md) for the global utilities and electrical-equipment research view. **AI Infrastructure Power 2026-01 P.4 modifies Semiconductor Capex 2026-02 S.4** by limiting the rate of capacity addition rather than eventual demand; it is not a semiconductor allocation instruction. [AI Infrastructure P.1 and P.4](repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L16-L18) [AI Infrastructure P.4](repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L30-L32) [Semiconductor 2026-02 S.4–S.5](repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L30-L36)
 
 ### Multi-asset and private markets
 
-- [Global Rates Regime](/openwiki/research/multi-asset/rates-regime.md) and [Internal Guidance: Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md) — distinguish strategic research assumptions from Committee bands.
-- [Global Private Markets](/openwiki/research/multi-asset/private-markets.md), [Private Markets Eligibility and Suitability](/openwiki/guidance/suitability/private-markets-eligibility.md), and [SEC Qualified Purchaser Thresholds](/openwiki/regulatory/sec-qualified-purchaser.md) — use in that order only after recognizing that regulatory eligibility, suitability/liquidity, research positioning, and approval are separate gates.
+- Use [Global Rates Regime](/openwiki/research/multi-asset/rates-regime.md) for the higher-real-rate and diversification assumptions, and [Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md) for strategic weights and bands. The research requests a review; it does not set bands. [Rates Regime R.1–R.4](repo://research/MA/GL/RATES-REGIME/2026-02.md#L16-L30) [Global Bands B.1–B.5](repo://guidelines/allocation/gl-multi-asset-bands.md#L7-L29)
+- Use [Private Markets](/openwiki/research/multi-asset/private-markets.md) only for the eligible-client research view. The firm’s 10% global-balanced sleeve, pro-rata liquid reallocation for ineligible clients, and commitment-pacing rules belong to [Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md). [Private Markets V.1–V.2](repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L16-L22) [Global Bands B.2 and B.6](repo://guidelines/allocation/gl-multi-asset-bands.md#L13-L15) [Global Bands B.6](repo://guidelines/allocation/gl-multi-asset-bands.md#L31-L35)
+- For an offer or commitment, start with [Private Markets Eligibility and Suitability](/openwiki/guidance/suitability/private-markets-eligibility.md), then [SEC Qualified Client Thresholds](/openwiki/regulatory/sec-qualified-purchaser.md). Eligibility must be determined and documented before an offer; suitability, liquidity, and approval remain separate gates. A pre-effective-date determination is preserved for its existing relationship but cannot support new business on or after 2026-06-29. [Eligibility Guide P.1 and P.6](repo://guidelines/suitability/private-markets-eligibility.md#L7-L9) [Eligibility Guide P.6](repo://guidelines/suitability/private-markets-eligibility.md#L31-L35) [SEC Order Q.4](repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28)
 
-### Record, authority, and escalation
+## When a research-dependent control changes
 
-- [Position Assembly: Editions, Regulatory Changes, and Escalation](/openwiki/position-assembly/supersession-and-escalation.md) — dated basis-of-record and regulatory-change procedure.
-- [Internal Guidance: Discretion and Escalation](/openwiki/guidance/authority/discretion-and-escalation.md) — authority tiers, mandatory approvals, no-carry-forward rule, non-clearable conditions, and records.
+When a mandate guide cites research that has been superseded or withdrawn, suspend the derived control and escalate to the Committee. Do not carry it forward, re-derive it, mechanically rebalance a suspension, or directly adopt replacement research; the escalation record identifies the prior and replacement note, dependent weights, and affected accounts. [Allocation Guide A.1 and A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation Guide A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L43) [Discretion Matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
 
-## Non-substitution rules
+This trigger is distinct from a regulatory change to a research premise: the municipal note calls for immediate review and re-issue if its M.2 tax treatment changes, while the available controls do not establish an automatic suspension or successor weight solely from Revenue Procedure 2025-41. [Municipal Credit M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L68-L70) [Allocation Guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11)
 
-- A research view is not binding guidance; do not use it to select an unapproved portfolio weight or band.
-- Binding guidance is not a regulatory interpretation; follow the controlling overlay for effective date and scope.
-- Regulatory eligibility is not suitability, and approval is not a cure for an ineligible client, liquidity-limit breach, or other regulatory prohibition.
-- A superseded research edition remains evidence of why an earlier position was taken. It is not current authority for a new position or an unchanged research-derived control.
+For authority tiers, non-clearable conditions, and audit records, use [Portfolio Manager Discretion and Escalation](/openwiki/guidance/authority/discretion-and-escalation.md). Every cleared escalation needs the condition, authority level, facts relied upon, and date; absent that record, audit treats it as unapproved. [Discretion Matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51)
 
-The historical record, current implementation decision, and external constraint must remain separately identifiable in the position file.
+## Non-substitution check
+
+Before closing a file, keep the historical research edition, current binding guide, and external constraint separately identifiable. A research recommendation is not a binding weight; guidance does not rewrite research; and neither guidance nor approval creates an exception to a regulatory requirement. [Position-assembly guardrails](repo://openwiki/position-assembly/supersession-and-escalation.md#L71-L75)

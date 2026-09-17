@@ -4,7 +4,7 @@ okf_version: "0.2"
 
 # Files
 
-- [Wealth Research Positioning Guide](quickstart.md) - Decision-first entrypoint for wealth positioning, eligibility, regulatory-change, and escalation questions. It routes readers to research views, binding firm guidance, regulatory overlays, and the dated position basis of record.
+- [Wealth Research Positioning Guide](quickstart.md) - Decision-first routing for wealth positioning questions. Select the applicable research view, binding firm guidance, regulatory overlay, or dated position basis of record without substituting one authority for another.
 
 # Directories
 

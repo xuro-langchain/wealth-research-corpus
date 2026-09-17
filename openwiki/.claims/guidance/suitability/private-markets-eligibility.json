@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:390571109d560cb8b7b4169d16ec5a3651100e67a7e507e7fd7255dfecd263f8",
+  "pageVersion": "sha256:eaf67025e350748dfc8159c6777e267809a023ee35a711bdb222a91c1c8742c1",
   "claims": [
     {
       "id": "claim_e4ca8a546fe54236b01e06f27aa14a38",
@@ -18,57 +18,57 @@
     },
     {
       "id": "claim_6106bed4b06244babe2e9ec7160f771d",
-      "statement": "SEC Release 2025-08 Q.2 applies to determinations made on or after 2026-01-01, raises the qualified-purchaser investments threshold to $6.2 million for a natural person and $31 million for a family company, and provides for indexation every five years; firm guidance implements that release rather than treating a copied threshold as permanently operative.",
+      "statement": "Effective 2026-06-29, SEC Order IA-7104 adjusts Rule 205-3's qualified-client tests to at least $1.4 million of adviser-managed assets immediately after contract entry or net worth greater than $2.7 million immediately before contract entry; the firm's eligibility guide implements Order Q.2 rather than replacing it with an independently operative restatement.",
       "evidence": [
         {
-          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L9-L13",
-          "version": "repo-lines-v1:sha256:f233c3fb9de6097c355d42adea277b94ff287c2c992ae03b0eb1ea4102cfcef6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmExNDFiMmJiZGQ5ZTc5MTMyMDMzMTZlNzhlNjdkNzZjZmZhOWI0MTY5Nzg0MDJhY2QwMTY3ZmQ3NGYwZjIxYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTExZDZiODAxZmEwN2ExMjU2ZjNmZTk0NTQzZTliYzNjZTU0NWVjZjdlNTAzMWFkNWM0YmFlZWZkMjk1ZTE5NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjIyZjM2ZGEzZDlkNzhmZGIxZjc3MmY3OWMxMzkxODUzMmFiNDkyZDE0NGMzMzZkYzRiNmY4MDRmZGNiNmI3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU0M2JmN2JjZjNkN2MzMTBmMzU5MmM4YWQ2OTYzMWIxNTA2MDUzOWI1ZTcxMWQ5MjZlYmYyZTRkZmRlN2ZlOCJ9"
+          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
+          "version": "repo-lines-v1:sha256:47d005692d8086255f6776eb3d77c06d940b2ece5eca4f174a79835276ccaa59:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1NmZjNTAzMDhjYTVmNjgyMGE1NTg5ZTY1YjFjZWQ4YmI3ZTgwODg5MzE3MzA1Y2MzM2QzZDYxY2JhOTQzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBhYTQwZjJmODYxZjY2MTA5YTg4NTcwYTc0NzU5ZTE1YmQxOTAwZjRmZmE4NTM3YWIzMjQ0YzIwNDY4MTQzYyJ9"
         },
         {
           "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L11-L15",
-          "version": "repo-lines-v1:sha256:f5a285ef98530aa200f6183964732c399711b67b37a30ff0ac7a91aad1c05fb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJjNjM3N2FhMGY1NjdlZmZkNTU4ZTc5NzNkNDBkMjY1MmQ2M2ZmOGIzZjNlYTIyOGRlZjMxZjE3NmJmOTNkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhYTM0NzIzNmVjMzk0ZjRjNmRlOGRmMzk5NmQ1NWY2NTFmMDA5NGRlMmU4ZGM2MTI5YjViY2E2NDQ4Y2NmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFhMWMzYjVjOWM0MGIzOWM0NWNhZGE4ZTA0NjE3NTZmMDcyOGU5M2NlYzRmOTM3Nzk3YTNjZTU0MDVlYjc0OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODdlMjc3ZjAxMWViNzZiZTlhYTZlMDBhMTJiMWYyZmU4ZThkMGVhMjk5ODU1YTdkNDkyYzczYjUwMzdlNjM3MCJ9"
+          "version": "repo-lines-v1:sha256:078e9cd9958ca122adbbe6ebfa3edf01f1ec88eeff9518d432efd795586b87db:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Q3Zjc1YTVhMTliZmU3MzI0OWU3YmE5MjUzMzc3YmRjZGUxNzgyNWFjNmY1Zjc3N2RmN2Q1YTBmNjVkNDU2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTMzNWVlY2I1Y2MxYWFmOWI1NGE1Zjg3NTUxNmRhNmYxMTFmMjliMGU1YmE3ZTIwMGFmNmEyZjViZjc2NTU4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFhMWMzYjVjOWM0MGIzOWM0NWNhZGE4ZTA0NjE3NTZmMDcyOGU5M2NlYzRmOTM3Nzk3YTNjZTU0MDVlYjc0OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODdlMjc3ZjAxMWViNzZiZTlhYTZlMDBhMTJiMWYyZmU4ZThkMGVhMjk5ODU1YTdkNDkyYzczYjUwMzdlNjM3MCJ9"
         }
       ]
     },
     {
       "id": "claim_7a790e58e53a4f8babbded23cef160db",
-      "statement": "A qualified-purchaser determination properly made before 2026-01-01 remains valid and does not require divestment, but it cannot support a new determination or a new commitment on or after the effective date; a carried-forward file must identify the prior thresholds used.",
+      "statement": "A qualified-client determination made before 2026-06-29 remains valid for the pre-effective-date advisory contract or private-fund investment and does not require divestment, but it cannot support a contract, investment, or new subscription on or after that date; the carried-forward file must identify that prior thresholds were used.",
       "evidence": [
         {
-          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L19-L25",
-          "version": "repo-lines-v1:sha256:5e32b5872f76c6184f3ad941c72ec32b419f46ba6ab9756c82504d891071dafa:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA5NmM5ZjMzMjFhNDg2OGM5NTU4NjBmZDkyZWUwODI2MmY1NTc2NWE4ZTZiNjU5MmE0ODEyNDFmZjllNWVkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0YTcxMmRiOGExNzQ4YTMyNThlYTcyNGYwNzIxYTM0YjcwNjY5NTlhZjdkZjJjODk3ZWU5YzQ2Yzg1ZjJlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzE0NTJkYjQ4MDUxMjc1ODkxMDFiYzVlNGNkMjYzNWZmOThmMGQ2NzRlNjM4MTI2ZDgzYzg1MjgyN2MwYzQ4ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjEwNTRkZTY0NmRlODdkNjBhN2NjMjVhNWE2YTAzYjBlZDQ3NjUyMDJkMTBhMDAxNzJjZTNiMGZjODk3YmU5NSJ9"
+          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+          "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9"
         },
         {
           "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L17-L21",
-          "version": "repo-lines-v1:sha256:fc355941d1f60b85993e55ef036318271509b49496d19a6f019a6ce1cc4e71e3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU4NDQ0MTQ1ZTI4NDlmYzUwZDJiZDcyOWE0MGJjZTg1Zjc5NjkwZDgzNGZiNTJkYTk2ODJjMjVkNTYwZTdhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTlhNzY4ZDNiZjFjOTVhNDI1YzRiMjIzZjI5YzcxYWRkMTAwODJmODAxOTA4ZGI4Y2E1NzcyNWMwYWJiYzIyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQxYTIzYTEyZjlhMjBiYzMxZmUzZWEyMGIxYjYzNmI1NmQwYmY5YWY4YjAwOWYyMDUyNzk2YzE1YmEzOGEwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzJjMjJlNDYwNTNhMjVjYjYzYmRmMDU4Y2Y2MzE2OTFmMmMyODA1ZDNiN2Y2ZmFmMTcyMWQwNjQxZjQ3OTgzNCJ9"
+          "version": "repo-lines-v1:sha256:c85aaa6759fd53df3f878fe75086c5c4fd95918f31644cdc45467d2d9e8bc656:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU4NDQ0MTQ1ZTI4NDlmYzUwZDJiZDcyOWE0MGJjZTg1Zjc5NjkwZDgzNGZiNTJkYTk2ODJjMjVkNTYwZTdhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDVhNThkZjdjMmE0NjE5OTNmYjg0ZTIwYTQ1MDU5NjdmOGNiYWRjMTRmODQxYTRmMzFiMjRkZTc3YzAzYzc1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjUxOTcwNGUyOTgyZjllZDM2YWRkOTA3MjM2OTM0NWViYjc2M2Y0NWMzYmQ3MDQ0ZmFjZDQzZjE3NzUwZjJhMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzJjMjJlNDYwNTNhMjVjYjYzYmRmMDU4Y2Y2MzE2OTFmMmMyODA1ZDNiN2Y2ZmFmMTcyMWQwNjQxZjQ3OTgzNCJ9"
         }
       ]
     },
     {
       "id": "claim_943351ef5a7445b7a18e109d3c240e81",
-      "statement": "SEC Release 2025-08 preserves accredited-investor criteria, including the professional-certification pathway, so accredited-investor status must be determined separately from qualified-purchaser status and may permit a different set of strategies.",
+      "statement": "Order IA-7104 adjusts only Rule 205-3 qualified-client dollar tests, leaving Regulation D accredited-investor criteria and the Investment Company Act qualified-purchaser definition unchanged; accredited-investor status is determined separately, and eligibility must be checked against the status required by the strategy or offering.",
       "evidence": [
         {
-          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L15-L17",
-          "version": "repo-lines-v1:sha256:fe005610cecf54f9d24210704244edd92facce7a11da7817e9d0ee8b05108905:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRjNDNlNDE5ODNlYjNhNjliMWQwMmRkYjg4NDg0ZDNhYTg3ODg0YTg3ZTdjNDkyYzI0NmYyNjM4MmZhMDMxZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA2OTAxZmUxYmEzNGExZDJiZmIzNDg1NmMxOTNkNWFhZjY1ZDZlOWE4ODU2YTZjZDMxM2E3MzA0OWZmMWU2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjM3ZjU1MDBkMzc5MzhmNDY2MWMxYzIzZjhkMThmZWY2ZGIzMGM5NDc1MmJiM2NjNjJjOGM4NzgyN2RjYTcyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjRmNTdkNzU4OGYwNTJkMjAxMGFiZjAxYThiZWVhOWU5YWRmNTM4MzYwOGY0NjE4MzU4YjFiZTY0OGM1YmI1NSJ9"
+          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+          "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9"
         },
         {
           "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L23-L25",
-          "version": "repo-lines-v1:sha256:6d3d6abfeb006aeeed18bdb272771f5682ef366cc75a88e25730138c3e8e2df0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA0YjU3ZGQzMDc5YzlhZjA5ZWIwZDM5YzJhZDVjMTI1NDJjMTM4YWZlY2Q1NDc5MjQ4ZjE1ZjVkM2Y2NDhjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJjYjMwYzRjODU0MjU1NmExYmRiODE0NGI1ZmZhNWQ4NDA1OTA5YTU3ZGRiNDRmOTJiYWZhOWQ0NWZkYmFmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JkMmM2ODI4MGY0Yzc5NDY5MWE5MGNiOGJhNDhiOWQ3OGQ2YTI2M2JhZTdiNWRlYzBlZjk5Y2NjYmVkYTNhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZjMzUxODJmZGFmNGI5NmFmZTI3ZGI0ZDUyNWFhOWFkYjFjNjUwYTM2YTQ1M2U4NDcwNTRlZjRhNTgwMTRhZiJ9"
+          "version": "repo-lines-v1:sha256:3eb37a2eb8af2d28141b5c9951c4379393bdce64f5595e24c3a65d514875968e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA0YjU3ZGQzMDc5YzlhZjA5ZWIwZDM5YzJhZDVjMTI1NDJjMTM4YWZlY2Q1NDc5MjQ4ZjE1ZjVkM2Y2NDhjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2U4ZmRhYjdhMWMwZThmZjU3MmRmZjlhNGI2OGFlNjI0Y2MzOWFlMWM2YThjYzBjZjdhNjI4M2VhOGY0Zjc2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmE4NWU3YWZiODhkYzgyMGM5MTA4MWVkZjQwY2E1ZmY3OTc1Y2FiYjBiNzNiMGQ4NzkzMmE5M2I1OTVlYTlmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZjMzUxODJmZGFmNGI5NmFmZTI3ZGI0ZDUyNWFhOWFkYjFjNjUwYTM2YTQ1M2U4NDcwNTRlZjRhNTgwMTRhZiJ9"
         }
       ]
     },
     {
       "id": "claim_f71b5e49650d40308797f8dd572c7750",
-      "statement": "Every eligibility determination must record its pathway, supporting evidence, determiner, and date; an adviser must retain the determination basis, and a record without that basis is treated as no determination in audit.",
+      "statement": "Each eligibility determination records the pathway, evidence, determining person, and date; the adviser must retain its basis, including the dollar test relied on and determination date, and audit treats a determination without a recorded basis as no determination.",
       "evidence": [
         {
-          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L23-L25",
-          "version": "repo-lines-v1:sha256:2fe27da7e8d91dc5d54095faeeea410cc1d3d848e6c76b6c20062665446c1697:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0YTcxMmRiOGExNzQ4YTMyNThlYTcyNGYwNzIxYTM0YjcwNjY5NTlhZjdkZjJjODk3ZWU5YzQ2Yzg1ZjJlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmFlNDdiODA3MjM5YTI1YTU3ZjY2NTJiZDE3ZDAzYmMwZjE4YjY2MWVmYjJjMzdkNjIwNTU1YTgwZDEyMmEwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjEwNTRkZTY0NmRlODdkNjBhN2NjMjVhNWE2YTAzYjBlZDQ3NjUyMDJkMTBhMDAxNzJjZTNiMGZjODk3YmU5NSJ9"
+          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
+          "version": "repo-lines-v1:sha256:417ebc5f05c7207e99dc4f003b870a0f726e37874847b5a291e81aafadad24cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTExYWM1ZDlmYzkxNjZmZDU3NTU0MzM2MjE3NzM0ODQ3NTk5ZGU0ODI5YjhjNmFhYzBkMTUyNzZmMTRlYzIwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWRlYWM4YTk1MWM0MTFjNzgyNmU4MjRlNTZjMjUzZDg3ZWY5NmYzN2Y4NDEyYWRlYjhiZDgyOWNkMDc2ZTQ4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDI1N2Y2ZjlkNmJmMWZjMDI1NzQ4YTA2NDM1MWE5ZGVmODg5ZjM3YWMwYjViMzQxMWFmMGIyMWNkYTUwNDgxYSJ9"
         },
         {
           "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L27-L29",
-          "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTQ4OTA1OTVjODE5ZTVmMGM3MGNlNDhkYzhkZTlmNjJlMzBjYmMwNjRiOTA0MjJjMzQ4MDQ5ZWZhMGE4Nzk5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
+          "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
         }
       ]
     },
@@ -92,15 +92,15 @@
     },
     {
       "id": "claim_53800979ac8d42c0a7ba516a9193a221",
-      "statement": "MA-GL-PRIVATE-MARKETS 2025-12 is a research view, applicable to positions taken on or after 2026-01-01, that supports a 10–20% strategic allocation for eligible clients with a genuine ten-year horizon and favors secondaries and private credit over primary buyout; it expressly leaves eligibility to regulatory thresholds.",
+      "statement": "MA-GL-PRIVATE-MARKETS 2025-12 is a research view applicable to positions taken on or after 2026-01-01 that supports a 10–20% strategic allocation for eligible clients with a genuine ten-year horizon, favors secondaries and private credit, underweights primary buyout, and treats eligibility as a regulatory rather than research matter.",
       "evidence": [
         {
-          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L1-L11",
-          "version": "repo-lines-v1:sha256:f6322a7a11ee775d25140904cca3624bed6a48063f1398cb22dcac3a5578dc73:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkODc3MDEzNWFhMjllMmMzY2EyNTgzOTc4MzVmMTg1MmU2MDhiMTQzY2FhZTgzZjMwZTRiMzM1OTY1NzdkYjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiNTE0ZmQ3ZGM5ZWM0OTZiYTE1MDg4ZDJiYTI2NGU4MTEzYWY4M2MzMmM1ZjZlN2I0ZWViOTA3YTY2MmY5MjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4YWM0MWZjNmIwN2IzYTIwZmU3ZTM2YzhiOTI4YzBhMWJlY2VhYTVkZWE0YmE2YTNkYmUwODdhNWI0YjdjMTMifQ"
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L20-L22",
+          "version": "repo-lines-v1:sha256:377906850b33c5c4441475b7944a48dbc7c7f215b9c2bb712fb43b3fe6a503b3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzA0MzQ5NWQzMzEzODAyN2UzMjBhZDQzMzZiNmI3ZWU5NDhmZTYzNTJkMjgzYjM0NzQ2MDM1MDQzYzE4ZmY2ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY5OGM5OTQ0MWQxODRhYTcyYzNlMTcxMGEzMzc3NmMwMjBlMjk2YjFlNTM3OTA1MjJiYTRkNjFlNGI5YjFlNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY3YzNlMjQxNzJlYzE4NzUzMmU3N2VmMzU2ZjFkNTEzMWJiZjg3MDhiNjE0N2MwZDIyMjMwOThiZjJjOWQyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDhhYzQxZmM2YjA3YjNhMjBmZTdlMzZjOGI5MjhjMGExYmVjZWFhNWRlYTRiYTZhM2RiZTA4N2E1YjRiN2MxMyJ9"
         },
         {
-          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L13-L23",
-          "version": "repo-lines-v1:sha256:74fa6c32e1f134af2c26d982171be12cda47115dac85b6261fb0c74aa01ed524:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIyMDg4MzM3MTUzNDUyOTFmNTc3NTk3ZDA2MWRjMjZjMWY5OTEyYzdiNDQ0MDIxM2Y5NGYxODIzMmU3YmM5ZDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzODYwYWFjZmI2ODVlZmQ0MTA4NDI5OThjZjJhNTAyNzE1YTJiOTRhZDM3YzE5ZGE3N2RhYmFiYjU3YmU0ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRiYjQwYjg1OGVmOTk5OGMxOWQxZTUyZTVmOTZlMmQxOTI5MGRjZGVhZGQ3MzgwYjIzN2E3ODgwMjhmMWYwZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyM2Y3YTcyNDI0YzYzNjNhYWM3NTFkYzc3ZmRhZGI0MDMwMDViNjJkNDcxMGIwN2JiYTU2YTdmYmRkMTcxNzQifQ"
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L7-L18",
+          "version": "repo-lines-v1:sha256:ad69745221b43be2f5282ea3b97def2dc0d53a325ee7e6d404cb1c2797107add:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwYjdlNGZiN2NiZTgzMTViMzFlOTUxYjk3YjY0ZmM1MTdlMjU4YmYwOGQ5ODk0MTQ3YzE3MjZiZmMwY2E0ODAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxYjVlY2MxNmZmZmY5ODc0MDAxNTA0YzI3ZDljNTA4ZWVjYzc4MGNjY2JmNWY1MTNjY2NlYmQyOTU3NThjZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllNTUxYjhiNTBhMzBiMDM1MzU1NDkxNDIzZjkzOTBmYjhmYjFhYzg5ZTI5NzNhYjBkYTY1OWJlY2Y2OTM3ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwYWQxODMyY2E2OWEzYzYyZWNlZmUxMzY0NDBlMGE4OTRhODU3ZDgzNDMzOTMzYzI0MmU5MzE2ZDFkOGZhMDIifQ"
         }
       ]
     },
@@ -117,10 +117,34 @@
           "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_d1240ed143094d988de4a1a95288e771",
+      "statement": "For the Rule 205-3 net-worth route, the order excludes a primary residence's value and residence-secured indebtedness up to fair market value, while allowing a natural person to include assets jointly held with a spouse.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L20-L22",
+          "version": "repo-lines-v1:sha256:0873b419b8c28f5c86bf78e79bad9f9656965eb2fee1d214c28c70226cf8bf50:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODNkZmI2ZGNkM2I2NzY0Zjk1MmYwZjMxOGM5ZDA4ZDU2NDVmMGU5MjBmYTBkMmE5NzlkMDg2YjBkNjQ1NWUyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmVlNmVlOGZiNzgwZjhhOThjN2RhZDhjNjA3MWI1NzNlYmRjYjkxNWMzY2NkZmE4OGMyM2EwYTRjOGU5YjljMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdiYWUzOTFjMzQzNTEyMmMyNDFjNTA3MjYwNGE5ZWYwN2E4NTM4ZjczODQ0MzBmYjQwYjczZDAzYjY3N2FmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RjZjYwZjZkM2VjYzMyOWNhYzk1NjE2NGZjYjUzZjAzNjYzZDc0N2ExNTE2NGE0NjBhOWQ4ODFhNDJkNDQ1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a54f1ffddb34527b48fdc24025a6657",
+      "statement": "A private-markets commitment requires approval after the documented eligibility gate, but approval cannot clear an ineligible client or another regulatory breach; a cleared approval record must identify the condition, authority level, specific facts, and date, or audit treats the position as unapproved.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L17-L29",
+          "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L39-L51",
+          "version": "repo-lines-v1:sha256:5ca9ff09cac2e6b499ccc0cf1693329364b172db9146489581a5bd219df620fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3Y2IwMDBmMWVhZDIwMTU0MzhlMGY5ZDI5OWVlZTY1M2RjMDA0ZDE0ZTRkZWJjN2JlNzBkNmI0OTk4MWU0NDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhYzk2MTQ3MjQ3MWFhMWRiODJhNjIzNGM2Njc4M2ZhNGIxZDU4YTQ0MzllNWU2MGFmOGY3NjZlYThjNGI5MTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUxN2I1OWM4MjE2MGZlNzNmMTZlZTE5OGM2YzEyMzY5NmY5ZTMwNzc5MDJjZDYzNDFhMmM5NmFmMTMyZjcxYjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T02:15:41.124Z"
+    "at": "2026-09-17T14:28:14.346Z"
   }
 }

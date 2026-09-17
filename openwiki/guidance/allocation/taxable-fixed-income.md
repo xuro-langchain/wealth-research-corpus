@@ -1,10 +1,11 @@
 ---
 type: allocation-guidance
-title: "Internal Guidance: US Taxable Fixed Income"
-openwiki_generated: true
+title: US Taxable Account Fixed Income Allocation Guidance
+description: Binding internal controls for US taxable fixed-income sleeve weights, municipal implementation limits, tolerance bands, and research-change escalation. It distinguishes Committee-adopted allocation guidance from the research views it implements.
+tags: [allocation, taxable-fixed-income, municipal-credit, investment-grade-credit, escalation]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T02:15:41.124Z
+    at: 2026-09-17T14:28:14.346Z
 sources:
   - id: openwiki-source-0325e37b3340c7a33cd38137
     resource: repo://guidelines/allocation/us-taxable-fixed-income.md
@@ -12,73 +13,70 @@ sources:
     resource: repo://guidelines/authority/discretion-matrix.md
   - id: openwiki-source-98705fd7d80e150539f727c2
     resource: repo://research/FI/US/IG-SPREADS/2025-09.md
-  - id: openwiki-source-2549fa16e77a525ffc1484ab
-    resource: repo://research/FI/US/MUNI-CREDIT/2025-11.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T02:15:41.124Z" }
+  - id: openwiki-source-f6f11dc2c2c5325137161d1d
+    resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:28:14.346Z" }
 ---
 
+# US Taxable Account Fixed Income Allocation Guidance
 
-# Internal Guidance: US Taxable Fixed Income
+> **Binding internal guidance — not research and not client investment advice.** This guide translates published research into default portfolio weights for United States taxable client accounts; it may not assert a view unsupported by the research corpus. [Allocation Guide A.1–A.2](repo://guidelines/allocation/us-taxable-fixed-income.md#L1-L15)
 
-> **Binding internal guidance — not research and not client investment advice.** This page records the Investment Policy Committee's adopted controls for United States taxable client accounts. It translates, but does not replace, the underlying research. Client mandate, suitability, tax, eligibility, regulatory, and approval requirements continue to apply.
+## Scope and control boundary
 
-## Scope, ownership, and sources
+The taxable fixed-income sleeve comprises US Treasuries, agency mortgage-backed securities, investment-grade corporate credit, and municipal credit. Non-US developed sovereign and emerging-market debt belong to the multi-asset sleeve and are governed by the global bands guide, not this guide. [Allocation Guide A.2](repo://guidelines/allocation/us-taxable-fixed-income.md#L13-L15)
 
-This guidance governs the US taxable fixed-income sleeve: US Treasuries, agency mortgage-backed securities, investment-grade corporate credit, and municipal credit. Non-US developed sovereign and emerging-market debt belong to the multi-asset sleeve and are outside this guidance. The Committee owns the adopted weights and any decision to turn a research recommendation into a binding control; portfolio managers implement the controls only within their stated authority.
+The Investment Policy Committee owns the binding allocation decision. A portfolio manager may apply the stated default weight without escalation, but a research recommendation does not authorize the manager to select a replacement binding weight. [Allocation Guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion Matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
 
-The adopted municipal and corporate positions compose the allocation guide with the municipal-credit and investment-grade-spreads research notes. The municipal note supports the top-bracket, after-tax rationale and private-activity implementation; the corporate note supports an approximately four-percentage-point corporate underweight funded into another sleeve position. Research is an input, not authority for a manager to set a replacement weight. [Sources](#sources): Allocation Guide A.1–A.8; Municipal Credit M.1–M.8; IG Spreads G.1–G.6.
+## Binding targets and paired funding
 
-## Binding sleeve weights
-
-| Component | Client scope | Target | Neutral | Binding implementation |
+| Component | Account scope | Target | Neutral | Binding treatment |
 | --- | --- | ---: | ---: | --- |
-| Municipal credit | Top federal marginal-bracket clients | 22% | 18% | A 4-percentage-point overweight, concentrated in the private-activity segment. |
+| Municipal credit | Top federal marginal-bracket clients | 22% | 18% | Four-point overweight concentrated in private activity bonds. |
 | Municipal credit | Clients below the top federal bracket | 18% | 18% | No private-activity concentration. |
-| Investment-grade corporate credit | Taxable fixed-income sleeve | 28% | 32% | A 4-percentage-point underweight that funds the top-bracket municipal overweight. |
+| Investment-grade corporate credit | Taxable fixed-income sleeve | 28% | 32% | Four-point underweight that funds the municipal overweight. |
 
-The municipal overweight is an **after-tax** position rather than a standalone credit view. The supporting note states that its private-activity advantage appears only after tax and only for top federal-bracket holders; its credit fundamentals alone support no more than a neutral-to-modest overweight. The corporate underweight reflects valuation rather than credit deterioration and is carry-negative if spreads remain range-bound. [Sources](#sources): Allocation Guide A.3, A.5; Municipal Credit M.1–M.3, M.7; IG Spreads G.1–G.6.
+The municipal targets and corporate target are binding guide controls. The top-bracket municipal overweight, its private-activity concentration, and the below-top-bracket neutral treatment are specified by the guide; the corporate underweight funds that active municipal position. [Allocation Guide A.3 and A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation Guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
 
-The two four-point active positions are a paired funding control. If the municipal overweight is suspended, suspend the corporate underweight with it and return both positions to neutral; do not leave the sleeve structurally underweight credit without the stated municipal use of proceeds. [Sources](#sources): Allocation Guide A.5; Municipal Credit M.1; IG Spreads G.5.
+This guidance **constrains** implementation of Municipal Credit 2025-06 M.1–M.2 and IG Spreads 2025-09 G.5: the research calls for a two-to-four-point municipal increase funded from investment-grade corporates and an approximately four-point corporate underweight with proceeds deployed elsewhere in the sleeve, while the guide fixes the adopted four-point expression and client eligibility. [Municipal Credit M.1–M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L16-L30) [IG Spreads G.5](repo://research/FI/US/IG-SPREADS/2025-09.md#L32-L34) [Allocation Guide A.3 and A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation Guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
+
+The municipal active weight is an after-tax, top-bracket position rather than a credit-only call: private-activity paper has the stated advantage only after tax and for top-bracket holders, while the fundamental case alone supports neutral to modest overweight. The corporate view is valuation-driven rather than a forecast of credit deterioration, and can be carry-negative if spreads stay range-bound. [Municipal Credit M.2–M.3](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L36) [IG Spreads G.3 and G.6](repo://research/FI/US/IG-SPREADS/2025-09.md#L24-L26) [IG Spreads G.6](repo://research/FI/US/IG-SPREADS/2025-09.md#L36-L38)
+
+The active positions are paired: if the municipal overweight is suspended, suspend the corporate underweight and return both to neutral. Retaining the corporate underweight would leave the sleeve structurally short credit without its stated municipal funding use. [Allocation Guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
 
 ## Municipal implementation limits
 
-Within the municipal allocation, the research preferences are binding limits:
+The guide **constrains** the implementation of Municipal Credit 2025-06 M.5–M.6 as follows:
 
-- Hold no more than **35% of the municipal allocation in any one** preferred sector: qualifying non-profit hospital systems, qualifying private higher education, or qualifying airport special-facility paper.
-- Do not hold standalone senior living, single-asset student housing, or single-obligor industrial-development paper without approval. This restriction applies regardless of rating.
-- Express the municipal overweight in the **8–15 year** portion of the curve. An extension beyond 15 years requires approval and cannot be approved on a portfolio-wide basis.
-- A tax-loss-harvest replacement must comply with the sector limit when it settles. Testing only the sold position is insufficient; a replacement that puts a preferred sector above 35% is a limit breach on settlement.
+- No more than **35% of the municipal allocation** may be held in any one preferred sector. The research names qualifying nonprofit hospital systems, qualifying private higher education, and qualifying airport special-facility paper as the preferred sectors. [Allocation Guide A.4](repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Municipal Credit M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L44-L50)
+- A position in standalone senior living, single-asset student housing, or single-obligor industrial-development paper requires approval regardless of rating. [Allocation Guide A.4](repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Municipal Credit M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L44-L50) [Discretion Matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L27)
+- Express municipal duration in the **8–15-year** band. An extension beyond 15 years requires approval and cannot be granted portfolio-wide. [Allocation Guide A.4](repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31) [Municipal Credit M.6](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L52-L54) [Discretion Matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L27)
+- A municipal tax-loss-harvest replacement must satisfy the sector limit on settlement; a replacement that takes a preferred sector above the limit is a breach on that date. [Allocation Guide A.7](repo://guidelines/allocation/us-taxable-fixed-income.md#L45-L47)
 
-[Sources](#sources): Allocation Guide A.4, A.7; Municipal Credit M.5–M.6.
+## Bands, monitoring, and escalation
 
-## Tolerance, rebalancing, and exceptions
-
-Every target in this guidance has a **±2 percentage-point** tolerance band, measured on market value at month end. Ordinary market-value drift beyond that band is rebalanced in the next monthly cycle. A weight outside its band requires approval under the discretion matrix, subject to the applicable authority tier. [Sources](#sources): Allocation Guide A.1, A.6; Discretion Matrix D.1, D.3.
-
-A suspension-driven condition is deliberately different from ordinary drift: it is **not** automatically rebalanced. The correct successor weight is a Committee decision, rather than a mechanical rebalance calculation. [Sources](#sources): Allocation Guide A.6; Discretion Matrix D.3–D.4.
-
-## Research-change suspension and escalation
+Each target has a **±2-percentage-point** market-value tolerance measured at month end. Ordinary drift beyond the band is rebalanced in the next monthly cycle; any weight outside its stated tolerance band requires approval, except for a suspension-driven condition. [Allocation Guide A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L43) [Discretion Matrix D.3](repo://guidelines/authority/discretion-matrix.md#L17-L23)
 
 ```mermaid
 flowchart TD
-    Current["Cited research is current"] --> Active["Adopted controls are active"]
-    Active --> Monitor["Manager monitors weights and research status"]
-    Monitor -->|"ordinary drift beyond two-point band"| Exception["Seek approval and rebalance next monthly cycle"]
-    Monitor -->|"note superseded or withdrawn"| Suspend["Suspend dependent weight"]
-    Suspend --> Record["Escalate note replacement dependent weights and accounts"]
-    Record --> Committee["Committee reviews and adopts controls"]
-    Committee --> Active
+    Active["Cited research remains current"] --> Monitor["Monitor month-end market-value weights"]
+    Monitor -->|"Ordinary drift beyond band"| Approval["Obtain approval and rebalance next monthly cycle"]
+    Monitor -->|"Cited note superseded or withdrawn"| Suspend["Suspend derived weight"]
+    Suspend --> Record["Record note replacement controls and accounts"]
+    Record --> Committee["Escalate to Committee"]
+    Committee --> Adopt["Committee re-adopts binding control"]
+    Adopt --> Active
 ```
 
-This control flow separates ordinary tolerance treatment from the research-change suspension path.
+This flow distinguishes ordinary band drift from the research-change control state.
 
-When a cited note is superseded or withdrawn, suspend every weight derived from it rather than carrying it forward, deriving a new weight, or automatically rebalancing it. Escalate to the Committee with the superseded note, replacement if available, all dependent weights, and affected accounts. A portfolio manager may not directly adopt the replacement note's recommendation; only the Committee may re-adopt a binding control. [Sources](#sources): Allocation Guide A.1, A.6, A.8; Discretion Matrix D.4.
+When a cited note is superseded or withdrawn, suspend every weight derived from it rather than carrying it forward, re-deriving it, automatically rebalancing it, or directly adopting a replacement recommendation. Escalate the superseded note, replacement if available, dependent weights, and affected accounts to the Committee; only the Committee may re-adopt the binding control. [Allocation Guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion Matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L37)
 
-Review this guidance quarterly and out of cycle whenever either research input is reissued or withdrawn. A cleared escalation must record the condition, clearing authority, specific facts, and date; absent a recorded basis, it is treated as unapproved in audit. [Sources](#sources): Allocation Guide A.8; Discretion Matrix D.6.
+Review this guide quarterly and out of cycle when either cited research note is reissued or withdrawn. For every cleared escalation, record the condition, clearing authority, specific facts relied on, and date; without that record, audit treats the position as unapproved. [Allocation Guide A.8](repo://guidelines/allocation/us-taxable-fixed-income.md#L49-L51) [Discretion Matrix D.6](repo://guidelines/authority/discretion-matrix.md#L49-L51)
 
-## Sources
+## Source basis
 
-- **Allocation Guide** — `guidelines/allocation/us-taxable-fixed-income.md`, sections A.1–A.8: binding scope, weights, limits, tolerance treatment, harvesting, and review.
-- **Discretion Matrix** — `guidelines/authority/discretion-matrix.md`, sections D.1–D.6: authority tiers, approvals, superseded-note escalation, and documentation.
-- **Municipal Credit** — `research/FI/US/MUNI-CREDIT/2025-11.md`, sections M.1–M.8: municipal rationale, funding source, tax dependency, sector preferences, duration, risks, and review trigger.
-- **IG Spreads** — `research/FI/US/IG-SPREADS/2025-09.md`, sections G.1–G.6: corporate underweight rationale, approximate size, funding use, and risks.
+- [Allocation Guide](repo://guidelines/allocation/us-taxable-fixed-income.md) — binding scope, weights, limits, bands, rebalancing, suspension, and review.
+- [Discretion Matrix](repo://guidelines/authority/discretion-matrix.md) — approval boundary, superseded-note escalation, and audit documentation.
+- [Municipal Credit 2025-06](repo://research/FI/US/MUNI-CREDIT/2025-06.md) — after-tax municipal rationale, sector preferences, and duration expression.
+- [IG Spreads 2025-09](repo://research/FI/US/IG-SPREADS/2025-09.md) — corporate-underweight rationale and funding role.

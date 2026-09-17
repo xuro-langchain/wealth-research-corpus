@@ -1,16 +1,25 @@
 {
   "schema_version": 1,
-  "compiled_from": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+  "compiled_from": "e41805b9737e26e94b08b2be1318658f4893d08f",
   "status": "complete",
-  "compiled_at": "2026-09-17T02:29:02Z",
+  "compiled_at": "2026-09-17T14:51:54Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35173691032",
+  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35232863315",
   "claims": {
-    "total": 135,
-    "added": 135,
-    "retracted": 0,
-    "carried": 0
+    "total": 156,
+    "added": 27,
+    "retracted": 6,
+    "carried": 129
   },
-  "changed_sources": [],
-  "compile_mode": "fast"
+  "changed_sources": [
+    "bulletins/FED/2026-01-policy-rate-path-statement.md",
+    "bulletins/FED/2026-09-fomc-statement.md",
+    "bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+    "bulletins/IRS/2026-03-amt-private-activity-bond-interest.md",
+    "bulletins/SEC/2025-08-qualified-purchaser-threshold.md",
+    "bulletins/SEC/2026-04-order-ia-7104-qualified-client.md",
+    "guidelines/allocation/us-taxable-fixed-income.md",
+    "guidelines/suitability/private-markets-eligibility.md"
+  ],
+  "compile_mode": "normal"
 }

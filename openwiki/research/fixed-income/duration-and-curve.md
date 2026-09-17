@@ -1,67 +1,56 @@
 ---
 type: market-view
-title: "US Duration and Curve: 2026-01 View"
-openwiki_generated: true
+title: US Duration and Curve Positioning
+description: US Fixed Income Research’s Edition 2026-10 tactical duration and 2s10s curve view, applicable from 2026-11-01. It separates the desk’s one-increase scenario from the September FOMC decision and its explicit non-path language.
+tags: [us-fixed-income, duration, yield-curve, federal-reserve, market-view]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T02:15:41.124Z
+    at: 2026-09-17T14:28:14.346Z
 sources:
-  - id: openwiki-source-d76c4abc5b698c558a74b741
-    resource: repo://bulletins/FED/2026-01-policy-rate-path-statement.md
-  - id: openwiki-source-c23df60c7836a3dc7475af79
-    resource: repo://research/FI/US/DURATION-PATH/2026-01.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T02:15:41.124Z" }
+  - id: openwiki-source-33bc3223571c9558c86bb9da
+    resource: repo://bulletins/FED/2026-09-fomc-statement.md
+  - id: openwiki-source-875eea8be351a5c7c1af10d1
+    resource: repo://research/FI/US/DURATION-PATH/2026-10.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:28:14.346Z" }
 ---
 
+# US Duration and Curve Positioning
 
-# US Duration and Curve: 2026-01 View
+## Mandate, edition, and applicability
 
-## Decision summary
+This page records **FI-US-DURATION-PATH, Edition 2026-10**, published by US Fixed Income Research on **2026-10-06** and applicable to positions taken on or after **2026-11-01**. The note changed the prior neutral stance to long duration and specifies that the expression is in 5–10 years after the September hike.【repo://research/FI/US/DURATION-PATH/2026-10.md#L5-L14】
 
-US Fixed Income Research recommends a **modest +0.4-year duration position versus benchmark**, expressed in the **five-to-ten-year** sector. The position applies to positions taken on or after **2026-02-01**. It is paired with a **steepening bias between two and ten years (2s10s)** rather than a parallel extension of duration.
+Use the [Federal Reserve policy-path overlay](/openwiki/regulatory/fed-policy-path.md) for the source boundary and [Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md) for multi-asset control context.
 
-This is deliberately a small tactical deviation, not a high-conviction call: the desk assumes three policy-rate reductions over the coming 12 months versus 2.5 reductions implied by the market. The 0.5-reduction difference is the entire basis for the duration recommendation.
+## Recommended expression
 
-## Policy premise: conditional, not promised
+The desk recommends a modest **+0.4 years of duration versus benchmark** in the **five-to-ten-year** sector and recommends against expressing duration at the long end.【repo://research/FI/US/DURATION-PATH/2026-10.md#L16-L18】 It expects continued **2s10s steepening**, so the duration position should carry a steepening bias rather than be implemented as a parallel extension.【repo://research/FI/US/DURATION-PATH/2026-10.md#L30-L32】
 
-The central case follows the Federal Reserve's January 2026 guidance. **FED Statement 2026-01 F.2** says reductions are expected at a measured pace *contingent on continued progress toward the inflation objective*; it also says no further reduction is expected to be appropriate until the Committee has greater confidence that inflation is moving sustainably toward 2%. F.2 further states that projections are conditional on the realised inflation path and are not a commitment.
+The sizing is intentionally modest. The desk’s central case is **one further increase over the coming 12 months**, versus **one and a half increases** implied by the market. It calls that half-step difference the whole duration recommendation and a modest deviation rather than a conviction call.【repo://research/FI/US/DURATION-PATH/2026-10.md#L20-L24】
 
-Consequently, “three reductions” is the research desk's scenario assumption, not a Federal Reserve forecast or a mechanically implied schedule. **FED Statement 2026-01 F.4** preserves the Committee's ability to assess incoming data and the outlook and adjust policy if risks threaten its objectives. Balance-sheet runoff continues at the previously announced pace under F.3, with no announced pace change; it is not an additional rate-cut signal.
+## Federal Reserve boundary: decision, not forecast
+
+At its September meeting, the FOMC raised the federal-funds target range by 25 basis points to **3-3/4 to 4 percent**, judging a somewhat more restrictive stance appropriate. It said inflation remained elevated relative to its 2 percent objective and that the action supported a timelier return to that objective.【repo://bulletins/FED/2026-09-fomc-statement.md#L10-L16】
+
+The statement does **not** describe a future path or commit the Committee to a sequence of adjustments. For any additional adjustment, it says the Committee will consider cumulative effects, policy lags, and economic and financial developments; it will assess incoming data and the evolving outlook at each meeting and may adjust the stance if risks impede its goals.【repo://bulletins/FED/2026-09-fomc-statement.md#L26-L30】 Therefore, the desk’s one-increase case is its scenario assumption, not Federal Reserve guidance, a Fed forecast, or a mechanically implied schedule.【repo://research/FI/US/DURATION-PATH/2026-10.md#L20-L24】【repo://bulletins/FED/2026-09-fomc-statement.md#L28-L30】
 
 ```mermaid
 flowchart TD
-    Data["Realised inflation and incoming data"] --> Progress{"Progress toward 2 percent is sustained"}
-    Progress -->|"Yes"| Base["Measured reductions support desk central case"]
-    Base --> Position["Plus 0.4 years in 5 to 10 years with 2s10s steepening bias"]
-    Progress -->|"No or insufficient confidence"| Contingency["F.2 reduction contingency is removed"]
-    Contingency --> Risk["Reassess the duration premise"]
-    Data --> Outlook["Risks and evolving outlook"]
-    Outlook --> Adjust["Committee may adjust policy stance"]
+    FedDecision["September rate increase"] --> FedProcess["Assess data and outlook at each meeting"]
+    FedProcess --> NoPath["No committed adjustment sequence"]
+    DeskCase["Desk assumes one further increase"] --> Gap["Half-step gap to market pricing"]
+    Gap --> Trade["Plus 0.4 years in 5 to 10 years"]
+    Trade --> Curve["2s10s steepening bias"]
+    Inflation["Inflation sequence"] --> Hawkish["Assumption becomes a sequence"]
+    Hawkish --> Review["Reassess duration premise"]
 ```
 
-This decision logic separates the desk's conditional scenario from a committed Federal Reserve rate path.
+The diagram separates the FOMC’s data-dependent, non-committed process from the desk’s conditional scenario and its trade expression.【repo://bulletins/FED/2026-09-fomc-statement.md#L26-L30】【repo://research/FI/US/DURATION-PATH/2026-10.md#L20-L24】【repo://research/FI/US/DURATION-PATH/2026-10.md#L30-L36】
 
-## Expression and curve mechanics
+The FOMC also continues reducing Treasury and agency MBS holdings at the previously announced pace while maintaining ample reserves, with no announced pace change. That balance-sheet language is separate from, and does not supply, a future target-range sequence.【repo://bulletins/FED/2026-09-fomc-statement.md#L22-L24】【repo://bulletins/FED/2026-09-fomc-statement.md#L26-L30】
 
-- **Sector:** Add duration only in the five-to-ten-year part of the curve.
-- **Curve shape:** Express the view with a 2s10s steepening bias. The desk expects continued steepening between two and ten years, so the recommendation is not a parallel duration extension.
-- **Size:** Keep the exposure at +0.4 years versus benchmark. The modest size is an invariant of the view because its support is only the half-reduction difference between the desk and market assumptions.
+## Long-end exclusion and risk monitoring
 
-## Why the long end is excluded
+The desk sees term premium as fair to cheap but identifies heavy long-end supply and no catalyst for compression inside 12 months. Long-end duration would consequently be a term-premium view that the desk does not hold.【repo://research/FI/US/DURATION-PATH/2026-10.md#L26-L28】
 
-The desk regards term premium as fair to cheap after its re-establishment, but does not expect compression within 12 months. Heavy long-end supply remains and the desk sees no catalyst for such compression. A long-end duration position would therefore be a term-premium view the desk does not hold. The recommendation explicitly excludes using the long end to express duration.
-
-## Risk and contingency management
-
-The primary invalidating event is a sequence of inflation prints that removes the F.2 contingency. In that case, do not treat the three-reduction assumption as durable policy guidance; reassess the duration premise.
-
-Two further stated risks are a fiscal event that raises long-end supply beyond current projections and a disorderly repricing of term premium. The latter can hurt the +0.4-year position even though its expression is front-loaded rather than at the long end. These risks explain both the limited position size and the long-end exclusion.
-
-## Scope and relationships
-
-This is a research view, not a Federal Reserve communication. The [Federal Reserve policy-path overlay](/openwiki/regulatory/fed-policy-path.md) records the policy-source boundary and the distinction between F.2's contingency and the desk's assumption. For portfolio-control context, see the [global multi-asset bands](/openwiki/guidance/allocation/global-multi-asset-bands.md).
-
-## Source basis
-
-- **Position, sizing, curve expression, long-end rationale, and risks:** `research/FI/US/DURATION-PATH/2026-01.md`, sections D.1–D.5.
-- **Conditional policy guidance and inflation contingency:** `bulletins/FED/2026-01-policy-rate-path-statement.md`, especially F.2; see also F.3 for balance-sheet treatment and F.4 for data dependence.
+Monitor three stated failure modes: inflation prints that turn the assumed single increase into a sequence, a fiscal event that raises long-end supply beyond projections, and a disorderly repricing of term premium that hurts the front-loaded position. The note also records that three members dissented at the July meeting in favor of an increase, making the hawkish tail a stated consideration rather than an omitted alternative.【repo://research/FI/US/DURATION-PATH/2026-10.md#L34-L36】

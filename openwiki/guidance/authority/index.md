@@ -1,3 +1,3 @@
 # Files
 
-- [Internal Guidance: Discretion and Escalation](discretion-and-escalation.md) - Internal authority guidance for portfolio-manager discretion, mandatory approvals, superseded-research escalation, non-clearable conditions, and audit records. Use it with the applicable mandate and suitability guides; it does not provide client investment advice.
+- [Portfolio Manager Discretion and Escalation](discretion-and-escalation.md) - Authority guidance for discretionary portfolio actions, required approvals, research-change escalation, non-clearable regulatory conditions, and the records audit requires. It separates an approval decision from eligibility, suitability, liquidity, and regulatory controls.

@@ -1,55 +1,55 @@
 ---
 type: regulatory-overlay
-title: "Regulatory Overlay: Federal Reserve Policy Path Statement"
-description: "External Federal Reserve policy-path guidance used as a conditional premise for the US duration note. It distinguishes the Committee's non-committal guidance from the research desk's three-reduction central-case assumption."
+title: Federal Reserve Policy-Path Overlay
+description: Records the September 2026 FOMC rate decision, its publication-effective scope, and the statement's express refusal to commit to a future adjustment sequence. Separates that bounded communication from the duration desk's one-increase scenario and trade expression.
 tags: [federal-reserve, monetary-policy, duration, regulatory-overlay]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T02:15:41.124Z
+    at: 2026-09-17T14:28:14.346Z
 sources:
-  - id: openwiki-source-d76c4abc5b698c558a74b741
-    resource: repo://bulletins/FED/2026-01-policy-rate-path-statement.md
-  - id: openwiki-source-c23df60c7836a3dc7475af79
-    resource: repo://research/FI/US/DURATION-PATH/2026-01.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T02:15:41.124Z" }
+  - id: openwiki-source-33bc3223571c9558c86bb9da
+    resource: repo://bulletins/FED/2026-09-fomc-statement.md
+  - id: openwiki-source-875eea8be351a5c7c1af10d1
+    resource: repo://research/FI/US/DURATION-PATH/2026-10.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:28:14.346Z" }
 ---
 
-## Purpose and scope
+## Purpose and source boundary
 
-This overlay records the external policy premise for the duration and curve view; it is not an investment recommendation and does not convert Federal Reserve guidance into a promised rate path. The underlying statement was issued in January 2026 and became effective on publication. Its assessment says inflation has moved closer to the two-percent objective, labour-market conditions have come into better balance, and risks are roughly balanced.
+This overlay is a reading boundary between the September Federal Open Market Committee (FOMC) statement and the US Fixed Income Research duration note. Both underlying documents label themselves synthetic demonstration material and disclaim reliance; this page records their stated content within that corpus, rather than treating either document as live guidance or investment advice.【repo://bulletins/FED/2026-09-fomc-statement.md#L3-L6】【repo://research/FI/US/DURATION-PATH/2026-10.md#L1-L3】
 
-## Contingent policy-path guidance
+The FOMC statement was issued in September 2026 and is effective on publication.【repo://bulletins/FED/2026-09-fomc-statement.md#L8-L8】 The research note was published on 2026-10-06 and applies only to positions taken on or after 2026-11-01.【repo://research/FI/US/DURATION-PATH/2026-10.md#L12-L14】 That difference in scope matters: the statement records a Committee decision, while the later note supplies a desk recommendation.
 
-The F.2 contingency is, exactly:
+## September decision and what it covers
 
-> The Committee anticipates that reductions in the target range will proceed at a measured pace, contingent on continued progress toward the inflation objective. The Committee does not expect it will be appropriate to reduce the target range further until it has gained greater confidence that inflation is moving sustainably toward two percent.
+At its September meeting, the FOMC raised the federal-funds target range by 25 basis points to **3-3/4 to 4 percent**. It judged a somewhat more restrictive stance appropriate in support of its dual mandate.【repo://bulletins/FED/2026-09-fomc-statement.md#L10-L12】 The stated rationale was that inflation remained elevated relative to the 2 percent objective and that the action supports a timelier return to that objective.【repo://bulletins/FED/2026-09-fomc-statement.md#L14-L16】
 
-This is conditional guidance, not a commitment. The statement expressly characterises projections as conditional on the realised inflation path. The Committee retains the responsibility to assess incoming data and the evolving outlook and may adjust the policy stance if risks could impede its objectives.
+The same statement separately maintains ample reserves and continues reductions of Treasury and agency mortgage-backed-security holdings at the previously announced pace; it announces no change in that pace.【repo://bulletins/FED/2026-09-fomc-statement.md#L22-L24】 This balance-sheet treatment is part of the statement's scope, but it is not an announced sequence of future target-range changes.
+
+## Non-path limitation and decision process
+
+F.5 directs the Committee, when deciding the extent of any additional target-range adjustments, to consider cumulative policy effects, policy lags, and economic and financial developments.【repo://bulletins/FED/2026-09-fomc-statement.md#L26-L28】 It then expressly says that the statement describes **no path** and commits the Committee to **no sequence** of future adjustments. Instead, the Committee will assess incoming data and the evolving outlook at each meeting and may adjust the policy stance if risks could impede its goals.【repo://bulletins/FED/2026-09-fomc-statement.md#L30-L30】
 
 ```mermaid
 flowchart TD
-    Assessment["Incoming data and evolving outlook"] --> Progress{"Continued progress toward inflation objective"}
-    Progress -->|Yes| Measured["Measured pace of target-range reductions"]
-    Progress -->|No or insufficient confidence| Hold["No further reduction is appropriate"]
-    Assessment --> Risks{"Risks could impede objectives"}
-    Risks -->|Yes| Adjust["Adjust policy stance as appropriate"]
+    Decision["September target-range increase"] --> Future["Consider additional adjustments"]
+    Future --> Inputs["Policy effects, lags, and developments"]
+    Inputs --> Meeting["Assess data and outlook at each meeting"]
+    Meeting --> Risks{"Risks could impede goals"}
+    Risks -->|"Yes"| Adjust["Adjust stance as appropriate"]
+    Risks -->|"No"| Evaluate["No precommitted sequence"]
 ```
 
-This diagram shows the conditional decision logic stated in F.2 and F.4; it does not depict a precommitted schedule.
+This is the stated conditional decision process; it does not project the direction, timing, or number of future changes.【repo://bulletins/FED/2026-09-fomc-statement.md#L28-L30】
 
-## Connection to the duration note
+## Relationship to the duration assumption
 
-The research desk says its central case follows the Federal Reserve's measured, realised-disinflation-contingent guidance. Separately, the desk **assumes three reductions over the coming twelve months**, compared with a market-implied two and a half. That half-step is the entire duration recommendation and is described by the desk as a modest deviation rather than a conviction call.
+The duration desk reads the FOMC communication narrowly: it calls F.5 a decision rather than a path. Its central case assumes **one further increase over the coming 12 months**, versus **one and a half** increases implied by the market; the half-step gap is the entire basis for the duration recommendation and is characterized as a modest deviation, not a conviction call.【repo://research/FI/US/DURATION-PATH/2026-10.md#L20-L24】 That one-increase figure is therefore the desk's scenario assumption—not FOMC guidance, a forecast, or a mechanical consequence of the September decision.
 
-Accordingly, the three-reduction figure is the desk's scenario input, not a Federal Reserve forecast, promise, or mechanical consequence of F.2. The distinction is an operating invariant for readers of the duration note: preserve the regulator's contingency when using the desk's central case.
+The resulting recommendation is a modest **+0.4 years** of duration versus benchmark in the five-to-ten-year sector, with no long-end duration expression.【repo://research/FI/US/DURATION-PATH/2026-10.md#L16-L18】 The desk expects 2s10s steepening and expresses the position with a steepening bias rather than as a parallel duration extension.【repo://research/FI/US/DURATION-PATH/2026-10.md#L30-L32】 It excludes the long end because it sees term premium as fair to cheap, heavy long-end supply, and no catalyst for compression within twelve months; a long-end duration position would express a view it does not hold.【repo://research/FI/US/DURATION-PATH/2026-10.md#L26-L28】
 
-## Implications and failure conditions
+## Monitoring boundary
 
-The duration note implements the view as a modest +0.4-year duration position against benchmark in the five-to-ten-year area, avoids a long-end duration expression, and carries a steepening bias between two and ten years. Its stated risks include an inflation-print sequence that removes the F.2 contingency, heavier long-end supply after a fiscal event, and a disorderly term-premium repricing. If realised inflation fails to sustain progress toward two percent, treating the desk's reduction count as committed policy would invalidate the premise rather than merely miss a timing estimate.
+The note identifies risks that could defeat its scenario or trade expression: inflation prints could turn its assumed single increase into a sequence, a fiscal event could raise long-end supply beyond projections, and a disorderly term-premium repricing could hurt the front-loaded position. It also notes that three members dissented at the July meeting in favor of an increase.【repo://research/FI/US/DURATION-PATH/2026-10.md#L34-L36】【repo://bulletins/FED/2026-09-fomc-statement.md#L34-L36】 Monitor these as research risks, while retaining the FOMC's no-path limitation: no number or schedule of future adjustments may be inferred from the statement.
 
-The Federal Reserve statement also continues previously announced balance-sheet reductions in Treasury and agency mortgage-backed securities with no announced pace change. That balance-sheet direction is separate from the conditional target-range guidance and should not be used to infer an additional policy-rate commitment.
-
-## Source boundary
-
-- **Policy authority:** `bulletins/FED/2026-01-policy-rate-path-statement.md`, especially F.2 for rate-path guidance, F.3 for balance sheet, and F.4 for data dependence.
-- **Research interpretation:** `research/FI/US/DURATION-PATH/2026-01.md`. This note supplies the three-reduction assumption and positioning; it does not alter or speak for the Federal Reserve.
+For the dated research view, see [US Duration and Curve](/openwiki/research/fixed-income/duration-and-curve.md). For portfolio-control context, see [Global Multi-Asset Bands](/openwiki/guidance/allocation/global-multi-asset-bands.md).

@@ -1,5 +1,5 @@
 # Files
 
-- [US Duration and Curve: 2026-01 View](duration-and-curve.md)
-- [Investment grade spreads](investment-grade-spreads.md)
-- [US Municipal Credit: 2025-11 View and AMT Invalidation](municipal-credit.md) - The FI-US-MUNI-CREDIT 2025-11 municipal overweight is an explicitly after-tax, top-bracket private-activity-bond view, expressed in selected sectors and the 8–15-year curve. IRS Notice 2026-18 invalidates that load-bearing private-activity rationale through N.3 while preserving qualified 501(c)(3) treatment through N.4.
+- [US Duration and Curve Positioning](duration-and-curve.md) - US Fixed Income Research’s Edition 2026-10 tactical duration and 2s10s curve view, applicable from 2026-11-01. It separates the desk’s one-increase scenario from the September FOMC decision and its explicit non-path language.
+- [US Investment Grade Credit Spreads](investment-grade-spreads.md) - Valuation-led US investment-grade corporate-credit underweight from FI-US-IG-SPREADS 2025-09, including its technical and carry risks. The page separates the desk recommendation from the Committee-owned taxable-sleeve weight and documents the paired municipal funding control.
+- [US Municipal Credit Outlook](municipal-credit.md) - FI-US-MUNI-CREDIT edition 2025-06 is an after-tax municipal-credit overweight for top-bracket taxable accounts, dependent on its stated AMT threshold premise. This page separates that research conclusion from the Allocation Guide’s binding weights and the 2026 IRS threshold overlay.

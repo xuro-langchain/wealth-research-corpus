@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:aea5e4fd72f232efa3c595acdc4511f14234afd178a859214f6308690a54b139",
+  "pageVersion": "sha256:c852f3ae1f5847ec83267458b6f2a3eb4d29b712dc328478ba9c52b6bac90f3a",
   "claims": [
     {
       "id": "claim_7cefc0299d324fd78c42a310d90c11e9",
@@ -8,7 +8,7 @@
       "evidence": [
         {
           "resource": "repo://research/FI/US/IG-SPREADS/2025-09.md#L1-L7",
-          "version": "repo-lines-v1:sha256:2045b3fa52109c9e58b3abfb580edba35b4fd6fbf45a21435f33b0d0cc8f0a83:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDU2M2M5YTUwMTVkYzdmYzY5M2UwYzViYTRlNmJjYjZlMmRhMmM5MTBlOWRmYTc0Y2M5NTIyYjI0ZjJjM2YzMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmVjMDM3MjgwMGY2OGM2ODBmZjg3NjE0OGIzZDZjOGQwMmQ5ODMwNzE4NDYxZWMxNzc1NGI5ZGJjZjdhY2RmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDE2MDE4NTEyMGJhYjkwMWVlZTMxNGU5NjI4NTc1Y2MzMzRjNDA3MGVlNmYxODg1OTE0YzUwMjRhZGE0MGZjYyJ9"
+          "version": "repo-lines-v1:sha256:7cdf51c7c1fb7e5abe9dd0241bc058f58901bd789da3f82557bf8c2dad3040d6:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1NjNjOWE1MDE1ZGM3ZmM2OTNlMGM1YmE0ZTZiY2I2ZTJkYTJjOTEwZTlkZmE3NGNjOTUyMmIyNGYyYzNmMzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlYzAzNzI4MDBmNjhjNjgwZmY4NzYxNDhiM2Q2YzhkMDJkOTgzMDcxODQ2MWVjMTc3NTRiOWRiY2Y3YWNkZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQxNjAxODUxMjBiYWI5MDFlZWUzMTRlOTYyODU3NWNjMzM0YzQwNzBlZTZmMTg4NTkxNGM1MDI0YWRhNDBmY2MifQ"
         }
       ]
     },
@@ -38,7 +38,7 @@
       "evidence": [
         {
           "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
-          "version": "repo-lines-v1:sha256:856c59402d099e19d02fa3ca8c235dc58b5bb38b7f4a42f5eae2f10ec53983e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
+          "version": "repo-lines-v1:sha256:008b63307c128094a6ac8cbf9ac50127983559e55ffd1101214614c429ff895b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
         },
         {
           "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37",
@@ -97,10 +97,20 @@
           "version": "repo-lines-v1:sha256:f6719f24a72dd0a8751df9f3c96ee40e0d3fe4bdddcb3c507f08bbb18993a621:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg2NDE5MGZjNWYwOTExNzllZGM0OGM4ZDhmZmZmODhhMzk2YmM4NDgyNDNhZDQwMzRkMjVlZjE0Njk4YjhiZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxNTg4NWFiMTRmMDJiZTI2NzJkODcxYjc2MDQyMzk0NmE1NzYyZTQ2Y2Q3NjY3ZDRkNjRmNzhlNzFhYWFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzY3ZWFhM2NjODIzMjVkMDZmMTk0Yzk1YmM2M2NhOTFiNTU1MDk2NGY0NTA3MTEwMmU5ZWVlNzFlNDZmNWQ0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMxYzE5MmVjNmEzYzEyNjFiNTU4ZWJjOWU2ZDIxM2QwYTMxOTU2YjU2ZDU1M2U4MjIxNzg0MWM5ZGQxYzc2MCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_bb1092f53c4c4ee1ae34d4ff0b61834c",
+      "statement": "For clients below the top federal marginal bracket, the US Taxable Account Fixed Income Allocation Guide sets municipal credit at its 18% neutral weight and does not apply the private-activity concentration.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
+          "version": "repo-lines-v1:sha256:008b63307c128094a6ac8cbf9ac50127983559e55ffd1101214614c429ff895b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T02:15:41.124Z"
+    "at": "2026-09-17T14:28:14.346Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:b1b4d7b5e396f23358ccc3249f1f307c793f00a0a6ff3ba9279e80270d0e5647",
+  "pageVersion": "sha256:1ae06a7f4318d23a2b5a5cc203b7ba55cdd2bf9a8860191a874aeee993e19878",
   "claims": [
     {
       "id": "claim_0c6a8f8890fe4238919ac09f8d822290",
@@ -32,7 +32,7 @@
       "evidence": [
         {
           "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L25-L31",
-          "version": "repo-lines-v1:sha256:31cf4e667d0718f4fd6afcf1ce02954ddd2cb48e1e8e0186d525e75185166d4a:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2E2NTgyZjAzMzEwOTJmODU0NDQ4Yzc2MmNmYzEzNGI2OTJhYzBjOTMxYTQyYTBiNTQ1OTU0YzcxMWVhMGQ4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3NjhmNjk4M2VkZmJiNzVmMDJiMmJmNWQ4ODY5OWY1OWE2NWFkNDBlYTMxZWQzYjdhNjMwMWVmNDNhZjZlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVjMGM3MDFiZWY2ZmJiMGJlNDNmZDYwZTFhNDYyMTg1ZjgxMGNkMDFmZTU1ZjQwYmJiZTE5NTczMGU3NDNjNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiYTljNTViYzNjMzFhYmRhYmRmNmJiZGExNmI4ZTgyYTEyNWE1OGFlYzM0YTI4ZjY5M2I3Y2Y3YjBhMTZkMCJ9"
+          "version": "repo-lines-v1:sha256:5ac1b9abaeca558836b5e0ad170b411813d33f676d7d5f5136221be964c321ba:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2E2NTgyZjAzMzEwOTJmODU0NDQ4Yzc2MmNmYzEzNGI2OTJhYzBjOTMxYTQyYTBiNTQ1OTU0YzcxMWVhMGQ4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3NjhmNjk4M2VkZmJiNzVmMDJiMmJmNWQ4ODY5OWY1OWE2NWFkNDBlYTMxZWQzYjdhNjMwMWVmNDNhZjZlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVjMGM3MDFiZWY2ZmJiMGJlNDNmZDYwZTFhNDYyMTg1ZjgxMGNkMDFmZTU1ZjQwYmJiZTE5NTczMGU3NDNjNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiYTljNTViYzNjMzFhYmRhYmRmNmJiZGExNmI4ZTgyYTEyNWE1OGFlYzM0YTI4ZjY5M2I3Y2Y3YjBhMTZkMCJ9"
         },
         {
           "resource": "repo://guidelines/authority/discretion-matrix.md#L17-L29",
@@ -92,11 +92,11 @@
     },
     {
       "id": "claim_961e5ccb65e34b4291ea521fd03c5827",
-      "statement": "Private-markets eligibility must be determined and documented before the strategy is offered, remains separate from suitability and liquidity, and a carried-forward determination cannot support a new commitment made on or after the applicable effective date.",
+      "statement": "Private-markets eligibility must be determined and documented before the strategy is offered, remains separate from suitability and liquidity, and a determination made before the effective date cannot support a new investment made on or after that date.",
       "evidence": [
         {
-          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L17-L21",
-          "version": "repo-lines-v1:sha256:fc355941d1f60b85993e55ef036318271509b49496d19a6f019a6ce1cc4e71e3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU4NDQ0MTQ1ZTI4NDlmYzUwZDJiZDcyOWE0MGJjZTg1Zjc5NjkwZDgzNGZiNTJkYTk2ODJjMjVkNTYwZTdhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTlhNzY4ZDNiZjFjOTVhNDI1YzRiMjIzZjI5YzcxYWRkMTAwODJmODAxOTA4ZGI4Y2E1NzcyNWMwYWJiYzIyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQxYTIzYTEyZjlhMjBiYzMxZmUzZWEyMGIxYjYzNmI1NmQwYmY5YWY4YjAwOWYyMDUyNzk2YzE1YmEzOGEwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzJjMjJlNDYwNTNhMjVjYjYzYmRmMDU4Y2Y2MzE2OTFmMmMyODA1ZDNiN2Y2ZmFmMTcyMWQwNjQxZjQ3OTgzNCJ9"
+          "resource": "repo://bulletins/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+          "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9"
         },
         {
           "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L31-L35",
@@ -104,7 +104,7 @@
         },
         {
           "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L7-L10",
-          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWE3M2M1YmM5ZTQ3NzZkOTYwZDYyNzljM2Q4ZTI2YzQ2MDRkYzIzNjU5ZTVlM2M1ZWIzNWQyYmFiNzNkNGQ0ZSJ9"
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
         }
       ]
     },
@@ -145,10 +145,20 @@
           "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTQ4OTA1OTVjODE5ZTVmMGM3MGNlNDhkYzhkZTlmNjJlMzBjYmMwNjRiOTA0MjJjMzQ4MDQ5ZWZhMGE4Nzk5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_86f0914ee47740b488f0d70685cd34da",
+      "statement": "Private-markets exposure is managed through commitment pacing rather than ordinary rebalancing: a denominator-effect increase above the strategic weight is not traded, while an increase caused by over-commitment is a pacing failure that must be escalated.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L31-L35",
+          "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T02:15:41.124Z"
+    "at": "2026-09-17T14:28:14.346Z"
   }
 }
