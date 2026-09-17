@@ -9,7 +9,7 @@ codes, release numbers and section numbering deliberately resemble industry conv
 corpus reads realistically, but all operative language is invented. The figures are illustrative
 and were written for this demo; they are not forecasts and not drawn from any real publication.
 
-Every document in `external_news/` carries a **SYNTHETIC DOCUMENT** banner under its title, because
+Every document in `external_sources/` carries a **SYNTHETIC DOCUMENT** banner under its title, because
 those are the ones written in a regulator's voice and therefore the ones a reader could otherwise
 mistake for the real thing. The issuing bodies, release numbers, dates and dollar amounts are
 invented. **Statutory citations, by contrast, are to real provisions and are used accurately** —
@@ -22,7 +22,7 @@ survive questions from someone who knows the area.
 
 ```
 internal_research/{asset}/{region}/{note}/{edition}.md   frozen authority — never edited in place
-external_news/{regulator}/{id}.md                   frozen authority — regulator-issued
+external_sources/{regulator}/{id}.md                   frozen authority — regulator-issued
 internal_guidelines/{area}/{name}.md                     living guidance — edited in place, continuously
 openwiki/INSTRUCTIONS.md                        the brief OpenWiki reads; never rewritten by a run
 demo/                                           staged changes, ignored by OpenWiki
@@ -38,7 +38,7 @@ edition reach the retrieval layer.
 
 ## The two halves
 
-**Frozen authority** (`internal_research/`, `external_news/`) is never edited once published. A revision is a
+**Frozen authority** (`internal_research/`, `external_sources/`) is never edited once published. A revision is a
 *new file* at a new edition. The prior edition stays exactly as it was, because it remains the
 basis of record for every position taken while it stood — a position taken in 2025 is reviewed
 against the 2025 note in 2027, not against whatever replaced it.
@@ -91,10 +91,10 @@ openwiki visualize   # interactive graph over the generated wiki
 | `internal_research/EQ/GL/AI-INFRA-POWER/2026-01.md` | power as the binding constraint; modifies the semi capex view at S.4 |
 | `internal_research/MA/GL/RATES-REGIME/2026-02.md` | rates regime; drives the duration underwriting in the bands guide |
 | `internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md` | private markets framework; defers eligibility to the rule 205-3 thresholds |
-| `external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md` | AMT amounts; resets the phase-out threshold at N.3, preserves the 501(c)(3) exception at N.5 |
-| `external_news/DOL/2026-08-funding-relief-and-discount-rates.md` | widens the discount rate corridor at P.2 and relieves surplus plans at P.3 — removing the pension-demand premise; P.5 preserves the under-80% restrictions |
-| `external_news/FED/2026-09-fomc-statement.md` | target range raised; F.5 says it is a decision and not a path |
-| `external_news/SEC/2026-04-order-ia-7104-qualified-client.md` | rule 205-3 dollar tests adjusted at Q.2; Q.4 preserves prior determinations, Q.6 leaves other standards alone |
+| `external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md` | AMT amounts; resets the phase-out threshold at N.3, preserves the 501(c)(3) exception at N.5 |
+| `external_sources/DOL/2026-08-funding-relief-and-discount-rates.md` | widens the discount rate corridor at P.2 and relieves surplus plans at P.3 — removing the pension-demand premise; P.5 preserves the under-80% restrictions |
+| `external_sources/FED/2026-09-fomc-statement.md` | target range raised; F.5 says it is a decision and not a path |
+| `external_sources/SEC/2026-04-order-ia-7104-qualified-client.md` | rule 205-3 dollar tests adjusted at Q.2; Q.4 preserves prior determinations, Q.6 leaves other standards alone |
 | `internal_guidelines/allocation/us-taxable-fixed-income.md` | taxable sleeve weights; derives the municipal overweight from M.1/M.2 |
 | `internal_guidelines/allocation/gl-multi-asset-bands.md` | strategic bands; underwrites duration per R.3 |
 | `internal_guidelines/suitability/private-markets-eligibility.md` | implements the rule 205-3 thresholds at Q.2 |

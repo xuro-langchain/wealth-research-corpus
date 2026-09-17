@@ -24,7 +24,7 @@ def check(ok: bool, why: str) -> None:
 print("the trigger cannot fire on compiled output (the loop-breaker)")
 paths_block = re.search(r"on:\s*\n\s*push:.*?paths:\s*\n((?:\s+- .*\n)+)", WF, re.S)
 paths = re.findall(r"- '([^']+)'", paths_block.group(1)) if paths_block else []
-check(sorted(paths) == ["external_news/**", "internal_guidelines/**", "internal_research/**"], f"on.push.paths is exactly the three source dirs: {paths}")
+check(sorted(paths) == ["external_sources/**", "internal_guidelines/**", "internal_research/**"], f"on.push.paths is exactly the three source dirs: {paths}")
 check("openwiki/" not in " ".join(paths), "on.push.paths never includes openwiki/")
 
 print("C6 — compiles serialize")

@@ -40,7 +40,7 @@
     }
    ]
   },
-  "external_news/DOL/2026-08-funding-relief-and-discount-rates.md": {
+  "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md": {
    "claim_count": 11,
    "pages": {
     "regulatory/pension-funding-relief": 7,
@@ -105,7 +105,7 @@
     }
    ]
   },
-  "external_news/FED/2026-09-fomc-statement.md": {
+  "external_sources/FED/2026-09-fomc-statement.md": {
    "claim_count": 3,
    "pages": {
     "internal_research/fixed-income/duration-and-curve": 3
@@ -128,7 +128,7 @@
     }
    ]
   },
-  "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md": {
+  "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md": {
    "claim_count": 12,
    "pages": {
     "regulatory/municipal-amt-thresholds": 4,
@@ -205,7 +205,7 @@
     }
    ]
   },
-  "external_news/SEC/2026-04-order-ia-7104-qualified-client.md": {
+  "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md": {
    "claim_count": 12,
    "pages": {
     "regulatory/private-markets-qualified-client": 6,
@@ -1696,7 +1696,7 @@
  },
  "relations": [
   {
-   "from": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+   "from": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
    "to": "internal_research/FI/US/PENSION-LDI/2026-03.md",
    "type": "supersedes",
    "types": {
@@ -1713,7 +1713,7 @@
    ]
   },
   {
-   "from": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+   "from": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
    "to": "internal_research/FI/US/MUNI-CREDIT/2026-04.md",
    "type": "preserves",
    "types": {
@@ -1733,7 +1733,7 @@
   },
   {
    "from": "internal_guidelines/suitability/private-markets-eligibility.md",
-   "to": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+   "to": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
    "type": "preserves",
    "types": {
     "modifies": 1,
@@ -1796,7 +1796,7 @@
    ]
   },
   {
-   "from": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+   "from": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
    "to": "internal_research/FI/US/MUNI-CREDIT/2025-06.md",
    "type": "preserves",
    "types": {
@@ -1852,7 +1852,7 @@
    ]
   },
   {
-   "from": "external_news/FED/2026-09-fomc-statement.md",
+   "from": "external_sources/FED/2026-09-fomc-statement.md",
    "to": "internal_research/FI/US/DURATION-PATH/2026-10.md",
    "type": null,
    "types": {},
@@ -1863,7 +1863,7 @@
   },
   {
    "from": "internal_guidelines/allocation/us-taxable-fixed-income.md",
-   "to": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+   "to": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
    "type": null,
    "types": {},
    "claim_count": 1,
@@ -2327,9 +2327,9 @@
    "statement": "For taxable years beginning on or after 2026-01-01, Revenue Procedure 2025-41 sets AMT exemptions of $90,100 for an unmarried individual and $140,200 for joint filers or surviving spouses, with phase-out beginning at $500,000 and $1,000,000 respectively, while preserving the specified-private-activity-bond treatment and stated exceptions.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L38",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L38",
      "version": "repo-lines-v1:sha256:4b3621db83006bbde53a6019f4faebae52aec27a23888a49df10d6ec8401877f:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1NDczYzllMDA1ODRmZjA2ZGM5MTkyMTRlNmM5YTcwYTEwNTE1ZTM1OWJmOGYwMGMwNDVjNzM2MjE1MTNjNjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhMGMxNTI4ZGFkYzc0ODNjMzVkMzA1YWRlYmI0NDdhYjI0ZGY5ZTgxZWFjNWM4NjQyY2VlZWNjMmVhMTc5ZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwNTJhNWZkODY4NjQ1ZTVmNDk3ZmExOWUxNzMwZjQ0ZThmNmRjZDgxZDJmZjAyYWVlYjRmMjRlNjgzMDllMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc5MDA1MGMzYWJiZTY2MDA4MmE2ODcwYjUxODgwMWIwYWVjZWU0NDJkMTY1OGEyMjljNTliZTZkZjJlMzRlNzYifQ",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 8,
      "end": 38
     }
@@ -2460,9 +2460,9 @@
    "statement": "Revenue Procedure 2025-41\u2019s reduced AMT phase-out thresholds are the basis on which FI-US-MUNI-CREDIT 2026-04 concludes that the former municipal after-tax advantage no longer supports the overweight.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L22",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L22",
      "version": "repo-lines-v1:sha256:844233d2178800d2f0a08d0e6eaa30183144e5283a81d52dbcb06054f54eb646:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA1ZWNjODUyNWM2NzBiMDMwOTc1MzAyMzA2OTQ3MDk5YjE2Y2U5ZmE2MzJmYjU2NjkzOTQ5ZDg2MDg4ZDQ5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjljNWY3ODc3ZWM4OGI0YjM5MjY2MWZhZDIxZTRkMmI0YmZhY2QwY2YxZjc3ZDRlOTVlNmFjZTk1NjYwOWQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E2ZDU4MjVhOTYxOGRkYTMzY2JiMzc4ZGZhODA2NmFmNjRiMzMzZDczMjM2MjM2ODkzNDMxMDhiMDk5OTZhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcwYWZlYmUwMGY0ZmQzYzVlNWQyZjkxOTdiZTA0MmRlNjc5Y2U2YWU5OTk3MmM3N2EyNGI2NGQzNDMyN2YxNyJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 18,
      "end": 22
     },
@@ -2845,9 +2845,9 @@
    "statement": "Effective 2026-06-29, SEC Order IA-7104 provides qualified-client paths of at least $1,400,000 under management immediately after entering the advisory contract or a reasonable belief immediately before contract entry that net worth exceeds $2,700,000.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L8-L18",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L8-L18",
      "version": "repo-lines-v1:sha256:768dfca3fa63508d455445f78fa03c4fc7dae82b15eb80ee0e61c06ebd8801a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3YzY2N2U3NGI3ZjY1NTRjMzE5MjU2OTgxNWNhNTk0ZDhjMGNhNmFiMjc1NjZjODIyNTU0YjkyYjA4MGFkYTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyNTZmYzUwMzA4Y2E1ZjY4MjBhNTU4OWU2NWIxY2VkOGJiN2U4MDg4OTMxNzMwNWNjMzNkM2Q2MWNiYTk0MzkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwNTJhNWZkODY4NjQ1ZTVmNDk3ZmExOWUxNzMwZjQ0ZThmNmRjZDgxZDJmZjAyYWVlYjRmMjRlNjgzMDllMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjIwYWE0MGYyZjg2MWY2NjEwOWE4ODU3MGE3NDc1OWUxNWJkMTkwMGY0ZmZhODUzN2FiMzI0NGMyMDQ2ODE0M2MifQ",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 8,
      "end": 18
     }
@@ -2859,9 +2859,9 @@
    "statement": "For the order's net-worth test, primary-residence value and debt secured by it up to fair market value are excluded, while a natural person's jointly held spousal assets may be included.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L20-L22",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L20-L22",
      "version": "repo-lines-v1:sha256:0873b419b8c28f5c86bf78e79bad9f9656965eb2fee1d214c28c70226cf8bf50:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODNkZmI2ZGNkM2I2NzY0Zjk1MmYwZjMxOGM5ZDA4ZDU2NDVmMGU5MjBmYTBkMmE5NzlkMDg2YjBkNjQ1NWUyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmVlNmVlOGZiNzgwZjhhOThjN2RhZDhjNjA3MWI1NzNlYmRjYjkxNWMzY2NkZmE4OGMyM2EwYTRjOGU5YjljMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdiYWUzOTFjMzQzNTEyMmMyNDFjNTA3MjYwNGE5ZWYwN2E4NTM4ZjczODQ0MzBmYjQwYjczZDAzYjY3N2FmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RjZjYwZjZkM2VjYzMyOWNhYzk1NjE2NGZjYjUzZjAzNjYzZDc0N2ExNTE2NGE0NjBhOWQ4ODFhNDJkNDQ1NiJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 20,
      "end": 22
     }
@@ -2873,9 +2873,9 @@
    "statement": "A pre-2026-06-29 qualified-client determination remains valid for its pre-effective-date contract or private-fund investment, but cannot support a contract or new subscription made on or after that date; the firm requires the carried-forward file to record its prior-threshold basis.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
      "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 24,
      "end": 28
     },
@@ -2894,9 +2894,9 @@
    "statement": "Accredited-investor status is assessed separately from qualified-client status because IA-7104 adjusts only rule 205-3 dollar tests and leaves Regulation D accredited-investor standards and the qualified-purchaser definition unchanged.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
      "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 34,
      "end": 36
     },
@@ -2915,9 +2915,9 @@
    "statement": "The firm requires each eligibility determination to record its pathway, evidence, decision maker, and date; the order additionally requires retained records of the dollar test and determination date, and an unrecorded basis is treated as no determination in audit.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
      "version": "repo-lines-v1:sha256:417ebc5f05c7207e99dc4f003b870a0f726e37874847b5a291e81aafadad24cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTExYWM1ZDlmYzkxNjZmZDU3NTU0MzM2MjE3NzM0ODQ3NTk5ZGU0ODI5YjhjNmFhYzBkMTUyNzZmMTRlYzIwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWRlYWM4YTk1MWM0MTFjNzgyNmU4MjRlNTZjMjUzZDg3ZWY5NmYzN2Y4NDEyYWRlYjhiZDgyOWNkMDc2ZTQ4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDI1N2Y2ZjlkNmJmMWZjMDI1NzQ4YTA2NDM1MWE5ZGVmODg5ZjM3YWMwYjViMzQxMWFmMGIyMWNkYTUwNDgxYSJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 30,
      "end": 32
     },
@@ -3062,9 +3062,9 @@
    "statement": "For taxable years beginning on or after 2026-01-01, IRS Revenue Procedure 2025-41 sets AMT exemption phase-out thresholds of $500,000 for unmarried filers and $1,000,000 for joint filers, keeps specified private-activity-bond interest as an AMT preference item, and preserves the qualified 501(c)(3) exception.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34",
      "version": "repo-lines-v1:sha256:83f8bcde34b25959ff9a7cd8d29d90518e4ef4e5912117be96af6ca27254113f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwNWVjYzg1MjVjNjcwYjAzMDk3NTMwMjMwNjk0NzA5OWIxNmNlOWZhNjMyZmI1NjY5Mzk0OWQ4NjA4OGQ0OTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2OWRkY2EwOGIwMjU1MTI0MDUzZTgwMGUzODc3YjJjZWM1MTNkNjk5NThmOTVhN2Q2YmExNzM4MTgxYWFkNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhNmQ1ODI1YTk2MThkZGEzM2NiYjM3OGRmYTgwNjZhZjY0YjMzM2Q3MzIzNjIzNjg5MzQzMTA4YjA5OTk2YTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0ODc4OWYzYWY5ZjAzYjI1MjJjODVlMGU3NzM3OGE1NjBlOWI4ZTNjYzlhNjRjM2IxOGI4MzdjZTliYmJiMzAifQ",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 18,
      "end": 34
     }
@@ -3090,23 +3090,23 @@
    "statement": "SEC Order IA-7104 applies adjusted qualified-client tests from 2026-06-29, preserves a pre-effective-date determination only for its original contract or investment, and does not adjust accredited-investor or qualified-purchaser standards.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
      "version": "repo-lines-v1:sha256:47d005692d8086255f6776eb3d77c06d940b2ece5eca4f174a79835276ccaa59:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1NmZjNTAzMDhjYTVmNjgyMGE1NTg5ZTY1YjFjZWQ4YmI3ZTgwODg5MzE3MzA1Y2MzM2QzZDYxY2JhOTQzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBhYTQwZjJmODYxZjY2MTA5YTg4NTcwYTc0NzU5ZTE1YmQxOTAwZjRmZmE4NTM3YWIzMjQ0YzIwNDY4MTQzYyJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 14,
      "end": 18
     },
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
      "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 24,
      "end": 28
     },
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
      "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 34,
      "end": 36
     }
@@ -3223,9 +3223,9 @@
    "statement": "For plan years beginning on or after 2027-01-01, DOL Release 2026-31\u2019s wider discount-rate corridor, conditional contribution relief, and limited surplus uses supersede the pension-demand premise that supports FI-US-PENSION-LDI 2026-03\u2019s long-credit overweight, triggering that note\u2019s announced-rule review condition.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
      "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 7,
      "end": 25
     },
@@ -3258,9 +3258,9 @@
      "end": 48
     },
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
      "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 27,
      "end": 31
     },
@@ -3279,9 +3279,9 @@
    "statement": "For taxable years beginning on or after 2026-01-01, Revenue Procedure 2025-41 sets the AMT exemption amounts and reduces the exemption by $0.25 for every dollar of AMTI above $500,000 for an unmarried taxpayer and $1,000,000 for joint filers; those thresholds are not section 1(f)-indexed before 2030.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22",
      "version": "repo-lines-v1:sha256:77e48bf911b3febcc0dd734eaf9a5a2de337677e1e61b5a7af01d9da42c6a324:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1NDczYzllMDA1ODRmZjA2ZGM5MTkyMTRlNmM5YTcwYTEwNTE1ZTM1OWJmOGYwMGMwNDVjNzM2MjE1MTNjNjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5YzVmNzg3N2VjODhiNGIzOTI2NjFmYWQyMWU0ZDJiNGJmYWNkMGNmMWY3N2Q0ZTk1ZTZhY2U5NTY2MDlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwNTJhNWZkODY4NjQ1ZTVmNDk3ZmExOWUxNzMwZjQ0ZThmNmRjZDgxZDJmZjAyYWVlYjRmMjRlNjgzMDllMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3MGFmZWJlMDBmNGZkM2M1ZTVkMmY5MTk3YmUwNDJkZTY3OWNlNmFlOTk5NzJjNzdhMjRiNjRkMzQzMjdmMTcifQ",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 8,
      "end": 22
     }
@@ -3314,9 +3314,9 @@
    "statement": "IRS Revenue Procedure 2025-41 N.4 preserves FI-US-MUNI-CREDIT 2025-06 M.2's specified-private-activity-bond preference treatment: the interest remains an item of tax preference and is included in AMTI, so the 2026 change alters threshold exposure rather than eliminating the preference.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28",
      "version": "repo-lines-v1:sha256:8d9c4266428c6a1d221c563364e8f1a0b3d9d6aefaefcdd9883319af1c9f655c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJiZWMyZGRmYTQwMmI2YmQ3NGEzODQ5NTA0ZWVkZjRlOGU5N2I3YzNlYTNkY2E1MmJiYTg4N2E3MWU3Mjc2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNiMmUxODEwMzBlNDdiM2NhMDZkYTZmNmVmMmU3ODZkNzQ3M2VlZGZmOTU0ZWNiZjg4MzVkNjQ5MzA3YTViYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNmMmEwZmIzZGQzYjA4NDRmNGQ5NDAwNDMxZjBmOGEwYjQ5YTQ2Njc3ZTM1ZDJkMGFkNzY5NGRlZTM0MjA0ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTE5ZDlhMzViY2Q3MTI5ZTQ2Nzg2MGJhYWY1M2M3NGQ1NzhhYmQyNGU2OTAxYzRmYWU1OGEzMTEwMTk1ZmRlZCJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 24,
      "end": 28
     },
@@ -3335,9 +3335,9 @@
    "statement": "IRS Revenue Procedure 2025-41 N.5 preserves qualified section 145 501(c)(3) bond interest as neither an AMT preference item nor AMTI; FI-US-MUNI-CREDIT 2026-04 consequently retains a modest preference for nonprofit hospitals and private higher education while withdrawing the airport special-facility preference because it is predominantly non-501(c)(3) private-activity issuance.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",
      "version": "repo-lines-v1:sha256:f756d1c2acf7f543786adae88180f2048b899fe99fd479484205e3c45a2189d1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU2ZTAyMjAwY2IyMWIzNzE2NzJlZDc5Y2I5MGE5YWE3ZmU2YjFlNGVhMjBjNjc5ZjBjNWIzNTVjYjgzNGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY5ZGRjYTA4YjAyNTUxMjQwNTNlODAwZTM4NzdiMmNlYzUxM2Q2OTk1OGY5NWE3ZDZiYTE3MzgxODFhYWQ2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE0MTc5ODlmMWYwM2E0MGMyZDFhNTE0ZTMxN2RlZWEwMGZlZGZiY2U4ZWNiYTIzM2ZlZDEwM2FmYTIyYjUyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ4Nzg5ZjNhZjlmMDNiMjUyMmM4NWUwZTc3Mzc4YTU2MGU5YjhlM2NjOWE2NGMzYjE4YjgzN2NlOWJiYmIzMCJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 30,
      "end": 34
     },
@@ -3356,16 +3356,16 @@
    "statement": "IRS Revenue Procedure 2025-41 N.1 supersedes Rev. Proc. 2024-58 section 2.11 in its entirety, separately from the change's effect on the municipal research premise.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12",
      "version": "repo-lines-v1:sha256:051acc44dbfbde9324d4e0f53106ff61f09e49fb78d86942549c7f438b51d6f2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjVlZGRkN2Y2YWJmNGQwYmViMzgyZTFlZTIyYmNmYzU4ODA1OWEzNzA1ZjRmN2IwNTIxYmFhYjhmZmQ4ZmNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFkZjA4YWMwZDQ2NmZlZjQzNzFjMjk1MjYwOWJkOTQyODYxMDMwODdkZmY1Y2Q5YzAyMTY3MjZiZmQ5NzFlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzJhNjhkNTdlNDAwYWE5NTA1MTdhYTU2NDE5Mzg3YmYzNjJkMjQ0ZDg1Y2NhMWYzZGM0NjY0YTA5ZTc5YjY5YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiM2JjYmI5ZjJlMWUwNjhjMmQ5ODQ3YTJjMjQyMGM5YmFhNDEwOTk2NGU3MDdmYTFmNDM0NGVkMWQwNTRkNDUyMyJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 10,
      "end": 12
     },
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42",
      "version": "repo-lines-v1:sha256:5410c2c5c087b2c47c199a0300258c20828a7cead4cc613681f54cfbbfab39c5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjc5MTIzYmUzNzAzNjIzZDEyZjY3MTFlMjdiYzRhMDk3M2I2OWVlODc0NDM3YTYzMmQ4NjFiOWEwMDEwZTAwOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTFkODZjYmU4NTIxZWVjYWJjOTBjODJiZjlhMTNhOGIwZDJhZTlmZGZiMTQzM2I1ZGUwOGExMDAxMDY2ZTdkMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzA1NzdiZGU3ZGJhYmU0OTY4NjhmYWVlNDhmNTY4Mzg2MzIzYzViOTY5MTQ5OGM2OWIyMjUzMDU1YTBmMjQwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjg1NTUzYTgyODNjOGVjYzRjNTUxNmIxYzg3ZThmY2MzMjVhNzVhZDk1YmZmM2RkMDc0OTM5Nzc0ZmE0Y2JhOCJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 40,
      "end": 42
     }
@@ -3454,9 +3454,9 @@
    "statement": "DOL Release 2026-31 is a synthetic regulatory overlay for single-employer defined-benefit-plan funding rules, issued in 2026-08 and effective only for plan years beginning on or after 2027-01-01; it is not portfolio guidance.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L1-L11",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L1-L11",
      "version": "repo-lines-v1:sha256:fc223424dfd588b34e107974a6e1a93966e19e3d8bfc1bf6e06733a4ee184ef3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjNzlkYTJlOTk5YmM3NDdjNzM2YWE1MTdmY2VlNDcxZDk1ZGZhYTI1NTkxZjlkNmJkZTA0ZGEzYzEyYmE3OTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2ZWEzNDYzM2M3MWFiZjM2Zjg3YTQ0NzRiYTRmYWUyNmM1MzAyODM0NDA2YjY1YjhjNzQ2MTk5ZDZiYmZiYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJiZDY1NjU1YzRkMWFmMzE4ZmE3MmQ5NTc5MDJhZjg3ZTk2MmMyZjVhZTNhODNlMzlhNzIxMDIwYTg3YzFhZmIifQ",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 1,
      "end": 11
     }
@@ -3468,9 +3468,9 @@
    "statement": "DOL Release 2026-31 P.2 widens the twenty-five-year-average segment-rate corridor from 10% to 20% for affected plan years, permitting higher discount rates and lower measured liabilities that will generally create surplus for plans near full funding under the former corridor.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L13-L17",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L13-L17",
      "version": "repo-lines-v1:sha256:0ebc3a2c3a2a1bfd9c87ba456752aa1262f2fc07fa4947c2dd708bd987b347b5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM1NWEzOTA1MDZjZDQwZjdhODk4MzYwNzc2MGU2ZjkyMDk5NDM3YWZjZjIzYzA1MjRlZTUwMDhiMTEyMmYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZmZmM2YmNlMDRkOTAwMGU2ZTU3Yzg0ODgwZDg1OTg1NzdjNzc2MTcxNDk3MGI0YThlOTRhYjRhNzgwNWE0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFjZWNmMmNlZjg4MjhkMWM3NmVmNTMxZWQzYzM2NmI5OGExNzVhYzIwYzU1MDA3Mjc2OTVjNmZiN2E0YzU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTc5N2Y4ZTdhYjg4MDJiMWY5OTJlNjUwNzA2N2U3YzY4ZjZmMWVhZDBmMTI0OTk0YzRmZTVjMGUwMjc4OGE0ZSJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 13,
      "end": 17
     }
@@ -3482,9 +3482,9 @@
    "statement": "DOL Release 2026-31 P.3 removes the minimum required contribution for a plan above 110% funded under P.2 and allows the sponsor to elect to treat the excess as available for P.4 purposes; P.4 limits those uses to a qualified replacement-plan transfer or retiree health accounts and does not authorize a sponsor reversion outside the existing statutory framework.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L19-L25",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L19-L25",
      "version": "repo-lines-v1:sha256:27f3620104d9ea3b108aa434cecec527d48ee724b25cf79931686a032f38a431:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdmNTcxMGE1MjdjMzYyNjI5ZDQyMjE4YjBmMjAxYjA5NDY1N2M0NDgxN2E5YzFmODk0ZjhmOWI5YmIxYjUxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWZkZjQxZjAzMDgxM2I5MTgwYjFhMDdiOWI3NTUxYjRiMTk0ZGExMDllN2E0ZTVmZWNkYmQ3NDU4YzkwYzg1MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q3MDdlMjJkNTQzMmZmNmI1NzAyZTQwOGMwZjczNDI4MmU2MWE2NWVmMzIwMjk0NTc1YzY5NzYyYzAwMjQ5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmQ2OTIxMzA4Njg0ZjFhNWM4NDJmZmNmMDMwNDdhNTc0YzM0YmJjZmMyMzk5ZmFkMjdiNDJmOGEyNmVjYjBhNiJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 19,
      "end": 25
     }
@@ -3496,9 +3496,9 @@
    "statement": "DOL Release 2026-31 P.5 preserves benefit-accrual, vesting, and all existing below-80%-funded-plan restrictions, and does not address fiduciary investment standards; P.6 requires participant notice within 30 days when a sponsor elects P.3 relief.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L35",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L35",
      "version": "repo-lines-v1:sha256:ee1cee26b0d4296bfee78f63761797d9d0a443ce2075d1f69ab0ad6383e7ade2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJlMTZhZjY1NzU5NDMxM2VjZDY1NDU4NWYwNjdiY2ZiZDhkZDc3OTJmODIyMTFjZjRjODU2ZTI3MmNjOGY0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc4ODE1MmU4ZTBmZjQxNGM0ZmFmZmU5MDgxNWZlZjE4ZjFlYjI5NmMyZTQ5NzM0ZWEwYWFhZTU4OGI0MmIyMyJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 27,
      "end": 35
     }
@@ -3510,9 +3510,9 @@
    "statement": "DOL Release 2026-31 P.2-P.4 prospectively invalidate the FI-US-PENSION-LDI 2026-03 L.2 pension-demand premise because that load-bearing premise depends on contribution requirements and the liability discount-rate basis making surplus worth protecting; the note expressly identifies surplus release, discount-rate changes, and reduced contribution requirements as risks that invalidate its overweight and requires review after an announced funding or discount-rate change.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
      "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 7,
      "end": 25
     },
@@ -3545,9 +3545,9 @@
      "end": 48
     },
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L7",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L7",
      "version": "repo-lines-v1:sha256:aa63b2bfc5da354844c85f2a42d9f3cac907fb84eba16d50b71d2d954e97e31f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2M2IyYmZjNWRhMzU0ODQ0Yzg1ZjJhNDJkOWYzY2FjOTA3ZmI4NGViYTE2ZDUwYjcxZDJkOTU0ZTk3ZTMxZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2M2IyYmZjNWRhMzU0ODQ0Yzg1ZjJhNDJkOWYzY2FjOTA3ZmI4NGViYTE2ZDUwYjcxZDJkOTU0ZTk3ZTMxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTYzNDI3OWZlZGJkMzIxMTBhMTQ4MWI0OWE2NjE0ZTNkM2Q5MjIyMGY1ZTlkMGQ2OTk2OGM1MDMwMjk1MWE4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWNkNzc4ZDE3ZTQyYjVkY2JjMzFlM2VjMGI2NTBhMWNhZmM4N2Q3ZjNmMWUwNTc1ZDc1OTQyYzk1NzgwYzhlMyJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 7,
      "end": 7
     },
@@ -3573,9 +3573,9 @@
      "end": 48
     },
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L29-L31",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L29-L31",
      "version": "repo-lines-v1:sha256:6386070105d3e67166a8942862030db4d9f7caddec8363fbd5fcf8f255c37da2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmZmOTEyZmU4OTAzNzZjNWFhODk3MDkyMGZiNjlhM2E2MGQ1YzI0MGMzMzY1ZjlhMjMyNDM3ZWMzMWU0NDI4MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQ2OTIxMzA4Njg0ZjFhNWM4NDJmZmNmMDMwNDdhNTc0YzM0YmJjZmMyMzk5ZmFkMjdiNDJmOGEyNmVjYjBhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 29,
      "end": 31
     },
@@ -3636,9 +3636,9 @@
    "statement": "SEC Order IA-7104, effective 2026-06-29, sets Rule 205-3's adjusted qualified-client tests at at least $1,400,000 under the adviser's management immediately after contract entry or an adviser's reasonable belief immediately before entry that net worth exceeds $2,700,000.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
      "version": "repo-lines-v1:sha256:47d005692d8086255f6776eb3d77c06d940b2ece5eca4f174a79835276ccaa59:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1NmZjNTAzMDhjYTVmNjgyMGE1NTg5ZTY1YjFjZWQ4YmI3ZTgwODg5MzE3MzA1Y2MzM2QzZDYxY2JhOTQzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBhYTQwZjJmODYxZjY2MTA5YTg4NTcwYTc0NzU5ZTE1YmQxOTAwZjRmZmE4NTM3YWIzMjQ0YzIwNDY4MTQzYyJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 14,
      "end": 18
     }
@@ -3650,9 +3650,9 @@
    "statement": "For the order's net-worth test, primary-residence value and debt secured by it up to fair market value are excluded, while a natural person may include jointly held spousal assets; the order does not modify those provisions.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L20-L22",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L20-L22",
      "version": "repo-lines-v1:sha256:0873b419b8c28f5c86bf78e79bad9f9656965eb2fee1d214c28c70226cf8bf50:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODNkZmI2ZGNkM2I2NzY0Zjk1MmYwZjMxOGM5ZDA4ZDU2NDVmMGU5MjBmYTBkMmE5NzlkMDg2YjBkNjQ1NWUyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmVlNmVlOGZiNzgwZjhhOThjN2RhZDhjNjA3MWI1NzNlYmRjYjkxNWMzY2NkZmE4OGMyM2EwYTRjOGU5YjljMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdiYWUzOTFjMzQzNTEyMmMyNDFjNTA3MjYwNGE5ZWYwN2E4NTM4ZjczODQ0MzBmYjQwYjczZDAzYjY3N2FmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RjZjYwZjZkM2VjYzMyOWNhYzk1NjE2NGZjYjUzZjAzNjYzZDc0N2ExNTE2NGE0NjBhOWQ4ODFhNDJkNDQ1NiJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 20,
      "end": 22
     }
@@ -3664,9 +3664,9 @@
    "statement": "A pre-2026-06-29 determination is preserved for the contract or private-fund investment entered before that date under Rule 205-3(c) transition treatment, but cannot support a contract or investment made on or after the effective date.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
      "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 24,
      "end": 28
     }
@@ -3678,9 +3678,9 @@
    "statement": "An adviser relying on an IA-7104 determination must retain Rule 204-2(a)(8) records of its basis, including the dollar test used and determination date; the internal eligibility guide operationalizes this with pathway, evidence, decision-maker, and date fields and treats a missing recorded basis as no determination in audit.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
      "version": "repo-lines-v1:sha256:417ebc5f05c7207e99dc4f003b870a0f726e37874847b5a291e81aafadad24cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTExYWM1ZDlmYzkxNjZmZDU3NTU0MzM2MjE3NzM0ODQ3NTk5ZGU0ODI5YjhjNmFhYzBkMTUyNzZmMTRlYzIwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWRlYWM4YTk1MWM0MTFjNzgyNmU4MjRlNTZjMjUzZDg3ZWY5NmYzN2Y4NDEyYWRlYjhiZDgyOWNkMDc2ZTQ4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDI1N2Y2ZjlkNmJmMWZjMDI1NzQ4YTA2NDM1MWE5ZGVmODg5ZjM3YWMwYjViMzQxMWFmMGIyMWNkYTUwNDgxYSJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 30,
      "end": 32
     },
@@ -3699,9 +3699,9 @@
    "statement": "IA-7104 adjusts only Rule 205-3 dollar tests and expressly leaves Regulation D accredited-investor standards and the Investment Company Act section 2(a)(51) qualified-purchaser definition unchanged; the eligibility guide requires accredited-investor status to be determined separately.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
      "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 34,
      "end": 36
     },
@@ -3720,9 +3720,9 @@
    "statement": "The internal eligibility guide implements the order by deferring the qualified-client thresholds to IA-7104 and requiring carried-forward files to identify their prior-threshold basis, while prohibiting use of that basis for a new subscription on or after the effective date.",
    "evidence": [
     {
-     "resource": "repo://external_news/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+     "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
      "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9",
-     "document": "external_news/SEC/2026-04-order-ia-7104-qualified-client.md",
+     "document": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
      "start": 24,
      "end": 28
     },
@@ -4007,9 +4007,9 @@
    "statement": "The September 2026 FOMC raised the federal-funds target range by 25 basis points to 3.75%\u20134.00%, describing the stance as somewhat more restrictive and citing inflation elevated relative to its 2% objective.",
    "evidence": [
     {
-     "resource": "repo://external_news/FED/2026-09-fomc-statement.md#L10-L16",
+     "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L10-L16",
      "version": "repo-lines-v1:sha256:424eb8016dac92e84d969206ff391e58901fc80251a0569cc6e58ec5f48beae6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY0ZjBhMTFmOWEzZTk3MTRiNWE4NWYxMzhmYzQ0Y2JlOWMzMzllMTdiY2Y4M2E4ZWJmMzJlNTY0YzdiYjAyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZjMmI1MzA5NDI1M2RhYWMyNTlmZjAwMWM5MjdmMzk0MGRlNjQwY2YzNzc5ZDA3NTdjZDNkOGY1NjJhOTI2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTU2MmI0ODhhMWM4MjE1ZjJmNGZiYTNmMGFjNTZlNjk4ZTA3MTlhYWMyN2EwMzI3YjkxZmJlYjAwYjhmZGQ2MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2VhMDZmMDc5MTg1OGU0MGQzNWY0Yjg0MmVmNTc2N2YzMDk5MTMyMjllNTUwM2QwM2RmZTA3YjYwMGU3MmI5YiJ9",
-     "document": "external_news/FED/2026-09-fomc-statement.md",
+     "document": "external_sources/FED/2026-09-fomc-statement.md",
      "start": 10,
      "end": 16
     }
@@ -4035,9 +4035,9 @@
    "statement": "The FOMC statement does not commit to a future adjustment sequence; it says additional adjustments will reflect cumulative effects, policy lags, and economic and financial developments, with assessment of incoming data and the evolving outlook at each meeting.",
    "evidence": [
     {
-     "resource": "repo://external_news/FED/2026-09-fomc-statement.md#L26-L30",
+     "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L26-L30",
      "version": "repo-lines-v1:sha256:e902f7ec559e9317f921d2ae95973df528b4cc9c0ec00bccf4ea7a80e24f7469:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODdjNjRhN2Y0M2JlNDEwYTY2ZTVlZWIyNzM3ZTA5MWZhZjY2MmY3NDM3MWFlM2U4N2ZiNmViYTk2YTgyZGY0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGEyYTYxMzk0NDU5NTVlMTYyYjI0ZjBlYzExMGUyZWNmMjBkMmM5NWU3MzY3MGZmYjYzMDM0Mzk2OThlYjY5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmIxZmU1ZjBkM2EzNTM1MDZkYzQ0OTI4NWQ2NjNhZjRlYmMxMTk5NDBkZjNiZDllNWFmNzE5YjUxOTA4OGFjYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWMxMWRjMWFjNDA3MzEzYTBhM2NhYjlhYjNiYjY4ZWJiZWIxOWQ2NjkyOTNlYzU3Y2UyMWI3YjkyNjRjZWM5NiJ9",
-     "document": "external_news/FED/2026-09-fomc-statement.md",
+     "document": "external_sources/FED/2026-09-fomc-statement.md",
      "start": 26,
      "end": 30
     }
@@ -4063,9 +4063,9 @@
    "statement": "The policy-path risk is inflation producing a sequence of increases rather than the assumed single increase; the statement reports three July dissents favoring hikes, while the September action was unanimous.",
    "evidence": [
     {
-     "resource": "repo://external_news/FED/2026-09-fomc-statement.md#L32-L36",
+     "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L32-L36",
      "version": "repo-lines-v1:sha256:fb62984f33c8cd0579de8df1bd3bdd548c952ebd19729a23ee8618d95bf9aa3f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWZjMmY0Yzg3NWE3OWM3NTlmNGY0NDA1N2FjZjEzYzhlMmIxYWRlNTgxM2IzZjY1ZTFiMGQxOTZiMDIyZjQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmNkYTI4MTQxMjg2MTIxNDM5YzRiNzdhNzIxZDJhYTY0YjY2YWIxZjhkNTA2NmE5ODkzZGNhMDA2MjQ5OGNhZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNWQ1MTY1YzI4YWQ2OGQxZDY0ZjZhOGMwYzZjMDM5ZGI2ZDgxNTdkNWZhOGMyYjU3NTliZmRkZTBkYTg3NzhkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWEzMjZmNWZhYzViOTc2NTBhOTcxNzE3OWVjZjMxOGU0MGVkNDcwOGRjN2RjNTRiNDdlYjAxNDQ0NDkzN2ZhOSJ9",
-     "document": "external_news/FED/2026-09-fomc-statement.md",
+     "document": "external_sources/FED/2026-09-fomc-statement.md",
      "start": 32,
      "end": 36
     },
@@ -4210,9 +4210,9 @@
    "statement": "DOL Release 2026-31 P.2-P.4 supersede the 2026-03 pension-demand premise prospectively for plan years beginning on or after 2027-01-01 by widening the discount-rate corridor, conditionally relieving qualifying plans of minimum contributions, and allowing limited specified uses of excess assets.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
      "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 7,
      "end": 25
     },
@@ -4238,9 +4238,9 @@
    "statement": "DOL Release 2026-31 does not itself prescribe a long-credit trade: it does not address investment fiduciary standards, and FI-US-PENSION-LDI\u2019s announced funding-rule trigger calls for review rather than an inferred replacement allocation.",
    "evidence": [
     {
-     "resource": "repo://external_news/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+     "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
      "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9",
-     "document": "external_news/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "document": "external_sources/DOL/2026-08-funding-relief-and-discount-rates.md",
      "start": 27,
      "end": 31
     },
@@ -4350,9 +4350,9 @@
    "statement": "Revenue Procedure 2025-41 preserves the qualified-501(c)(3) AMT exception, and FI-US-MUNI-CREDIT Edition 2026-04 retains a modest preference for qualified-501(c)(3) nonprofit-hospital and private-higher-education obligations while withdrawing the predominantly non-501(c)(3) airport special-facility preference.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",
      "version": "repo-lines-v1:sha256:f756d1c2acf7f543786adae88180f2048b899fe99fd479484205e3c45a2189d1:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZmU2ZTAyMjAwY2IyMWIzNzE2NzJlZDc5Y2I5MGE5YWE3ZmU2YjFlNGVhMjBjNjc5ZjBjNWIzNTVjYjgzNGQ0ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY5ZGRjYTA4YjAyNTUxMjQwNTNlODAwZTM4NzdiMmNlYzUxM2Q2OTk1OGY5NWE3ZDZiYTE3MzgxODFhYWQ2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTE0MTc5ODlmMWYwM2E0MGMyZDFhNTE0ZTMxN2RlZWEwMGZlZGZiY2U4ZWNiYTIzM2ZlZDEwM2FmYTIyYjUyYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTQ4Nzg5ZjNhZjlmMDNiMjUyMmM4NWUwZTc3Mzc4YTU2MGU5YjhlM2NjOWE2NGMzYjE4YjgzN2NlOWJiYmIzMCJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 30,
      "end": 34
     },
@@ -4371,9 +4371,9 @@
    "statement": "For taxable years beginning on or after 2026-01-01, Revenue Procedure 2025-41 sets AMT exemptions and phase-out thresholds beginning at $500,000 for an unmarried filer and $1,000,000 for a joint return; FI-US-MUNI-CREDIT Edition 2026-04 models that change as invalidating the prior overweight's after-tax premise and withdraws the overweight.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22",
      "version": "repo-lines-v1:sha256:2149db50e806f4315e701b76968616979440be36598ea2f21447d0d99e5727b0:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGEyMzMwZmVjMDBhZTM0YjJlNWVkMTdiNjhlNDNiNDI5OTQ0MzJlNDgxMmM4MTllNjRhMWZiYjZiNzc0MDk3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjljNWY3ODc3ZWM4OGI0YjM5MjY2MWZhZDIxZTRkMmI0YmZhY2QwY2YxZjc3ZDRlOTVlNmFjZTk1NjYwOWQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmM4OThjM2UyNjcyZDg5MTQ1ZGE4MWQ0ZGNkZTQ4Mzc5NmE3MTUwNmFhMTllYjBjODkzZTU1ZjhkNzcxMmMyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcwYWZlYmUwMGY0ZmQzYzVlNWQyZjkxOTdiZTA0MmRlNjc5Y2U2YWU5OTk3MmM3N2EyNGI2NGQzNDMyN2YxNyJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 14,
      "end": 22
     },
@@ -4392,9 +4392,9 @@
    "statement": "Revenue Procedure 2025-41 N.4 preserves the specified-private-activity-bond AMT preference treatment, so the regulatory event invalidates the municipal research's threshold-dependent after-tax rationale rather than eliminating the preference itself.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28",
      "version": "repo-lines-v1:sha256:8d9c4266428c6a1d221c563364e8f1a0b3d9d6aefaefcdd9883319af1c9f655c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDJiZWMyZGRmYTQwMmI2YmQ3NGEzODQ5NTA0ZWVkZjRlOGU5N2I3YzNlYTNkY2E1MmJiYTg4N2E3MWU3Mjc2NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmNiMmUxODEwMzBlNDdiM2NhMDZkYTZmNmVmMmU3ODZkNzQ3M2VlZGZmOTU0ZWNiZjg4MzVkNjQ5MzA3YTViYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNmMmEwZmIzZGQzYjA4NDRmNGQ5NDAwNDMxZjBmOGEwYjQ5YTQ2Njc3ZTM1ZDJkMGFkNzY5NGRlZTM0MjA0ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTE5ZDlhMzViY2Q3MTI5ZTQ2Nzg2MGJhYWY1M2M3NGQ1NzhhYmQyNGU2OTAxYzRmYWU1OGEzMTEwMTk1ZmRlZCJ9",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 24,
      "end": 28
     },
@@ -4910,9 +4910,9 @@
    "statement": "Municipal research 2025-06 identifies a reduction in the AMT phase-out threshold as invalidating its load-bearing after-tax premise and requires immediate review and re-issue for a covered tax-treatment change; Revenue Procedure 2025-41 applies from taxable years beginning 2026-01-01 and the 2026-04 edition was reissued out of cycle in response.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22",
      "version": "repo-lines-v1:sha256:77e48bf911b3febcc0dd734eaf9a5a2de337677e1e61b5a7af01d9da42c6a324:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1NDczYzllMDA1ODRmZjA2ZGM5MTkyMTRlNmM5YTcwYTEwNTE1ZTM1OWJmOGYwMGMwNDVjNzM2MjE1MTNjNjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5YzVmNzg3N2VjODhiNGIzOTI2NjFmYWQyMWU0ZDJiNGJmYWNkMGNmMWY3N2Q0ZTk1ZTZhY2U5NTY2MDlkODYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQwNTJhNWZkODY4NjQ1ZTVmNDk3ZmExOWUxNzMwZjQ0ZThmNmRjZDgxZDJmZjAyYWVlYjRmMjRlNjgzMDllMzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3MGFmZWJlMDBmNGZkM2M1ZTVkMmY5MTk3YmUwNDJkZTY3OWNlNmFlOTk5NzJjNzdhMjRiNjRkMzQzMjdmMTcifQ",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 8,
      "end": 22
     },
@@ -4945,9 +4945,9 @@
    "statement": "Revenue Procedure 2025-41 preserves specified private-activity-bond AMT preference treatment and the qualified-501(c)(3) exception; the 2026-04 replacement research withdraws the broad private-activity concentration but retains a modest preference for qualified-501(c)(3) hospital and private-higher-education obligations.",
    "evidence": [
     {
-     "resource": "repo://external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34",
+     "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34",
      "version": "repo-lines-v1:sha256:4b4ef4dfb80a924bb390c5f7eec79fd84c30f25964de28cec9ca794692a590f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQyYmVjMmRkZmE0MDJiNmJkNzRhMzg0OTUwNGVlZGY0ZThlOTdiN2MzZWEzZGNhNTJiYmE4ODdhNzFlNzI3NjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2OWRkY2EwOGIwMjU1MTI0MDUzZTgwMGUzODc3YjJjZWM1MTNkNjk5NThmOTVhN2Q2YmExNzM4MTgxYWFkNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjZjJhMGZiM2RkM2IwODQ0ZjRkOTQwMDQzMWYwZjhhMGI0OWE0NjY3N2UzNWQyZDBhZDc2OTRkZWUzNDIwNGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0ODc4OWYzYWY5ZjAzYjI1MjJjODVlMGU3NzM3OGE1NjBlOWI4ZTNjYzlhNjRjM2IxOGI4MzdjZTliYmJiMzAifQ",
-     "document": "external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
+     "document": "external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
      "start": 24,
      "end": 34
     },

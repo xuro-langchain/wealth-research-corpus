@@ -15,7 +15,7 @@ on:
     # its own output, forever. A paths filter makes that unrepresentable.
     paths:
       - 'internal_research/**'
-      - 'external_news/**'
+      - 'external_sources/**'
       - 'internal_guidelines/**'
   workflow_dispatch:        # manual, and the ingest API's explicit dispatch (C6)
     inputs:
@@ -189,7 +189,7 @@ jobs:
                      -m "$(jq -c .claims .compile-state.json 2>/dev/null || echo 'claims: n/a')"
           # The push can lose a race with a commit that landed while OpenWiki
           # ran. Which commit decides what to do:
-          #   a SOURCE change (internal_research/external_news/guidelines) — this compile is
+          #   a SOURCE change (internal_research/external_sources/guidelines) — this compile is
           #     stale; stop, and let the run that push triggered recompile.
           #     Not a failure: nothing was lost and nothing is wrong.
           #   anything else (scripts, workflow, a vendor sync) — the compile is
