@@ -1,16 +1,18 @@
 {
   "schema_version": 1,
-  "compiled_from": "e6d4b72a11f22c47c5ae95458e471febad40d237",
+  "compiled_from": "8af1fb46d76b8f24aca6295d591e6f0ad4214167",
   "status": "complete",
-  "compiled_at": "2026-09-17T15:18:08Z",
+  "compiled_at": "2026-09-17T15:22:11Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35237083365",
+  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35239573454",
   "claims": {
     "total": 137,
-    "added": 137,
+    "added": 0,
     "retracted": 0,
-    "carried": 0
+    "carried": 137
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "bulletins/FED/2026-09-rates-on-reserve-balances-and-primary-credit.md"
+  ],
   "compile_mode": "fast"
 }
