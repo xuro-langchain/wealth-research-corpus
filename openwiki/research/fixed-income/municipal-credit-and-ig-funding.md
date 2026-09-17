@@ -1,11 +1,11 @@
 ---
 type: market-view
 title: US Municipal Credit and Investment-Grade Funding Views
-description: Records the Edition 2025-06 municipal overweight, its AMT-threshold dependency, and its sector and duration expression alongside the separate Edition 2025-09 investment-grade underweight. Explains why the 2026 AMT threshold event invalidates the municipal after-tax rationale without converting either research view into binding allocation guidance.
-tags: [market-view, municipal-bonds, investment-grade-credit, alternative-minimum-tax, taxable-fixed-income]
+description: Research record for the superseded 2025-06 municipal overweight, the 2026-04 neutral re-issue and retained qualified-501(c)(3) preference, and the distinct 2025-09 US investment-grade credit view. It separates research positioning from mandate implementation.
+tags: [market-view, municipal-bonds, investment-grade-credit, alternative-minimum-tax, private-activity-bonds, qualified-501c3]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T14:58:26.570Z
+    at: 2026-09-17T15:23:39.050Z
 sources:
   - id: openwiki-source-d4d55878a53be93639d11eff
     resource: repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
@@ -17,55 +17,58 @@ sources:
     resource: repo://research/FI/US/IG-SPREADS/2025-09.md
   - id: openwiki-source-f6f11dc2c2c5325137161d1d
     resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T14:58:26.570Z" }
+  - id: openwiki-source-90027641669e5dccfbf71ee0
+    resource: repo://research/FI/US/MUNI-CREDIT/2026-04.md
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T15:23:39.050Z" }
 ---
 
-## Research views and scope
+## Scope and edition status
 
-**FI-US-MUNI-CREDIT, Edition 2025-06** is a US Fixed Income Research view published 2025-06-12 and applicable to positions taken on or after 2025-07-01. It moved US municipal credit from neutral to **overweight**. The recommended increase is two to four percentage points within the taxable fixed-income sleeve, funded from investment-grade corporate credit, and concentrated in high-yield and lower-investment-grade private-activity bonds. This records a research view—not binding portfolio guidance or client-specific investment advice. [Municipal research, header and M.1](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L1-L20)
+This page records **US Fixed Income Research** positioning; it is not binding allocation guidance or client-specific investment advice. The underlying municipal notes label themselves synthetic demonstration material and not investment advice. [Municipal research 2026-04, notice](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L1-L4)
 
-**FI-US-IG-SPREADS, Edition 2025-09** is a separate US Fixed Income Research view, published 2025-09-18 and applicable to positions taken on or after 2025-10-01. It moved US investment-grade corporate credit from neutral to **underweight by approximately four percentage points** within a taxable fixed-income sleeve; the proceeds are available for a higher-conviction sleeve position rather than cash. Its stated case is valuation—spreads inside the tenth percentile of their 20-year range—not credit deterioration. [IG-spreads research, header and G.1–G.5](repo://research/FI/US/IG-SPREADS/2025-09.md#L1-L34)
+**FI-US-MUNI-CREDIT, Edition 2026-04** is the current municipal research edition in this record: published on 2026-04-09, it applies to positions taken on or after **2026-05-01**, is neutral, and names the prior 2025-06 overweight as its predecessor. [Municipal research 2026-04, header and publication](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L6-L18) **FI-US-MUNI-CREDIT, Edition 2026-04** supersedes **FI-US-MUNI-CREDIT, Edition 2025-06** in full for positions on or after that boundary; Edition 2025-06 remains the continuing basis of record for positions taken while it stood. [Municipal research 2026-04 M.1](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L27)
 
-The two editions should not be conflated. **Edition 2025-06** supplies the municipal thesis and says corporate credit funds it; **Edition 2025-09** separately supplies an IG underweight based on valuation. Any binding 22%/28% implementation is an Investment Policy Committee decision in the allocation guide, not an instruction issued by either research note. [Municipal research M.1](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L16-L20) [IG-spreads research G.3–G.5](repo://research/FI/US/IG-SPREADS/2025-09.md#L24-L34) [Allocation Guide A.3 and A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L37)
+The superseded **Edition 2025-06**, published 2025-06-12, applies to positions taken on or after **2025-07-01** until the successor boundary. It moved municipal credit from neutral to overweight, expressed as a two-to-four percentage-point taxable-fixed-income-sleeve increase funded from investment-grade corporate credit and concentrated in high-yield and lower-investment-grade private-activity bonds. Its file separately confirms that it continues to govern review of positions taken while it stood. [Municipal research 2025-06, status and applicability](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L1-L5) [Municipal research 2025-06 M.1](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L20-L24)
 
-## Municipal thesis: the load-bearing AMT assumption
+## Why the historical overweight was withdrawn
 
-For **Edition 2025-06**, the private-activity-bond case is explicitly an **after-tax case, not a spread case**: on a pre-tax basis the paper generally trades inside comparable corporate credit, and the advantage is stated to arise only for top-federal-bracket holders. The note recognizes specified post-1986 private-activity-bond interest as an AMT preference item under section 57(a)(5)(A), but its then-current threshold premise was that most of its top-bracket client base lay outside AMT, so that preference was not operative for those clients. [Municipal research M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30)
+For **Edition 2025-06**, private-activity bonds were an after-tax—not a pre-tax spread—case for top federal-bracket holders. The thesis depended on most of that client base being outside AMT under the then-effective phase-out thresholds; the note calls that threshold premise load-bearing and says the recommendation would not survive a reduction that drew materially more of those holders into AMT. Its fundamentals supported only neutral to modest overweight absent that premise. [Municipal research 2025-06 M.2–M.3](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L26-L40)
 
-This threshold premise is the note's stated **“load-bearing assumption.”** **Edition 2025-06** says that a phase-out-threshold reduction drawing a materially larger share of top-bracket holders into AMT compresses the after-tax advantage toward zero and means the M.1 recommendation does not survive. Credit fundamentals independently support only neutral to modest overweight; constrained private-activity supply is independent technical support, but neither supports the full recommended overweight on its own. [Municipal research M.2–M.4](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L42)
+For taxable years beginning on or after **2026-01-01**, Revenue Procedure 2025-41 sets AMT exemption amounts of $90,100 for an unmarried individual other than a surviving spouse and $140,200 for married joint filers or surviving spouses. It reduces the exemption by $0.25 for each dollar of AMTI above $500,000 for an unmarried filer or $1,000,000 for a joint return; the thresholds are not indexed before 2030-01-01. [Revenue Procedure 2025-41 N.2–N.3](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22)
+
+**FI-US-MUNI-CREDIT, Edition 2026-04** was re-issued out of cycle in response to that procedure under the prior M.8 trigger. It models the new thresholds as putting a majority of the formerly assumed-outside-AMT top-bracket client base inside AMT in 2026, compressing the historical 90–110-basis-point after-tax advantage to about 15 basis points, inside transaction costs. It therefore withdraws the overweight rather than supporting it on the prior fundamental case alone. [Municipal research 2026-04, publication](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L18) [Municipal research 2026-04 M.2](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L29-L53)
 
 ```mermaid
 flowchart TD
-    M2["Edition 2025-06: top-bracket holders mostly outside AMT"] --> TaxCase["After-tax private-activity advantage"]
-    TaxCase --> OW["Municipal overweight"]
-    N3["2026 AMT phase-out thresholds"] --> MoreAMT["More holders exposed to AMT"]
-    MoreAMT --> Loss["After-tax advantage compresses"]
-    Loss --> Review["Immediate research review and re-issue"]
-    OW --> Expr["Private-activity sectors; 8–15 years"]
+    Prior["2025-06 after-tax threshold premise"] --> Overweight["Historical municipal overweight"]
+    Thresholds["2026 AMT phase-out thresholds"] --> AMT["More top-bracket holders in AMT"]
+    AMT --> Compression["After-tax advantage compresses"]
+    Compression --> Reissue["2026-04 out-of-cycle re-issue"]
+    Reissue --> Neutral["Neutral municipal research view"]
+    Reissue --> Qualified["Qualified 501(c)(3) preference retained"]
+    Reissue --> Withdraw["Non-501(c)(3) exposure withdrawn"]
 ```
 
-The diagram represents the research note's conditional logic. It does not prescribe a client allocation or imply that every municipal bond receives the same tax treatment. [Municipal research M.2, M.5–M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30) [Municipal research M.5–M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L44-L70)
+This lifecycle shows the historical research rationale and its replacement; it does not select a portfolio weight. [Municipal research 2025-06 M.2, M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L26-L34) [Municipal research 2025-06 M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L72-L74) [Municipal research 2026-04 M.1–M.3](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24) [Municipal research 2026-04 M.3](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L67)
 
-## Edition 2025-06 expression and differentiated AMT exposure
+## Current municipal expression: distinguish bond treatment
 
-**Edition 2025-06** expresses the overweight in the **eight-to-fifteen-year** part of the municipal curve. It does not recommend duration beyond 15 years at current ratios or the front end, where the stated after-tax advantage is smallest in absolute terms and least durable. [Municipal research M.6](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L52-L54)
+Revenue Procedure 2025-41 preserves specified private-activity-bond interest as an AMT preference item included in AMTI and does not modify the relevant definition. The threshold event thus changed the population for whom that treatment is operative; it did not repeal the treatment. [Revenue Procedure 2025-41 N.4](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28)
 
-Within the private-activity segment, **Edition 2025-06** prefers: (1) nonprofit hospital systems with demonstrated pricing power and at least three years of positive operating margin; (2) private higher education with endowment coverage above four times annual operating expense; and (3) airport special-facility paper at large hubs with signatory-carrier agreements beyond 2035. It is underweight standalone senior living, single-asset student housing, and single-obligor industrial-development paper regardless of rating. [Municipal research M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L44-L50)
+Revenue Procedure 2025-41 preserves the separate qualified-501(c)(3) exception: interest on a qualified section 145 bond is neither an AMT preference item nor included in AMTI, and N.2–N.3 do not affect that treatment. [Revenue Procedure 2025-41 N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34)
 
-IRS Revenue Procedure 2025-41 N.5 **preserves** FI-US-MUNI-CREDIT Edition 2025-06 M.5's differentiated exposure: qualified section 145 501(c)(3) bonds are not private activity bonds for this purpose, and their interest “is not an item of tax preference and is not included in alternative minimum taxable income.” The note identifies the hospital and higher-education preferences as predominantly qualified 501(c)(3) bonds, while airport special-facility paper predominantly is not. [IRS Revenue Procedure 2025-41 N.5](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34) [Municipal research M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L44-L50)
+Accordingly, **Edition 2026-04** withdraws the broad private-activity concentration and retains only a modest preference for qualified-501(c)(3) obligations of nonprofit hospitals and private higher education. The historical note identifies those two sectors as predominantly qualified 501(c)(3) issuance; it identifies airport special-facility paper as predominantly non-501(c)(3), and the successor withdraws that airport preference in full. [Municipal research 2026-04 M.1, M.3](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24) [Municipal research 2026-04 M.3](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L67) [Municipal research 2025-06 M.5](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L48-L54)
 
-## The regulatory event and research lifecycle
+Within the neutral view, **Edition 2026-04** recommends no new non-501(c)(3) private-activity positions, but does not recommend forced sales of existing positions; it favors orderly reduction for execution reasons. It retains the eight-to-fifteen-year curve preference and continues to find the front end unattractive. These are research conclusions, not binding transition instructions. [Municipal research 2026-04 M.4](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L69-L78) [Municipal research 2026-04 M.6](repo://research/FI/US/MUNI-CREDIT/2026-04.md#L86-L89)
 
-For taxable years beginning on or after **2026-01-01**, Revenue Procedure 2025-41 N.2 sets AMT exemptions of $90,100 for an unmarried individual other than a surviving spouse and $140,200 for married joint filers or surviving spouses. N.3 reduces the exemption by 25 cents per dollar of AMTI above $500,000 for an unmarried taxpayer and $1,000,000 for a joint return; these thresholds are not section 1(f)-indexed before 2030-01-01. [IRS Revenue Procedure 2025-41 N.2–N.3](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22)
+## Separate investment-grade funding view
 
-IRS Revenue Procedure 2025-41 N.3 **supersedes** FI-US-MUNI-CREDIT Edition 2025-06 M.2's threshold premise for those taxable years. The event changes the AMT population to which the unchanged preference can apply; it does not say that municipal credit generally, or all private-activity interest, is federally taxable. N.4 states that specified private-activity-bond interest “remains an item of tax preference” and does not modify the relevant bond definition. [IRS Revenue Procedure 2025-41 N.3–N.4](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L28) [Municipal research M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30)
+**FI-US-IG-SPREADS, Edition 2025-09** is a separate US investment-grade corporate-credit view, published 2025-09-18 and effective for positions on or after **2025-10-01**. It is underweight, rather than a restatement of either municipal edition. [IG-spreads research, header and publication](repo://research/FI/US/IG-SPREADS/2025-09.md#L5-L14)
 
-IRS Revenue Procedure 2025-41 N.4 **preserves** FI-US-MUNI-CREDIT Edition 2025-06 M.2's preference-item treatment. The invalidation is therefore of the research note's threshold-dependent after-tax rationale, rather than a repeal of the preference treatment. **Edition 2025-06** remains the basis of record for positions taken under its stated applicability; it is not retroactively rewritten. [IRS Revenue Procedure 2025-41 N.4](repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28) [Municipal research, applicability and M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L12-L14) [Municipal research M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30)
+Its rationale is valuation: spreads were inside the tenth percentile of their twenty-year range, while leverage and interest coverage were stable. The note characterizes the concern as valuation rather than credit deterioration. Its positioning is an approximately four-percentage-point taxable-fixed-income-sleeve underweight, with proceeds available to fund a higher-conviction sleeve position rather than cash. [IG-spreads research G.1–G.3](repo://research/FI/US/IG-SPREADS/2025-09.md#L16-L26) [IG-spreads research G.5](repo://research/FI/US/IG-SPREADS/2025-09.md#L32-L34)
 
-**Edition 2025-06** requires immediate review and re-issue—not scheduled review—when the M.2 tax treatment changes. That is a research lifecycle trigger, not authority for a portfolio manager to calculate a replacement municipal or corporate weight. [Municipal research M.7–M.8](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L56-L70) [Discretion Matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35)
+## Research-to-mandate boundary
 
-## Implementation boundary for the paired trade
+The US Taxable Account Fixed Income Allocation Guide implements the historical 2025-06 research as a 22% municipal target versus 18% neutral for top-bracket accounts and a 28% IG-corporate target versus 32% neutral. Those are committee-set mandate weights, not outputs of this research page. [Allocation guide A.3](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation guide A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37)
 
-The US Taxable Account Fixed Income Allocation Guide A.3 and A.5 **constrain** the two research views in taxable accounts by setting the committee's 22% municipal target for top-bracket clients (18% neutral) and 28% IG-corporate target (32% neutral). The guide pairs the four-point municipal overweight with the four-point corporate underweight, specifies the private-activity concentration for qualifying top-bracket accounts, and returns below-top-bracket accounts to the 18% municipal neutral without that concentration. [Allocation Guide A.3 and A.5](repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L37) [Municipal research M.1–M.2](repo://research/FI/US/MUNI-CREDIT/2025-06.md#L16-L30) [IG-spreads research G.5](repo://research/FI/US/IG-SPREADS/2025-09.md#L32-L34)
-
-If a cited research note is superseded or withdrawn, Allocation Guide A.1 **constrains** the resulting weight: it is suspended rather than carried forward until committee re-adoption. A.5 couples the response for this pair—suspending the municipal overweight also suspends the corporate underweight and returns both to neutral—while A.6 says the resulting condition is not automatically rebalanced as ordinary drift. The manager escalates rather than deriving or directly adopting a replacement. [Allocation Guide A.1 and A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation Guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion Matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35)
+The guide states that a weight based on a superseded or withdrawn cited note is suspended until committee re-adoption. For its paired municipal/IG trade, suspension of the municipal overweight suspends the IG underweight and returns both to their neutral references; a suspension-caused band condition is not automatically rebalanced as drift. The discretion matrix requires escalation rather than manager re-derivation, carry-forward, or direct adoption of the successor research view. [Allocation guide A.1](repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5–A.6](repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://guidelines/authority/discretion-matrix.md#L31-L35)

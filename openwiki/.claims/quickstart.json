@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:46b23d87c684c9ef3f19e53e5cd5362d60aa473b46d43159a93f8ca2d588f588",
+  "pageVersion": "sha256:9603e8be50c53d64fdc1086aa5383ff7caaee45493e43a6ea90502e4919861c7",
   "claims": [
     {
       "id": "claim_8a9896e24a2941548f4f47043d5c7ba9",
@@ -58,15 +58,11 @@
     },
     {
       "id": "claim_59a08c1486d741a390af1f4a4369f9ba",
-      "statement": "IRS Revenue Procedure 2025-41 N.3 supersedes the municipal note's threshold premise for taxable years beginning on or after 2026-01-01, while N.4 preserves specified private-activity-bond preference treatment and N.5 preserves the qualified 501(c)(3) exception.",
+      "statement": "For taxable years beginning on or after 2026-01-01, IRS Revenue Procedure 2025-41 sets AMT exemption phase-out thresholds of $500,000 for unmarried filers and $1,000,000 for joint filers, keeps specified private-activity-bond interest as an AMT preference item, and preserves the qualified 501(c)(3) exception.",
       "evidence": [
         {
           "resource": "repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L34",
           "version": "repo-lines-v1:sha256:83f8bcde34b25959ff9a7cd8d29d90518e4ef4e5912117be96af6ca27254113f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwNWVjYzg1MjVjNjcwYjAzMDk3NTMwMjMwNjk0NzA5OWIxNmNlOWZhNjMyZmI1NjY5Mzk0OWQ4NjA4OGQ0OTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2OWRkY2EwOGIwMjU1MTI0MDUzZTgwMGUzODc3YjJjZWM1MTNkNjk5NThmOTVhN2Q2YmExNzM4MTgxYWFkNjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNhNmQ1ODI1YTk2MThkZGEzM2NiYjM3OGRmYTgwNjZhZjY0YjMzM2Q3MzIzNjIzNjg5MzQzMTA4YjA5OTk2YTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE0ODc4OWYzYWY5ZjAzYjI1MjJjODVlMGU3NzM3OGE1NjBlOWI4ZTNjYzlhNjRjM2IxOGI4MzdjZTliYmJiMzAifQ"
-        },
-        {
-          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-06.md#L22-L30",
-          "version": "repo-lines-v1:sha256:54d2fc500bef603fe10a428e2700bf910796c6c546fa5c4b2b47395d81560651:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NWViNzM3ZTYwOWMyYjU1ZTE4MTdjZjRhNTYyNTQ0ZGU0YWQxYjcyYzVhODQyMWYxNTM3ZjhlZDIxYjU4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWVjMjZjNjlmNzY0MWM2MGRmMzE3ZjRiZWEzZDliYWE4NTM4NzQyNDJiMTgyZDk4Y2FmZmZjMmNlYzY1YWU3NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRhN2U5YmMyMTg1MTlkOTZlYWYzYWFlNDE5MGJiYTlhZTZmNWRmODM1ZWVmMDc4MTllNzUwMWIxNjZkZDQ5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
         }
       ]
     },
@@ -129,10 +125,48 @@
           "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
         }
       ]
+    },
+    {
+      "id": "claim_4b6e7ba0e5144fb287922a7d26987e86",
+      "statement": "FI-US-MUNI-CREDIT 2026-04 supersedes FI-US-MUNI-CREDIT 2025-06 for positions taken on or after 2026-05-01, while 2025-06 remains the basis of record for positions taken while it stood.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-06.md#L3-L5",
+          "version": "repo-lines-v1:sha256:138ae7cc396fc1ba5333a55a9a6279a3e79ee22266815947109c756a5403c4aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRhMGQ0YWJiOWVlNDkxNzg3NzBjNDQ5NDM5Yzg3YTFjZDYxODhiNGU0OGQzOTQ2ZWIyMTFhZTc4M2EyNGI4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4ODkwYzNhYTUxNjY2ZDc5MTgwMmI1NjA5ODg2MDdkNTNkODZhMWYyOWEyOWMxNWZjNDk3N2JhYmY2NzY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNmN2E1MTE0MjA5YzI0ZGMwZDgyZGYwZTA0MmExMTZlZTM2ZTA0MDg1NjE2ZTI3ZGFkNDFjYTU0ZDAyY2YxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMwNDYxNWQwN2E0N2ZlMmIwNTEzNDkwMGMyMzkyYThmZTQzN2FlNWNhZGU4NzkzOTg0OTdjYmVhOWE1ODUwNSJ9"
+        },
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L16-L27",
+          "version": "repo-lines-v1:sha256:9539e345c71ce0b0b7f4451ea1ba2c5ff12fecedef5275738570df37f7784de1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjliNTZlZmE5YTJmNjJhMWU1OTk1OGQ0MjkyOWFiNzhhN2I4ZTNhYmFkMmNhNjdjOTMzMWI5NjY0YzY3YjEwNjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUzZGZiYzA4ZWEwYjYyNzlmMTg3OGEzNGRjZTZkZjQ1ZjAzZDNjZmRlNGJiZWMzYjFmNWEyM2QzODZlZjFkYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM3YWU0MTRkMWFlZDgxNmRhM2EzNDhkOTQ3ZmI3ZDYzNmYxMGFjNWFkMTdmMWM4NWQ3MjNiMDdmOWM1YjQ3NjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZiNzJmYmM4MTQ1ZDMxMzdkMTg5ZWE5YjYwM2Q5N2U3ZWFkNTBlNzVmOGE0YmNkZjVmY2E4OGRhYTBjNWZhMjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6add02bbfd8746cba1358a7115274307",
+      "statement": "FI-US-MUNI-CREDIT 2026-04 changes municipal research to neutral, withdraws the broad private-activity concentration, retains a modest qualified-501(c)(3) preference, and recommends no new non-501(c)(3) private-activity positions without recommending forced sales of existing positions.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L20-L24",
+          "version": "repo-lines-v1:sha256:d242d63c1bc857d1c0282cc48dc90a1b66955097599091bfb572f45e6e5a917d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTRjMTRiOGIxNWJhZWU2NTJlNGY1NTkwYTE1NmYyOTBmNWFjZjE4OWMyOTU3NzU5ZDM0MGM2YjU0NDhjMTgzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYmZjYmU5OTI5YTQ0NDcxMWYzZmYxNzMzMWY3M2U0M2FlNTM4YzJlNzcwOWE0N2ZkNmUxOTk4OWM4NmNhNmM5ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTEwODMyYzU2NTE1MzA5ZDkxMjc1MTgwZTBiZmU1ZTkyNzA0MTkxMjJjNTM3YjIyMjIzNjZmYjY2ZDM4YTkzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjhhZGExMjA0MzgwMTczMjI5M2VmM2Y1MDdhZTJjNWFjZjgzNzk0YWEwMWEwMTVjYmEzNTcxMzliYTQ4NTcyMyJ9"
+        },
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2026-04.md#L55-L78",
+          "version": "repo-lines-v1:sha256:68e696d60c4d58374e36fc7e5e8ab2359a28b76837d779f9d363c12e3d841256:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmYzI3ODI3ZTZlOWI1NzVjOTUxY2FjNWIzYTg4ZTY5YjdkNWZiYjI3MDAxMDgwMDg1NjFiNDVlN2M1NjNhZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJmNjc2N2YxYWE0YTk4MTNiODY3OTRhZTZlNDQ5MGFlYTdlMTczZDIxOGM3ZTM2YTBjNTczODBlZDU0MTdkYTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzODgyMDIwNDM2ZGZjMTg5ZDYxZDJkNmRiOGRmNzNlMjFjYmZmMGE1YTQwN2M1YmEzYTJlODY2ODg5NmQ4NWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NDkzZDg0NTA1MzYwZmY0MmNmNmMyY2UyY2JjYTQ4NDkyNWU0OTgzNWMwY2UyMzJmYWZmOGQ4ZWZiOTEyNTAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2e53045469c64969a3b5b7f53f13bf35",
+      "statement": "Under the US taxable fixed-income guide, suspension of the municipal overweight also suspends the paired investment-grade-corporate underweight and returns both to their stated neutral references; a suspension-caused condition is not mechanically rebalanced as ordinary drift.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L43",
+          "version": "repo-lines-v1:sha256:7455bcbd520d2a4b04f0412b87dcc44d51557a09950f8322556190f7febf3316:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMDEyMGFiZDdkMzVjMWQ4YWJiNmYyYWU2YjAzMjEyNWE1NWVjMjZjZDMzN2U3MzMzZTM4N2FlMDg1NWU1MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmMTU4ODVhYjE0ZjAyYmUyNjcyZDg3MWI3NjA0MjM5NDZhNTc2MmU0NmNkNzY2N2Q0ZDY0Zjc4ZTcxYWFhZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjNTRiY2EzMTU4MzE3MTk3MGY0MDA4YmE2OGI4OWU3ZGYyN2FiMjM0NWI2NzcxMjAwMDY5MzUyMjcwYzg0Y2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMWMxOTJlYzZhM2MxMjYxYjU1OGViYzllNmQyMTNkMGEzMTk1NmI1NmQ1NTNlODIyMTc4NDFjOWRkMWM3NjAifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.5.0",
-    "at": "2026-09-17T14:58:26.570Z"
+    "at": "2026-09-17T15:23:39.050Z"
   }
 }
