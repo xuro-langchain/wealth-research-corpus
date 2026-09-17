@@ -46,7 +46,11 @@ PATTERNS: tuple[tuple[str, str], ...] = (
     ),
     (
         "supersedes",
-        r"\bsupersede[sd]?\b|\bwithdraw(?:n|s|al)?\b"
+        # `withdraw` was here as a synonym and matched review-policy prose —
+        # "reviewed on re-issue or withdrawal of cited research" is a schedule,
+        # not a supersession. A missing type withholds one answer; a wrong one
+        # inverts it, so the looser synonym goes.
+        r"\bsupersede[sd]?\b|\bwithdrawn by\b"
         r"|\bremains the basis of record for positions\b"
         r"|\bedition in force\b|\bprior edition\b|\bgoverning (?:note|edition)\b",
     ),
@@ -57,12 +61,13 @@ PATTERNS: tuple[tuple[str, str], ...] = (
     ),
     (
         "constrains",
-        r"\bmay not\b|\bmust not\b|\bprohibit(?:s|ed)?\b|\brequires? (?:referral|escalation)\b"
+        r"\bconstrain(?:s|ed|ing)?\b"
+        r"|\bmay not\b|\bmust not\b|\bprohibit(?:s|ed)?\b|\brequires? (?:referral|escalation)\b"
         r"|\boutside (?:mandate|the mandate)\b|\brequires? (?:approval|sign-off)\b|\bauthority\b",
     ),
     (
         "modifies",
-        r"\bmodif(?:y|ies|ied)\b|\bamend(?:s|ed)?\b|\bchanges only\b|\bsubject to\b"
+        r"\bmodif(?:y|ies|ied|ying)\b|\bamend(?:s|ed)?\b|\bchanges only\b|\bsubject to\b"
         r"|\bschedule in\b|\bsub-limit\b|\bsublimit\b|\btolerance band\b|\bthreshold\b"
         r"|\breduces? the (?:target|weight|allocation)\b|\blimits? (?:to|the)\b",
     ),
