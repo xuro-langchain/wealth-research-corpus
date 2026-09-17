@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:260fb83268f1b53fc38fec5415bfc9d884d65a1b6e64cb408b591fc7fd91a542",
+  "claims": [
+    {
+      "id": "claim_feb4e3dd92a6469f875eedbf0afb2a89",
+      "statement": "The source note MA-GL-PRIVATE-MARKETS 2025-12 is explicitly synthetic: its figures are invented and it is not research, a recommendation, or investment advice.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L1-L3",
+          "version": "repo-lines-v1:sha256:3cb7f2d5bc73d0e435f8d065c090a5a862b763fc640920fbf3ecdaa8aa7d6e08:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQ4NzcwMTM1YWEyOWUyYzNjYTI1ODM5NzgzNWYxODUyZTYwOGIxNDNjYWFlODNmMzBlNGIzMzU5NjU3N2RiNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWExM2EwY2MwZTJkNzg5YjRjN2M1ZjJiYzRhZTJhNWY4YzRlZDMxYjE3YzRhZDAzZjNiM2E0YWU4NGRjNDU5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWU1NTFiOGI1MGEzMGIwMzUzNTU0OTE0MjNmOTM5MGZiOGZiMWFjODllMjk3M2FiMGRhNjU5YmVjZjY5MzdkNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6d735ab91e3e4ee4a3e023873bc18dd5",
+      "statement": "MA-GL-PRIVATE-MARKETS 2025-12 is a global initiation published on 2025-12-10 that applies to positions taken on or after 2026-01-01 and supports a 10–20% strategic private-markets allocation for eligible clients with a genuine ten-year horizon.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L7-L18",
+          "version": "repo-lines-v1:sha256:ad69745221b43be2f5282ea3b97def2dc0d53a325ee7e6d404cb1c2797107add:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwYjdlNGZiN2NiZTgzMTViMzFlOTUxYjk3YjY0ZmM1MTdlMjU4YmYwOGQ5ODk0MTQ3YzE3MjZiZmMwY2E0ODAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIxYjVlY2MxNmZmZmY5ODc0MDAxNTA0YzI3ZDljNTA4ZWVjYzc4MGNjY2JmNWY1MTNjY2NlYmQyOTU3NThjZDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllNTUxYjhiNTBhMzBiMDM1MzU1NDkxNDIzZjkzOTBmYjhmYjFhYzg5ZTI5NzNhYjBkYTY1OWJlY2Y2OTM3ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImMwYWQxODMyY2E2OWEzYzYyZWNlZmUxMzY0NDBlMGE4OTRhODU3ZDgzNDMzOTMzYzI0MmU5MzE2ZDFkOGZhMDIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8943faee6ae24d9fa02a2f7ec670ee93",
+      "statement": "The research view applies only after eligibility is established; eligibility under qualified-client and accredited-investor thresholds is a regulatory matter rather than a research conclusion.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L20-L22",
+          "version": "repo-lines-v1:sha256:377906850b33c5c4441475b7944a48dbc7c7f215b9c2bb712fb43b3fe6a503b3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzA0MzQ5NWQzMzEzODAyN2UzMjBhZDQzMzZiNmI3ZWU5NDhmZTYzNTJkMjgzYjM0NzQ2MDM1MDQzYzE4ZmY2ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY5OGM5OTQ0MWQxODRhYTcyYzNlMTcxMGEzMzc3NmMwMjBlMjk2YjFlNTM3OTA1MjJiYTRkNjFlNGI5YjFlNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmY3YzNlMjQxNzJlYzE4NzUzMmU3N2VmMzU2ZjFkNTEzMWJiZjg3MDhiNjE0N2MwZDIyMjMwOThiZjJjOWQyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDhhYzQxZmM2YjA3YjNhMjBmZTdlMzZjOGI5MjhjMGExYmVjZWFhNWRlYTRiYTZhM2RiZTA4N2E1YjRiN2MxMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a116273d6e0145999593da9586958eb3",
+      "statement": "For global balanced mandates, the standing committee default is 10% private markets for eligible clients, while an ineligible client's private-markets sleeve is reallocated pro rata to liquid sleeves.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L13-L16",
+          "version": "repo-lines-v1:sha256:4f388ea5cc9c6f36f8f22bf2b0ebf640c44d8bb2fb0908bf320fa2556391f557:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3NzNkNWViMmFlZDEwMTJiYmI4ODdmMDM3NWRkOTE5NjM0OGI1MDUyODc5OTgzM2MyYjgyOWZlZTgwYjc4ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2ZkNGVhMjM2ZDk5ODM1M2ZmNzVjNmZhNmM2MGFmYzc2NjU3NDFiY2VlNDg3OGRkZjc1YTFkZTFiMWFmZTRjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDE1NWEwMzYyMGNmNTFiNWM4MzNjYzAwZGU5NDk1YjRiOTU0ZmYzOWQ5N2NiMmJkZDE4YjRjNTlmZjYyNWIyOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_3ffaa6f3fcee4cc28afd9a8b41ef0f88",
+      "statement": "Within a private-markets allocation, the note favors secondaries and private credit and recommends an underweight, rather than avoidance, of primary buyout.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L12-L18",
+          "version": "repo-lines-v1:sha256:86ef1c1a27a4fb10644fc122cc0edf9a3554c86fc271942c25e29b73542c1c36:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE0MzQ5ZjRmM2U4MWFlNDE0ZmU5ZDI1MDIxMTRmZGM3ZjEwYzUzNmNiZmNjMWYyODYwOTMwZTAzYWJlMzU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjFiNWVjYzE2ZmZmZjk4NzQwMDE1MDRjMjdkOWM1MDhlZWNjNzgwY2NjYmY1ZjUxM2NjY2ViZDI5NTc1OGNkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzA1ZTljYmIwMDZlYjVlNzAwMzU4MmJiM2MzOTBiMWI5YjhjZWUyODBkN2Q3ZDVjYWI3MDg0NzA0MGU5ZjRmZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzBhZDE4MzJjYTY5YTNjNjJlY2VmZTEzNjQ0MGUwYTg5NGE4NTdkODM0MzM5MzNjMjQyZTkzMTZkMWQ4ZmEwMiJ9"
+        },
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L32-L34",
+          "version": "repo-lines-v1:sha256:aa0cbedee797e181d7bf46e769fcf10897e569ada34da904152fcc3cc4b216a2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmY2ZWM1MWY2MDMyZTQyYmRlM2MyODM3NGE1YWIzNzA5MGU0YWQ1ZDdhYzIzZjM2NGU5MTNhZGRhNGQ2MjI2MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDM4NjBhYWNmYjY4NWVmZDQxMDg0Mjk5OGNmMmE1MDI3MTVhMmI5NGFkMzdjMTlkYTc3ZGFiYWJiNTdiZTRlZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDg2YzUzNmM1NTg2ZDM4MWExODJmY2RlOTY5NmQzNDBhYWE5OWEzNDkxNGNhZmYzYWVkZDk1NWU0N2QyMGFlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTIzZjdhNzI0MjRjNjM2M2FhYzc1MWRjNzdmZGFkYjQwMzAwNWI2MmQ0NzEwYjA3YmJhNTZhN2ZiZGQxNzE3NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a26c04bb334e45abbefd8f4a7d27f43f",
+      "statement": "The desk identifies secondaries as the most attractive private-markets entry point because buyout-portfolio secondary discounts, though narrower, remain wide relative to the ten-year median.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L24-L26",
+          "version": "repo-lines-v1:sha256:826bd5136abb2dc06128d55de5ebf8260bebf1b9f08d7b4a7c5b7d8a73656dd0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjIwODgzMzcxNTM0NTI5MWY1Nzc1OTdkMDYxZGMyNmMxZjk5MTJjN2I0NDQwMjEzZjk0ZjE4MjMyZTdiYzlkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTI2YWI5YTU5MmQxMWNhMmQ5ZjkzZGE3YzM0NjE2MmE5ZmUwYWFlODliYmUzMjEwYmVjMzkzYzI2NjExZmI0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTc1YjBmZTRlOTY2ZTU4MGU3MzZhMTFjNWU5NGE2ZjY2NWI1ODQ5ZDU0MDJlYWMzYWE0NGNkMDExMzkyZThmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGU1Mjc1ZGVjNWRjMTA2ZTUyZTk5MmJhMWExM2UyMjYxY2IyYjAwOWJjOTE0ZDNiNjU4Y2E5ZmY2NTc1NWJjNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7c46c295ebfe45388f0ca20adac131b2",
+      "statement": "The private-credit view treats spreads over broadly syndicated loans as adequate illiquidity compensation, while monitoring deteriorating covenant quality at the larger end of the market.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L28-L30",
+          "version": "repo-lines-v1:sha256:c002c90d1e3f4ef601906a5dcfb00d492e52fbd204a3190c81cbfd73b22ecc65:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjJkYWQ2ZDA5NDcxMDk2NjI4ZTIyYTI2OTY0ZDljNTdiMzNiZjE3ZTBmZDE0MmYzOTdiOTI4OTc0NjMwMDg3OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTdmYzJkZTZiY2YyYjk4MjMzNTEwODQzMTNiMDJiZWM5N2M0ODhkZjNlYmE1NmM0NDMxNWVmMjRiNjQ1YTUxNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTI0Mzg2YzljMDJmOTVhNjcwMjFhYjkzNDI3YWJhYmEzMGRlOTJmYzAzZjNmZjc1ODNjZTAyMTM4YThmNGNjNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODFiYmJlMWJlMGI4MjhiOWE0YjYyNGY5ZDEwMGQyOTc3MzE0Yjk4OGQwYmJkMjk4MTI0ZmMzYjU2OGU5Y2YwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_262787988d3945bf99fa0e279c5def06",
+      "statement": "The horizon and liquidity conditions require a genuine ten-year horizon and underwriting to the client's spending requirement, with unfunded commitments capped at two years of liquid-portfolio spending.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L16-L18",
+          "version": "repo-lines-v1:sha256:b14c19e674cf193fa489c848682dcb4f5edc70355479e0ea603d78f48d6b0af7:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzBlOThiODYzYmI4YTE3OGM1ZDY2NjE2M2VlZjZjNDg5ODQ4MzIxMGFlNmE2YmEwYzkwM2I0YTcxYzIzMTA3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjFiNWVjYzE2ZmZmZjk4NzQwMDE1MDRjMjdkOWM1MDhlZWNjNzgwY2NjYmY1ZjUxM2NjY2ViZDI5NTc1OGNkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjYyM2IzNDRiMDVhYjViYTExNTIwMzcxM2IyZWVjNTFjZGZiNTEzMTRlZTA3NmE4YzgwNzNhYWEzNzQwMDUyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzBhZDE4MzJjYTY5YTNjNjJlY2VmZTEzNjQ0MGUwYTg5NGE4NTdkODM0MzM5MzNjMjQyZTkzMTZkMWQ4ZmEwMiJ9"
+        },
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L36-L38",
+          "version": "repo-lines-v1:sha256:f8d5a78596fa85beda159f7f8ec2945347303f310be5c9a2edca97419bcf8e9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjQyNDQyNzNjN2U4NzE1ZDViN2MxNzBiNGE5MGY3ZDZhYmQ1NGFhYTQzNDBiNzJiOTlhNGU0YWMwMTlkM2U5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZlOTllZWUzMjgwZjNlMjQ3NDNjODdmYzU4ZGJlYjcwNDAzMWEwZTY0ZTdkMjRhZGU2MDc2ZjRmNDBhYzZhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGNkMDZmMjYzNWE3YWI0YzgxMGYxMmIwZGRiMjU0NGVkZjJkMDJjYzk5ZDA2MGJkY2ZiMDMyNmE0MzUxYjU3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGIxY2Q3ZjU2NjUwYzA3Y2E3MWRjZGI2YTE3NTExN2ZhYmY2MGRkNWFkZWE5OGY4YWYxYWUxMWRhNTVjNzU0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_823994de2f264e91907366a1312419a1",
+      "statement": "No private-markets strategy may be offered before Compliance determines and documents eligibility; eligibility is necessary but insufficient because suitability and the V.6 liquidity constraint must also be met before commitment.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L31-L35",
+          "version": "repo-lines-v1:sha256:de8d782f2dd659d7afd5dba2c5f971d9b5fb02eea57532aca58174e96b9e381c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWNiZTUzMTRmYmViOThmZDU2NzNlMzU5M2E1NGExODhmZDliZTM5ZWRkY2QxZGVmODZjMjUwODkyN2NkZmVkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2NjMjVmMmQxYTQwM2FhMmIwYzAyNDVlMzAyZWVjYjY3ZmE3NzUzMTRhMmJhZmQ5MTVkZjM5MTNjZWI3NDcwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk5ZTZkZjZmYzNhM2I0MGQwYzE3NWVmMWFhMmIyNmUyMTQ4YzdkNTFjYTFlY2ViMjUwYjlkMzRhMjVlMDdkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_860be62b425e4b72985ca391c647e7d2",
+      "statement": "Private-markets exposure is controlled through commitment pacing rather than ordinary rebalancing: denominator-effect drift is not traded as a breach, whereas over-commitment drift is a pacing failure escalated under D.4.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L31-L35",
+          "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_73252d764de049a99a9cba2f212d51ee",
+      "statement": "Private markets has no ordinary tolerance band because it cannot be traded, and the note identifies prolonged exit-market closure and drawdown-driven denominator effects as key risks.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L17-L19",
+          "version": "repo-lines-v1:sha256:4155a03620cf51b5c833cc00de9495b4b954ff39d97cb2bdd18b4c59ff625b28:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU1NmQ3OTBhNjZiMjE0NzQ3MzhlZjE3MzMzODBlOWJkODNmMjQwOTM0NGQxN2Q5YTllYWVkOTM5YTUwNTIxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGUxOWUzYzMyNWNjMDM5ZDIwZTk3MjA3MTk5NzUxM2IyZDU3YjQ3NjZjZjFlNjRhYTJkOWFhYmYwNWM2NzI3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmRjMjE5YzhiNzVmNzUzZmEyMmY5NDQ3NTEyNDQxNDIyMzM1OWZkMzllY2RmMzE0ZTgxNDdmOGM1N2FkNjE1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTJkOWVmZmYyOGI2ZDE2MTY0ZTRiMjhjNjg4YzBlMmI3NmY0MWIzNjNlMjNlZWRiY2I5YjQ5ODFmMzIwNmZmMSJ9"
+        },
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L40-L42",
+          "version": "repo-lines-v1:sha256:38fc98ef8c4803f11aad3bf22bd5354aada9d571b7a3fc56a06a9d3e7703dd52:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjg1OTZmNTE4NmI5NzViMGQxMjg0NmNhOGM3NzRkZTkxMjljMjI5ZWMwZjk3ZDExYTFkMmNlNWU2OTk4NDYyMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ2NjU4MWZiYWZmYjQzOTA3YTJiZjQ5MmQ1NzdhZDFlYjk1OWNlMDFkMjJmYjJlNzZjNjRjYWViMDhhMjUxNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjA1MzIyYjdlNzQyMGEyNWMyNjFiZDU3ZTlmNWNmYjg0OGFiNmMxNGMxY2Y3NmE3YjY3N2U3NGQ4ODVmMzE3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTMxM2NhNmJkNjNkYWY5ZWNlMTM0ZmMzMjY5NDE5NDdlY2JjZWRmNDg0MDMyOWY3MWNmY2E2MDk5NTY5ZGFkYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_88391ca4896c40969891945ec300088a",
+      "statement": "The allocation policy makes the V.6 unfunded-commitment liquidity constraint binding and suspends a research-supported band if its underlying note is superseded or withdrawn, pending committee review.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L31-L35",
+          "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
+        },
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L7-L11",
+          "version": "repo-lines-v1:sha256:fd3df0a17ac1db48524625797e670aac5b58e053b781d7525bb416add5b038e5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODEwZTRjZmZkZTllNTU4MDk1MmIxMTBjYWYxNDg2MjJmYWQ4NWU5NGRmYzA4N2MyY2IyOWVhZDhiZWE3MDM4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc1YjZkZDFhNmNiOTc0OTE3Yjg2YmIwZGFhYTZkN2VkN2FmYmJkZjliY2FjMGYwOTk2MzJlZDI5ZmE0NDlkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDcxMzY5MzJhODNiNDlkZDA5YjVkMjFlMWRkZWJhOTU2MzhkMTIzODIyMWQ3OTljYTQ1NjFjOWI4NDZhZjc1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRjZTgzYWM4MjlmMTBkMTgxYjc3YWM0MWUyMzBlNThiZWI5MDJiZTM2NjBlYTkxMmRiNmQ2NDIwOTNiMTNmZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e55ca3e4e6a24d63b66a7fb714bb3c10",
+      "statement": "Eligibility documentation must capture the pathway, evidence, decision maker, and date; without a recorded basis, the determination is treated as absent in audit.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L27-L29",
+          "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T14:58:26.570Z"
+  }
+}
