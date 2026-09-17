@@ -54,9 +54,9 @@ verbatim.
 
 Name the **acting** document first, with its provision, then the verb, then the
 document and provision it acts on. The acting document is always the grammatical
-subject. Write "IRS Revenue Procedure 2025-32 N.2 supersedes FI-US-MUNI-CREDIT
+subject. Write "IRS Revenue Procedure 2025-41 N.3 supersedes FI-US-MUNI-CREDIT
 2025-06 M.2", never "FI-US-MUNI-CREDIT 2025-06 M.2 is superseded by IRS Revenue
-Procedure 2025-32 N.2".
+Procedure 2025-41 N.3".
 
 Use exactly one of these verbs, in lower case, spelled as shown:
 
@@ -77,7 +77,7 @@ Use exactly one of these verbs, in lower case, spelled as shown:
   what the firm may do about it.
 
 Where one document both removes the basis of a view and preserves a neighbouring
-treatment, those are two propositions, not one. IRS Revenue Procedure 2025-32
+treatment, those are two propositions, not one. IRS Revenue Procedure 2025-41
 removes the after-tax basis for the private activity overweight at N.3 and leaves
 the qualified 501(c)(3) exception undisturbed at N.5; document both, because a
 reader who knows only the first will wrongly conclude the whole municipal view is
