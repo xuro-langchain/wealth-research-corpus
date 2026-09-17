@@ -28,7 +28,7 @@ Two design choices make this a real boundary rather than a speed bump.
 Identifiers are git blob SHAs — sha1 of `blob <bytelen>\\0<content>` — so they
 are directly comparable to what the tree API returns, with no separate hashing
 scheme to keep in sync. Verified against this corpus: git reports
-78c39dfc765e0a4982801c7d084e71f7337cc68c for research/FI/US/MUNI-CREDIT/2025-11.md, and
+78c39dfc765e0a4982801c7d084e71f7337cc68c for research/FI/US/MUNI-CREDIT/2025-06.md, and
 `git_blob_sha` below reproduces it exactly.
 """
 
