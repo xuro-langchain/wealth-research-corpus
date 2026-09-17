@@ -82,7 +82,8 @@ openwiki visualize   # interactive graph over the generated wiki
 
 | Path | What it is |
 | --- | --- |
-| `research/FI/US/MUNI-CREDIT/2025-06.md` | municipal overweight; states its AMT threshold assumption as load-bearing at M.2 and names what would break it at M.7 |
+| `research/FI/US/MUNI-CREDIT/2025-06.md` | municipal overweight; states its AMT threshold assumption as load-bearing at M.2 and names what would break it at M.7. **Never re-issued** — the premise is gone and the note still stands |
+| `research/FI/US/PENSION-LDI/2026-03.md` | long credit overweight on pension demand; L.2 states the premise, L.6 names what ends it. **Never re-issued** |
 | `research/FI/US/DURATION-PATH/2026-10.md` | duration and curve positioning; reads the Fed statement narrowly per F.5 |
 | `research/FI/US/IG-SPREADS/2025-09.md` | investment grade underweight; funds the municipal overweight |
 | `research/EQ/US/SEMI-CAPEX/2025-06.md` | semiconductor capex overweight, superseded by 2026-02, marker in place |
@@ -91,6 +92,7 @@ openwiki visualize   # interactive graph over the generated wiki
 | `research/MA/GL/RATES-REGIME/2026-02.md` | rates regime; drives the duration underwriting in the bands guide |
 | `research/MA/GL/PRIVATE-MARKETS/2025-12.md` | private markets framework; defers eligibility to the rule 205-3 thresholds |
 | `bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md` | AMT amounts; resets the phase-out threshold at N.3, preserves the 501(c)(3) exception at N.5 |
+| `bulletins/DOL/2026-08-funding-relief-and-discount-rates.md` | widens the discount rate corridor at P.2 and relieves surplus plans at P.3 — removing the pension-demand premise; P.5 preserves the under-80% restrictions |
 | `bulletins/FED/2026-09-fomc-statement.md` | target range raised; F.5 says it is a decision and not a path |
 | `bulletins/SEC/2026-04-order-ia-7104-qualified-client.md` | rule 205-3 dollar tests adjusted at Q.2; Q.4 preserves prior determinations, Q.6 leaves other standards alone |
 | `guidelines/allocation/us-taxable-fixed-income.md` | taxable sleeve weights; derives the municipal overweight from M.1/M.2 |
@@ -99,10 +101,13 @@ openwiki visualize   # interactive graph over the generated wiki
 | `guidelines/suitability/concentrated-positions.md` | concentrated position standard and unwind planning |
 | `guidelines/authority/discretion-matrix.md` | discretion tiers; D.4 governs a superseded note |
 
-The documents are deliberately cross-wired: the taxable fixed income guide derives its municipal
-weight from `FI-US-MUNI-CREDIT 2025-06 M.1` and its rationale from `M.2`; `Rev. Proc. 2025-41 N.3`
-removes that rationale while `N.5` preserves the qualified 501(c)(3) exception that two of the
-three preferred sectors rely on; the discretion matrix at `D.4` says what a portfolio manager must
+The documents are deliberately cross-wired, and the central pairing is a **conflict that nobody has
+resolved**: the taxable fixed income guide derives its municipal weight from
+`FI-US-MUNI-CREDIT 2025-06 M.1` and its rationale from `M.2`; `Rev. Proc. 2025-41 N.3` removes that
+rationale, `N.5` preserves the qualified 501(c)(3) exception that two of the three preferred sectors
+rely on — and **the note has never been re-issued**, so the firm is still carrying a weight whose
+stated basis is gone. `FI-US-PENSION-LDI 2026-03` and `DOL Release 2026-31` are the same shape on
+long credit. the discretion matrix at `D.4` says what a portfolio manager must
 do when a cited note is superseded; and the IG spreads underweight at `A.5` is explicitly paired to
 the municipal overweight, so suspending one suspends the other. That web is what makes a
 positioning question resolve across several documents, and what a chunk-based retriever cannot
