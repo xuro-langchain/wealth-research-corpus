@@ -14,7 +14,7 @@ honour a controlled vocabulary gets partial compliance — and it has the same
 answer: stop asking, and derive it.
 
 The derivation is total because the wiki's directory layout already encodes the
-distinction the type field carries. `research/` is published research,
+distinction the type field carries. `internal_research/` is published research,
 `guidance/` is the firm's own material, `regulatory/` is a regulator's. Nothing
 is guessed: a path that matches no rule is left alone and reported, so a new
 top-level area shows up as output rather than being silently mislabelled.
@@ -57,7 +57,7 @@ RULES: tuple[tuple[str, str], ...] = (
     ("position-assembly/", "position-assembly"),
     ("workflows/", "position-assembly"),
     ("regulatory/", "regulatory-overlay"),
-    ("research/", "market-view"),
+    ("internal_research/", "market-view"),
 )
 
 #: Human-owned or structural; never carry a type.

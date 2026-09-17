@@ -9,7 +9,7 @@ codes, release numbers and section numbering deliberately resemble industry conv
 corpus reads realistically, but all operative language is invented. The figures are illustrative
 and were written for this demo; they are not forecasts and not drawn from any real publication.
 
-Every document in `bulletins/` carries a **SYNTHETIC DOCUMENT** banner under its title, because
+Every document in `external_news/` carries a **SYNTHETIC DOCUMENT** banner under its title, because
 those are the ones written in a regulator's voice and therefore the ones a reader could otherwise
 mistake for the real thing. The issuing bodies, release numbers, dates and dollar amounts are
 invented. **Statutory citations, by contrast, are to real provisions and are used accurately** —
@@ -21,9 +21,9 @@ survive questions from someone who knows the area.
 ## Layout
 
 ```
-research/{asset}/{region}/{note}/{edition}.md   frozen authority — never edited in place
-bulletins/{regulator}/{id}.md                   frozen authority — regulator-issued
-guidelines/{area}/{name}.md                     living guidance — edited in place, continuously
+internal_research/{asset}/{region}/{note}/{edition}.md   frozen authority — never edited in place
+external_news/{regulator}/{id}.md                   frozen authority — regulator-issued
+internal_guidelines/{area}/{name}.md                     living guidance — edited in place, continuously
 openwiki/INSTRUCTIONS.md                        the brief OpenWiki reads; never rewritten by a run
 demo/                                           staged changes, ignored by OpenWiki
 ```
@@ -38,12 +38,12 @@ edition reach the retrieval layer.
 
 ## The two halves
 
-**Frozen authority** (`research/`, `bulletins/`) is never edited once published. A revision is a
+**Frozen authority** (`internal_research/`, `external_news/`) is never edited once published. A revision is a
 *new file* at a new edition. The prior edition stays exactly as it was, because it remains the
 basis of record for every position taken while it stood — a position taken in 2025 is reviewed
 against the 2025 note in 2027, not against whatever replaced it.
 
-**Living guidance** (`guidelines/`) is the firm's own internal material. It is revised in place,
+**Living guidance** (`internal_guidelines/`) is the firm's own internal material. It is revised in place,
 section by section, and changes far more often than research does. This is the only half where
 OpenWiki's relocation anchors ever fire.
 
@@ -82,24 +82,24 @@ openwiki visualize   # interactive graph over the generated wiki
 
 | Path | What it is |
 | --- | --- |
-| `research/FI/US/MUNI-CREDIT/2025-06.md` | municipal overweight; states its AMT threshold assumption as load-bearing at M.2 and names what would break it at M.7. **Never re-issued** — the premise is gone and the note still stands |
-| `research/FI/US/PENSION-LDI/2026-03.md` | long credit overweight on pension demand; L.2 states the premise, L.6 names what ends it. **Never re-issued** |
-| `research/FI/US/DURATION-PATH/2026-10.md` | duration and curve positioning; reads the Fed statement narrowly per F.5 |
-| `research/FI/US/IG-SPREADS/2025-09.md` | investment grade underweight; funds the municipal overweight |
-| `research/EQ/US/SEMI-CAPEX/2025-06.md` | semiconductor capex overweight, superseded by 2026-02, marker in place |
-| `research/EQ/US/SEMI-CAPEX/2026-02.md` | semiconductor capex, current; cut to neutral on cycle position |
-| `research/EQ/GL/AI-INFRA-POWER/2026-01.md` | power as the binding constraint; modifies the semi capex view at S.4 |
-| `research/MA/GL/RATES-REGIME/2026-02.md` | rates regime; drives the duration underwriting in the bands guide |
-| `research/MA/GL/PRIVATE-MARKETS/2025-12.md` | private markets framework; defers eligibility to the rule 205-3 thresholds |
-| `bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md` | AMT amounts; resets the phase-out threshold at N.3, preserves the 501(c)(3) exception at N.5 |
-| `bulletins/DOL/2026-08-funding-relief-and-discount-rates.md` | widens the discount rate corridor at P.2 and relieves surplus plans at P.3 — removing the pension-demand premise; P.5 preserves the under-80% restrictions |
-| `bulletins/FED/2026-09-fomc-statement.md` | target range raised; F.5 says it is a decision and not a path |
-| `bulletins/SEC/2026-04-order-ia-7104-qualified-client.md` | rule 205-3 dollar tests adjusted at Q.2; Q.4 preserves prior determinations, Q.6 leaves other standards alone |
-| `guidelines/allocation/us-taxable-fixed-income.md` | taxable sleeve weights; derives the municipal overweight from M.1/M.2 |
-| `guidelines/allocation/gl-multi-asset-bands.md` | strategic bands; underwrites duration per R.3 |
-| `guidelines/suitability/private-markets-eligibility.md` | implements the rule 205-3 thresholds at Q.2 |
-| `guidelines/suitability/concentrated-positions.md` | concentrated position standard and unwind planning |
-| `guidelines/authority/discretion-matrix.md` | discretion tiers; D.4 governs a superseded note |
+| `internal_research/FI/US/MUNI-CREDIT/2025-06.md` | municipal overweight; states its AMT threshold assumption as load-bearing at M.2 and names what would break it at M.7. **Never re-issued** — the premise is gone and the note still stands |
+| `internal_research/FI/US/PENSION-LDI/2026-03.md` | long credit overweight on pension demand; L.2 states the premise, L.6 names what ends it. **Never re-issued** |
+| `internal_research/FI/US/DURATION-PATH/2026-10.md` | duration and curve positioning; reads the Fed statement narrowly per F.5 |
+| `internal_research/FI/US/IG-SPREADS/2025-09.md` | investment grade underweight; funds the municipal overweight |
+| `internal_research/EQ/US/SEMI-CAPEX/2025-06.md` | semiconductor capex overweight, superseded by 2026-02, marker in place |
+| `internal_research/EQ/US/SEMI-CAPEX/2026-02.md` | semiconductor capex, current; cut to neutral on cycle position |
+| `internal_research/EQ/GL/AI-INFRA-POWER/2026-01.md` | power as the binding constraint; modifies the semi capex view at S.4 |
+| `internal_research/MA/GL/RATES-REGIME/2026-02.md` | rates regime; drives the duration underwriting in the bands guide |
+| `internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md` | private markets framework; defers eligibility to the rule 205-3 thresholds |
+| `external_news/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md` | AMT amounts; resets the phase-out threshold at N.3, preserves the 501(c)(3) exception at N.5 |
+| `external_news/DOL/2026-08-funding-relief-and-discount-rates.md` | widens the discount rate corridor at P.2 and relieves surplus plans at P.3 — removing the pension-demand premise; P.5 preserves the under-80% restrictions |
+| `external_news/FED/2026-09-fomc-statement.md` | target range raised; F.5 says it is a decision and not a path |
+| `external_news/SEC/2026-04-order-ia-7104-qualified-client.md` | rule 205-3 dollar tests adjusted at Q.2; Q.4 preserves prior determinations, Q.6 leaves other standards alone |
+| `internal_guidelines/allocation/us-taxable-fixed-income.md` | taxable sleeve weights; derives the municipal overweight from M.1/M.2 |
+| `internal_guidelines/allocation/gl-multi-asset-bands.md` | strategic bands; underwrites duration per R.3 |
+| `internal_guidelines/suitability/private-markets-eligibility.md` | implements the rule 205-3 thresholds at Q.2 |
+| `internal_guidelines/suitability/concentrated-positions.md` | concentrated position standard and unwind planning |
+| `internal_guidelines/authority/discretion-matrix.md` | discretion tiers; D.4 governs a superseded note |
 
 The documents are deliberately cross-wired, and the central pairing is a **conflict that nobody has
 resolved**: the taxable fixed income guide derives its municipal weight from

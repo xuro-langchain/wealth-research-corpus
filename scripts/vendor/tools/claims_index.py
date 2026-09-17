@@ -30,11 +30,11 @@ CROSS_ASSET = frozenset({"MA"})
 
 def document_role(path: str) -> str | None:
     """Classify a source document. None for corpus scaffolding (README etc.)."""
-    if path.startswith("bulletins/"):
+    if path.startswith("external_news/"):
         return "bulletin"
-    if path.startswith("guidelines/"):
+    if path.startswith("internal_guidelines/"):
         return "guideline"
-    if path.startswith("research/"):
+    if path.startswith("internal_research/"):
         parts = path.split("/")
         if len(parts) < 5:
             return None

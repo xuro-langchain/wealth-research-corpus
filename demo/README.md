@@ -2,7 +2,7 @@
 
 Documents held out of the corpus so they can be ingested live during a demo. `.openwikiignore`
 excludes this directory, so nothing here is visible to OpenWiki until it is deliberately committed
-into `research/` or `bulletins/` by the ingest API.
+into `internal_research/` or `external_news/` by the ingest API.
 
 Do not move these into place by hand. The point of the demo is that the ingest API infers the
 destination from the document's content, shows the inference on a confirm screen, and commits it —
@@ -10,8 +10,8 @@ including the supersession marker on the edition being replaced.
 
 | File | Ingests as | What it demonstrates |
 | --- | --- | --- |
-| `FED-2026-09-16-implementation-note.md` | `bulletins/FED/2026-09-…` | A net-new regulatory document. Small compile, and an honest blast radius of zero — nothing cites it yet. It `implements` the FOMC statement at `F.1` and `preserves` the balance-sheet policy at `F.4`, so it exercises typed relations without invalidating anything. |
-| `MUNI-CREDIT/2026-04.md` | `research/FI/US/MUNI-CREDIT/2026-04.md` | The heavier run. A re-issued research note that **supersedes** `2025-06`, which the taxable fixed income allocation guide derives its municipal overweight from. The impact analysis reports internal guidance resting on a withdrawn note. |
+| `FED-2026-09-16-implementation-note.md` | `external_news/FED/2026-09-…` | A net-new regulatory document. Small compile, and an honest blast radius of zero — nothing cites it yet. It `implements` the FOMC statement at `F.1` and `preserves` the balance-sheet policy at `F.4`, so it exercises typed relations without invalidating anything. |
+| `MUNI-CREDIT/2026-04.md` | `internal_research/FI/US/MUNI-CREDIT/2026-04.md` | The heavier run. A re-issued research note that **supersedes** `2025-06`, which the taxable fixed income allocation guide derives its municipal overweight from. The impact analysis reports internal guidance resting on a withdrawn note. |
 
 ## The supersession beat
 
@@ -26,11 +26,11 @@ hold together under questioning:
    years beginning on or after 2026-01-01 is set at $500,000 / $1,000,000, well below the level at
    which the exemption previously reached zero, and it is expressly not indexed before 2030. It is
    already in the corpus.
-3. `guidelines/allocation/us-taxable-fixed-income.md` derives a binding 22% municipal weight at
+3. `internal_guidelines/allocation/us-taxable-fixed-income.md` derives a binding 22% municipal weight at
    `A.3` from that note, and pairs an IG corporate underweight to it at `A.5`.
 4. Ingesting `2026-04` marks `2025-06` superseded. Every claim citing `2025-06` is now a claim
    resting on a withdrawn note — including the ones the allocation guide depends on.
-5. `guidelines/authority/discretion-matrix.md` at `D.4` says what a portfolio manager must then do,
+5. `internal_guidelines/authority/discretion-matrix.md` at `D.4` says what a portfolio manager must then do,
    and says explicitly that carrying the prior weight forward is not the conservative choice.
 
 The nuance that makes it a good demo rather than a dramatic one: §57(a)(5)(C)(ii) excepts qualified
