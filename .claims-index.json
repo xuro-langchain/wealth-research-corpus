@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "compiled_from": "a4412d6993034b736ef7ce9b4e0c2fafbf436b9b",
+ "compiled_from": "f7004745bd42e997de2e1b5b834581b97d633edf",
  "sidecar_fingerprint": "c27ea5bbe5077dccf6b5ccc2adfc0df8d43e11d18949c3ab659ac9abcba0c076",
  "claim_count": 124,
  "evidence_count": 236,
@@ -1463,7 +1463,7 @@
    "to": "internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md",
    "type": "constrains",
    "types": {
-    "constrains": 1
+    "constrains": 2
    },
    "claim_count": 5,
    "claim_ids": [
@@ -1477,9 +1477,8 @@
   {
    "from": "internal_guidelines/allocation/us-taxable-fixed-income.md",
    "to": "internal_research/FI/US/MUNI-CREDIT/2025-06.md",
-   "type": "supersedes",
+   "type": "constrains",
    "types": {
-    "supersedes": 1,
     "constrains": 1
    },
    "claim_count": 5,
@@ -1524,10 +1523,8 @@
   {
    "from": "internal_guidelines/suitability/private-markets-eligibility.md",
    "to": "internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md",
-   "type": "implements",
-   "types": {
-    "implements": 1
-   },
+   "type": null,
+   "types": {},
    "claim_count": 3,
    "claim_ids": [
     "claim_227410b465cc43969d37ca0c88909454",
@@ -1538,10 +1535,8 @@
   {
    "from": "internal_guidelines/allocation/us-taxable-fixed-income.md",
    "to": "internal_research/FI/US/IG-SPREADS/2025-09.md",
-   "type": "supersedes",
-   "types": {
-    "supersedes": 1
-   },
+   "type": null,
+   "types": {},
    "claim_count": 2,
    "claim_ids": [
     "claim_3e6199b9f24b47069def9da2ac4e65bb",
@@ -1561,10 +1556,8 @@
   {
    "from": "external_sources/SEC/2026-04-order-ia-7104-qualified-client.md",
    "to": "internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md",
-   "type": "implements",
-   "types": {
-    "implements": 1
-   },
+   "type": null,
+   "types": {},
    "claim_count": 1,
    "claim_ids": [
     "claim_466577fb5c6949ac944e1546efc8d63b"

@@ -140,7 +140,7 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
     on exactly the hard cases — a claim spanning three roles, a negated
     relation — and only one of them would be under test.
     """
-    from contracts.relation_types import normalize
+    from contracts.relation_types import is_legal, normalize
 
     edges: dict[tuple[str, str], dict] = {}
     for claim in index.claims:
@@ -168,7 +168,10 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
                     {"from": acting, "to": target, "types": {}, "claim_ids": []},
                 )
                 edge["claim_ids"].append(claim["id"])
-                if kind:
+                # The wording produced a verb; the roles decide whether it is
+                # possible. An allocation guide reading "weights derived from
+                # superseded research" is not superseding anything.
+                if kind and is_legal(kind, acting_role, target_role):
                     edge["types"][kind] = edge["types"].get(kind, 0) + 1
 
     out = []

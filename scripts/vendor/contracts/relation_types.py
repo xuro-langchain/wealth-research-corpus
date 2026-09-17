@@ -50,7 +50,11 @@ PATTERNS: tuple[tuple[str, str], ...] = (
         # "reviewed on re-issue or withdrawal of cited research" is a schedule,
         # not a supersession. A missing type withholds one answer; a wrong one
         # inverts it, so the looser synonym goes.
-        r"\bsupersede[sd]?\b|\bwithdrawn by\b"
+        # The bare participle is adjectival far more often than it is a
+        # relation: "weights derived from superseded research" states a policy
+        # ABOUT supersession and typed an allocation guide as superseding a
+        # research note. Require the active verb or an explicit agent.
+        r"\bsupersedes?\b(?! or )|\bsuperseded by\b|\bwithdrawn by\b"
         r"|\bremains the basis of record for positions\b"
         r"|\bedition in force\b|\bprior edition\b|\bgoverning (?:note|edition)\b",
     ),
@@ -91,3 +95,54 @@ def normalize(statement: str) -> str | None:
         if pattern.search(text):
             return name
     return None
+
+
+# --- who may do what to whom -----------------------------------------------
+#
+# The keyword map above reads a claim's PROSE and knows nothing about the two
+# documents the claim connects. That is where it goes wrong, and patching the
+# patterns one synonym at a time does not fix it: "weights derived from
+# superseded research" and "2026-04 supersedes 2025-06" look nearly identical to
+# a regex, and only the first is a policy statement rather than a relation.
+#
+# These constraints are orthogonal to wording. They come from the corpus brief's
+# own definitions of the verbs, and they hold however a claim is phrased:
+#
+#   implements  "internal guidance carries out a requirement imposed by a
+#               regulator" — so only guidance implements, and only a regulator's
+#               document can be implemented.
+#   supersedes  a later edition, or a regulatory change removing a view's basis.
+#               Internal guidance has no such power over either.
+#   restores    an exemption or relief restoring what a restriction removed.
+#               That is a regulator's act.
+#   constrains  "internal guidance or a regulatory requirement limits when or how
+#               a position may be taken" — a research note constrains nothing.
+#
+# Anything not listed here is unconstrained: `modifies` and `preserves` are
+# available to every role, because any document can leave another's provision
+# intact or change a limit it set.
+_ACTOR_MUST_BE: dict[str, frozenset[str]] = {
+    "implements": frozenset({"guideline"}),
+    "supersedes": frozenset({"bulletin", "cross-asset-note", "asset-note"}),
+    "restores": frozenset({"bulletin"}),
+    "constrains": frozenset({"guideline", "bulletin"}),
+}
+_TARGET_MUST_BE: dict[str, frozenset[str]] = {
+    "implements": frozenset({"bulletin"}),
+}
+
+
+def is_legal(kind: str | None, acting_role: str, target_role: str) -> bool:
+    """Can a document of `acting_role` stand in relation `kind` to `target_role`?
+
+    Used to drop a type the wording produced but the roles forbid. Dropping to
+    None is the documented preference: a missing type withholds one answer, a
+    wrong one inverts it.
+    """
+    if kind is None:
+        return True
+    actors = _ACTOR_MUST_BE.get(kind)
+    if actors is not None and acting_role not in actors:
+        return False
+    targets = _TARGET_MUST_BE.get(kind)
+    return targets is None or target_role in targets
