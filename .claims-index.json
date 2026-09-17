@@ -1,14 +1,15 @@
 {
  "schema_version": 1,
- "compiled_from": "32018818dc93e07586134e5db721800c64e3ac92",
- "sidecar_fingerprint": "203802f0014a83edd9d6e31f870490a744263f0ac757305f51ebfb748f7e4dfb",
- "claim_count": 142,
- "evidence_count": 256,
+ "compiled_from": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
+ "sidecar_fingerprint": "628a323f14799de125adc23afcb17a99a89cbf1cf049ace1d04d0fa883702cb0",
+ "claim_count": 160,
+ "evidence_count": 294,
  "resources": {
   "README.md": {
-   "claim_count": 2,
+   "claim_count": 5,
    "pages": {
-    "quickstart": 1,
+    "quickstart": 2,
+    "regulatory/pension-funding-relief": 2,
     "workflows/position-basis-of-record": 1
    },
    "claims": [
@@ -18,9 +19,89 @@
      "lines": "L39-L48"
     },
     {
+     "id": "claim_e5ee71e78e574c919a99dea2f1e28b3e",
+     "page": "quickstart",
+     "lines": "L39-L48"
+    },
+    {
+     "id": "claim_90e733df714a46b1878af6eb6bca3f69",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L39-L48"
+    },
+    {
+     "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L39-L48"
+    },
+    {
      "id": "claim_77eeba7663204f32b58033005e86c2de",
      "page": "workflows/position-basis-of-record",
      "lines": "L39-L48"
+    }
+   ]
+  },
+  "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md": {
+   "claim_count": 11,
+   "pages": {
+    "regulatory/pension-funding-relief": 7,
+    "quickstart": 2,
+    "research/fixed-income/long-credit-and-pension-demand": 2
+   },
+   "claims": [
+    {
+     "id": "claim_6d9dbebdfc934a1f8ee6e51acfeccf6d",
+     "page": "quickstart",
+     "lines": "L7-L25"
+    },
+    {
+     "id": "claim_e5ee71e78e574c919a99dea2f1e28b3e",
+     "page": "quickstart",
+     "lines": "L27-L31"
+    },
+    {
+     "id": "claim_7eb851af35594140aadd4ef97f29ac16",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L1-L11"
+    },
+    {
+     "id": "claim_f895eff976b74771b0030c8a83f63591",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L13-L17"
+    },
+    {
+     "id": "claim_1c4ddedda32143ee83589450c794ddcc",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L19-L25"
+    },
+    {
+     "id": "claim_3f46d886eac246cc9578344899efb3fa",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L27-L35"
+    },
+    {
+     "id": "claim_9e6f175331044f2fa7e86f01b6be34fb",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L7-L25"
+    },
+    {
+     "id": "claim_90e733df714a46b1878af6eb6bca3f69",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L7-L7"
+    },
+    {
+     "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L29-L31"
+    },
+    {
+     "id": "claim_f0a03531e3074b20a51f4eff6e7a6533",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L7-L25"
+    },
+    {
+     "id": "claim_3edcb8fd56444257b812015987076bda",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L27-L31"
     }
    ]
   },
@@ -343,12 +424,13 @@
    ]
   },
   "guidelines/allocation/us-taxable-fixed-income.md": {
-   "claim_count": 20,
+   "claim_count": 22,
    "pages": {
     "guidance/allocation/us-taxable-fixed-income": 10,
     "guidance/authority/discretion-and-escalation": 3,
     "workflows/position-basis-of-record": 3,
     "quickstart": 2,
+    "regulatory/pension-funding-relief": 2,
     "regulatory/municipal-amt-thresholds": 1,
     "research/fixed-income/municipal-credit-and-ig-funding": 1
    },
@@ -454,6 +536,31 @@
      "lines": "L7-L11"
     },
     {
+     "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L1-L5"
+    },
+    {
+     "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L17-L23"
+    },
+    {
+     "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L33-L37"
+    },
+    {
+     "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L49-L51"
+    },
+    {
+     "id": "claim_019be8b6a97b48eeae42af80de2430a0",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L7-L11"
+    },
+    {
      "id": "claim_9c04f8c938f7498e8f4145865742e75e",
      "page": "research/fixed-income/municipal-credit-and-ig-funding",
      "lines": "L17-L23"
@@ -491,7 +598,7 @@
    ]
   },
   "guidelines/authority/discretion-matrix.md": {
-   "claim_count": 37,
+   "claim_count": 39,
    "pages": {
     "guidance/allocation/us-taxable-fixed-income": 7,
     "guidance/authority/discretion-and-escalation": 6,
@@ -502,8 +609,10 @@
     "workflows/position-basis-of-record": 3,
     "regulatory/municipal-amt-thresholds": 2,
     "research/fixed-income/municipal-credit-and-ig-funding": 2,
+    "regulatory/pension-funding-relief": 1,
     "regulatory/private-markets-qualified-client": 1,
     "research/fixed-income/duration-and-curve": 1,
+    "research/fixed-income/long-credit-and-pension-demand": 1,
     "research/multi-asset/rates-regime-and-strategic-bands": 1
    },
    "claims": [
@@ -668,6 +777,11 @@
      "lines": "L31-L35"
     },
     {
+     "id": "claim_019be8b6a97b48eeae42af80de2430a0",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L31-L35"
+    },
+    {
      "id": "claim_0452b594834b496db813b23602d04648",
      "page": "regulatory/private-markets-qualified-client",
      "lines": "L17-L29"
@@ -681,6 +795,11 @@
      "id": "claim_46352c2681ac4909a1be03959721051d",
      "page": "research/fixed-income/duration-and-curve",
      "lines": "L31-L35"
+    },
+    {
+     "id": "claim_a861e1f8c12d4d4c85b378101aaa32a6",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L31-L37"
     },
     {
      "id": "claim_b3bfa019703c45f5a9b6d76b47d57e6b",
@@ -1076,11 +1195,17 @@
    ]
   },
   "research/FI/US/IG-SPREADS/2025-09.md": {
-   "claim_count": 1,
+   "claim_count": 2,
    "pages": {
+    "research/fixed-income/long-credit-and-pension-demand": 1,
     "research/fixed-income/municipal-credit-and-ig-funding": 1
    },
    "claims": [
+    {
+     "id": "claim_86bdc671bc344a0a82e69c05439ce0d3",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L16-L26"
+    },
     {
      "id": "claim_dde8f3bc70a94b5882c2bd55bac05199",
      "page": "research/fixed-income/municipal-credit-and-ig-funding",
@@ -1327,6 +1452,96 @@
     }
    ]
   },
+  "research/FI/US/PENSION-LDI/2026-03.md": {
+   "claim_count": 11,
+   "pages": {
+    "research/fixed-income/long-credit-and-pension-demand": 7,
+    "quickstart": 2,
+    "regulatory/pension-funding-relief": 2
+   },
+   "claims": [
+    {
+     "id": "claim_6d9dbebdfc934a1f8ee6e51acfeccf6d",
+     "page": "quickstart",
+     "lines": "L20-L24"
+    },
+    {
+     "id": "claim_6d9dbebdfc934a1f8ee6e51acfeccf6d",
+     "page": "quickstart",
+     "lines": "L38-L46"
+    },
+    {
+     "id": "claim_e5ee71e78e574c919a99dea2f1e28b3e",
+     "page": "quickstart",
+     "lines": "L16-L24"
+    },
+    {
+     "id": "claim_9e6f175331044f2fa7e86f01b6be34fb",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L16-L24"
+    },
+    {
+     "id": "claim_9e6f175331044f2fa7e86f01b6be34fb",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L38-L46"
+    },
+    {
+     "id": "claim_90e733df714a46b1878af6eb6bca3f69",
+     "page": "regulatory/pension-funding-relief",
+     "lines": "L12-L14"
+    },
+    {
+     "id": "claim_081c05de84f949dd96757b55acb3da2b",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L5-L14"
+    },
+    {
+     "id": "claim_6086977ee6544801977c322ee632616c",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L16-L18"
+    },
+    {
+     "id": "claim_6086977ee6544801977c322ee632616c",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L26-L28"
+    },
+    {
+     "id": "claim_abf4f327a3ad4657826d2a9e77e5fd86",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L30-L32"
+    },
+    {
+     "id": "claim_8a90f0c0e24b413baec576330db7b3bd",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L20-L24"
+    },
+    {
+     "id": "claim_8a90f0c0e24b413baec576330db7b3bd",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L38-L40"
+    },
+    {
+     "id": "claim_86bdc671bc344a0a82e69c05439ce0d3",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L34-L36"
+    },
+    {
+     "id": "claim_f0a03531e3074b20a51f4eff6e7a6533",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L20-L24"
+    },
+    {
+     "id": "claim_f0a03531e3074b20a51f4eff6e7a6533",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L38-L46"
+    },
+    {
+     "id": "claim_3edcb8fd56444257b812015987076bda",
+     "page": "research/fixed-income/long-credit-and-pension-demand",
+     "lines": "L44-L46"
+    }
+   ]
+  },
   "research/MA/GL/PRIVATE-MARKETS/2025-12.md": {
    "claim_count": 14,
    "pages": {
@@ -1481,6 +1696,23 @@
  },
  "relations": [
   {
+   "from": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+   "to": "research/FI/US/PENSION-LDI/2026-03.md",
+   "type": "supersedes",
+   "types": {
+    "supersedes": 2
+   },
+   "claim_count": 6,
+   "claim_ids": [
+    "claim_6d9dbebdfc934a1f8ee6e51acfeccf6d",
+    "claim_e5ee71e78e574c919a99dea2f1e28b3e",
+    "claim_9e6f175331044f2fa7e86f01b6be34fb",
+    "claim_90e733df714a46b1878af6eb6bca3f69",
+    "claim_f0a03531e3074b20a51f4eff6e7a6533",
+    "claim_3edcb8fd56444257b812015987076bda"
+   ]
+  },
+  {
    "from": "bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md",
    "to": "research/FI/US/MUNI-CREDIT/2026-04.md",
    "type": "preserves",
@@ -1627,6 +1859,16 @@
    "claim_count": 1,
    "claim_ids": [
     "claim_6bd75e4efb0c4042a0971989adf64965"
+   ]
+  },
+  {
+   "from": "guidelines/allocation/us-taxable-fixed-income.md",
+   "to": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+   "type": null,
+   "types": {},
+   "claim_count": 1,
+   "claim_ids": [
+    "claim_7f90e0cc71b64bec824e3bde5623d65e"
    ]
   }
  ],
@@ -2976,6 +3218,62 @@
    ]
   },
   {
+   "id": "claim_6d9dbebdfc934a1f8ee6e51acfeccf6d",
+   "page": "quickstart",
+   "statement": "For plan years beginning on or after 2027-01-01, DOL Release 2026-31\u2019s wider discount-rate corridor, conditional contribution relief, and limited surplus uses supersede the pension-demand premise that supports FI-US-PENSION-LDI 2026-03\u2019s long-credit overweight, triggering that note\u2019s announced-rule review condition.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+     "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 7,
+     "end": 25
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+     "version": "repo-lines-v1:sha256:f98242411fc60fd86b7dd276a2e4b796d96fc17ac946fb3822b8b4e5d5866b1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 20,
+     "end": 24
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+     "version": "repo-lines-v1:sha256:0465fb517261d553b7fdcdad9c7085af8cf9bba5706e59efba84df08aef04cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 38,
+     "end": 46
+    }
+   ]
+  },
+  {
+   "id": "claim_e5ee71e78e574c919a99dea2f1e28b3e",
+   "page": "quickstart",
+   "statement": "The pension-demand research record and DOL funding-relief overlay do not themselves establish a binding portfolio weight: frozen research remains the historical basis of record for the position date, while binding weights belong to living internal guidance.",
+   "evidence": [
+    {
+     "resource": "repo://README.md#L39-L48",
+     "version": "repo-lines-v1:sha256:6b60a73a4f29d6156a057ffda69e9a9b598ee2681173383ae36c97bdc8bf7e79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ",
+     "document": "README.md",
+     "start": 39,
+     "end": 48
+    },
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+     "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 27,
+     "end": 31
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L16-L24",
+     "version": "repo-lines-v1:sha256:6e1c9a5f203cfbacae50cf48296314e90a92796279c37a902135b1de1614fe81:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI2ZmFiYTkxZjQzNmUwMjAxNjM0MzMxMjQ4Y2ZhZWYwNGM3NDNhZDFiOTFhZTk5MjBhMjg1MzlhYWM1ZmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzRkOTc5OTY2YmU3ZTIxNTg0MzkxODNlNTcyNDEzNjhiMjJkMDNjMWM4YTJkOTIwYzliMDlmNWI2M2E0NWVmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 16,
+     "end": 24
+    }
+   ]
+  },
+  {
    "id": "claim_d762c63b078e43589251f4936641057f",
    "page": "regulatory/municipal-amt-thresholds",
    "statement": "For taxable years beginning on or after 2026-01-01, Revenue Procedure 2025-41 sets the AMT exemption amounts and reduces the exemption by $0.25 for every dollar of AMTI above $500,000 for an unmarried taxpayer and $1,000,000 for joint filers; those thresholds are not section 1(f)-indexed before 2030.",
@@ -3147,6 +3445,188 @@
      "document": "research/FI/US/MUNI-CREDIT/2026-04.md",
      "start": 86,
      "end": 89
+    }
+   ]
+  },
+  {
+   "id": "claim_7eb851af35594140aadd4ef97f29ac16",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "DOL Release 2026-31 is a synthetic regulatory overlay for single-employer defined-benefit-plan funding rules, issued in 2026-08 and effective only for plan years beginning on or after 2027-01-01; it is not portfolio guidance.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L1-L11",
+     "version": "repo-lines-v1:sha256:fc223424dfd588b34e107974a6e1a93966e19e3d8bfc1bf6e06733a4ee184ef3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjNzlkYTJlOTk5YmM3NDdjNzM2YWE1MTdmY2VlNDcxZDk1ZGZhYTI1NTkxZjlkNmJkZTA0ZGEzYzEyYmE3OTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2ZWEzNDYzM2M3MWFiZjM2Zjg3YTQ0NzRiYTRmYWUyNmM1MzAyODM0NDA2YjY1YjhjNzQ2MTk5ZDZiYmZiYjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJiZDY1NjU1YzRkMWFmMzE4ZmE3MmQ5NTc5MDJhZjg3ZTk2MmMyZjVhZTNhODNlMzlhNzIxMDIwYTg3YzFhZmIifQ",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 1,
+     "end": 11
+    }
+   ]
+  },
+  {
+   "id": "claim_f895eff976b74771b0030c8a83f63591",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "DOL Release 2026-31 P.2 widens the twenty-five-year-average segment-rate corridor from 10% to 20% for affected plan years, permitting higher discount rates and lower measured liabilities that will generally create surplus for plans near full funding under the former corridor.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L13-L17",
+     "version": "repo-lines-v1:sha256:0ebc3a2c3a2a1bfd9c87ba456752aa1262f2fc07fa4947c2dd708bd987b347b5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM1NWEzOTA1MDZjZDQwZjdhODk4MzYwNzc2MGU2ZjkyMDk5NDM3YWZjZjIzYzA1MjRlZTUwMDhiMTEyMmYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZmZmM2YmNlMDRkOTAwMGU2ZTU3Yzg0ODgwZDg1OTg1NzdjNzc2MTcxNDk3MGI0YThlOTRhYjRhNzgwNWE0YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFjZWNmMmNlZjg4MjhkMWM3NmVmNTMxZWQzYzM2NmI5OGExNzVhYzIwYzU1MDA3Mjc2OTVjNmZiN2E0YzU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTc5N2Y4ZTdhYjg4MDJiMWY5OTJlNjUwNzA2N2U3YzY4ZjZmMWVhZDBmMTI0OTk0YzRmZTVjMGUwMjc4OGE0ZSJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 13,
+     "end": 17
+    }
+   ]
+  },
+  {
+   "id": "claim_1c4ddedda32143ee83589450c794ddcc",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "DOL Release 2026-31 P.3 removes the minimum required contribution for a plan above 110% funded under P.2 and allows the sponsor to elect to treat the excess as available for P.4 purposes; P.4 limits those uses to a qualified replacement-plan transfer or retiree health accounts and does not authorize a sponsor reversion outside the existing statutory framework.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L19-L25",
+     "version": "repo-lines-v1:sha256:27f3620104d9ea3b108aa434cecec527d48ee724b25cf79931686a032f38a431:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdmNTcxMGE1MjdjMzYyNjI5ZDQyMjE4YjBmMjAxYjA5NDY1N2M0NDgxN2E5YzFmODk0ZjhmOWI5YmIxYjUxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWZkZjQxZjAzMDgxM2I5MTgwYjFhMDdiOWI3NTUxYjRiMTk0ZGExMDllN2E0ZTVmZWNkYmQ3NDU4YzkwYzg1MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q3MDdlMjJkNTQzMmZmNmI1NzAyZTQwOGMwZjczNDI4MmU2MWE2NWVmMzIwMjk0NTc1YzY5NzYyYzAwMjQ5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmQ2OTIxMzA4Njg0ZjFhNWM4NDJmZmNmMDMwNDdhNTc0YzM0YmJjZmMyMzk5ZmFkMjdiNDJmOGEyNmVjYjBhNiJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 19,
+     "end": 25
+    }
+   ]
+  },
+  {
+   "id": "claim_3f46d886eac246cc9578344899efb3fa",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "DOL Release 2026-31 P.5 preserves benefit-accrual, vesting, and all existing below-80%-funded-plan restrictions, and does not address fiduciary investment standards; P.6 requires participant notice within 30 days when a sponsor elects P.3 relief.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L35",
+     "version": "repo-lines-v1:sha256:ee1cee26b0d4296bfee78f63761797d9d0a443ce2075d1f69ab0ad6383e7ade2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJlMTZhZjY1NzU5NDMxM2VjZDY1NDU4NWYwNjdiY2ZiZDhkZDc3OTJmODIyMTFjZjRjODU2ZTI3MmNjOGY0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc4ODE1MmU4ZTBmZjQxNGM0ZmFmZmU5MDgxNWZlZjE4ZjFlYjI5NmMyZTQ5NzM0ZWEwYWFhZTU4OGI0MmIyMyJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 27,
+     "end": 35
+    }
+   ]
+  },
+  {
+   "id": "claim_9e6f175331044f2fa7e86f01b6be34fb",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "DOL Release 2026-31 P.2-P.4 prospectively invalidate the FI-US-PENSION-LDI 2026-03 L.2 pension-demand premise because that load-bearing premise depends on contribution requirements and the liability discount-rate basis making surplus worth protecting; the note expressly identifies surplus release, discount-rate changes, and reduced contribution requirements as risks that invalidate its overweight and requires review after an announced funding or discount-rate change.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+     "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 7,
+     "end": 25
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L16-L24",
+     "version": "repo-lines-v1:sha256:6e1c9a5f203cfbacae50cf48296314e90a92796279c37a902135b1de1614fe81:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI2ZmFiYTkxZjQzNmUwMjAxNjM0MzMxMjQ4Y2ZhZWYwNGM3NDNhZDFiOTFhZTk5MjBhMjg1MzlhYWM1ZmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzRkOTc5OTY2YmU3ZTIxNTg0MzkxODNlNTcyNDEzNjhiMjJkMDNjMWM4YTJkOTIwYzliMDlmNWI2M2E0NWVmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 16,
+     "end": 24
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+     "version": "repo-lines-v1:sha256:0465fb517261d553b7fdcdad9c7085af8cf9bba5706e59efba84df08aef04cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 38,
+     "end": 46
+    }
+   ]
+  },
+  {
+   "id": "claim_90e733df714a46b1878af6eb6bca3f69",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "FI-US-PENSION-LDI 2026-03, published 2026-03-05 and applicable from 2026-04-01, remains the historical basis of record for positions taken while it stood; the prospective DOL overlay triggers review but does not retroactively rewrite that frozen research record.",
+   "evidence": [
+    {
+     "resource": "repo://README.md#L39-L48",
+     "version": "repo-lines-v1:sha256:6b60a73a4f29d6156a057ffda69e9a9b598ee2681173383ae36c97bdc8bf7e79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ",
+     "document": "README.md",
+     "start": 39,
+     "end": 48
+    },
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L7",
+     "version": "repo-lines-v1:sha256:aa63b2bfc5da354844c85f2a42d9f3cac907fb84eba16d50b71d2d954e97e31f:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2M2IyYmZjNWRhMzU0ODQ0Yzg1ZjJhNDJkOWYzY2FjOTA3ZmI4NGViYTE2ZDUwYjcxZDJkOTU0ZTk3ZTMxZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWE2M2IyYmZjNWRhMzU0ODQ0Yzg1ZjJhNDJkOWYzY2FjOTA3ZmI4NGViYTE2ZDUwYjcxZDJkOTU0ZTk3ZTMxZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTYzNDI3OWZlZGJkMzIxMTBhMTQ4MWI0OWE2NjE0ZTNkM2Q5MjIyMGY1ZTlkMGQ2OTk2OGM1MDMwMjk1MWE4MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWNkNzc4ZDE3ZTQyYjVkY2JjMzFlM2VjMGI2NTBhMWNhZmM4N2Q3ZjNmMWUwNTc1ZDc1OTQyYzk1NzgwYzhlMyJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 7,
+     "end": 7
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L12-L14",
+     "version": "repo-lines-v1:sha256:b8543bafd214146029cb48cc43b21e5e8492c7bbf872dfddecf8780e1c42bbc1:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWFkZjBlYjNhODdjMzE4ZDA5MDkwYjQ1ZGU5NTg5MDE4YTM2NmZhNWY3NmZmOGU1ZTQ1ODRmMTQ2MzhiM2FlZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRmNDQ2MzRkNzgxYjdhZWM5MmRmYTIzMTYyNzM2ZDY4MDA0MGUzMDc5ZmYwM2ZkZmEwOTE5MmM5MWQ3MzQ2MCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDIzMWRiMDFjNjI4NjA4ODVhZDE2MjU0NDcwMGQ5YjU3ODVjYTM0MThhOWM3Njg3ZGY1YWRkODQ0OThlYjMxOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDIxM2MxMDIwZTgwNWVlMWI0MzI4ZDk3MDc5ZjBlN2ZhM2Y3MGE3YWU1M2EyMjE1OWQ2ZTM2Nzk3MmE2ODgwYiJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 12,
+     "end": 14
+    }
+   ]
+  },
+  {
+   "id": "claim_7f90e0cc71b64bec824e3bde5623d65e",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "The DOL release creates neither an investment-manager permission nor a long-credit allocation instruction: research provides a thesis, living guidance sets binding portfolio weights, and the available taxable fixed-income guide derives its stated weights from the municipal and IG-spreads notes rather than FI-US-PENSION-LDI 2026-03.",
+   "evidence": [
+    {
+     "resource": "repo://README.md#L39-L48",
+     "version": "repo-lines-v1:sha256:6b60a73a4f29d6156a057ffda69e9a9b598ee2681173383ae36c97bdc8bf7e79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ",
+     "document": "README.md",
+     "start": 39,
+     "end": 48
+    },
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L29-L31",
+     "version": "repo-lines-v1:sha256:6386070105d3e67166a8942862030db4d9f7caddec8363fbd5fcf8f255c37da2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmZmOTEyZmU4OTAzNzZjNWFhODk3MDkyMGZiNjlhM2E2MGQ1YzI0MGMzMzY1ZjlhMjMyNDM3ZWMzMWU0NDI4MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmQ2OTIxMzA4Njg0ZjFhNWM4NDJmZmNmMDMwNDdhNTc0YzM0YmJjZmMyMzk5ZmFkMjdiNDJmOGEyNmVjYjBhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 29,
+     "end": 31
+    },
+    {
+     "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L1-L5",
+     "version": "repo-lines-v1:sha256:a8616aecab01c6b0b017cfd0e694baca7c0eedffd90de1e2f5265269b0cb322d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU4MWYxYjFlMWQyYzJmMmM0ZTM4ZGJiNTBhOGRiNjgwNTk0NjNhNTNiNmM1YjdmMTU0OGFmMmY0YWY2NDdlMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA1ZGJlM2JhNjRlMTM4YzAzNWE3YTRkMzQ3ZDZkNDAzYTk5YzhjZWZiZWY4NzdkNzUyMzU2MWI2YzFlZDMyZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTI4MzVjZjk2Mjg1NjYyMDZmYmVhZTk4NWY3NmJkNzJjYzRhM2NiNjc5YzBlMDliMWY4MzIxMTAwMzZjMWFiNiJ9",
+     "document": "guidelines/allocation/us-taxable-fixed-income.md",
+     "start": 1,
+     "end": 5
+    },
+    {
+     "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
+     "version": "repo-lines-v1:sha256:008b63307c128094a6ac8cbf9ac50127983559e55ffd1101214614c429ff895b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9",
+     "document": "guidelines/allocation/us-taxable-fixed-income.md",
+     "start": 17,
+     "end": 23
+    },
+    {
+     "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37",
+     "version": "repo-lines-v1:sha256:f70178ec8c85606d49ea4cb8e4dd637ae34ac777f44f4af37e3371c42c169a07:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGIwMTIwYWJkN2QzNWMxZDhhYmI2ZjJhZTZiMDMyMTI1YTU1ZWMyNmNkMzM3ZTczMzNlMzg3YWUwODU1ZTUwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdlYmYzNzkwMjAyNGQ3NjE3OWNjNzIyZmMxOTc5ZDQ5MWI1NjZlNmVlODlhMzE1OTRjODQ0YWFhOWEzYWU3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWM1NGJjYTMxNTgzMTcxOTcwZjQwMDhiYTY4Yjg5ZTdkZjI3YWIyMzQ1YjY3NzEyMDAwNjkzNTIyNzBjODRjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmRiM2Y2MWQxZGQ0OGZlNDFmZGYwZmQ1OGUzZjJlMjk2NWZiZGVhMmM0MGM3ODg5YWEzZTI3ZjljMTYxNWQzNiJ9",
+     "document": "guidelines/allocation/us-taxable-fixed-income.md",
+     "start": 33,
+     "end": 37
+    },
+    {
+     "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L49-L51",
+     "version": "repo-lines-v1:sha256:90f58ee6736d0b9002e0c0ac29ae82ead1b7ae81c2f46273d37c7e196094e790:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmJmMGZlMDJhNjg0MDk5ZTJjZjE1Y2ViMzU5YTM4ZGE5ZjJhYjk2Yzg2OWRmOWY1YTU3YjA4OWUwM2MzZThhYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA1NjE5YWJmZGZlM2M1ZTMyZGVkODBkZjlmZDBlYmFhOWNkNjFmMWRjYmFlMDZlOWRhYjk3YmRkZmI3ZTYwOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Y4ODczMWVkNzg5ZjY2OTAwMDEyYTQ0MTdlODc2YmM5YmE0NTNjY2I4OWQxMTkwYmUyZThlZDM3MWM4ZmJhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9",
+     "document": "guidelines/allocation/us-taxable-fixed-income.md",
+     "start": 49,
+     "end": 51
+    }
+   ]
+  },
+  {
+   "id": "claim_019be8b6a97b48eeae42af80de2430a0",
+   "page": "regulatory/pension-funding-relief",
+   "statement": "The internal superseded-note escalation mechanism applies when a mandate guide cites the relevant research note: it suspends the derived weight, requires a record of the affected notes, weights, and accounts, and reserves adoption of a replacement binding weight to the committee; it does not create an LDI-specific response without that cited dependency.",
+   "evidence": [
+    {
+     "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+     "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9",
+     "document": "guidelines/allocation/us-taxable-fixed-income.md",
+     "start": 7,
+     "end": 11
+    },
+    {
+     "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L35",
+     "version": "repo-lines-v1:sha256:ddef6d87372a88b6768c2582f9a3a85a6223669a47e9175e25763c07d27ea6e6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhkOTA2OWZmZGQwOWMyNWQ0OTcyYjc4MjYxOGM4OTI3NzY5ZmE0ODlkMjYxYjE3YWJiYWQxNjY1ZTNjM2Y4OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiJ9",
+     "document": "guidelines/authority/discretion-matrix.md",
+     "start": 31,
+     "end": 35
     }
    ]
   },
@@ -3630,6 +4110,160 @@
      "document": "guidelines/authority/discretion-matrix.md",
      "start": 31,
      "end": 35
+    }
+   ]
+  },
+  {
+   "id": "claim_081c05de84f949dd96757b55acb3da2b",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "FI-US-PENSION-LDI, Edition 2026-03 was published on 2026-03-05, applies to positions taken on or after 2026-04-01, and changed the desk view from neutral to overweight long-dated investment-grade credit.",
+   "evidence": [
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L5-L14",
+     "version": "repo-lines-v1:sha256:6b8a662f311669afe944ebb742f0c7051a4c69c251169e7b7e36855831c515da:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNzk2MWEzZmNiZTg3MGM5YWZmYzhjNTU3MDc2OGQ3YmZhN2E3ZWY2Mzk4ZjVkYTNmZDZkZmRjNTNmNmNlNzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkZjQ0NjM0ZDc4MWI3YWVjOTJkZmEyMzE2MjczNmQ2ODAwNDBlMzA3OWZmMDNmZGZhMDkxOTJjOTFkNzM0NjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMDQ2MTVkMDdhNDdmZTJiMDUxMzQ5MDBjMjM5MmE4ZmU0MzdhZTVjYWRlODc5Mzk4NDk3Y2JlYTlhNTg1MDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAyMTNjMTAyMGU4MDVlZTFiNDMyOGQ5NzA3OWYwZTdmYTNmNzBhN2FlNTNhMjIxNTlkNmUzNjc5NzJhNjg4MGIifQ",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 5,
+     "end": 14
+    }
+   ]
+  },
+  {
+   "id": "claim_6086977ee6544801977c322ee632616c",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "The 2026-03 long-credit overweight is a demand and supply-flow view: it expects corporate defined-benefit plans to buy long corporate paper through 2028, with demand large relative to net long-end issuance; issuance had been below that demand for six quarters.",
+   "evidence": [
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L16-L18",
+     "version": "repo-lines-v1:sha256:59268b99c178cfde2699fb69003be477b80e2bb27de8f2384c734bd8c4557868:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjI2ZmFiYTkxZjQzNmUwMjAxNjM0MzMxMjQ4Y2ZhZWYwNGM3NDNhZDFiOTFhZTk5MjBhMjg1MzlhYWM1ZmVmMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxOTAzNzc0NGM5NjNjNGE3ZGFhYzBiNjE2MzJjNDhiMjJhMzBjZDA5OTc1Y2ZlNzM5Nzc2OWY5MTgzYWZmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzRkOTc5OTY2YmU3ZTIxNTg0MzkxODNlNTcyNDEzNjhiMjJkMDNjMWM4YTJkOTIwYzliMDlmNWI2M2E0NWVmMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZlMzRlMzEwMDM3MTQwNjg2ZTI0ZWExMGEwZDg0NjRjZWY2OTYyODFhYTY1NDBiMzNlYWU3OTcyODdkZTg0ZCJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 16,
+     "end": 18
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L26-L28",
+     "version": "repo-lines-v1:sha256:a79e30815954dd31f1ca643fa4e1eac2e950a706d7a9c8af8703abc5284af3fc:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFjMWFlODA3NDZiYmE3NzdkMTc5MWVkYjg0NWIzMWFjZTk0ZWY3ZmRmZDJiYjdiOTg3MDdjMGU1NWE5N2QyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTc0YmIzMDFlNTM2M2M1NDQzMjI5NmM0Zjk1OGRjODVlYjJhNDFmZDI4NGZmYzQxMDBhNTFlZWRjZTI2M2NkNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjcyNzA2ODMyMGNhNzY3ZGRhZmY2ZTU5MjU0NjlmMjhiYmFmYTJjZTdhZjUwMzU2ZGIxNjRiYjk1Y2U3MWFjMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTJlMGMyMGNkYzBkNmZiYWQzZDg1NTA1OTMzYjI5NGJmODE2ZmZkYjZjNjNhYTZlMTA5ZTM1N2MxNzI0YmE1MCJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 26,
+     "end": 28
+    }
+   ]
+  },
+  {
+   "id": "claim_abf4f327a3ad4657826d2a9e77e5fd86",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "The FI-US-PENSION-LDI expression is bounded to the long end and single-A-and-better credit because it is a flow call rather than compensation for lower credit quality.",
+   "evidence": [
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L30-L32",
+     "version": "repo-lines-v1:sha256:b0ca52961dbd7178863010b759b6164df73b86cd17210c83e85acf30189a9174:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGRlYjVjMzE5NzJjYWFmNGM2MmVkZmU2N2Q1OTllZmYwMDI1MzM2NmRhOTNiYjFkNmIzNGM2OWNhYjlkYTUxNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODk3YTRmOGQ1NDMwYWJkN2M3ODkwOTNiNmEzZDIwY2Q3ZWFiY2FkMjg0YzQwNjg4OTI4ZGQ2YWZjZmI4NDk5OSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjBhYzA4ZDgzNTlkNzBjMGM5NjJiZTE3NjIzOGY5ODYyNTE3N2Q1YjE2NzRmN2Y2OGU1MzNlZGI3N2U2MDAwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzc5MjZkNzJhNDk2OTBjZTYyYzAwZDEwNDI5YzI0ZmU1ODliMDM1ZjhmMTcwMTZmMjM1NzI4ODczMDM3NDVlZCJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 30,
+     "end": 32
+    }
+   ]
+  },
+  {
+   "id": "claim_8a90f0c0e24b413baec576330db7b3bd",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "The load-bearing premise of FI-US-PENSION-LDI 2026-03 is that pension funding rules make surplus worth protecting through contribution requirements and liability discount-rate measurement; allowing surplus release or re-risking could reverse flows and invalidate the overweight.",
+   "evidence": [
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+     "version": "repo-lines-v1:sha256:f98242411fc60fd86b7dd276a2e4b796d96fc17ac946fb3822b8b4e5d5866b1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 20,
+     "end": 24
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L40",
+     "version": "repo-lines-v1:sha256:b21753e9e94b455af0933f0158f259ef06ff176b12a7c9997e2808f4c91fe014:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDg3NjhjMTkxMGQ5YTI1M2RjMzM0MWM0MWY4N2UzMGJkZmU1OGYxMGYwODllNDkzMjZmNDU3ZmQyMGU4OWM5NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmZlOWE0MDU3NGJmZWFhMWQxODJmNTI2MzU1MzdlOGVjZGZkOGIyZDRmNmYyZTVlYzU1MjdkNzY0MzVlOTY5ZCJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 38,
+     "end": 40
+    }
+   ]
+  },
+  {
+   "id": "claim_86bdc671bc344a0a82e69c05439ce0d3",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "The long-end pension-flow overweight and FI-US-IG-SPREADS 2025-09 have distinct scopes: the former is a maturity-specific flow view, while the latter is an index-level valuation underweight, not a credit-deterioration call.",
+   "evidence": [
+    {
+     "resource": "repo://research/FI/US/IG-SPREADS/2025-09.md#L16-L26",
+     "version": "repo-lines-v1:sha256:d2ea2241c6d0b4c591a042742589d7aabd21260a3d72f03f05d2c53a561c2ce4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMGIzNDc1NGJjYWMyNWU5OGQ5ZTA3ZjFhMzNlYWE0Y2VlMjlhN2FkM2YzYTc0MjNmOTkwNmViYzVhZGVmNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYWQyYTMyNzk3ODUxYzFmMjQ5YWUzZWE4ZjJjMTU4M2I4NzIzMDQ3YWQ1OGU2NGE5YTdhZjU2NGFkMWRhOTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkMWQxYWVlNmEzM2RkYjE0OWIyODM0OWIyNDY2MjdhOTRiOTRkZjU1YmM1MTZkZjJiODcyNjM2M2Q0MGRkMjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllZGRmNWVkOTRjNzllNWMwOWRmM2Q5ZDhjNGRkOWViNmNmOTI2MTk3OTkzODJiODUyNTVhZjIyMjJmYjFmMjAifQ",
+     "document": "research/FI/US/IG-SPREADS/2025-09.md",
+     "start": 16,
+     "end": 26
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L34-L36",
+     "version": "repo-lines-v1:sha256:d818aa61a45dd61db399e318c7dec2cf883946cce0493acbc0c5d2eec7198a3e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDUyY2Y3NzUzYTdiZmRjZjkxMjVhYzRlMWVmYjI5ZjhhNzQzZDU0NGI4M2FhNGYxN2NiMDEyMmY1M2Q1YTYyZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjI3Y2Q4ZGNkYTcwYmM2MDE5ZDRlZWRmMzIzNjI5NTJjYmRjMmRmOTQ1NTY3YTZiMWU5MmUwMmM0MzJmODFhNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWZiMjM0ZTRhOTk0YWJlYjU2M2NiODQxYWM4YmI2YmM3ZjBkMjA1YWFhODlhNWMwNWNjZTZmNTQwZGM1YThmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzlmOGY5ZGJmNzg0YTMwMzAyNzE3NWE0Mjg2ZDdkNDNlZTc5ZGI1YjY4YjRlOWUzMDA1YTc4YzBjMzg5OGIyNyJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 34,
+     "end": 36
+    }
+   ]
+  },
+  {
+   "id": "claim_f0a03531e3074b20a51f4eff6e7a6533",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "DOL Release 2026-31 P.2-P.4 supersede the 2026-03 pension-demand premise prospectively for plan years beginning on or after 2027-01-01 by widening the discount-rate corridor, conditionally relieving qualifying plans of minimum contributions, and allowing limited specified uses of excess assets.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+     "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 7,
+     "end": 25
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+     "version": "repo-lines-v1:sha256:f98242411fc60fd86b7dd276a2e4b796d96fc17ac946fb3822b8b4e5d5866b1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JhZWI0N2JmNzMwMmE3NDc1ODc2M2UxOThkMzFmMTU5ODNhOGY4M2Y1NTkzZDQxMjRmN2Y2NmMyMjljYmUyYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 20,
+     "end": 24
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+     "version": "repo-lines-v1:sha256:0465fb517261d553b7fdcdad9c7085af8cf9bba5706e59efba84df08aef04cb7:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjBhNWM2NzI0MzFlMDk2MTk4MTc5YzY1MGY4YzdiYTIxZGFhYTZjNWM3ZTIxMzhlODVlOGM4NzUwYTZlZTA2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 38,
+     "end": 46
+    }
+   ]
+  },
+  {
+   "id": "claim_3edcb8fd56444257b812015987076bda",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "DOL Release 2026-31 does not itself prescribe a long-credit trade: it does not address investment fiduciary standards, and FI-US-PENSION-LDI\u2019s announced funding-rule trigger calls for review rather than an inferred replacement allocation.",
+   "evidence": [
+    {
+     "resource": "repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+     "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9",
+     "document": "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md",
+     "start": 27,
+     "end": 31
+    },
+    {
+     "resource": "repo://research/FI/US/PENSION-LDI/2026-03.md#L44-L46",
+     "version": "repo-lines-v1:sha256:4cf5cfdb2857533d6e9f87c42c218796950aeaee3fd970b29f778ee10b1fc8fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjQ4ZGNjMDA4ZDBjZTg2NjM5ZGMwODE2M2Y3MWNmNDgwOTUwODUzMzJiOTkxN2I4ZmExNjdiYWQyZDVmZTg5NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjM4ZDNiNTBmMmY0NWY5MTEyYzY0ZDJmYzZiYjM5NmViYWM0MmY5NTdmOThiZjY3NTY4NGEzY2VhZTY3NjVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmZlOWE0MDU3NGJmZWFhMWQxODJmNTI2MzU1MzdlOGVjZGZkOGIyZDRmNmYyZTVlYzU1MjdkNzY0MzVlOTY5ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9",
+     "document": "research/FI/US/PENSION-LDI/2026-03.md",
+     "start": 44,
+     "end": 46
+    }
+   ]
+  },
+  {
+   "id": "claim_a861e1f8c12d4d4c85b378101aaa32a6",
+   "page": "research/fixed-income/long-credit-and-pension-demand",
+   "statement": "Where a governing mandate depends on superseded or withdrawn research, the discretion matrix requires suspension of the affected research-derived weight and committee escalation rather than manager re-derivation or direct adoption of replacement research.",
+   "evidence": [
+    {
+     "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L37",
+     "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9",
+     "document": "guidelines/authority/discretion-matrix.md",
+     "start": 31,
+     "end": 37
     }
    ]
   },

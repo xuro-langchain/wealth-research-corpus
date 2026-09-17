@@ -1,4 +1,5 @@
 # Files
 
 - [US Duration and Curve Positioning](duration-and-curve.md) - Edition 2026-10 documents a modest US duration-long view, expressed in 5–10-year maturities with a 2s10s-steepening bias. It distinguishes the September FOMC decision from any forecast of the policy path and separates policy-path risk from long-end term-premium and supply risk.
+- [US Long Credit and Pension Demand](long-credit-and-pension-demand.md) - Records FI-US-PENSION-LDI 2026-03’s long-dated, high-quality investment-grade-credit flow view and the pension-surplus premise on which it depends. Separates that historical research scope from the index-level IG valuation view and the prospective DOL funding-rule event that triggers review for future actions.
 - [US Municipal Credit and Investment-Grade Funding Views](municipal-credit-and-ig-funding.md) - Research record for the superseded 2025-06 municipal overweight, the 2026-04 neutral re-issue and retained qualified-501(c)(3) preference, and the distinct 2025-09 US investment-grade credit view. It separates research positioning from mandate implementation.

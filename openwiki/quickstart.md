@@ -5,8 +5,10 @@ description: Entry point for defensible wealth positioning and eligibility quest
 tags: [wealth-management, positioning, research, allocation-guidance, regulatory-overlay, eligibility]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T15:23:39.050Z
+    at: 2026-09-17T21:09:40.777Z
 sources:
+  - id: openwiki-source-66bfe5be1040e3edbdd69b56
+    resource: repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md
   - id: openwiki-source-d4d55878a53be93639d11eff
     resource: repo://bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
   - id: openwiki-source-4a3ba03e04222e6bc5743057
@@ -27,9 +29,11 @@ sources:
     resource: repo://research/FI/US/MUNI-CREDIT/2025-06.md
   - id: openwiki-source-90027641669e5dccfbf71ee0
     resource: repo://research/FI/US/MUNI-CREDIT/2026-04.md
+  - id: openwiki-source-7daf680a58cda62c0d7365c4
+    resource: repo://research/FI/US/PENSION-LDI/2026-03.md
   - id: openwiki-source-dd22da8524a95465d7a7469c
     resource: repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T15:23:39.050Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:09:40.777Z" }
 ---
 
 ## Start with the question, then keep the authorities separate
@@ -49,6 +53,7 @@ Use this page to route a proposed trade, allocation change, eligibility decision
 | --- | --- | --- |
 | **How should US municipal credit and its IG funding be handled?** | [Municipal credit and IG funding](/openwiki/research/fixed-income/municipal-credit-and-ig-funding.md) for the 2026-04 neutral research re-issue and the historical 2025-06 record | [US Taxable Fixed Income Allocation Guidance](/openwiki/guidance/allocation/us-taxable-fixed-income.md) for the suspended municipal/corporate pair, [Municipal AMT Threshold Regulatory Overlay](/openwiki/regulatory/municipal-amt-thresholds.md) for bond and taxpayer treatment, then [basis of record](/openwiki/workflows/position-basis-of-record.md) |
 | **What duration and curve expression does current US fixed-income research support?** | [US Duration and Curve Positioning](/openwiki/research/fixed-income/duration-and-curve.md) | Confirm mandate bands and authority through [Discretion, Escalation, and Non-Clearable Conditions](/openwiki/guidance/authority/discretion-and-escalation.md); a FOMC statement records the stated policy decision, not a promised future path. [Duration research D.2](repo://research/FI/US/DURATION-PATH/2026-10.md#L20-L24) [FOMC statement F.5](repo://bulletins/FED/2026-09-fomc-statement.md#L26-L30) |
+| **How should the long-credit pension-demand view be assessed after funding relief?** | [US Long Credit and Pension Demand](/openwiki/research/fixed-income/long-credit-and-pension-demand.md) first, for the bounded long-end research view and its demand premise | Then apply the prospective [Pension Funding Relief and Long-Credit Research Overlay](/openwiki/regulatory/pension-funding-relief.md): DOL Release 2026-31 P.2–P.4 **supersede** that premise for plan years beginning on or after 2027-01-01. Neither route sets a binding portfolio weight; identify the governing mandate and authority, and preserve the historical basis by position date. [Pension LDI L.2, L.6–L.7](repo://research/FI/US/PENSION-LDI/2026-03.md#L20-L24) [Pension LDI L.6–L.7](repo://research/FI/US/PENSION-LDI/2026-03.md#L38-L46) [DOL Release applicability and P.2–P.4](repo://bulletins/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25) [Corpus model](repo://README.md#L39-L48) |
 | **What is the global balanced mandate mix or private-markets pacing rule?** | [Rates Regime Research and Strategic-Band Underwriting](/openwiki/research/multi-asset/rates-regime-and-strategic-bands.md) and [Private Markets Allocation Research](/openwiki/research/multi-asset/private-markets.md) | [Global Multi-Asset Allocation Guidance](/openwiki/guidance/allocation/global-multi-asset-bands.md); use the eligibility route before a private-markets offer or commitment |
 | **May a client be offered or newly subscribed to private markets?** | [Private Markets Allocation Research](/openwiki/research/multi-asset/private-markets.md) for mix, horizon, and liquidity, not eligibility | [Private Markets Eligibility and Documentation Guidance](/openwiki/guidance/suitability/private-markets-eligibility.md), [Qualified-Client Regulatory Overlay](/openwiki/regulatory/private-markets-qualified-client.md), and authority guidance; determine accredited-investor status separately |
 | **How should a semiconductor-capex or AI-power view be used?** | [Semiconductor Capex Editions and the AI Power Constraint](/openwiki/research/equities/semiconductor-capex-and-power-constraint.md) | Check mandate limits and authority before implementation; distinguish the superseded 2025-06 overweight from the 2026-02 neutral edition. The power view limits capacity-addition timing, not semiconductor end-demand. [Semiconductor 2026-02 S.1, S.4](repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L16-L32) [Power research P.4](repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L30-L32) |

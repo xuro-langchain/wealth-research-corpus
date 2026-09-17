@@ -1,16 +1,18 @@
 {
   "schema_version": 1,
-  "compiled_from": "32018818dc93e07586134e5db721800c64e3ac92",
+  "compiled_from": "1a0fccd56d6b6c439f4a64ed584a31303f49b79a",
   "status": "complete",
-  "compiled_at": "2026-09-17T15:34:43Z",
+  "compiled_at": "2026-09-17T21:12:55Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35239875427",
+  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/35275035011",
   "claims": {
-    "total": 142,
-    "added": 8,
-    "retracted": 3,
-    "carried": 134
+    "total": 160,
+    "added": 18,
+    "retracted": 0,
+    "carried": 142
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "bulletins/DOL/2026-08-funding-relief-and-discount-rates.md"
+  ],
   "compile_mode": "fast"
 }
