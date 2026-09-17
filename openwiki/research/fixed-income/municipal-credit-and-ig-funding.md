@@ -3,9 +3,6 @@ type: market-view
 title: US Municipal Credit and Investment-Grade Funding Views
 description: Records the current municipal after-tax overweight thesis, its AMT-sensitive constraint, and the separate US investment-grade corporate-credit underweight. Distinguishes research conclusions from the allocation guide that may turn supported views into binding account weights.
 tags: [market-view, municipal-bonds, investment-grade-credit, alternative-minimum-tax, private-activity-bonds, qualified-501c3]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-17T21:44:02.449Z
 sources:
   - id: openwiki-source-28793825e738ee3b286c0cbe
     resource: repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
@@ -15,14 +12,17 @@ sources:
     resource: repo://internal_research/FI/US/IG-SPREADS/2025-09.md
   - id: openwiki-source-04ccfa0b608194f7a35603a3
     resource: repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T22:51:12.387Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-17T22:51:12.387Z
 ---
 
 ## Scope and status
 
 This is a research record, not binding allocation guidance, a client-specific recommendation, or a trade instruction. The underlying municipal and investment-grade notes are synthetic demonstration material and expressly are not investment advice. [Municipal research, notice](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L1-L3) [IG-spreads research, notice](repo://internal_research/FI/US/IG-SPREADS/2025-09.md#L1-L3)
 
-**FI-US-MUNI-CREDIT, Edition 2025-06** is marked current and not re-issued since publication. It was published on 2025-06-12, applies to positions taken on or after **2025-07-01**, and is the basis of record for municipal weightings in the taxable-account allocation guidance. [Municipal research, status and applicability](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16)
+**FI-US-MUNI-CREDIT, Edition 2025-06** is marked current and not re-issued since publication. It was published on 2025-06-12 and applies to positions taken on or after **2025-07-01**. The note identifies itself as the basis of record for municipal weightings in the taxable-account allocation guidance, and the guide adopts its municipal overweight from M.1 and after-tax analysis from M.2. [Municipal research, status and applicability](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16) [Allocation guide A.3](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23)
 
 ## Municipal view: an AMT-sensitive after-tax overweight
 
@@ -54,7 +54,7 @@ The first two preferred sectors are predominantly qualified section 145 501(c)(3
 
 Revenue Procedure 2025-41 applies to taxable years beginning on or after **2026-01-01**. It sets AMT exemption amounts of $90,100 for an unmarried individual other than a surviving spouse and $140,200 for joint filers or surviving spouses. The exemption is reduced by $0.25 per dollar of AMTI above $500,000 for an unmarried filer and $1,000,000 for a joint return; those thresholds are not indexed before 2030-01-01. [Revenue Procedure 2025-41 N.2–N.3](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L22)
 
-Those provisions constrain the municipal note's threshold assumption: the procedure says taxpayers above the applicable new threshold are subject to the specified-private-activity-bond treatment even if they were not under prior thresholds, and the research identifies a reduction drawing more top-bracket holders into AMT as the event that defeats its after-tax rationale. The procedure does **not** itself select, suspend, or otherwise change a portfolio weight. [Revenue Procedure 2025-41 N.3–N.4](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L28) [Municipal research M.2](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32)
+Those provisions constrain the municipal note's threshold assumption: M.2 used then-effective phase-out amounts that did not reach zero until $978,750 for a single filer and $1,800,700 for joint filers, whereas the procedure sets the new $500,000 and $1,000,000 thresholds. The procedure also says taxpayers above the applicable new threshold are subject to the specified-private-activity-bond treatment even if they were not under prior thresholds; the research identifies a reduction drawing more top-bracket holders into AMT as the event that defeats its after-tax rationale. The procedure does **not** itself select, suspend, or otherwise change a portfolio weight. [Municipal research M.2](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Revenue Procedure 2025-41 N.2–N.4](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L14-L28)
 
 The procedure preserves both relevant bond-treatment provisions. Specified private-activity-bond interest remains a tax-preference item included in AMTI, and its definition is unchanged. Separately, interest on a qualified section 145 501(c)(3) bond is neither a preference item nor included in AMTI; the procedure expressly says its new exemption amounts and thresholds do not affect that treatment. [Revenue Procedure 2025-41 N.4](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L28) [Revenue Procedure 2025-41 N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34)
 

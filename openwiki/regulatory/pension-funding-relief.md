@@ -3,9 +3,6 @@ type: regulatory-overlay
 title: Pension Funding Relief and Long-Credit Research Overlay
 description: Explains the prospective pension-funding relief in DOL Release 2026-31, the long-credit research premise it supersedes, and the restrictions it preserves. Separates future plan-year analysis from the historical research basis of record and from mandate implementation.
 tags: [pension-funding, defined-benefit-plans, long-credit, discount-rates, regulatory-overlay, research-governance]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-17T21:44:02.449Z
 sources:
   - id: openwiki-source-28f8ac08cab10bd38b1c51d7
     resource: repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md
@@ -20,6 +17,9 @@ sources:
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
 generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-17T22:51:12.387Z
 ---
 
 ## Scope, authority, and effective-date boundary

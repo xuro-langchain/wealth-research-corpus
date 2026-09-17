@@ -3,9 +3,6 @@ type: position-assembly
 title: Assembling a Position Basis of Record
 description: A defensible decision sequence for recording a municipal-credit position’s historical research basis, applying the AMT overlay by tax-year date, and using current allocation and authority controls without rewriting history.
 tags: [position-governance, municipal-credit, research-editions, regulatory-overlay, escalation, audit]
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-17T21:44:02.449Z
 sources:
   - id: openwiki-source-28793825e738ee3b286c0cbe
     resource: repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md
@@ -17,7 +14,10 @@ sources:
     resource: repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T22:51:12.387Z" }
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-17T22:51:12.387Z
 ---
 
 ## Purpose and record boundary
@@ -45,23 +45,25 @@ The basis record should include the position and action dates, account tax-brack
 
 Revenue Procedure 2025-41 applies to taxable years beginning on or after **2026-01-01**. For those tax years, its AMT exemption phase-out begins above $500,000 of AMTI for an unmarried individual and $1,000,000 for a joint return; those thresholds are not indexed before taxable years beginning in 2030. Apply this overlay according to the client’s taxable-year facts. It does not change which research edition was historical evidence for a position date. [Revenue Procedure 2025-41 N.1–N.3](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L8-L22)
 
-The overlay is material because 2025-06 identifies a reduced phase-out threshold that draws materially more top-bracket holders into AMT as the event that defeats its after-tax rationale. The same note calls for immediate review and re-issue when the tax treatment described in its after-tax case changes. Revenue Procedure 2025-41 also leaves specified private-activity-bond interest as an AMT preference item, while preserving the qualified-501(c)(3) bond exception. [Municipal research M.2, M.7–M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.7–M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L58-L72) [Revenue Procedure 2025-41 N.4–N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34)
+The overlay is material because 2025-06 identifies a reduced phase-out threshold that draws materially more top-bracket holders into AMT as the event that defeats its after-tax rationale. The note requires immediate review and re-issue when the federal tax treatment described in its after-tax case changes. The overlay does not change the underlying bond classifications: specified private-activity-bond interest remains an AMT preference item, while qualified-501(c)(3) bond interest remains excepted. Evaluate the applicable taxpayer and bond facts rather than treating all private-activity exposure alike. [Municipal research M.2, M.7–M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.7–M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L58-L72) [Revenue Procedure 2025-41 N.4–N.5](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L24-L34) [Municipal research M.5](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L46-L52)
 
-Do not infer a replacement research recommendation, a new binding weight, or an automatic suspension from the tax overlay alone. The currently cited municipal research has not been re-issued, and the living guide still identifies it as a research basis. The changed AMT premise instead requires a documented research/guide review and, where the manager cannot resolve the action within the extant mandate and authority, escalation through the applicable approval process. The disposition remains unresolved until the responsible research and governance owners document it. [Municipal research status](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16) [Allocation guide A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L49-L51) [Discretion matrix D.1–D.3](repo://internal_guidelines/authority/discretion-matrix.md#L7-L11) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
+This is the **unresolved premise conflict**: the regulatory overlay constrains a load-bearing premise of research that remains marked current and not re-issued, while the living guide continues to cite that research as the basis for its municipal target. Do not infer a replacement research recommendation, a new binding weight, or an automatic suspension. Immediate research review and re-issue is the note’s stated lifecycle response; any current account action remains subject to the existing mandate limits and approval triggers. The repository evidence does not supply a completed re-issue, a committee disposition, or a replacement target. [Municipal research status and M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16) [Municipal research M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L72) [Allocation guide A.1, A.3 and A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.3 and A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation guide A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L49-L51) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
 
 ```mermaid
 flowchart TD
     PositionDate["Record position date and cited edition"] --> TaxYear["Identify applicable taxable year"]
     TaxYear --> AMT["Apply AMT regulatory overlay"]
-    AMT --> Review{"Does the overlay affect the recorded thesis"}
-    Review -- "No" --> Controls["Apply current mandate limits and ordinary controls"]
-    Review -- "Yes" --> Document["Document research and guide review"]
-    Document --> Authority["Escalate if action exceeds current authority"]
-    Authority --> Controls
-    Controls --> Record["Retain basis and decision evidence"]
+    AMT --> Effect{"Does overlay constrain recorded premise"}
+    Effect -- "No" --> Controls["Apply current mandate limits and controls"]
+    Effect -- "Yes" --> ResearchReview["Immediate research review and re-issue"]
+    ResearchReview --> Status{"Note superseded or withdrawn"}
+    Status -- "No or unresolved" --> Controls
+    Status -- "Yes" --> Suspend["Use conditional suspension and committee escalation"]
+    Suspend --> Record["Retain basis and decision evidence"]
+    Controls --> Record
 ```
 
-This decision sequence preserves the historical basis while applying current tax and mandate controls; it does not prescribe an unissued research disposition. [Municipal research M.2 and M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L72) [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11)
+This decision sequence preserves the historical basis, applies the overlay by taxable year, and keeps the unresolved-premise path separate from the conditional superseded-or-withdrawn control. It does not prescribe an unissued research disposition. [Municipal research M.2 and M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L24-L32) [Municipal research M.8](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L72) [Allocation guide A.1](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
 ## 3. Apply current living guidance before acting
 
@@ -71,14 +73,14 @@ At month end, ordinary market-value drift outside the plus-or-minus-two-point to
 
 ## 4. Use the supersession control only when its condition occurs
 
-The guide and discretion matrix provide a distinct, conditional path if a mandate-cited research note is later superseded or withdrawn. In that event, suspend the derived weight rather than carrying it forward; escalate to the committee, identify the superseded and replacement notes, all derived weights, and affected accounts, and do not directly adopt replacement research. For the municipal/corporate pair, the guide says suspension returns both the municipal overweight and corporate underweight to neutral, and a resulting band condition is not automatically rebalanced. [Allocation guide A.1 and A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
+The guide and discretion matrix provide a distinct, conditional path **only if** a mandate-cited research note is superseded or withdrawn. In that event, suspend the derived weight rather than carrying it forward; escalate to the committee, identify the superseded note, replacement if one exists, all derived weights, and affected accounts, and do not directly adopt replacement research. For the municipal/corporate pair, the guide says suspension returns both the municipal overweight and corporate underweight to neutral, and a resulting band condition is not automatically rebalanced. [Allocation guide A.1 and A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.5–A.6](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43) [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
 
-That is a future conditional control, not a finding that it has occurred here. If an escalation is cleared, record the condition, authority level, facts relied upon, and date; audit treats a clearance without recorded basis as unapproved. [Discretion matrix D.6](repo://internal_guidelines/authority/discretion-matrix.md#L49-L51)
+That is a future conditional control, not a finding that it has occurred here. The available facts instead say the municipal note is current and not re-issued; Revenue Procedure 2025-41 supersedes a section of an earlier revenue procedure, not this note or the guide. If an escalation is cleared, record the condition, authority level, facts relied upon, and date; audit treats a clearance without recorded basis as unapproved. [Municipal research status](repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L12-L16) [Revenue Procedure 2025-41 N.1 and N.7](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L10-L12) [Revenue Procedure 2025-41 N.7](repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L40-L42) [Discretion matrix D.6](repo://internal_guidelines/authority/discretion-matrix.md#L49-L51)
 
 ## Review checklist
 
 1. Preserve the position-date research edition and its stated assumptions; do not overwrite historical evidence.
 2. Determine whether the client’s taxable year is within the Revenue Procedure 2025-41 effective period and evaluate its AMT facts.
-3. Document the effect of the changed AMT premise on the still-current 2025-06 thesis and obtain research/governance review or escalation as required; do not invent a replacement view or weight.
-4. Before any action, apply current account classification, mandate weights, sector limits, duration band, tolerance treatment, and authority restrictions.
-5. Retain the factual review, approvals, and rationale with the position record. If a cited note is actually superseded or withdrawn later, use the separate D.4 suspension-and-committee path.
+3. For a taxable year in the overlay’s effective period, record the taxpayer and bond-treatment facts and the effect on the still-current 2025-06 threshold premise; send the change to the note’s immediate research-review and re-issue lifecycle without inventing a replacement view or weight.
+4. Before any action, apply current account classification, mandate weights, sector limits, duration band, tolerance treatment, and authority restrictions. Obtain approval only when the applicable current-action trigger requires it; approval cannot clear a stated regulatory breach.
+5. Retain the factual review, approvals, and rationale with the position record. Only if a cited note is actually superseded or withdrawn later, use the separate D.4 suspension-and-committee path.

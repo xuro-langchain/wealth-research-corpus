@@ -5,7 +5,7 @@ description: Binding committee-owned strategic weights, tolerance bands, duratio
 tags: [allocation, multi-asset, strategic-bands, private-markets, governance]
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T21:44:02.449Z
+    at: 2026-09-17T22:51:12.387Z
 sources:
   - id: openwiki-source-923e8a4660b350ffa68a69b7
     resource: repo://internal_guidelines/allocation/gl-multi-asset-bands.md
@@ -17,7 +17,7 @@ sources:
     resource: repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md
   - id: openwiki-source-68f8f24fcd732cd566401775
     resource: repo://internal_research/MA/GL/RATES-REGIME/2026-02.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T22:51:12.387Z" }
 ---
 
 ## Scope and ownership
@@ -45,30 +45,33 @@ The committee adopted reduced duration-diversification underwriting in March 202
 
 The committee accepted R.1's real-short-rate regime as a working assumption: 0%–1.5% through the cycle rather than the persistently negative post-2010 pattern. It will test the strategic weights against that assumption at the 2026 annual review; the strategic weights have not yet changed because of it. The research identifies a demand-shock return to the earlier regime and fiscal dominance as invalidation risks. [Global bands guide](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L27-L29) [Rates-regime research](repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L16-L18) [Rates-regime research](repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L32-L34)
 
-## Private markets: pace commitments, do not trade a denominator effect
+## Private markets: binding liquidity limit, then pace commitments
 
-Private markets have no ordinary trading band because the allocation cannot be rebalanced in the ordinary way. Manage it through commitment pacing and keep the following cases separate:
+Private markets have no ordinary trading band because the allocation cannot be rebalanced in the ordinary way. The V.6 liquidity condition is a **binding pre-commitment limit** in this guidance, not a research target and not a tolerance band: projected unfunded commitments must not exceed **two years of the client's liquid-portfolio spending requirement**. Underwrite the limit against spending, rather than the allocation's expected return. A proposed commitment that would exceed it does not pass the liquidity gate and must not be made; defer or reduce the commitment through pacing instead of treating the excess as ordinary drift. [Global bands guide B.6](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L31-L35) [Private-markets research V.6](repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L36-L38) [Private-markets eligibility guide P.6](repo://internal_guidelines/suitability/private-markets-eligibility.md#L31-L35)
 
-- **Tradable tolerance-band drift** applies to the liquid sleeves in the table. A deviation outside the sleeve's stated band requires approval.
-- **Denominator-driven private-markets drift**—a rise above strategic weight caused by a denominator effect—is neither a breach nor a trade instruction.
-- **Over-commitment**—a rise caused by commitments rather than a denominator effect—is a pacing failure and must be escalated.
-- **Liquidity limit:** unfunded commitments may not exceed two years of the client's liquid-portfolio spending requirement. The bands guide makes this research-derived constraint binding.
+Keep the three distinct controls separate:
 
-[Global bands guide](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L17-L19) [Global bands guide](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L31-L35) [Private-markets research](repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L36-L42) [Discretion matrix](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
+- **Ineligibility reallocation:** for a client who is not eligible, reallocate the strategic 10% sleeve pro rata across the liquid sleeves; do not offer or commit to private markets.
+- **Commitment pacing and liquidity:** for an eligible client, test suitability and the binding V.6 limit before each commitment. A commitment-created excess is an over-commitment pacing failure and must be escalated.
+- **Ordinary tradable-band drift:** only the liquid sleeves use the stated tolerance bands. A deviation outside a liquid sleeve's band requires approval.
+
+After a commitment, a rise above the private-markets strategic weight caused by a denominator effect is neither a breach nor a trade instruction. It does not convert into over-commitment merely because the reported weight is higher. [Global bands guide B.2–B.3, B.6](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L13-L19) [Global bands guide B.6](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L31-L35) [Private-markets research V.7](repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L40-L42) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29)
 
 ```mermaid
 flowchart TD
     Start["Proposed private-markets commitment"] --> Eligible{"Eligibility documented"}
     Eligible -- "No" --> Stop["Do not offer or commit"]
-    Eligible -- "Yes" --> Suitable{"Suitability and liquidity satisfied"}
+    Eligible -- "Yes" --> Suitable{"Suitability satisfied"}
     Suitable -- "No" --> Stop
-    Suitable -- "Yes" --> Approval["Seek required approval"]
+    Suitable -- "Yes" --> Liquidity{"V.6 liquidity limit passes"}
+    Liquidity -- "No" --> Pace["Defer or reduce commitment"]
+    Liquidity -- "Yes" --> Approval["Seek required approval"]
     Approval --> Monitor{"Weight above strategic level"}
     Monitor -- "Denominator effect" --> Hold["No trade back"]
     Monitor -- "Over-commitment" --> Escalate["Escalate pacing failure"]
 ```
 
-This flow shows the gates before a commitment and the distinct responses to denominator-driven drift and over-commitment. [Private-markets eligibility guide](repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L9) [Private-markets eligibility guide](repo://internal_guidelines/suitability/private-markets-eligibility.md#L31-L35) [Discretion matrix](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29) [Global bands guide](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L31-L35)
+This flow shows the ordered pre-commitment gates, including the binding liquidity limit, and the separate post-commitment responses to denominator-driven drift and over-commitment. [Private-markets eligibility guide P.1, P.6](repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L9) [Private-markets eligibility guide P.6](repo://internal_guidelines/suitability/private-markets-eligibility.md#L31-L35) [Discretion matrix D.3](repo://internal_guidelines/authority/discretion-matrix.md#L17-L29) [Global bands guide B.6](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L31-L35)
 
 The private-markets research supports a 10%–20% strategic allocation only for eligible clients with a genuine ten-year horizon. Within that allocation it favors secondaries and private credit and underweights primary buyout. These are research inputs to implementation, not substitutes for the committee's binding 10% default or its client gates. [Private-markets research](repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L16-L18) [Private-markets research](repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L24-L34) [Global bands guide](repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L13-L16)
 

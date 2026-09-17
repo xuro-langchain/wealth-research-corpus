@@ -3,9 +3,14 @@ type: market-view
 title: US Long Credit and Pension Demand
 description: Records the 2026-03 long-dated, high-quality investment-grade-credit flow view, its funding-rule premise, and the review required by prospective DOL funding relief. Separates the maturity-bucket demand thesis from index-level IG valuation and mandate implementation.
 tags: [market-view, long-credit, investment-grade-credit, pension-liability-driven-investing, pension-funding, research-governance]
+verified:
+  - by: openwiki/0.5.0
+    at: 2026-09-17T22:51:12.387Z
 sources:
   - id: openwiki-source-28f8ac08cab10bd38b1c51d7
     resource: repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md
+  - id: openwiki-source-782f1a3fffc4f6dec3274631
+    resource: repo://internal_guidelines/allocation/us-taxable-fixed-income.md
   - id: openwiki-source-2ddd4f14dfe61f21d64eb273
     resource: repo://internal_guidelines/authority/discretion-matrix.md
   - id: openwiki-source-34464a9ae84e5251bb0b43e6
@@ -14,10 +19,7 @@ sources:
     resource: repo://internal_research/FI/US/PENSION-LDI/2026-03.md
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
-verified:
-  - by: openwiki/0.5.0
-    at: 2026-09-17T21:44:02.449Z
+generated: { by: "openwiki/0.5.0", at: "2026-09-17T22:51:12.387Z" }
 ---
 
 ## Scope, edition, and applicability
@@ -71,4 +73,6 @@ Separately, the release **preserves** benefit-accrual and vesting rules and all 
 
 The announced rule change activates the research review trigger; it does not turn the release into an inferred replacement allocation. Identify the applicable mandate and authority before any implementation decision. [LDI L.7](repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L44-L46) [Release P.5](repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31)
 
-Where a governing mandate depends on research that has been superseded or withdrawn, the discretion matrix requires suspension of the affected research-derived weight and committee escalation. A manager may not carry the prior weight forward, re-derive it, or directly adopt a replacement research recommendation; adopting a binding weight is a committee act. [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)
+The available US Taxable Account Fixed Income Allocation Guide contains binding municipal and index-level investment-grade-corporate weights, but identifies FI-US-MUNI-CREDIT 2025-06 and FI-US-IG-SPREADS 2025-09—not FI-US-PENSION-LDI 2026-03—as the notes on which it currently rests. Its cited-note suspension path therefore does not create an LDI-specific weight, suspension, or trade. [Allocation guide A.1 and A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11) [Allocation guide A.3, A.5, and A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23) [Allocation guide A.5](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L37) [Allocation guide A.8](repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L49-L51)
+
+If a governing mandate does depend on research that has been superseded or withdrawn, the discretion matrix requires suspension of the affected research-derived weight and committee escalation. A manager may not carry the prior weight forward, re-derive it, or directly adopt a replacement research recommendation; adopting a binding weight is a committee act. This conditional control does not establish that FI-US-PENSION-LDI has been superseded. [Discretion matrix D.4](repo://internal_guidelines/authority/discretion-matrix.md#L31-L37)

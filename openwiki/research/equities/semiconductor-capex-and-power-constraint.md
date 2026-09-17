@@ -13,7 +13,7 @@ sources:
 generated: { by: "openwiki/0.5.0", at: "2026-09-17T21:44:02.449Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-17T21:44:02.449Z
+    at: 2026-09-17T22:51:12.387Z
 ---
 
 ## Scope and basis-of-record rule
