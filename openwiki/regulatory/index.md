@@ -1,5 +1,0 @@
-# Files
-
-- [Federal Reserve Policy-Path Overlay](fed-policy-path.md) - Records the September 2026 FOMC rate decision, its publication-effective scope, and the statement's express refusal to commit to a future adjustment sequence. Separates that bounded communication from the duration desk's one-increase scenario and trade expression.
-- [IRS Alternative Minimum Tax Overlay for Private Activity Bonds](irs-private-activity-bond-amt.md) - Revenue Procedure 2025-41 sets the 2026 AMT exemption amounts and phase-out thresholds and states the private-activity-bond and qualified-501(c)(3) boundaries. This overlay applies those stated boundaries to the AMT-dependent premise in Municipal Credit 2025-06 without creating a later notice, acquisition transition, suspension, or replacement allocation.
-- [SEC Qualified Client Threshold Overlay](sec-qualified-purchaser.md) - SEC Order IA-7104 adjusts the Rule 205-3 qualified-client dollar tests effective 2026-06-29. This overlay defines the transition and recordkeeping controls and distinguishes qualified-client status from accredited-investor and qualified-purchaser standards.
