@@ -1,5 +1,4 @@
 ---
-type: decision guide
 title: Wealth Research Decision Guide
 description: Route a wealth-management positioning, eligibility, regulatory-change, or escalation question to the research, internal guidance, regulatory overlay, and position-assembly record that governs it. Use this map to keep research conclusions, binding internal controls, and regulatory constraints distinct.
 tags: [wealth-management, decision-routing, research, guidance, regulatory]

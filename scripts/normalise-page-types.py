@@ -50,14 +50,25 @@ VALID: frozenset[str] = frozenset({
 #: The top-level area names are the COMPILE's choice, not the brief's — it
 #: renamed `position-assembly/` to `workflows/` between two runs — so both
 #: spellings are listed and an unrecognised area is reported rather than guessed.
+#
+# THESE ARE WIKI PAGE PATHS, NOT CORPUS SOURCE DIRECTORIES. They live under
+# openwiki/ and the COMPILE chooses them, so they do not track the source tree
+# and must not be swept along when it is renamed. A blanket rename of
+# research/ -> internal_research/ across the repo rewrote the last entry here
+# and silently unmapped every research page; the compile's own `type:
+# "Reference"` then stood, which is the exact failure this script exists to
+# prevent. The compile also varies the names between runs — regulatory/ has
+# also appeared as regulatory-overlays/, position-assembly/ as workflows/ — so
+# known spellings are listed together rather than assumed.
 RULES: tuple[tuple[str, str], ...] = (
     ("guidance/allocation/", "allocation-guidance"),
     ("guidance/suitability/", "suitability-guidance"),
     ("guidance/authority/", "authority-guidance"),
     ("position-assembly/", "position-assembly"),
     ("workflows/", "position-assembly"),
+    ("regulatory-overlays/", "regulatory-overlay"),
     ("regulatory/", "regulatory-overlay"),
-    ("internal_research/", "market-view"),
+    ("research/", "market-view"),
 )
 
 #: Human-owned or structural; never carry a type.
@@ -88,7 +99,20 @@ def main(check_only: bool) -> int:
     unmapped: list[str] = []
     for path in sorted(WIKI.rglob("*.md")):
         rel = str(path.relative_to(WIKI))
-        if path.name in SKIP_NAMES or is_index(rel):
+        if path.name in SKIP_NAMES:
+            continue
+        if is_index(rel):
+            # The brief says index pages declare no type. They are skipped for
+            # DERIVATION but not for correction: quickstart came back as
+            # `type: decision guide`, an invented value of exactly the kind the
+            # controlled list exists to prevent. Strip it rather than leave it.
+            text = path.read_text()
+            m = FRONTMATTER.match(text)
+            if m and TYPE_LINE.search(m.group(1)):
+                block = TYPE_LINE.sub("", m.group(1)).strip("\n")
+                if not check_only:
+                    path.write_text(f"---\n{block}\n---\n{text[m.end():]}")
+                changed.append(f"{rel}: dropped a type from an index page")
             continue
         text = path.read_text()
         m = FRONTMATTER.match(text)

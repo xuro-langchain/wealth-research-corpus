@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Private Markets Framework: View, Liquidity Limit, and Eligibility Boundary"
 openwiki_generated: true
 verified:

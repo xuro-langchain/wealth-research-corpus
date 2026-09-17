@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: regulatory-overlay
 title: "Regulatory Overlay: AMT Threshold Change and Municipal Treatment"
 openwiki_generated: true
 verified:

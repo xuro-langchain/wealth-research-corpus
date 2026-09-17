@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "US Semiconductor Capex: Edition History and Power Constraint"
 openwiki_generated: true
 verified:

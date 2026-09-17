@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: regulatory-overlay
 title: "Pension funding relief"
 openwiki_generated: true
 verified:

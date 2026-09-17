@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Global AI Infrastructure: Power as the Binding Constraint"
 openwiki_generated: true
 verified:

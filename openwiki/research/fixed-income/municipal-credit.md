@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Municipal credit"
 openwiki_generated: true
 verified:

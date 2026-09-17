@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Credit and duration views"
 openwiki_generated: true
 verified:
