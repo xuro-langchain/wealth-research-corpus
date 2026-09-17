@@ -36,12 +36,26 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 WIKI = ROOT / "openwiki"
 
+#: The controlled vocabulary from openwiki/INSTRUCTIONS.md. A page already
+#: carrying one of these is LEFT ALONE: the compile chose correctly, and
+#: overriding it from the path would be this script substituting its own reading
+#: of the layout for the compile's reading of the document.
+VALID: frozenset[str] = frozenset({
+    "market-view", "allocation-guidance", "suitability-guidance",
+    "authority-guidance", "regulatory-overlay", "position-assembly",
+})
+
 #: Longest prefix wins, so a more specific area can override its parent.
+#: These are the fallback for a page whose type is missing or outside VALID.
+#: The top-level area names are the COMPILE's choice, not the brief's — it
+#: renamed `position-assembly/` to `workflows/` between two runs — so both
+#: spellings are listed and an unrecognised area is reported rather than guessed.
 RULES: tuple[tuple[str, str], ...] = (
     ("guidance/allocation/", "allocation-guidance"),
     ("guidance/suitability/", "suitability-guidance"),
     ("guidance/authority/", "authority-guidance"),
     ("position-assembly/", "position-assembly"),
+    ("workflows/", "position-assembly"),
     ("regulatory/", "regulatory-overlay"),
     ("research/", "market-view"),
 )
@@ -76,13 +90,20 @@ def main(check_only: bool) -> int:
         rel = str(path.relative_to(WIKI))
         if path.name in SKIP_NAMES or is_index(rel):
             continue
-        want = expected_type(rel)
-        if want is None:
-            unmapped.append(rel)
-            continue
-
         text = path.read_text()
         m = FRONTMATTER.match(text)
+        declared = None
+        if m:
+            cm0 = TYPE_LINE.search(m.group(1))
+            if cm0:
+                declared = cm0.group(0).split(":", 1)[1].strip().strip('"').strip("'")
+        if declared in VALID:
+            continue                                  # the compile got it right
+
+        want = expected_type(rel)
+        if want is None:
+            unmapped.append(f"{rel} (declared {declared!r})")
+            continue
         if not m:
             # No frontmatter at all: add it rather than skip, or the page has no
             # authority marker and the agent cannot tell what it is reading.
