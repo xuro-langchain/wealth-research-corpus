@@ -20,6 +20,14 @@ from __future__ import annotations
 
 import re
 
+#: EVERY ALTERNATIVE BELOW IS A VERB OR A VERB PHRASE. Bare nouns were tried and
+#: removed: `threshold`, `sublimit`, `tolerance band` and `schedule in` sat in
+#: the `modifies` pattern and matched any claim that mentioned one, so an
+#: effective-date sentence — "the IRS AMT threshold procedure applies to taxable
+#: years beginning on or after 2026-01-01" — came back as a modification. A noun
+#: identifies the SUBJECT a claim is about; only a verb describes what one
+#: document does to another, which is the only thing this map is for.
+#:
 #: Ordered most-specific first; first match wins. Order matters: "replaces"
 #: appears under both restores and supersedes, and an exemption replacing a
 #: restriction is a restoration while an edition replacing an edition is a
@@ -41,7 +49,8 @@ PATTERNS: tuple[tuple[str, str], ...] = (
     (
         "preserves",
         r"\bpreserv(?:e|es)\b|\bcontinues? to apply\b|\bremains? in (?:full )?(?:force|effect)\b"
-        r"|\bin full\b|\bunchanged\b|\bstill (?:applies|restricted|prohibited)\b"
+        r"|\b(?:applies|apply|remain(?:s)?|continue(?:s)?) in full\b|\bunchanged\b"
+        r"|\bstill (?:applies|restricted|prohibited)\b|\bis (?:not )?disturbed\b"
         r"|\bdoes not (?:restore|extend|exempt|disturb)\b",
     ),
     (
@@ -67,13 +76,16 @@ PATTERNS: tuple[tuple[str, str], ...] = (
         "constrains",
         r"\bconstrain(?:s|ed|ing)?\b"
         r"|\bmay not\b|\bmust not\b|\bprohibit(?:s|ed)?\b|\brequires? (?:referral|escalation)\b"
-        r"|\boutside (?:mandate|the mandate)\b|\brequires? (?:approval|sign-off)\b|\bauthority\b",
+        r"|\boutside (?:mandate|the mandate)\b|\brequires? (?:approval|sign-off|referral|escalation)\b"
+        r"|\bcannot be cleared\b|\bmay not be (?:cleared|approved|granted)\b",
     ),
     (
         "modifies",
-        r"\bmodif(?:y|ies|ied|ying)\b|\bamend(?:s|ed)?\b|\bchanges only\b|\bsubject to\b"
-        r"|\bschedule in\b|\bsub-limit\b|\bsublimit\b|\btolerance band\b|\bthreshold\b"
-        r"|\breduces? the (?:target|weight|allocation)\b|\blimits? (?:to|the)\b",
+        r"\bmodif(?:y|ies|ied|ying)\b|\bamend(?:s|ed)?\b|\bchanges only\b"
+        r"|\breduces? the (?:target|weight|allocation|limit|band)\b"
+        r"|\braises? the (?:target|weight|allocation|limit|band|threshold)\b"
+        r"|\bwidens? the\b|\bnarrows? the\b|\bre-?sets? the\b"
+        r"|\blimits? (?:to|the)\b|\bsubject to\b",
     ),
 )
 

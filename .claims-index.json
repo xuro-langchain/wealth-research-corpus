@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "compiled_from": "f7004745bd42e997de2e1b5b834581b97d633edf",
+ "compiled_from": "852d3205a3347cd2a9bfb4159e5d2e7514500e16",
  "sidecar_fingerprint": "c27ea5bbe5077dccf6b5ccc2adfc0df8d43e11d18949c3ab659ac9abcba0c076",
  "claim_count": 124,
  "evidence_count": 236,
@@ -1510,8 +1510,7 @@
    "to": "internal_research/FI/US/MUNI-CREDIT/2025-06.md",
    "type": "preserves",
    "types": {
-    "preserves": 1,
-    "modifies": 1
+    "preserves": 1
    },
    "claim_count": 3,
    "claim_ids": [
