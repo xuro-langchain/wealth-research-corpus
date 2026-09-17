@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:16233779e06e0b14e1d1d0191fcdb6b7b15f3f0b81ae2648124a3972794f6a2c",
+  "claims": [
+    {
+      "id": "claim_227b84e2cd144ffb85ddfc46f08964b1",
+      "statement": "MA-GL-RATES-REGIME edition 2026-02 is a global Multi-Asset Research framework note, published 2026-02-05 and applicable to positions taken on or after 2026-03-01; it states no directional recommendation.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L1-L14",
+          "version": "repo-lines-v1:sha256:25d5972c8e91df5af2065407442365a2effe11d06204e76d2af5b9521cf69fc1:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiYTVkNjlmMjIwZWQ2MzVmZjk5YmIyMzcyMzRmMGNmYjc3ZDk0ZTkzYjgxYmFlYTJhMjhkOWMzNGNhOGI3M2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI5MGU1MDI2ODBhMWRjNjcwZDk4NDkwMjJkZmEwY2NmZDE1MzAwNTI4ZTAxNTczNTY2MGI4NDMyMzdmNGQxM2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBjODY1NzY4NDlhOGEwMWVhYjIyZmRiZjc4ODU4MzZjZjYyZjFjYjMyZGViZWQxNjRjMTAwMTBmYmVmNDMzMmMifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8579721c679647efa38018dd3a1a169a",
+      "statement": "The edition 2026-02 working assumption is that real short rates have shifted from persistently negative post-2010 levels to a 0%–1.5% through-cycle band; a demand-shock return to the prior regime or fiscal dominance would invalidate that assumption.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L16-L18",
+          "version": "repo-lines-v1:sha256:5168fcf3fd5ee16f6e28f01ae33783368711cd15295bb74a412c30c2e4389589:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJiMGRlNjYyMjI4Mjk1ZDBjYTUzOTM3YzMxYTU4NmI1OGY1NzdhMjA1N2EyOWNmYWE5NmNjMzdhYjQ4ODY3ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWZlNTY1Mjc1NjBjZTAwMzljMDhiYzU1NTY2MmIyZTczNTIyMmM2ZjY4NDI0YmYwNjJjOTc4NzAxZDg5MWQ0ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmE2N2IyNjZjMmVhZDA5YTJjZTVjMTdiMmM1YjgwZGEyYTdiZTdkOTBhMzg3NGE0YWZlNDc0OWM4ZThkMzZjNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmMyZTA5MTI5ZWFmNDFmNGZhZWRkN2Q2YTNkNzM0MmM5YWUwNTg3MzI1MjY5YWJmOTMzM2YwMTMwODk2YjM3YyJ9"
+        },
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L32-L34",
+          "version": "repo-lines-v1:sha256:2bfba356a6ebb9ebc8e73df794e8f8faa48b5b45ddd0595f33dcc9a7b9b1efa3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmMxMDNmMTI1NzM4YTEzMDkyNmVlNDhmMDMxYTJiMzU4Mzk5ZGMyMTBiMWY3OTUzMTllYTg3ODY3YTE4NDQ1YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjZkMWJhM2U3OTY0MjUzNjM1MDViMDAzYjU2MzIyZTRkNDVlZjY5MjRkNGJhODVmYzkxNzBlYTkyYjJkZTZmNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDU4YzE2NzFmZmI4NzIzZDEyNjUwOGFjMGZiMzdlYjIxZDIwYTlhY2I4NWVjZWY4NTVkY2RiZDIxNTYxMGY1MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWFlZWVhYzZiMzA1NzBiMDM2MzM1MWUyZmM3NmJmMTFjNzcxOWI4NDcxODUyNWZiZDAyM2VlZjc3OTFkOTllYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_57c3d0a76b74419bb365a066bebc4da7",
+      "statement": "Under its higher-real-rate assumption, the note says lower required equity risk premium for duration-like equities and greater fixed-income attractiveness argue for a higher strategic fixed-income weight than bands in force through 2023.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L20-L22",
+          "version": "repo-lines-v1:sha256:90ca0f7468b0621087de8de87cbe006e6535d4dfbaec9d2b83b8f882b611f0e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjcwMzY2ZWZhNDY2NWRjMDU5ZGE1MzM3ZWVkNWM2YmUwMTkxYjgwOGJjNzAwZTViNzNhYTNkZTFlM2Q4MzNjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWExODAyM2M5ODZmZDliMmJlMjYxZWI4YTg0ZDk5Yjk3OWUyMThlNTY3MTJkMThlMTViYTFmNzg0YjkwMjdiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjFmMTk2Mzg0Y2Q5NzNiMTE5YTRhNThiMTAyN2ZmNWRmZGE4ODE5OGI4NGQxNjE4OTkxNjcyNzM2ODM1Y2VkNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWMzY2M2NDYxZmZiMmJmYTBiNmYyYjY1ZDE2OGE4YmNjOTY2NzQ3OTA4NmQ2Y2U3ZTMxNmZkN2UwOGNkY2NhMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7788c8813b824d4b80a85e283a628f3e",
+      "statement": "The research desk finds equity-duration correlation unstable and sometimes positive for extended periods, so it does not assume reliably negative stock-bond correlation and recommends materially lower underwriting of duration diversification than the post-2010 sample implies.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L24-L26",
+          "version": "repo-lines-v1:sha256:70c96e5556b62a9f1ee9b0bfb2888d646d03b8eebbe7bbbb11db967f6312e7f8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZmZjEyNDM3OTRiZGRmM2ZiNTVhZGU1ODc3ZmZkZGUzOGU2M2RhMjliNTE4ZmM0ZTAxMDg0ZGEyNDRiNzNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2E4MzkxZGEzNjJiNTE1ODNkNDQxNzE3OWRkZDBlY2M0ZTJkNGJlMmNkNjAwNjM5N2QxYTI0MDU0NmZjZjQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWRiZjY0YWI2NDdlYjMyZjExYjJhZWYxM2EwNGMzM2EwN2JhY2ZhOGI4MGY1ZjdlN2U1ZDc3Y2RiMjRmYzcwMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmQxNDMwOTFhZWFjNzc5M2JlMWUxMmIzZDNlMmZiMDFmN2JhNWZiMjY4NWY3NzQyOGQ2YjcyNGY2YWE0MTNkNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_df023345eaf04208b9e716e65176183f",
+      "statement": "The rates note recommends that global multi-asset bands be reviewed against its implications but explicitly does not set bands, which are a committee matter.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L28-L30",
+          "version": "repo-lines-v1:sha256:84ac14dfd70f2b141f7b383dfafb075001e2a5d1a8af6bd66971676babc4d7b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRhYWExODEyZDVkNzY0NTEyODJlMzAwZTczNWQ5YmU5ZDdmODIzYTdjYTAzYWE5MTI5ZDFjZGEyYmNiZWEwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWM5MTA4NTJlMGQ5ODZjYjA1YzQ4MzQ4MTM0NWQ1YWIzY2VlMzUwMDMxMjkwZTBkNDFlZjE1MDRiYjgwMDY0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVhZmI4MDA3NmNkYzQ0MjQ2YmU2ZjhlNGY0MjliNWQwOTNiZDY5Y2Y3MjQ1ODYzNTMzZjgxYmZkZmY5NThjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI1NjdiM2U3N2NlZGYxYzIxMzY1MmYwMjQzOGMyNTdjODM2M2MyMDQ0Mzc2MDg3MmUzZWY2ZTA0ODhkNzg3ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_45180950dc894736bd7d3bf134dedf4a",
+      "statement": "Global Multi-Asset Allocation Bands acts on the rates view by underwriting duration's equity-band diversification credit at the reduced R.3 level; the committee adopted this in March 2026, reducing the equity band from seven to five percentage points, while accepting R.1 for review of strategic weights at the 2026 annual review without yet changing those weights.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L21-L29",
+          "version": "repo-lines-v1:sha256:9ce426ad3034acbc37e39b78e96f04fa02964d276851940746b885e67da6623d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTAyN2NjOWFkODFlYTEzOWI2N2NhMGRlOTVhOTNkYzNjNmFjOWM3MTFkZDEwZjhhZjdhMGVmNjJhOWU1Y2IwOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWUxNmI1MjRmOGQ5MmZkOWU2ODNhNjE3ZWUyNTM0ZWZlOGE5NzJjOWU1NGU2ZTM1NTU0NGRmNzk4M2M4ZTI1ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzgxNGM0YzZkZDM2MDcyYTkwYzdiMDJmMTUxOTY5YzMxNWM4MGU2MGNmYzdjOThmZTQyMzVkZTMyMzQyYTlhNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2FjNGVlNWQyNWUyYjBhMTFhZTUyZWRmZTI1YWMzNDNkY2RmYTFlZDdkODIwMmZkMzcwNGRiNWYxYmNmNzFjNSJ9"
+        },
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L16-L30",
+          "version": "repo-lines-v1:sha256:33a567cff7ce8c1ab9c6b2085989149ff5314ecdb13dfce590c8b378e07e45b8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiYjBkZTY2MjIyODI5NWQwY2E1MzkzN2MzMWE1ODZiNThmNTc3YTIwNTdhMjljZmFhOTZjYzM3YWI0ODg2N2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFjOTEwODUyZTBkOTg2Y2IwNWM0ODM0ODEzNDVkNWFiM2NlZTM1MDAzMTI5MGUwZDQxZWYxNTA0YmI4MDA2NDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhNjdiMjY2YzJlYWQwOWEyY2U1YzE3YjJjNWI4MGRhMmE3YmU3ZDkwYTM4NzRhNGFmZTQ3NDljOGU4ZDM2YzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgyNTY3YjNlNzdjZWRmMWMyMTM2NTJmMDI0MzhjMjU3YzgzNjNjMjA0NDM3NjA4NzJlM2VmNmUwNDg4ZDc4N2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_cf7c72e0a7304b8b840ff87d83638586",
+      "statement": "The committee-set global multi-asset strategic weights are 45% equities, 35% fixed income, 10% real assets, and 10% private markets for eligible clients; ordinary tolerance bands are ±5 percentage points for equities and fixed income and ±3 for real assets, and a weight outside its band requires approval.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L7-L19",
+          "version": "repo-lines-v1:sha256:aad9e05b914769568e99c52406c68c5bb3c5d267e813f63969a414366bb73f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjgxMGU0Y2ZmZGU5ZTU1ODA5NTJiMTEwY2FmMTQ4NjIyZmFkODVlOTRkZmMwODdjMmNiMjllYWQ4YmVhNzAzODEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRlMTllM2MzMjVjYzAzOWQyMGU5NzIwNzE5OTc1MTNiMmQ1N2I0NzY2Y2YxZTY0YWEyZDlhYWJmMDVjNjcyNzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3MTM2OTMyYTgzYjQ5ZGQwOWI1ZDIxZTFkZGViYTk1NjM4ZDEyMzgyMjFkNzk5Y2E0NTYxYzliODQ2YWY3NTMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEyZDllZmZmMjhiNmQxNjE2NGU0YjI4YzY4OGMwZTJiNzZmNDFiMzYzZTIzZWVkYmNiOWI0OTgxZjMyMDZmZjEifQ"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L29",
+          "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L7-L11",
+          "version": "repo-lines-v1:sha256:3def3a374be9a7730d29fd5ab66538c38dc3ad1f3b13c3751fe0ab1c819cea86:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ZjhlMzYxYjA2OGY5NmI1ZGI1OWQyZjY3ZThlNzA1MGM4NjZjNTJiMjY2MDlhY2E0N2U0ZjdiOThjNjI5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDQwOGY3ZDMyOWQyZGUxMjdkNjQ5NGM4OTg2NTBmNzIzNTg5MzRmMTkwZDUyNTNmNzkzNjg3NzA4MjIxOGRjNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2NiMDI0OTZiZWU3ODJmOGM0MGM0ODIxZTUwYzlmZDhlZTIzNDkzYjlkNWI1YzE5Zjk2N2QwNWJhZDY3NzhiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzMyOGQxN2Y1MTNjOGI4ZTJhNzg5ZGFjNDE4NDc5NGQ4MmI2MjYyNGJhNjEyZDE3ZTNmMGRjMDA4NzE2NDljMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_34e8ee9fb7d14762baa04ccf2d4acc78",
+      "statement": "A global multi-asset band resting on cited research is suspended if that research is superseded or withdrawn and returns to the prior committee-adopted level pending review; managers must escalate rather than re-derive a setting, carry it forward, or directly adopt replacement research.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L37-L39",
+          "version": "repo-lines-v1:sha256:39e3545fe7b5a67edf860c6efae7e19ffbf9eb7e948c1d9e9da02de9846e5cad:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzY5MDhiZjMxYzhkMDJhOThlN2M1NmNjYjQ5NzFhODdmMDA5YmE5ZmY3YzcyNDAwN2JhYmU1ODg0Zjg2OTk3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDVmMmJmZWM4MzAxODM0Y2Y2ZWVkMjM1YThmM2VmYmJhZDIzODg1ZmY5NmE5ZGIyNzQwYTYyNzhjOWZjZTQyOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTZiNjQwZjlhZWVhNTI0ZTgxMjRjZDk2MDFhNjdmMDFkMWRlZjBiOGJjYTU2MjQ0ZDNlN2JlOGYyODA2OWZhYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L7-L11",
+          "version": "repo-lines-v1:sha256:fd3df0a17ac1db48524625797e670aac5b58e053b781d7525bb416add5b038e5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODEwZTRjZmZkZTllNTU4MDk1MmIxMTBjYWYxNDg2MjJmYWQ4NWU5NGRmYzA4N2MyY2IyOWVhZDhiZWE3MDM4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc1YjZkZDFhNmNiOTc0OTE3Yjg2YmIwZGFhYTZkN2VkN2FmYmJkZjliY2FjMGYwOTk2MzJlZDI5ZmE0NDlkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDcxMzY5MzJhODNiNDlkZDA5YjVkMjFlMWRkZWJhOTU2MzhkMTIzODIyMWQ3OTljYTQ1NjFjOWI4NDZhZjc1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRjZTgzYWM4MjlmMTBkMTgxYjc3YWM0MWUyMzBlNThiZWI5MDJiZTM2NjBlYTkxMmRiNmQ2NDIwOTNiMTNmZSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
+          "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1e993160aa9d4762801866a7d3b40471",
+      "statement": "Frozen research is not edited after publication: revisions are new editions and the prior edition remains the basis of record for positions taken while it stood, whereas internal guidance is revised in place.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L41-L48",
+          "version": "repo-lines-v1:sha256:0909f86a72a485207c1ae034fc2f7bf11bc7100d213cd6d3ca81bf8947d51826:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjNmNjYxYmVjY2FhOTYzMjAxNDBlOGFhMjNmODUxNGU0NDFjY2QwODJiMTdjYjIwYmJiOWQyOGI1NTFhNGUyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDkzMWY0YjFkNTIyYWRjMDIyYzEzYTZmMDY4YTFlY2FjMjAwNjY1MDY3MjIwYmE0MTA0NjA5ZGQwMzM1YWM5ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzM5ZDY2ZjE0Y2ZjMGY0NjcxYTFkN2IxMjA5MjM3ODFjNmZjMjFiZWMzZjViNDY4MjNhYjc0NjQ3ZDliZDI1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTdmYzQ1Mjg3ZjcwYmI1NWNkNTA0ZjUxYWE1ODIxOGVhNTBjNzkwZGU4NmFjNGEzZmE3MDlhN2QzODg3YmZmZCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

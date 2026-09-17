@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:05c8abb3f79fd34b5a7b92e183e1f1b6fe34a3a7e56fe3df74fbf21d99753c01",
+  "claims": [
+    {
+      "id": "claim_6f57b39d132e45248168a873a26ee422",
+      "statement": "The corpus is synthetic: its research, regulator-voiced documents, releases, dates, and figures are invented for the demonstration, while statutory citations are used accurately; it is not real-world investment, legal, tax, or regulatory advice.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L1-L19",
+          "version": "repo-lines-v1:sha256:b637937ff4738555924d0b95a39ac754a48beed14884fe981c14154069267dcb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5MzYzOGZmMDU2MGYxODBmMGYyM2Q5MTkxYjIxZjc4ODVmZTI1Mjg3YzgzY2Y0NmY1Y2QzOWU4NzMwYjhjMTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBhMjQ4Y2E0ZTNjNmQxMDRkNTgzYjFiOGUwZDlmNmRkM2IzNjBmYTFiMjU0ZDYyMDY1NWUwMWE0MmNjYzlhOGYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlYzkwNjg1NjgxYjQxYzI2ZjQ3Yzg1M2RmYzljM2EzMjFhMGI0NDg2MWRmNTE3ZjZkMzQwNDdkZjcyNjVlNTQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_189cf72257764fb2bb50bf337122d80b",
+      "statement": "Frozen internal research records the edition supporting a position and is revised through a new file, leaving the prior edition as the basis of record for positions taken while it applied; internal guidance is separately living firm material revised in place.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L21-L48",
+          "version": "repo-lines-v1:sha256:62acb6c511a6b80b7b3806e05f18a0fe9ee49b981d8de76703edbc79524275b7:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUyYTI3MzhkMjUwNDZiYTdlZTkzMDY1N2MxZmM5MTdkY2I3ZDFkODRhOTVkYTQ1ZmM0NDk5ODM3YzFkZDIxYzgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ0MmFmNGQzN2QxM2FkNzM2YzNlZmE4NTUyN2NjYzBkMDdmZWU2ZjNmNGFmN2UwMTFhNGQ1Y2U1MzZlMGViNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4506d49f8e2643ce93ce0c93fd98ea8d",
+      "statement": "Synthetic documents in external_sources are presented in a regulator voice but state that no reliance is possible, so they are corpus evidence rather than real regulatory advice.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L12-L19",
+          "version": "repo-lines-v1:sha256:bb84fa9c80839251f7f64173a87a301825ce079d5d09ede3787acaeaeac6194f:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjkwODVkN2U3NmRlMDQ0ZDE3MDQ0M2Q5ZjQ4ZjI2Y2YyYTc0YmUzMTU0ZTcwYjU5ZTFjOGMyMjY0Zjc4Mzk4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGEyNDhjYTRlM2M2ZDEwNGQ1ODNiMWI4ZTBkOWY2ZGQzYjM2MGZhMWIyNTRkNjIwNjU1ZTAxYTQyY2NjOWE4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTFmMzZiN2RlZjdhMmE1YTU0ZDE0Nzc0YWYxNGExYmM1ZTc4OWFkZjJlMmYwNmFkODRkMjYxOTk2MTQyODE0MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGVjOTA2ODU2ODFiNDFjMjZmNDdjODUzZGZjOWMzYTMyMWEwYjQ0ODYxZGY1MTdmNmQzNDA0N2RmNzI2NWU1NCJ9"
+        },
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L1-L8",
+          "version": "repo-lines-v1:sha256:daa68857ac1a575249cb82ece1b15bd3d602956b03e87c619a2fa83328d4c09a:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTViNjgzZWMwMmJkZTA1MDgyZDg1YzdiMGE4NDhiYTRmMjFlZGFmZjk2MmI2ZGUyZmIyOTczOWI0NDA2NDc1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjNjY3ZTc0YjdmNjU1NGMzMTkyNTY5ODE1Y2E1OTRkOGMwY2E2YWIyNzU2NmM4MjI1NTRiOTJiMDgwYWRhMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThmYjY3ZDQ0OGNkMmViOGNmZTA5OGUyNTBiMzY1NDRhOGU5NWVlMDVkOThhYzEzNzVlOWZmZGFmNGFlZTBkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dba07c6910b44cf2ab69f80b0ee38a54",
+      "statement": "US taxable fixed-income guidance supplies binding portfolio weights and requires a weight derived from a cited research note that is superseded or withdrawn to be suspended and escalated rather than carried forward.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+          "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_80978f91fa224deb948a0f4aa25774fb",
+      "statement": "The 2026-02 US semiconductor-capex edition applies to positions taken on or after 2026-03-01 and supersedes the 2025-06 edition.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L12-L18",
+          "version": "repo-lines-v1:sha256:f02b2aa39608c726d6327ac00240e7b06a9f511ee6a71938ed3971bf03b1421b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxMTJhODJjNGU0ZmVlNmRhYTEzNWFkYjA1ZjA3OTA2MDgxODAxOWIxYTNjMzNmYmE3Nzg3N2JlNDkzYzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJmZDAzOGE4Y2MxMDNjMzUwZWVjOGI1MDUyNzllOTUyZTZlMzI2NTNiMjNiNWQyYWY0YThiODA1N2E4ZjMxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQwYTQ3ZjljNGIyMzliYzgwZDJmYjY4YmRhNDBjYmQyNDBjM2ZkZjg0NTBlZDc1NzBlYWUyNGNiOWRhMWRkNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTNmNjAyNjljMjA1ODJjNDVhNWMzYjE3ZGE1MjcwNTkyNmY0NDAyOGU2MmI3YjVhZGU4OTIxNWFjZmM3OTNmZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_afde8637b0db4e5a99b312edcc310ae9",
+      "statement": "The global rates-regime research recommends reviewing global multi-asset bands but does not set them; the internal bands guide is the strategic default and requires approval for a weight outside its band.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L7-L11",
+          "version": "repo-lines-v1:sha256:fd3df0a17ac1db48524625797e670aac5b58e053b781d7525bb416add5b038e5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODEwZTRjZmZkZTllNTU4MDk1MmIxMTBjYWYxNDg2MjJmYWQ4NWU5NGRmYzA4N2MyY2IyOWVhZDhiZWE3MDM4MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc1YjZkZDFhNmNiOTc0OTE3Yjg2YmIwZGFhYTZkN2VkN2FmYmJkZjliY2FjMGYwOTk2MzJlZDI5ZmE0NDlkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDcxMzY5MzJhODNiNDlkZDA5YjVkMjFlMWRkZWJhOTU2MzhkMTIzODIyMWQ3OTljYTQ1NjFjOWI4NDZhZjc1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjRjZTgzYWM4MjlmMTBkMTgxYjc3YWM0MWUyMzBlNThiZWI5MDJiZTM2NjBlYTkxMmRiNmQ2NDIwOTNiMTNmZSJ9"
+        },
+        {
+          "resource": "repo://internal_research/MA/GL/RATES-REGIME/2026-02.md#L28-L30",
+          "version": "repo-lines-v1:sha256:84ac14dfd70f2b141f7b383dfafb075001e2a5d1a8af6bd66971676babc4d7b9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDRhYWExODEyZDVkNzY0NTEyODJlMzAwZTczNWQ5YmU5ZDdmODIzYTdjYTAzYWE5MTI5ZDFjZGEyYmNiZWEwMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWM5MTA4NTJlMGQ5ODZjYjA1YzQ4MzQ4MTM0NWQ1YWIzY2VlMzUwMDMxMjkwZTBkNDFlZjE1MDRiYjgwMDY0NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmVhZmI4MDA3NmNkYzQ0MjQ2YmU2ZjhlNGY0MjliNWQwOTNiZDY5Y2Y3MjQ1ODYzNTMzZjgxYmZkZmY5NThjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODI1NjdiM2U3N2NlZGYxYzIxMzY1MmYwMjQzOGMyNTdjODM2M2MyMDQ0Mzc2MDg3MmUzZWY2ZTA0ODhkNzg3ZCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0cfe3d103c23473385b4a8252e7575bd",
+      "statement": "No private-markets strategy may be offered until eligibility is determined and documented, and eligibility is a regulatory determination outside portfolio-manager discretion.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_905db9c3e53c4a4694de7674ffdcfc21",
+      "statement": "The IRS AMT threshold procedure applies to taxable years beginning on or after 2026-01-01, and the DOL pension-funding changes apply to plan years beginning on or after 2027-01-01.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L13-L21",
+          "version": "repo-lines-v1:sha256:b6842ad6301f3a1cdd6462d73837e7bb01ea2a1a86c289d28595ca47b8bf52a6:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTM1NWEzOTA1MDZjZDQwZjdhODk4MzYwNzc2MGU2ZjkyMDk5NDM3YWZjZjIzYzA1MjRlZTUwMDhiMTEyMmYyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDQ0MDQzMTgwMmI2NjIxNGVmNTQxNTE3YzA0ZjUyZTgwZjNhZGExOGFhZmEzMjE2NWM5NTU2OWY3YWI2OTBkYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFjZWNmMmNlZjg4MjhkMWM3NmVmNTMxZWQzYzM2NmI5OGExNzVhYzIwYzU1MDA3Mjc2OTVjNmZiN2E0YzU0MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmI4NTkwZTBlMDAzZTMzODA3OTIzMmNiZmNhNjM0MDEyYzZjMmM5YzZkOTMwYmI1NDRjMWQ4OTNjNjYwY2MyYSJ9"
+        },
+        {
+          "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L18-L22",
+          "version": "repo-lines-v1:sha256:844233d2178800d2f0a08d0e6eaa30183144e5283a81d52dbcb06054f54eb646:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjA1ZWNjODUyNWM2NzBiMDMwOTc1MzAyMzA2OTQ3MDk5YjE2Y2U5ZmE2MzJmYjU2NjkzOTQ5ZDg2MDg4ZDQ5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjljNWY3ODc3ZWM4OGI0YjM5MjY2MWZhZDIxZTRkMmI0YmZhY2QwY2YxZjc3ZDRlOTVlNmFjZTk1NjYwOWQ4NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E2ZDU4MjVhOTYxOGRkYTMzY2JiMzc4ZGZhODA2NmFmNjRiMzMzZDczMjM2MjM2ODkzNDMxMDhiMDk5OTZhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTcwYWZlYmUwMGY0ZmQzYzVlNWQyZjkxOTdiZTA0MmRlNjc5Y2U2YWU5OTk3MmM3N2EyNGI2NGQzNDMyN2YxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9a5e3413c988444d8435505df3af7ffc",
+      "statement": "A portfolio manager who finds a mandate-cited research note superseded or withdrawn must suspend its derived weight and escalate to Committee with the replacement, derived weights, and affected accounts rather than carry the prior weight or directly adopt the replacement view.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
+          "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fba9d3e6a0784ff6b941b31442021006",
+      "statement": "Employer-security trading on firm discretion during a blackout period is prohibited and cannot be cleared by approval.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29",
+          "version": "repo-lines-v1:sha256:a8d03d90d5398c20c94bba69b743d6e3c7561be03fe00dd9b98b61a619780a67:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkxMzc4Mzk1NDQxYTU0MjExYzQ2NDhlYzE3ZDY2MTY4N2I4NDMxNGE3OGQ1M2U5Njc1ZDRlM2FmNDk4MjhjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc2ZDZiMmYzZjdjNjZiNGFiZjhjMjQwM2JhZmQ2ZTFkMGFhYjMzMzVhYzNiM2Y5OWEwMGRlMGNiY2Q5ODZhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q4ZjI5MTA3YzE1N2FlZTM5MDcxMGZiODFmMWZkODIzMjI4NGJhMzZjNjBkNGQ1ODUyNWFlZDFlMGVhNTBjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmJhZGU5MzA2YjRiMTIxODAwNThmMmIzZDJmN2RjNTQ5MDA5Mjg0ZDc0ODMzOWJiMWQ2ZjUxMWU4Y2IxNWM4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_5b88e94d43f94e6da805dcca013d36a5",
+      "statement": "A suspension-caused US taxable fixed-income band breach is not ordinary drift and must not be automatically rebalanced.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43",
+          "version": "repo-lines-v1:sha256:f6719f24a72dd0a8751df9f3c96ee40e0d3fe4bdddcb3c507f08bbb18993a621:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg2NDE5MGZjNWYwOTExNzllZGM0OGM4ZDhmZmZmODhhMzk2YmM4NDgyNDNhZDQwMzRkMjVlZjE0Njk4YjhiZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxNTg4NWFiMTRmMDJiZTI2NzJkODcxYjc2MDQyMzk0NmE1NzYyZTQ2Y2Q3NjY3ZDRkNjRmNzhlNzFhYWFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzY3ZWFhM2NjODIzMjVkMDZmMTk0Yzk1YmM2M2NhOTFiNTU1MDk2NGY0NTA3MTEwMmU5ZWVlNzFlNDZmNWQ0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMxYzE5MmVjNmEzYzEyNjFiNTU4ZWJjOWU2ZDIxM2QwYTMxOTU2YjU2ZDU1M2U4MjIxNzg0MWM5ZGQxYzc2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_cd12fe46bed443d698cc5795b9b321fa",
+      "statement": "Every cleared escalation must record the condition, clearing authority, specific facts relied on, and date; an escalation without a recorded basis is treated as an unapproved position in audit.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L49-L51",
+          "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

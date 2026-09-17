@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:f4327154381b800930a4557ef5b3bafcd59c3a1eecfde5ac9b6829d79574ec5a",
+  "claims": [
+    {
+      "id": "claim_8576fb4379c742bcbb4daffee9f112bb",
+      "statement": "A private-markets strategy may not be offered until client eligibility is determined and documented; eligibility is a regulatory determination outside portfolio-manager discretion, and required commitment approval cannot substitute for it.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L27-L30",
+          "version": "repo-lines-v1:sha256:f7eadf712e54a4239a7157dd13421e117547ad34a5105b77953273caffc90025:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA2ODQ3MjU0NzlkM2JjMzM3MjY1MDdkMTY0OWY2YjkzZDNjM2YzN2ExM2QzNjI1ZTUzOWJmYWQxNGMyYWJjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDViYzUyYmYwYjQ1MTM4ZDhiZmE5ZDEyYmM2NzQwZTI0ZTVkYTczOGI5NmIyNDZlZTYwMDg5ZTllNzliODgwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWVkMjNhMDczMzBkODQ4MzVlY2JiZWIzZjVhZDg4ZTNjZGJlNDU2MjFlOWU5NWJkZDI1NzAxOGE5YzBkMmU4NCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L39-L47",
+          "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e19565fd477d487e8835ed1897a5a03c",
+      "statement": "For determinations made on or after the order's effective date, the qualified-client determination uses either the Rule 205-3 assets-under-management or net-worth test in SEC Order IA-7104; the order specifies the net-worth treatment of a primary residence and permits jointly held spousal assets for a natural person.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L22",
+          "version": "repo-lines-v1:sha256:6f70c97af7f3f8d5f1116d46bbcfb39d414b366611bb557bd9f02f200aa5b4e2:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmVlNmVlOGZiNzgwZjhhOThjN2RhZDhjNjA3MWI1NzNlYmRjYjkxNWMzY2NkZmE4OGMyM2EwYTRjOGU5YjljMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RjZjYwZjZkM2VjYzMyOWNhYzk1NjE2NGZjYjUzZjAzNjYzZDc0N2ExNTE2NGE0NjBhOWQ4ODFhNDJkNDQ1NiJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L11-L15",
+          "version": "repo-lines-v1:sha256:078e9cd9958ca122adbbe6ebfa3edf01f1ec88eeff9518d432efd795586b87db:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2Q3Zjc1YTVhMTliZmU3MzI0OWU3YmE5MjUzMzc3YmRjZGUxNzgyNWFjNmY1Zjc3N2RmN2Q1YTBmNjVkNDU2YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTMzNWVlY2I1Y2MxYWFmOWI1NGE1Zjg3NTUxNmRhNmYxMTFmMjliMGU1YmE3ZTIwMGFmNmEyZjViZjc2NTU4ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFhMWMzYjVjOWM0MGIzOWM0NWNhZGE4ZTA0NjE3NTZmMDcyOGU5M2NlYzRmOTM3Nzk3YTNjZTU0MDVlYjc0OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODdlMjc3ZjAxMWViNzZiZTlhYTZlMDBhMTJiMWYyZmU4ZThkMGVhMjk5ODU1YTdkNDkyYzczYjUwMzdlNjM3MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1c6e833d0ff247269e6477bf5a395457",
+      "statement": "A properly made pre-effective-date qualified-client determination remains valid only with respect to its earlier contract or private-fund investment; it must not be relied upon for a contract or investment entered on or after the effective date.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+          "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L17-L21",
+          "version": "repo-lines-v1:sha256:c85aaa6759fd53df3f878fe75086c5c4fd95918f31644cdc45467d2d9e8bc656:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU4NDQ0MTQ1ZTI4NDlmYzUwZDJiZDcyOWE0MGJjZTg1Zjc5NjkwZDgzNGZiNTJkYTk2ODJjMjVkNTYwZTdhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDVhNThkZjdjMmE0NjE5OTNmYjg0ZTIwYTQ1MDU5NjdmOGNiYWRjMTRmODQxYTRmMzFiMjRkZTc3YzAzYzc1ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjUxOTcwNGUyOTgyZjllZDM2YWRkOTA3MjM2OTM0NWViYjc2M2Y0NWMzYmQ3MDQ0ZmFjZDQzZjE3NzUwZjJhMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzJjMjJlNDYwNTNhMjVjYjYzYmRmMDU4Y2Y2MzE2OTFmMmMyODA1ZDNiN2Y2ZmFmMTcyMWQwNjQxZjQ3OTgzNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_70fcc9ce7a574a629c9449b2a26dfc58",
+      "statement": "Accredited-investor status is a separate determination from qualified-client status because Order IA-7104 adjusts only Rule 205-3 dollar tests and leaves Regulation D accredited-investor criteria and the qualified-purchaser definition unchanged.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+          "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L23-L25",
+          "version": "repo-lines-v1:sha256:3eb37a2eb8af2d28141b5c9951c4379393bdce64f5595e24c3a65d514875968e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA0YjU3ZGQzMDc5YzlhZjA5ZWIwZDM5YzJhZDVjMTI1NDJjMTM4YWZlY2Q1NDc5MjQ4ZjE1ZjVkM2Y2NDhjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2U4ZmRhYjdhMWMwZThmZjU3MmRmZjlhNGI2OGFlNjI0Y2MzOWFlMWM2YThjYzBjZjdhNjI4M2VhOGY0Zjc2OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmE4NWU3YWZiODhkYzgyMGM5MTA4MWVkZjQwY2E1ZmY3OTc1Y2FiYjBiNzNiMGQ4NzkzMmE5M2I1OTVlYTlmMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZjMzUxODJmZGFmNGI5NmFmZTI3ZGI0ZDUyNWFhOWFkYjFjNjUwYTM2YTQ1M2U4NDcwNTRlZjRhNTgwMTRhZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_227410b465cc43969d37ca0c88909454",
+      "statement": "Eligibility is necessary but insufficient for a private-markets commitment: suitability and the liquidity constraint must also be satisfied, with the research framework underwriting against the client's spending requirement and recommending unfunded commitments not exceed two years of liquid portfolio spending.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L31-L35",
+          "version": "repo-lines-v1:sha256:de8d782f2dd659d7afd5dba2c5f971d9b5fb02eea57532aca58174e96b9e381c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWNiZTUzMTRmYmViOThmZDU2NzNlMzU5M2E1NGExODhmZDliZTM5ZWRkY2QxZGVmODZjMjUwODkyN2NkZmVkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2NjMjVmMmQxYTQwM2FhMmIwYzAyNDVlMzAyZWVjYjY3ZmE3NzUzMTRhMmJhZmQ5MTVkZjM5MTNjZWI3NDcwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk5ZTZkZjZmYzNhM2I0MGQwYzE3NWVmMWFhMmIyNmUyMTQ4YzdkNTFjYTFlY2ViMjUwYjlkMzRhMjVlMDdkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L36-L38",
+          "version": "repo-lines-v1:sha256:f8d5a78596fa85beda159f7f8ec2945347303f310be5c9a2edca97419bcf8e9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjQyNDQyNzNjN2U4NzE1ZDViN2MxNzBiNGE5MGY3ZDZhYmQ1NGFhYTQzNDBiNzJiOTlhNGU0YWMwMTlkM2U5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZlOTllZWUzMjgwZjNlMjQ3NDNjODdmYzU4ZGJlYjcwNDAzMWEwZTY0ZTdkMjRhZGU2MDc2ZjRmNDBhYzZhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGNkMDZmMjYzNWE3YWI0YzgxMGYxMmIwZGRiMjU0NGVkZjJkMDJjYzk5ZDA2MGJkY2ZiMDMyNmE0MzUxYjU3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGIxY2Q3ZjU2NjUwYzA3Y2E3MWRjZGI2YTE3NTExN2ZhYmY2MGRkNWFkZWE5OGY4YWYxYWUxMWRhNTVjNzU0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ad3c9e2b1a1344a3b7047cce55cd6553",
+      "statement": "The private-markets research allocation applies only after eligibility: the research note states that its allocation view is for eligible clients and does not determine regulatory eligibility.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L16-L22",
+          "version": "repo-lines-v1:sha256:f43a5555a7d3a3811bb2fa51e79dcf21671b36917e090b50700d811a27ddd29b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzBlOThiODYzYmI4YTE3OGM1ZDY2NjE2M2VlZjZjNDg5ODQ4MzIxMGFlNmE2YmEwYzkwM2I0YTcxYzIzMTA3ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY5OGM5OTQ0MWQxODRhYTcyYzNlMTcxMGEzMzc3NmMwMjBlMjk2YjFlNTM3OTA1MjJiYTRkNjFlNGI5YjFlNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjYyM2IzNDRiMDVhYjViYTExNTIwMzcxM2IyZWVjNTFjZGZiNTEzMTRlZTA3NmE4YzgwNzNhYWEzNzQwMDUyOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDhhYzQxZmM2YjA3YjNhMjBmZTdlMzZjOGI5MjhjMGExYmVjZWFhNWRlYTRiYTZhM2RiZTA4N2E1YjRiN2MxMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_37d556495d174e8fb74e405d0c212e04",
+      "statement": "An adviser relying on an Order IA-7104 determination must retain Rule 204-2(a)(8) records documenting the basis, including the dollar test relied upon and determination date; internally, every determination also records its pathway, evidence, decision maker, and date, and an undocumented basis is treated in audit as no determination.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
+          "version": "repo-lines-v1:sha256:417ebc5f05c7207e99dc4f003b870a0f726e37874847b5a291e81aafadad24cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTExYWM1ZDlmYzkxNjZmZDU3NTU0MzM2MjE3NzM0ODQ3NTk5ZGU0ODI5YjhjNmFhYzBkMTUyNzZmMTRlYzIwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWRlYWM4YTk1MWM0MTFjNzgyNmU4MjRlNTZjMjUzZDg3ZWY5NmYzN2Y4NDEyYWRlYjhiZDgyOWNkMDc2ZTQ4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDI1N2Y2ZjlkNmJmMWZjMDI1NzQ4YTA2NDM1MWE5ZGVmODg5ZjM3YWMwYjViMzQxMWFmMGIyMWNkYTUwNDgxYSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L27-L29",
+          "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

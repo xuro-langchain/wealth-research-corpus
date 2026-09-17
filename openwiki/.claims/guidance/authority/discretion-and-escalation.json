@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4b86cc07b8c136ed064d0e133442ba45967541358445497071a66f7a8c3267d3",
+  "claims": [
+    {
+      "id": "claim_c0f828c4ffe1462ea024402a0975085b",
+      "statement": "Mandate-specific guidance may impose tighter limits but cannot grant discretion broader than the firm-wide discretion matrix; senior portfolio managers may clear one escalation condition per account, while matters beyond senior discretion, accounts with more than one condition, and stated-band exceptions require Committee approval.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L1-L11",
+          "version": "repo-lines-v1:sha256:1021efca79515c6cf6aa0d2f67d596f1326a3f2e90ddac634451bfc869f4f24c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZmMTZhMzM5YjcwZmE5YjY0YTgxZmFiY2Y2NTJkY2NhOTY1ODNhYzM2Y2VjNmQyNTk3MDBhNjE0NTQzZWYzZTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0MDhmN2QzMjlkMmRlMTI3ZDY0OTRjODk4NjUwZjcyMzU4OTM0ZjE5MGQ1MjUzZjc5MzY4NzcwODIyMThkYzUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjczMjhkMTdmNTEzYzhiOGUyYTc4OWRhYzQxODQ3OTRkODJiNjI2MjRiYTYxMmQxN2UzZjBkYzAwODcxNjQ5YzIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_71c44f40c96549b7b69c7c3212848023",
+      "statement": "Single-issuer positions up to 3% of account market value are within portfolio-manager discretion, senior portfolio managers may take up to 5%, and positions above 5% require Committee approval and a written concentration rationale before becoming subject to the concentrated-position guide.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L13-L15",
+          "version": "repo-lines-v1:sha256:05f4d72c5a4de854e2d8a88ccd13989f4f164818be580948472670d6311a46c2:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1Mzk4N2Q4MDk3M2EyMTE4MDdiNjI1ZTRlMjVhYjJhZjM3YjIxNzU3NTliMTYyNzhkNGIyNTUzZDI3NWNlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOTZmODYzOTc4NWZhNmYwMWFkMTZkYTA3Y2M4NjdlMzMyMjg1ZTg0MjIzZWVmYjFhNmM5NjYwYjkyMmYzYTRiYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiMzAyMjlmMDk1M2M4MGUxOTVjZDAwMTJjMDkxOWVhNWM4ZGJkYzBjMGNkN2FiMzEzNjVkNmQ1OTdlY2UyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTZiMDhlYmZlNWUyNTc3YzU3MDgyZWJkMTI5M2UyODA4M2NlN2ZkOGY0ZDc1YWUzNTNjNWFmMGMzYTNmMjAxNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_273c190db1ef4bf28fd94397b5d46eac",
+      "statement": "A concentrated position is more than 15% of a client's liquid portfolio market value, or more than 10% for employer or affiliate securities, and requires documented suitability at acquisition and each annual review covering the holding reason, tax cost of unwinding, and restrictions.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L7-L19",
+          "version": "repo-lines-v1:sha256:2142b9f14cd3f84af6708cbc09b5a36e3bb4389b9378b6953d730f56e9adb0de:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4ZGQ3NzY2NDE2MjA5YmUzZTk4Y2M0NTNmNTAyM2MxOWI2MzI0MzI4NzM4YWRmYmZlMzE5NzkyZDNkNWE4ODgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlNWNjNjNlZWYyZTUzZDkxNGQzZTZiZjc5MzkzOGRlOTg3YWVjMzc4NDc5ZTU0ODg1MDk3NWQ5MjNiNzQ5ZWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIyYjRlNmNkNGNmMjBhN2VjMmZlOTA5MmE1YmZmZGU4NzUxZDIzMDdiYTMxNDhkOTE4MDQ4ZWMyZDdiMzhmZDQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJhYTg2YjM1N2JlN2M0NjEwZmJmNjdhM2FmMDdhNTg5NDViNjQ3NmY2MjU4MDAxZDQ1NmFmMWU3YjM2ODBhMTYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_91c391cd582b4d29ba7880e82879eb33",
+      "statement": "Approval is required regardless of size for stated-band exceptions other than suspension breaches, binding underweight-sector positions, concentrated-position hedges, municipal-duration extensions, and private-markets commitments; the last also requires eligibility to be determined before approval is sought.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L29",
+          "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_edb7b6f0b571497e83a7dba10244ee75",
+      "statement": "A cited research note that is superseded or withdrawn suspends its guide-derived weight; the manager must escalate to the Committee rather than carrying forward, re-deriving, or directly adopting a replacement recommendation, and the record identifies the old note, replacement if any, derived weights, and affected accounts.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+          "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
+          "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f53ee37f0a8e4b488aeacd9df18111db",
+      "statement": "A suspension-triggered taxable-fixed-income band breach is not automatically rebalanced; when the municipal overweight is suspended, its paired investment-grade corporate underweight is suspended too and both return to neutral.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L35-L43",
+          "version": "repo-lines-v1:sha256:a678b2db75ca89ce06c4bf230cfa4db1363c4bbb60c486b8f0cc651cd890833c:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODkwNzJmOTZlNjFmNGY2ODNhMmY1NDI0ZDZlNzZhMGM3NmJlNTUyNDViOTRkMzFhOTVhZmUxYWY1NDdlYzQ1MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxNTg4NWFiMTRmMDJiZTI2NzJkODcxYjc2MDQyMzk0NmE1NzYyZTQ2Y2Q3NjY3ZDRkNjRmNzhlNzFhYWFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdiYTljNTViYzNjMzFhYmRhYmRmNmJiZGExNmI4ZTgyYTEyNWE1OGFlYzM0YTI4ZjY5M2I3Y2Y3YjBhMTZkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMxYzE5MmVjNmEzYzEyNjFiNTU4ZWJjOWU2ZDIxM2QwYTMxOTU2YjU2ZDU1M2U4MjIxNzg0MWM5ZGQxYzc2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7e1ab99ea86e41a2835fb37c1e10f545",
+      "statement": "Global multi-asset bands use ±5 percentage-point equity and fixed-income bands and a ±3-point real-assets band; private-markets denominator-effect drift is not a breach or trade, whereas over-commitment drift is a pacing failure escalated under D.4.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L17-L19",
+          "version": "repo-lines-v1:sha256:4155a03620cf51b5c833cc00de9495b4b954ff39d97cb2bdd18b4c59ff625b28:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGU1NmQ3OTBhNjZiMjE0NzQ3MzhlZjE3MzMzODBlOWJkODNmMjQwOTM0NGQxN2Q5YTllYWVkOTM5YTUwNTIxNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGUxOWUzYzMyNWNjMDM5ZDIwZTk3MjA3MTk5NzUxM2IyZDU3YjQ3NjZjZjFlNjRhYTJkOWFhYmYwNWM2NzI3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmRjMjE5YzhiNzVmNzUzZmEyMmY5NDQ3NTEyNDQxNDIyMzM1OWZkMzllY2RmMzE0ZTgxNDdmOGM1N2FkNjE1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTJkOWVmZmYyOGI2ZDE2MTY0ZTRiMjhjNjg4YzBlMmI3NmY0MWIzNjNlMjNlZWRiY2I5YjQ5ODFmMzIwNmZmMSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L31-L35",
+          "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9b8b91f0d7e048fab30051b1997a8dcd",
+      "statement": "Trading employer securities on firm discretion during a blackout period is a prohibition that may not be cleared by approval; an ineligible client's private-markets commitment and any regulatory breach likewise cannot be made permissible by investment approval.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L39-L47",
+          "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29",
+          "version": "repo-lines-v1:sha256:a8d03d90d5398c20c94bba69b743d6e3c7561be03fe00dd9b98b61a619780a67:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkxMzc4Mzk1NDQxYTU0MjExYzQ2NDhlYzE3ZDY2MTY4N2I4NDMxNGE3OGQ1M2U5Njc1ZDRlM2FmNDk4MjhjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc2ZDZiMmYzZjdjNjZiNGFiZjhjMjQwM2JhZmQ2ZTFkMGFhYjMzMzVhYzNiM2Y5OWEwMGRlMGNiY2Q5ODZhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q4ZjI5MTA3YzE1N2FlZTM5MDcxMGZiODFmMWZkODIzMjI4NGJhMzZjNjBkNGQ1ODUyNWFlZDFlMGVhNTBjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmJhZGU5MzA2YjRiMTIxODAwNThmMmIzZDJmN2RjNTQ5MDA5Mjg0ZDc0ODMzOWJiMWQ2ZjUxMWU4Y2IxNWM4OSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b6a994916c9c4aef984b18356997d617",
+      "statement": "Every cleared escalation must record the condition, clearing authority, facts relied on, and date; without a recorded basis audit treats it as an unapproved position and charges it back to the clearing manager's file review.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L49-L51",
+          "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_412f119bad674c4591141267fa435f24",
+      "statement": "Private-markets eligibility is a regulatory determination outside portfolio-manager discretion and must be documented before a strategy is offered; eligibility documentation must include the pathway, evidence, decision maker, and date, and eligibility alone does not satisfy suitability or liquidity requirements.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L27-L35",
+          "version": "repo-lines-v1:sha256:f24efc4480e03b26760468859e29fa13302cd2d2d783631197f8f089287e09b5:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2NjMjVmMmQxYTQwM2FhMmIwYzAyNDVlMzAyZWVjYjY3ZmE3NzUzMTRhMmJhZmQ5MTVkZjM5MTNjZWI3NDcwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:a6a883e4271bf2519f6538e4775cca1507a58ed1ce50e95f9ca4ec68f2d3b292",
+  "claims": [
+    {
+      "id": "claim_b52a1f36ae6045f4ac247e86a7d30df4",
+      "statement": "FI-US-IG-SPREADS 2025-09 is an index-level, valuation-driven underweight in US investment-grade corporate credit: it cites unusually tight spreads and limited cyclical-risk compensation, while stable leverage and interest coverage mean it is not a credit-deterioration call.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/FI/US/IG-SPREADS/2025-09.md#L16-L26",
+          "version": "repo-lines-v1:sha256:d2ea2241c6d0b4c591a042742589d7aabd21260a3d72f03f05d2c53a561c2ce4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMGIzNDc1NGJjYWMyNWU5OGQ5ZTA3ZjFhMzNlYWE0Y2VlMjlhN2FkM2YzYTc0MjNmOTkwNmViYzVhZGVmNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlYWQyYTMyNzk3ODUxYzFmMjQ5YWUzZWE4ZjJjMTU4M2I4NzIzMDQ3YWQ1OGU2NGE5YTdhZjU2NGFkMWRhOTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkMWQxYWVlNmEzM2RkYjE0OWIyODM0OWIyNDY2MjdhOTRiOTRkZjU1YmM1MTZkZjJiODcyNjM2M2Q0MGRkMjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjllZGRmNWVkOTRjNzllNWMwOWRmM2Q5ZDhjNGRkOWViNmNmOTI2MTk3OTkzODJiODUyNTVhZjIyMjJmYjFmMjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_c4ab77c3971e4462bb2928268ec42a8c",
+      "statement": "The IG-spreads note describes an approximate four-percentage-point taxable-sleeve underweight whose proceeds are available for a higher-conviction sleeve position, but the allocation guide—not the research note—sets binding weights and controls suspension of weights derived from superseded or withdrawn research.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43",
+          "version": "repo-lines-v1:sha256:7455bcbd520d2a4b04f0412b87dcc44d51557a09950f8322556190f7febf3316:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjBiMDEyMGFiZDdkMzVjMWQ4YWJiNmYyYWU2YjAzMjEyNWE1NWVjMjZjZDMzN2U3MzMzZTM4N2FlMDg1NWU1MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdmMTU4ODVhYjE0ZjAyYmUyNjcyZDg3MWI3NjA0MjM5NDZhNTc2MmU0NmNkNzY2N2Q0ZDY0Zjc4ZTcxYWFhZjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjNTRiY2EzMTU4MzE3MTk3MGY0MDA4YmE2OGI4OWU3ZGYyN2FiMjM0NWI2NzcxMjAwMDY5MzUyMjcwYzg0Y2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZjMWMxOTJlYzZhM2MxMjYxYjU1OGViYzllNmQyMTNkMGEzMTk1NmI1NmQ1NTNlODIyMTc4NDFjOWRkMWM3NjAifQ"
+        },
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+          "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/IG-SPREADS/2025-09.md#L32-L34",
+          "version": "repo-lines-v1:sha256:edcf3a340f3488facb0648d4c5c6e75bb69bcd71e4d2fa89559f49a13f8a310c:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWNkMTMzZTA1ZjIyYzZlZmMwMDJlZGU5ODdhZjlkY2Q0YzJjNDExMjhjODA2YzQwOTE2ZjEwZDkzYzk4MjhkYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDk5OWE4NGQ1ZDYzMDM4N2E1MTQ1Mzg4NWJlMjliNjEwMzBmMTAwMjU4NTE3Mzc2NTNmN2U4ZjFjZDVjMTk2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjJjNTZhZTkyYjhlYWZlNGIwZGQ0NjYxMTQ0YjkwYzA4MTUwNmZlNzZiMzY4ODMzNDVmNjNhN2M2OTE3NjdlYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWFhMDM0NWE0MzFjZmEyODMwZmNlMjVmNzdkM2FjYWEwNzljY2FkM2JmMDdjZjI4MzA5NDMzNjVjMWE1NGIxNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a3471799eb934685b4a4742cd24e63ee",
+      "statement": "FI-US-PENSION-LDI 2026-03 is a long-dated, Single-A-and-better IG-credit overweight based on expected persistent corporate defined-benefit-plan demand through 2028 as surplus plans de-risk by extending duration and rotating into long credit; it is a maturity-bucket flow view that the note says can coexist with the index-level valuation underweight.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L16-L36",
+          "version": "repo-lines-v1:sha256:b808c203d4baaed1d819d578e77327af15044aeea98578db3054a6323be91d49:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYyNmZhYmE5MWY0MzZlMDIwMTYzNDMzMTI0OGNmYWVmMDRjNzQzYWQxYjkxYWU5OTIwYTI4NTM5YWFjNWZlZjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjExY2E5YjIyNjgzY2FiOTkxZGE3ZDdiMTBjZjY0MDNhYjE0MWM4MzBhODJkYzQ1N2ZmMDlkYzIzNjI3YjgwYjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM0ZDk3OTk2NmJlN2UyMTU4NDM5MTgzZTU3MjQxMzY4YjIyZDAzYzFjOGEyZDkyMGM5YjA5ZjViNjNhNDVlZjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM5ZjhmOWRiZjc4NGEzMDMwMjcxNzVhNDI4NmQ3ZDQzZWU3OWRiNWI2OGI0ZTllMzAwNWE3OGMwYzM4OThiMjcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_027cb8b347134016b9c36c0b58ecf934",
+      "statement": "FI-US-PENSION-LDI 2026-03 states that a change permitting surplus release, altering the discount-rate basis, or cutting contribution requirements takes out its pension-demand premise and recommendation, and it requires review sooner than 12 months upon an announced funding- or discount-rate-rule change.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "version": "repo-lines-v1:sha256:6663c4efd9f3f887e0745a2a6c36aee02a2439dbe6bbff0f61b3c479932dd63c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwY2UzNmMxMTM2OGQ1MGIyMDQ4MjMyNzk2NjlmMTY1MmI2ODJiMGRkYmVlNWNmMWI4ZGM3ZDIxM2ZkYzQzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+          "version": "repo-lines-v1:sha256:7058095e803a71d7fed5e9df2bf4479970ad57c75aaf0b2ba8b70afd198a84a1:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjgyY2Y0NThkNzAxODZmYWRkOGZjNTI1MzM5MGMwNWE1ZTM1OGNiOWI1MTlkMTYzYTkzZTM3NGFjYjI0MmVmMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGRjMDNmYTEzMDYxZDg2ODhlZjk3ZTQ0ZWYzNWEwY2JhYmE2OTIwM2Q1ZDI3ZjIxZmQ3ZmQxNmJhYTIzODkyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dbab59c65a2942bcb12150ea1059a613",
+      "statement": "DOL Release 2026-31 P.2 and P.3 supersedes FI-US-PENSION-LDI 2026-03 L.2's funding-rule premise for plan years beginning on or after 2027-01-01: the release widens the discount-rate corridor and conditionally relieves plans measured above 110% funded from minimum contributions, with elected excess available for specified uses.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L25",
+          "version": "repo-lines-v1:sha256:c12dd29269b1d31a7127ee976d84d9107aa1ae3a9fe3038348e7cfe4e061485e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmZGY0MWYwMzA4MTNiOTE4MGIxYTA3YjliNzU1MWI0YjE5NGRhMTA5ZTdhNGU1ZmVjZGJkNzQ1OGM5MGM4NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZkNjkyMTMwODY4NGYxYTVjODQyZmZjZjAzMDQ3YTU3NGMzNGJiY2ZjMjM5OWZhZDI3YjQyZjhhMjZlY2IwYTYifQ"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "version": "repo-lines-v1:sha256:6663c4efd9f3f887e0745a2a6c36aee02a2439dbe6bbff0f61b3c479932dd63c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwY2UzNmMxMTM2OGQ1MGIyMDQ4MjMyNzk2NjlmMTY1MmI2ODJiMGRkYmVlNWNmMWI4ZGM3ZDIxM2ZkYzQzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L38-L42",
+          "version": "repo-lines-v1:sha256:6bd0a814953baf620732c790c19a3dd39e5280f54d6897caf96eb430be74083f:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGMzOTNlNzYzYzUxNjM0MDVjZjc4ZjQzOTQ2YWVkNjQ0MDViYTgwY2VmNmEzZGZhNWZmYmQ4OGIyZTg1MjFhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGRjMDNmYTEzMDYxZDg2ODhlZjk3ZTQ0ZWYzNWEwY2JhYmE2OTIwM2Q1ZDI3ZjIxZmQ3ZmQxNmJhYTIzODkyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjEyNGYzZWFkNzY2YzEyYjE2MjQ1YWMyMTlkNmY1OWFjZTJiNWVhYmNmNWRjZGE1MzliZDdkYjFjYThjOGRkNyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_438587ab1cf3403bb442881938dff70e",
+      "statement": "DOL Release 2026-31 P.5 preserves the restrictions for plans below 80% funded, but this does not restore the pension note's surplus-plan demand premise.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+          "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "version": "repo-lines-v1:sha256:6663c4efd9f3f887e0745a2a6c36aee02a2439dbe6bbff0f61b3c479932dd63c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwY2UzNmMxMTM2OGQ1MGIyMDQ4MjMyNzk2NjlmMTY1MmI2ODJiMGRkYmVlNWNmMWI4ZGM3ZDIxM2ZkYzQzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_ca2b43e763ec409b8aebb1420b0f40cb",
+      "statement": "FI-US-DURATION-PATH 2026-10 recommends a modest +0.4-year duration position expressed in the 5–10-year sector with a steepening bias, while specifically avoiding long-end duration because of fair-to-cheap term premium, heavy long-end supply, and no expected compression catalyst.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/FI/US/DURATION-PATH/2026-10.md#L16-L18",
+          "version": "repo-lines-v1:sha256:3330260f3e0adf7e16854c3ed61e87472b3bf4aff79686785278907d5598b59d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDM2ZmQxMjFkNDA2ZjQwNTdhNmJjMTE5OGY3Mzg2ZTZmMzNlYjEyMDYzZGRkOTg2OTQzYThhY2IzYmE1NDIzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ4ZGEwYzhjNDBlZjVjYTRhNDdhNTlhNjFiNTdiYTA1Mzc5NGYyN2E1ZWFiMzhhYzg4YzdmNzJlMzU4ZTAxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDAyNmQ4ZTUyMjZiYjgxOWIyOTQ1YmZjODEzM2QwZjk4ZjBmM2U5ZmM2NTRjZmE1ZDA4MDQ0ZmE2Mjk2MGI0ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTg4YWI1YjEyYzZjMzZjZGIwNmJiMjkxM2YzNjI0NjQ0YTU2MDQ4NGJiNGZmM2Q2NmRjZDAxYzk4Y2IwZGNlOCJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/DURATION-PATH/2026-10.md#L26-L32",
+          "version": "repo-lines-v1:sha256:d50a16b27d6d3a43c56feccd09762c6d041a3f9494d88fd7c34ddbc1a2de4410:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWU3MjlmZmYyMDc0Yjc2ZjE1OWRlYzZhMmNmMTc4M2ZjNGJlNTU4ZTAwOTgyZDEzODQ3NzY3NDdhZmFhNTYxYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTdhNjJjMjg0YTIyYWQwYzRkNzEyODFkN2UxOTczZGFmMzY1MTE2OTY0OGI4MWU4OWE4MDY2NzFiMTY4ZTQzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiOTYxOTFjZDRjODVhMjgwYzc3NjA4OTBmYzhmMDA3NTFlM2I3NDI3Zjc2MmRjYTVjODQ2ZjZhZDY0NjIzYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTM2YWQ4NmZmNTQzOWJkODg2YzZiNDBjMmQ3MzUzMmJhZWE3YjVhNzJjYjVjM2FlZGY5NzllOGEyN2U3ZGM0YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e56ebfd66414470881d25a62fdc3dd1a",
+      "statement": "The duration view rests on a central case of one further rate increase over 12 months versus 1.5 priced by markets; the September FOMC statement raised the target range to 3.75%–4.00% but expressly did not commit to a future adjustment sequence.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L10-L16",
+          "version": "repo-lines-v1:sha256:424eb8016dac92e84d969206ff391e58901fc80251a0569cc6e58ec5f48beae6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY0ZjBhMTFmOWEzZTk3MTRiNWE4NWYxMzhmYzQ0Y2JlOWMzMzllMTdiY2Y4M2E4ZWJmMzJlNTY0YzdiYjAyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTZjMmI1MzA5NDI1M2RhYWMyNTlmZjAwMWM5MjdmMzk0MGRlNjQwY2YzNzc5ZDA3NTdjZDNkOGY1NjJhOTI2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTU2MmI0ODhhMWM4MjE1ZjJmNGZiYTNmMGFjNTZlNjk4ZTA3MTlhYWMyN2EwMzI3YjkxZmJlYjAwYjhmZGQ2MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2VhMDZmMDc5MTg1OGU0MGQzNWY0Yjg0MmVmNTc2N2YzMDk5MTMyMjllNTUwM2QwM2RmZTA3YjYwMGU3MmI5YiJ9"
+        },
+        {
+          "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L26-L30",
+          "version": "repo-lines-v1:sha256:e902f7ec559e9317f921d2ae95973df528b4cc9c0ec00bccf4ea7a80e24f7469:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODdjNjRhN2Y0M2JlNDEwYTY2ZTVlZWIyNzM3ZTA5MWZhZjY2MmY3NDM3MWFlM2U4N2ZiNmViYTk2YTgyZGY0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGEyYTYxMzk0NDU5NTVlMTYyYjI0ZjBlYzExMGUyZWNmMjBkMmM5NWU3MzY3MGZmYjYzMDM0Mzk2OThlYjY5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmIxZmU1ZjBkM2EzNTM1MDZkYzQ0OTI4NWQ2NjNhZjRlYmMxMTk5NDBkZjNiZDllNWFmNzE5YjUxOTA4OGFjYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWMxMWRjMWFjNDA3MzEzYTBhM2NhYjlhYjNiYjY4ZWJiZWIxOWQ2NjkyOTNlYzU3Y2UyMWI3YjkyNjRjZWM5NiJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/DURATION-PATH/2026-10.md#L20-L24",
+          "version": "repo-lines-v1:sha256:b7deef73c079168a09ff18752e7cd9d5aafbe70cfa48095c32021d19f30d1e43:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc3YWU1NjQwZGQyYzk1MGQ0M2Y3ZTUyODBiOWVlN2Q2NGEyNzcwZmYzOWQ4NWQwYzBkNTllZjNiZWEyNDQyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmRjNzcxMzNkNWVlNGM2ZjBhNTUyOTRjOTA5ZGM2OTUyZDUzNDRmMjE5ZjdmNzY1Mzg1MjgzMjJlNzEwMTliOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU0MjMxZmE1YzEyZjM5NjRmZWU2N2I1ZGIwMTI0ZjM4ODViZTFjYjk5MmE5NDZkN2FjNTIzYTI5ZDVkMGUzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThiNzE2MGY2ZGRmYTNiZWNlMDA1YmRhMmJhYWQzZGE1YmE4ODMxYThhYWUwNDcxMWY5YmJjYTg3NjNlODEyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e4f18618e724475aa601d6d8c4f6e5c9",
+      "statement": "FED Implementation Note 2026-09-16 I.1–I.4 implements FED Statement 2026-09-16 F.1 by setting the administered reserve-balance and primary-credit rates effective 2026-09-17; it does not modify or extend the statement or provide path guidance beyond it.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L10-L12",
+          "version": "repo-lines-v1:sha256:b4d5e30435d28edbc696075a3f182e860e9421fd39b9073b617feae0d2e301ca:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY0ZjBhMTFmOWEzZTk3MTRiNWE4NWYxMzhmYzQ0Y2JlOWMzMzllMTdiY2Y4M2E4ZWJmMzJlNTY0YzdiYjAyOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzA3YTZjNWZkZDRlMzJhMWFlZDE3ZjllODI0M2Q0YjA4OTMyMjA5NTJhZGMzYzVlZTBmZjBiNWZhZDliNzk5MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTU2MmI0ODhhMWM4MjE1ZjJmNGZiYTNmMGFjNTZlNjk4ZTA3MTlhYWMyN2EwMzI3YjkxZmJlYjAwYjhmZGQ2MiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDkyYTk0NDVhNjJkMmMzMDNlZWYyOTMyMDY0NmE5MWRhNmU1MWVhZjVjNmVlNzhjMGQ1ZDU2Y2Q2YmVlZGYzYyJ9"
+        },
+        {
+          "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L26-L30",
+          "version": "repo-lines-v1:sha256:e902f7ec559e9317f921d2ae95973df528b4cc9c0ec00bccf4ea7a80e24f7469:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODdjNjRhN2Y0M2JlNDEwYTY2ZTVlZWIyNzM3ZTA5MWZhZjY2MmY3NDM3MWFlM2U4N2ZiNmViYTk2YTgyZGY0YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMGEyYTYxMzk0NDU5NTVlMTYyYjI0ZjBlYzExMGUyZWNmMjBkMmM5NWU3MzY3MGZmYjYzMDM0Mzk2OThlYjY5NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmIxZmU1ZjBkM2EzNTM1MDZkYzQ0OTI4NWQ2NjNhZjRlYmMxMTk5NDBkZjNiZDllNWFmNzE5YjUxOTA4OGFjYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWMxMWRjMWFjNDA3MzEzYTBhM2NhYjlhYjNiYjY4ZWJiZWIxOWQ2NjkyOTNlYzU3Y2UyMWI3YjkyNjRjZWM5NiJ9"
+        },
+        {
+          "resource": "repo://external_sources/FED/2026-09-rates-on-reserve-balances-and-primary-credit.md#L8-L30",
+          "version": "repo-lines-v1:sha256:2527b1af3a21dcb782ddd3649e2e6f78e4e6ced8e01841f04ae2dd7451dfe6d9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlMDI0MThiNTA3MzliYTUyNjk5M2IwZmI2YjQ0NzZlZGJhOGEwYWZkOGE2Nzc3YmI4OTZhNjJkNDZjMjIxMDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1MWNjMDExOThiNDhlNzRjMzI5NGM0ZTFlMjk5NGE5NjhkYTFlNDkxNTRkZjBlNDViMjc0NDI5NDZkY2QwYmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI1YzQ4MDk0M2FjZjg3NzM1MGQwYTEyZTYxYjNhOWRjMTYzOTE1MzUyYTY3Yzc0YTc5ZDk2NzM0MzE5NTYwNDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjYyNDA4Y2I3ZGY3YTk0Yzg5NDNhMmU0ZWJhNGFjOTIxMDA0OTIwNDdmYzlhMzBmYWQ1NDA4Njc2Mjc4NTM5OWQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

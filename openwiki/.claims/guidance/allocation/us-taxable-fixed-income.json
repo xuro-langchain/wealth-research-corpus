@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:5f8190e95859e8200196ba02d14a838259ce5d5b7780769bd39a38040488a774",
+  "claims": [
+    {
+      "id": "claim_24eecf59ac0e46d3b5edb11dc9ec939c",
+      "statement": "The US taxable fixed-income allocation guide is binding allocation guidance for a sleeve comprising US Treasuries, agency MBS, IG corporate credit, and municipal credit; non-US developed sovereign and emerging-market debt are governed in the multi-asset sleeve instead.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L1-L3",
+          "version": "repo-lines-v1:sha256:e523028597c93f84b5d4633cfe22b22d00c8ec2ed79fa1972e2e97da236a3f6e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmU4MWYxYjFlMWQyYzJmMmM0ZTM4ZGJiNTBhOGRiNjgwNTk0NjNhNTNiNmM1YjdmMTU0OGFmMmY0YWY2NDdlMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAwNzJlNGNlNjNmZGRiYmVkZGViMTI1NTcxMGMzNTBhZjkwZDVmOTg0Y2Q5Nzk2OTk4ZWE3M2VjMGExZmUzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L15",
+          "version": "repo-lines-v1:sha256:68798473caf2bf68f0baa25ca695e25d52368873592bb25ef0dc6ce573a6f67c:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmM1ZWFhYjYyZTJlYjg5ZjVjN2VmYjI2ZTU0MjAwYzBmZmZlNTFlZjA2OTRjY2YzYjY4NDYwYjcwZGJmNmNiMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjliNmJlZTdiMDM2MDliYTE0NmJkODc0MjhhZWI2MGUyNDhiZjkwNWUyZTM5N2YxMTI2OGEyMmQ4YzI2YTNlNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_40459de6433b40a4ba7ec2d139c4bb31",
+      "statement": "For top federal marginal-bracket clients, municipal credit has a 22% target versus an 18% neutral weight, while clients below that bracket use the 18% neutral weight and do not receive the private-activity concentration.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
+          "version": "repo-lines-v1:sha256:008b63307c128094a6ac8cbf9ac50127983559e55ffd1101214614c429ff895b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L18-L32",
+          "version": "repo-lines-v1:sha256:d369f9615559d988fd8e53776ee205d885646e8deda9d90275301b0f0368b667:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk0YzE0YjhiMTViYWVlNjUyZTRmNTU5MGExNTZmMjkwZjVhY2YxODljMjk1Nzc1OWQzNDBjNmI1NDQ4YzE4MzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYxODg0NTQ3YzllOGQ3YjE1YmYyMDQxYTFmNDYzYmQ1MjQ2YjczZWI0ZDdmMjNhNWZmMDMyNWM3Zjc5ZTQ4OTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjYTlhMTBlNmQyNDZhMjE1YjUxNjc4Mzg2OTEzNzU1ZTY2NGJhNjM1MzdiNjAwYThhNjIwYzIyYWU2ZDA5ZjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2N2FmZGU2MmExNWQwZTE3YmQzZDVkNmY5YzcxOWFjZTkyZmQ4ZmU2NzNlYjU4Y2FiNjQwODI0ZmU1NmNjYmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_3e6199b9f24b47069def9da2ac4e65bb",
+      "statement": "IG corporate credit has a 28% target versus 32% neutral, and its four-point underweight is paired with and funds the municipal overweight; suspending the municipal overweight suspends the corporate underweight and returns both to neutral.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L37",
+          "version": "repo-lines-v1:sha256:f70178ec8c85606d49ea4cb8e4dd637ae34ac777f44f4af37e3371c42c169a07:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGIwMTIwYWJkN2QzNWMxZDhhYmI2ZjJhZTZiMDMyMTI1YTU1ZWMyNmNkMzM3ZTczMzNlMzg3YWUwODU1ZTUwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdlYmYzNzkwMjAyNGQ3NjE3OWNjNzIyZmMxOTc5ZDQ5MWI1NjZlNmVlODlhMzE1OTRjODQ0YWFhOWEzYWU3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWM1NGJjYTMxNTgzMTcxOTcwZjQwMDhiYTY4Yjg5ZTdkZjI3YWIyMzQ1YjY3NzEyMDAwNjkzNTIyNzBjODRjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmRiM2Y2MWQxZGQ0OGZlNDFmZGYwZmQ1OGUzZjJlMjk2NWZiZGVhMmM0MGM3ODg5YWEzZTI3ZjljMTYxNWQzNiJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/IG-SPREADS/2025-09.md#L16-L34",
+          "version": "repo-lines-v1:sha256:a65b4196f8d04f4d176d882ba2741ac59c3b1c98c58aba641c9fe217e2f9205d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkMGIzNDc1NGJjYWMyNWU5OGQ5ZTA3ZjFhMzNlYWE0Y2VlMjlhN2FkM2YzYTc0MjNmOTkwNmViYzVhZGVmNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA5OTlhODRkNWQ2MzAzODdhNTE0NTM4ODViZTI5YjYxMDMwZjEwMDI1ODUxNzM3NjUzZjdlOGYxY2Q1YzE5NjEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBkMWQxYWVlNmEzM2RkYjE0OWIyODM0OWIyNDY2MjdhOTRiOTRkZjU1YmM1MTZkZjJiODcyNjM2M2Q0MGRkMjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhYTAzNDVhNDMxY2ZhMjgzMGZjZTI1Zjc3ZDNhY2FhMDc5Y2NhZDNiZjA3Y2YyODMwOTQzMzY1YzFhNTRiMTcifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1b054a5dffcf4c689152e899583b2b88",
+      "statement": "The guide makes municipal implementation limits binding: a 35% maximum in any preferred sector, approval for positions in the named underweight sectors, an 8–15-year municipal duration band, and approval-only extensions beyond 15 years that cannot be granted portfolio-wide.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L25-L31",
+          "version": "repo-lines-v1:sha256:5ac1b9abaeca558836b5e0ad170b411813d33f676d7d5f5136221be964c321ba:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2E2NTgyZjAzMzEwOTJmODU0NDQ4Yzc2MmNmYzEzNGI2OTJhYzBjOTMxYTQyYTBiNTQ1OTU0YzcxMWVhMGQ4ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmI3NjhmNjk4M2VkZmJiNzVmMDJiMmJmNWQ4ODY5OWY1OWE2NWFkNDBlYTMxZWQzYjdhNjMwMWVmNDNhZjZlOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjVjMGM3MDFiZWY2ZmJiMGJlNDNmZDYwZTFhNDYyMTg1ZjgxMGNkMDFmZTU1ZjQwYmJiZTE5NTczMGU3NDNjNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdiYTljNTViYzNjMzFhYmRhYmRmNmJiZGExNmI4ZTgyYTEyNWE1OGFlYzM0YTI4ZjY5M2I3Y2Y3YjBhMTZkMCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L29",
+          "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L46-L56",
+          "version": "repo-lines-v1:sha256:ec2c0196a5948a37c20ee5fbd6b5ac9f8b67ee9de951530ad5acc0dc3d66e5bd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwMmIyYWI5NTNkNWU4NDAzZmE3MjEzZjhlYzM5MjVmMTg3ZTA3ZjcyOTM4YzIwZGE2NGI2NDIyZDI2NDViNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRmMTVjZjA1MDA3Mjc3NjIwMjQyMGNjM2JhM2FhZTg1ODI1Yzc5YTAyYTRlNzJhOWFjMzgyNGQwZDJhMzlhODMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBlNDU1Nzk0YTQwOWFmNzI3ZDk5ZmRhZjVmNmI2OWM3YjM0MDBkZjA2ZjUxYzgxMGMyNzhkZjQ5Njg4MjhlMmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU0MzA3ZGM4OTYyYTA0MjI2MTYxZjJiMGU1Yjk0ZjlkYjIzZjcwNTRiMGY0OWY2YmY2YmZjMjhlZGIwZTdlMjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_415ac43d09994d0298ddce74721d467a",
+      "statement": "Municipal tax-loss-harvesting replacements must comply with the municipal sector limit; a replacement that concentrates a preferred sector beyond the limit is a breach when it settles.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L45-L47",
+          "version": "repo-lines-v1:sha256:ae065e51024670142331b0642c28d734d047b46ea31f2358ad4dd5b4a62ead86:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODM4YzMwOTBkNzU3NmYyNmRhOThjZDEwOTlhNTE5ZjJjYTcyYjE4ZTM3YTE2MGU5YjQ4NjBkNWIzODgxNzQyMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWQwMmRmZmYzNGUyMzZlMGJjOWRkZjliMGVhNDE0MzU3YTkzNjQyZjNiYzJkMTRkZGYzMWQzMDVjYWEzNGY3MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2Y2MDY0YzQxNmMxMmFhM2YyMDViZDMyNjQ1YzljN2U5YzFlZWI3MWRkMDVmZmExYzYwOWEwM2NkMjc1YTIwMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTY1OTFkNWExZWUyNzU1NjQwYWE4NmMyMGY5NjhiODc0OWM2NGJlZDNhZTMyYWQxNDRmZjBhMzY5ZjRiYTkwZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1493e84ec6fc481a984d77ec4bac49a4",
+      "statement": "Each target has a ±2 percentage-point market-value tolerance measured at month-end, with ordinary out-of-band drift rebalanced in the next monthly cycle; a breach caused by suspension is not automatically rebalanced and instead requires escalation.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43",
+          "version": "repo-lines-v1:sha256:f6719f24a72dd0a8751df9f3c96ee40e0d3fe4bdddcb3c507f08bbb18993a621:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg2NDE5MGZjNWYwOTExNzllZGM0OGM4ZDhmZmZmODhhMzk2YmM4NDgyNDNhZDQwMzRkMjVlZjE0Njk4YjhiZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxNTg4NWFiMTRmMDJiZTI2NzJkODcxYjc2MDQyMzk0NmE1NzYyZTQ2Y2Q3NjY3ZDRkNjRmNzhlNzFhYWFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzY3ZWFhM2NjODIzMjVkMDZmMTk0Yzk1YmM2M2NhOTFiNTU1MDk2NGY0NTA3MTEwMmU5ZWVlNzFlNDZmNWQ0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMxYzE5MmVjNmEzYzEyNjFiNTU4ZWJjOWU2ZDIxM2QwYTMxOTU2YjU2ZDU1M2U4MjIxNzg0MWM5ZGQxYzc2MCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L22",
+          "version": "repo-lines-v1:sha256:43d5a6c45f5751b57cb2f064c05b6796a0ea4a66f5ed30a6aa02638523badcf9:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDIyMmRmNmFmMTE0MjM1NWM5YTM0NDkwZjJkOGI1MWY0OTdmZDBlYmY0MGQzNjdjNTJmYTc5ZmNmNGRlYzQxNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWUzODc1MzNlMzZhOTY3N2I3MDM4MzQxMzFiZDRhNjU5ZjA2MGMwMGEzNWMyMTRmYTYwZjc1NjZlYzYzOGMwYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc5MDI0YzJhODFiNjg0NTNmZjg1ZGEwZWU5MzU2OTQ0NjdiZDgyNGMxMTEwM2NjNzI0YmFlNmY2ZmQ0ZTg5ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4ea7b08854a34de696549e0462386024",
+      "statement": "When a cited research note is superseded or withdrawn, a manager must suspend the derived weight and escalate to the Committee, documenting the old and replacement notes, derived weights, and affected accounts; the manager may not carry forward the old weight or directly adopt the replacement recommendation.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+          "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTVmODZkZDAwNjExYTU4MDU1NjM2ZjAxMDQzNDg3MWM4YTg0NWI2MmE4MzhjZmQwMjVkM2M2MTMzYTdmMDM4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L31-L37",
+          "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_083f6a6dde6e4413b7e43c498c514f84",
+      "statement": "The guide is reviewed quarterly and out of cycle on re-issue or withdrawal of cited research; the municipal source also calls for immediate review and re-issue on an announced federal tax-treatment change.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L49-L51",
+          "version": "repo-lines-v1:sha256:90f58ee6736d0b9002e0c0ac29ae82ead1b7ae81c2f46273d37c7e196094e790:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmJmMGZlMDJhNjg0MDk5ZTJjZjE1Y2ViMzU5YTM4ZGE5ZjJhYjk2Yzg2OWRmOWY1YTU3YjA4OWUwM2MzZThhYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzA1NjE5YWJmZGZlM2M1ZTMyZGVkODBkZjlmZDBlYmFhOWNkNjFmMWRjYmFlMDZlOWRhYjk3YmRkZmI3ZTYwOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Y4ODczMWVkNzg5ZjY2OTAwMDEyYTQ0MTdlODc2YmM5YmE0NTNjY2I4OWQxMTkwYmUyZThlZDM3MWM4ZmJhNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/MUNI-CREDIT/2025-06.md#L70-L72",
+          "version": "repo-lines-v1:sha256:acc64e2a591e33f4dc84a82c76a1dee2236650ccd0254fa61b90e8dc07fe8750:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU2MjBkNmEwZWFkN2RiM2M1NDAxZjJhNmZkODk4NTdiYjEwMmNlZDlkZWY4NDBiODA0NGU5YzI3MDNiZTllOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiY2JlZDQwN2ZmZjJkZGU5MTgzNzUzMWQ5Y2RjZGE2ZGJiN2ZhYTE5NGJmYTcwODZjMTYzYzJkNWIwMmVmYmYwZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWY2MGY2NzBiZDcwYTJjNzQ0NTI3ZGE1ZDgwOTBlOGFkOGNiNTgxZmE2MGNjMTllZDdkMmE2MDYyOGJkMWY1MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWNjOTg2NmRmOWU3YjE2ZTQyNjI0OGQxOTQ4YzU4NWY4NTllYjYxNGQ0ZDQ4M2E1YWI1ZDRmMzQ0NmJiYjQ5NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_401092b2489349d0830232c1b1aae69c",
+      "statement": "The discretion matrix requires documentation of every cleared escalation's condition, authority level, relied-on facts, and date; absent a recorded basis, audit treats the position as unapproved.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L49-L51",
+          "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

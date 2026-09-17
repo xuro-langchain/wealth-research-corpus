@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:d9f4f616b06da92770d0ec1a001ad456f2b398cfe391aeabf3264c01298cd3f9",
+  "claims": [
+    {
+      "id": "claim_3a2d7574efcf495aa5495c2db6b030a8",
+      "statement": "EQ-US-SEMI-CAPEX 2026-02 supersedes the 2025-06 edition for positions taken on or after 2026-03-01, while 2025-06 remains the basis of record for positions taken while it stood.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2025-06.md#L3-L5",
+          "version": "repo-lines-v1:sha256:14f77e35261100f7539b0b32f57381208df72479197d446bedea9ac04c49480e:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQyMDNlNDQ2YzJjMGY2ZGQyZWI4NjNlMTMxZjE2MWE2OTM3NzZjNGE3Yjg5NjIxNTVjYmFlMjY0ODgxZGQ2NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzU4ODkwYzNhYTUxNjY2ZDc5MTgwMmI1NjA5ODg2MDdkNTNkODZhMWYyOWEyOWMxNWZjNDk3N2JhYmY2NzY0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjJjNjdjY2NjZjIyNGIxNzY2ZTBkZDIyZDM4ZWIyYTIxZGYwNDBmNGEyZTkzN2VlMDZlMGU2NDI1NDE4ZDEzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzMwNDYxNWQwN2E0N2ZlMmIwNTEzNDkwMGMyMzkyYThmZTQzN2FlNWNhZGU4NzkzOTg0OTdjYmVhOWE1ODUwNSJ9"
+        },
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L12-L18",
+          "version": "repo-lines-v1:sha256:f02b2aa39608c726d6327ac00240e7b06a9f511ee6a71938ed3971bf03b1421b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzgxMTJhODJjNGU0ZmVlNmRhYTEzNWFkYjA1ZjA3OTA2MDgxODAxOWIxYTNjMzNmYmE3Nzg3N2JlNDkzYzdlOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJmZDAzOGE4Y2MxMDNjMzUwZWVjOGI1MDUyNzllOTUyZTZlMzI2NTNiMjNiNWQyYWY0YThiODA1N2E4ZjMxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjQwYTQ3ZjljNGIyMzliYzgwZDJmYjY4YmRhNDBjYmQyNDBjM2ZkZjg0NTBlZDc1NzBlYWUyNGNiOWRhMWRkNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTNmNjAyNjljMjA1ODJjNDVhNWMzYjE3ZGE1MjcwNTkyNmY0NDAyOGU2MmI3YjVhZGU4OTIxNWFjZmM3OTNmZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_46fb3cd7ac1d4359b39e1656e6706165",
+      "statement": "The 2025-06 edition is an overweight US semiconductor capital-equipment view applicable from 2025-07-01, whereas the 2026-02 edition is a neutral view applicable from 2026-03-01.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2025-06.md#L9-L23",
+          "version": "repo-lines-v1:sha256:c151e46523ff68d5f3595413f1d3f64b53eae254f4f2d1afaf9c6c3a461e4201:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNzk2MWEzZmNiZTg3MGM5YWZmYzhjNTU3MDc2OGQ3YmZhN2E3ZWY2Mzk4ZjVkYTNmZDZkZmRjNTNmNmNlNzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwZTFlYTM5NjAzNjg2MTQwOGM1MGM2OGMxNThjMmZiZWIzZjgxNDNlZWU5YWZjODQ1ZGY0MzNhNzgyOTA2ZDUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMDQ2MTVkMDdhNDdmZTJiMDUxMzQ5MDBjMjM5MmE4ZmU0MzdhZTVjYWRlODc5Mzk4NDk3Y2JlYTlhNTg1MDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzZjYwMjY5YzIwNTgyYzQ1YTVjM2IxN2RhNTI3MDU5MjZmNDQwMjhlNjJiN2I1YWRlODkyMTVhY2ZjNzkzZmUifQ"
+        },
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L5-L18",
+          "version": "repo-lines-v1:sha256:cbce3a9eb79165a0dbea070df4611c2a9187692d86b3834c983a8a51c24a79aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxNzk2MWEzZmNiZTg3MGM5YWZmYzhjNTU3MDc2OGQ3YmZhN2E3ZWY2Mzk4ZjVkYTNmZDZkZmRjNTNmNmNlNzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFiZmQwMzhhOGNjMTAzYzM1MGVlYzhiNTA1Mjc5ZTk1MmU2ZTMyNjUzYjIzYjVkMmFmNGE4YjgwNTdhOGYzMWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjMzMDQ2MTVkMDdhNDdmZTJiMDUxMzQ5MDBjMjM5MmE4ZmU0MzdhZTVjYWRlODc5Mzk4NDk3Y2JlYTlhNTg1MDUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzZjYwMjY5YzIwNTgyYzQ1YTVjM2IxN2RhNTI3MDU5MjZmNDQwMjhlNjJiN2I1YWRlODkyMTVhY2ZjNzkzZmUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_576e66b8a5964e92957d6a3192cb6cc0",
+      "statement": "The 2026-02 neutral reissue reduces the prior overweight on valuation and late-cycle position rather than deteriorating fundamentals: wafer-fab-equipment spending had risen for six consecutive quarters and deposition-tool lead times had begun to shorten.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L16-L24",
+          "version": "repo-lines-v1:sha256:1e21422cef4dcc5e9af852cd5ce426aa776b78e5ec570bc702740c3d31248a91:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDliMTgxY2ZiYzQ5OTA2MjZmYjJjMmNjMzQ5NTg5MjM0YWEyMjU3NGJhZDQ5NmQyMjBjYTJjZTI5MWQ0ZjAzMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWI2YjU4ZmJmZjI5MTI0NjkwZjZlNjlkNjRkMjQyYWI0OWE0MTI3Njk1ZTc5MmNiZDNkYTAzNTM2N2EwMzM2YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDc1YjI4MjRkZmIxZjg5M2IwZWJmOGI2ODBmODRlY2MxYzAxMzk4OWJhNzc2NmRmMDgwMDE2MzNkZjgxZmE2OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTZlNDhmNDI0NTM4ZGYwYzY1MmU4YzRjMjhlY2ZkOGI2ODc0YTNiMTAwMDliNmNkZjBmY2Y3YTQxMzdmZjU1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8bce912712a844d7a09115f268bfda8c",
+      "statement": "EQ-US-SEMI-CAPEX 2026-02 S.3 preserves EQ-US-SEMI-CAPEX 2025-06 S.3: the reissue says the structural customer-concentration argument is preserved in full and not the downgrade reason, while reporting top-three concentration at 46% versus the earlier 51% reading.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2025-06.md#L31-L33",
+          "version": "repo-lines-v1:sha256:fd1072e83945b6599bffd25dbaf413993272ec6315a2a63645b1c67f5dd7c28b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWExNzBhZDBhMDViZjlhNjJiNmNjMWVhNWMxZTg3Y2Y2Nzc0YWZjMmI4NGEyNjhkN2MxZmUxZmQ5NjIxNDQ5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOThhMzY4M2VmYmJhNjUxZTZlYzdjY2MyNGVmMDQ2MjkzZWZmMmRkN2IxZDc0Y2M5MzA5NzZmOWQ4ZWY3MDAzMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2UzMTY2YWYwNmVjMjIyYWUwZTgzNmNiZDdjNmUwZGY3ZGRmYzViMDNmZTVkZDExNzY1NzNhZTk5MDFkZDdlYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGI1ZDFiOTAyYTg3MTQyZWY3ZjJjZDlmOWI2MmFjZjlhZmE0ZWUwZDgwOWU1Mzk4Mjg1ZDhiYTYxODZjODc5ZiJ9"
+        },
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L26-L28",
+          "version": "repo-lines-v1:sha256:95fea8075e0edf502744d05a1654793b023eba59420bbabaeeb9dd8b7aee31d4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYWExNzBhZDBhMDViZjlhNjJiNmNjMWVhNWMxZTg3Y2Y2Nzc0YWZjMmI4NGEyNjhkN2MxZmUxZmQ5NjIxNDQ5NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY1YTg2N2Y0MGQ0YzkzMTkyNTI1N2ZhMzU1MTRjZGE5ZGQwMmFkNzkwYzdkNjYyZmY1MWFjYTVhNDRmNWNhOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGNhNDQzZDdmY2I4YjllYTgzY2IxNTRhMDE0MWIwOGQ2ZjNmMDdkYzMzZTBkM2Y4MjY4ZGZhZWFiMjUzODBiZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWJmN2EyMWIyZGI2YzEwMDE5YmE2MDM5NmIzNzIxNjJmOTgwOTJmMDNmY2Y0OTgxMGU3YTA3ZjhmYmM1Y2VhOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_542c2906512942689a4e52fe85ad8d1e",
+      "statement": "EQ-GL-AI-INFRA-POWER 2026-01 P.4 modifies EQ-US-SEMI-CAPEX 2026-02 S.4: grid-interconnection timelines gate leading-edge fab siting in several jurisdictions, capping the rate of capacity addition and changing its shape rather than eventual demand.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/GL/AI-INFRA-POWER/2026-01.md#L30-L32",
+          "version": "repo-lines-v1:sha256:172759e37685263a763b27ecdacfc4248731c273dfc61a6c1ced1cfd91dcfa1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY4NDRkYjJiMWQ3MjUxYTBkN2Q4ZWYyNzA3NTk5Y2FkOTVjZTczNzVjNzA5NTQwYmM0MDYxMTg0MzM3MDE3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODAwMWZmMmY3YmI1YWQ1MGM0MGU0MmM4N2ZlOTI3OWZlNTU2YjYzZGY5MzQ0NWFiOTc5NTAyN2JlZDU5OWVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM2NTVmYjI1NmIyOTU2YTljZWM0NzQwNzljYWExMDdkNmE1OGVlZmIyNzQ4MTY4N2FiOWVjM2VhYzMxMzBjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U5MDNhNWJlMzcxOTE3ZmU0ZDM3MjMwMThlOThjNDYwMWJmMmVkMDg3ZmQxZTIyZWY5M2RmY2ZmNDVjZTAyYiJ9"
+        },
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2026-02.md#L30-L32",
+          "version": "repo-lines-v1:sha256:a15e5426d3387894326482875631ff114153a5f22e797b64c3fcf9fe3629dbe4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMyOWQ0NzhlOTIxZGU0ZDc1YjkzY2I5N2RjMzY5OWEyYTM2YzQ1ZTlmNzBlMWI0NmY0MGUzYjhkNTdiMWQ1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEyMTg1MzdiODlmMjBmOTRmOTBjOTdjYmRjZDZjMDA4Mzg2NTkyZWE5M2YwZDRkNzRiNzg2NjQ3YWQ0YTZmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGRlZjk3ZmNmZDQyM2Q0ZmRiMmIxOTMyNzllODM0ZTYxZDUyMGJiMTZmMDliNDkzNmJmODA3MjliOWEwMDcyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzkzOGExNjBlOTdhM2ZiZGU1Y2IxMGUzOTY1OTBlNWEwZTExNWE0ZWY1ODE4OTQ1ZGZlZWU1MzFlYTdmZmMxYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7b1b3b91f128436ea12c5c7aeeb68fc1",
+      "statement": "The global power view identifies interconnection queues, transformer lead times, and in some jurisdictions generation adequacy as the electrical constraints expected to bind through 2026; it holds no directional view on compute vendors.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/GL/AI-INFRA-POWER/2026-01.md#L16-L28",
+          "version": "repo-lines-v1:sha256:5ba96c8753b420d95c33b58f7bb44dea0a0a56df6b59e02aaf6a286ed884f821:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYzN2E4ODA1ODExY2I1YTNkNjAxY2QyOWM2YTAyZTBiNjEwZTNhZGYzMzg3YzdiZjhjMTdkMTg5YTlmNGE5NjAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2MDhlNzA1NzBjYmM4NzEzYTNiYWJiNWQ3ZWJiNzE2NDlkNTQ5NTk4ODU0ZGQxNTc1Mjk4MGFkODA5ZTljMzYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxZjdmMGZlYWUzNjRlMmMxMWY1MjI0YmY3ZDRhOWE2NDgzNGI5OTJmNDNiYTRmMWI4ZDdjODEwYzFkZTExODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmN2EwYmRhNmZmZjA3OWFlYTYxNTRlYmE5M2M3MDJjMzAzMmY4MzNhZTFiYjI4NDcyMGJiMmJmODk4ZWFmNzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_2f8c559458f64667b7afe66f414a92eb",
+      "statement": "The 2025-06 edition identified reductions in either largest logic customer's capex guidance, sustained memory pricing below cash cost, and materially restrictive export controls as conditions that would change its view.",
+      "evidence": [
+        {
+          "resource": "repo://internal_research/EQ/US/SEMI-CAPEX/2025-06.md#L35-L37",
+          "version": "repo-lines-v1:sha256:b7d99e785f636d382cf3542b728a818b80f7abf675f0d40309cd0eb0371ee06b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjNkNzJlY2Q2OTQ5MTVmNzhiN2Q5OWVlNmVkODIwZTZmMmEwZmNkZjQ1OTllMTQ4OTEwYTQ5YTkxNjY1Mzk0NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjEwYmE5ZmI0YjU5YmViN2I5MjhkMmE2N2M4YWVlZTVjOWUyOTJmZTlkM2IxNDA2NDQ4NGVhN2JjN2Y3MzA4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNkMzBkNTQ4NmRjNTkxZjgzNjBkMDBlYzRlOTg1YWYzYTIxY2Q4OGE3ZmNjYmQxNTk5NmFkZjNjNzA2NzFmYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzkzOGExNjBlOTdhM2ZiZGU1Y2IxMGUzOTY1OTBlNWEwZTExNWE0ZWY1ODE4OTQ1ZGZlZWU1MzFlYTdmZmMxYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

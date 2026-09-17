@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:82dcd06b43daa4e69c6c44a9ab02a8fabde23cdd041d73d03829d63c8f6f4913",
+  "claims": [
+    {
+      "id": "claim_1346e30c0a2e4a5ab0a26c4a9ff3674f",
+      "statement": "A position is concentrated when it exceeds 15% of the client’s liquid portfolio market value, with a more-than-10% threshold for the client’s employer or an affiliate; the discretion matrix separately requires Committee approval and a written concentration rationale above 5% of account market value and then subjects the position to the concentrated-position guide.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L13-L16",
+          "version": "repo-lines-v1:sha256:94970c27aa4713c345f581794e844f3f80df90ce9065fb515f01aaed1e3089a4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1Mzk4N2Q4MDk3M2EyMTE4MDdiNjI1ZTRlMjVhYjJhZjM3YjIxNzU3NTliMTYyNzhkNGIyNTUzZDI3NWNlOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGJiMzAyMjlmMDk1M2M4MGUxOTVjZDAwMTJjMDkxOWVhNWM4ZGJkYzBjMGNkN2FiMzEzNjVkNmQ1OTdlY2UyNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjM5NzU4YTc3MmVmMDIwOGM3MzEyZWMxYjAzMzkxOGNmNjgwMzk1MjRiMGJmNGVhZDUyZjY0NzYyYzc4NmJmZCJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L7-L10",
+          "version": "repo-lines-v1:sha256:3a68da1bc323cfdc71377d3942ea9084c67f4b699bf78636ad8b7b1408f511a3:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzhkZDc3NjY0MTYyMDliZTNlOThjYzQ1M2Y1MDIzYzE5YjYzMjQzMjg3MzhhZGZiZmUzMTk3OTJkM2Q1YTg4OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjJiNGU2Y2Q0Y2YyMGE3ZWMyZmU5MDkyYTViZmZkZTg3NTFkMjMwN2JhMzE0OGQ5MTgwNDhlYzJkN2IzOGZkNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzAyNzEyZjJjN2JlMjNkMmNlNTYyZmFhZmMyMjNhOTU1OTJmOWFmODI4YjU0OTUwZmIwZmY5NDkyM2Q0NTc4MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d8dac8d87f66412593f782d371c39eca",
+      "statement": "A concentrated position requires a documented suitability determination at acquisition and every annual review, recording the client’s holding rationale, tax cost of unwinding, and restrictions; the file must also show that concentration risk was explained and the client made an informed decision, because preference to hold alone is insufficient.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L11-L19",
+          "version": "repo-lines-v1:sha256:d4dbe3b9aca06b1b123fa678b4b5bb05cc0d03064f63b616f5e93a5e76faf778:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYxMTgwMDU1OTNiNWZlMTM3NjMxYjZjOTU0Yzc5MDljYWIzYWY5ZmJkOWQyYjFjYWIxZDMyNGFmOWIxZWMxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWU1Y2M2M2VlZjJlNTNkOTE0ZDNlNmJmNzkzOTM4ZGU5ODdhZWMzNzg0NzllNTQ4ODUwOTc1ZDkyM2I3NDllZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDJlMWY2OTkyODZmNGJkNzYwNTQyMzYwMTJjZjEzNjJjNDM4ZmZkNzNlMDNhZjI4NzRjMWM5NjQ1NjI0MTBmZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmFhODZiMzU3YmU3YzQ2MTBmYmY2N2EzYWYwN2E1ODk0NWI2NDc2ZjYyNTgwMDFkNDU2YWYxZTdiMzY4MGExNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_28fa2b71e5a44fb6b169d928c7c1706e",
+      "statement": "Hedging a concentrated position requires approval under discretion-matrix §D.3 regardless of size, and tax consequences of collars, prepaid forwards, and exchange funds must be addressed in writing before execution.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L29",
+          "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L21-L23",
+          "version": "repo-lines-v1:sha256:c88a79a469e46dbaa8abeced3a87fd752dd20eeb170a8e9e2c84d059daa07e4b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzc5NDEyNzU5MzY5ODViOWViN2FjZTZkNGE5OWRiZDBjOTU2MmU2ODVlODAzNzlkNDJmOTYwNjA2ZTQ2N2NmYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkyYTAyNDZlYjBjYmJjNDkxZGJmMWFlMDcwZjBkODczYjI5MGYwZWU4YzVmYzNjNWU2ZjI1ZmU0ZjQ3MWYxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGU2NGFiMTg1MTg1YmUyNmM1NjFkZjI4MmE2OTk5ZDAxZDEzNWVmYzVhOTNlOTQ5MDdhYzEwOWQxNTA5OGUyZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNWIwNzI1MDYzZTc4Y2VjZTA1ZTQyODQ3MzFlYjc2M2RiYmViMmE3YzNjNzk5MTNkYjQ3NTIyMjIwZmNmMjA3YiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e54528118fc5431fbbd5eb8501309a5f",
+      "statement": "For employer securities, the file must record applicable trading windows, blackout periods, pre-clearance requirements, and any Rule 10b5-1 plan; firm-discretion trading during a blackout period is absolutely prohibited and may not be cleared by approval.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L39-L47",
+          "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L25-L29",
+          "version": "repo-lines-v1:sha256:a8d03d90d5398c20c94bba69b743d6e3c7561be03fe00dd9b98b61a619780a67:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzkxMzc4Mzk1NDQxYTU0MjExYzQ2NDhlYzE3ZDY2MTY4N2I4NDMxNGE3OGQ1M2U5Njc1ZDRlM2FmNDk4MjhjMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDc2ZDZiMmYzZjdjNjZiNGFiZjhjMjQwM2JhZmQ2ZTFkMGFhYjMzMzVhYzNiM2Y5OWEwMGRlMGNiY2Q5ODZhMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q4ZjI5MTA3YzE1N2FlZTM5MDcxMGZiODFmMWZkODIzMjI4NGJhMzZjNjBkNGQ1ODUyNWFlZDFlMGVhNTBjNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmJhZGU5MzA2YjRiMTIxODAwNThmMmIzZDJmN2RjNTQ5MDA5Mjg0ZDc0ODMzOWJiMWQ2ZjUxMWU4Y2IxNWM4OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e2706103fb0e49598b2835ce3647020d",
+      "statement": "Every concentrated position requires a written unwind plan reviewed annually; if the plan is unchanged across three consecutive reviews, that is evidence it is not being applied and must be escalated under §D.4.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/concentrated-positions.md#L31-L33",
+          "version": "repo-lines-v1:sha256:4839ea3001daa6a227e482d420be43dff2d4b5bb054c18ca784d894367bd757b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2IwMWQ0ZDExOWEwZTBjYmNiZTNiY2YzMDgzYzY3MzZjMzg4ZDdlYzI4MjFlYThkYzI4ZGY3MjFmZDM1ODEzZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2NjZmQ4ZjNkYmJjNWM4NTEwNmY5MzNkYmMzYTNlOWRhNjA1MGRlYTZhYzBmYWNkZGQ2NDY2YTZhNjRkMjRjMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDk2ZjFiOWIyOGE1MzJkNjZiNDRkMTEzZTMzMDg4YzgyZTY2ZDg3Yzg1YjM3OWE3YjE0NmNjOWY5ZjAwNDFkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2917a18c1fa346bba6696927976e679a",
+      "statement": "Under the discretion matrix, senior portfolio managers may clear one escalation condition per account, while Committee approval is required for matters beyond senior discretion or accounts with more than one escalation condition; every cleared escalation needs a recorded condition, authority, facts, and date, or audit treats it as an unapproved position.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L49-L51",
+          "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L7-L10",
+          "version": "repo-lines-v1:sha256:8211c8995d72579e7494f3ab372bf97b8d82878e20698243bd85282ab67fc18c:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzk2ZjhlMzYxYjA2OGY5NmI1ZGI1OWQyZjY3ZThlNzA1MGM4NjZjNTJiMjY2MDlhY2E0N2U0ZjdiOThjNjI5ZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2NiMDI0OTZiZWU3ODJmOGM0MGM0ODIxZTUwYzlmZDhlZTIzNDkzYjlkNWI1YzE5Zjk2N2QwNWJhZDY3NzhiYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGFlODJjYTkzZmY3N2M4ZmI5NDVjYzkwMGQ4YzAxNWVlOGU4YmEzYzI1MWU2MjdlN2I1ZThjMmE2NTA5NDdhNyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

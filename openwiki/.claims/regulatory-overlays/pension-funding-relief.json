@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:78dffdc12a4226d289b5ba495ab7d3be1531b153bfc857aea37b01fd9d319068",
+  "claims": [
+    {
+      "id": "claim_d1246c0761534c0ead210fd9277da747",
+      "statement": "For plan years beginning on or after 2027-01-01, DOL Release 2026-31 widens the permitted corridor around 25-year average segment rates from 10% to 20% in each direction; the release states that this can permit a higher liability discount rate and lower measured liabilities.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L17",
+          "version": "repo-lines-v1:sha256:86bd277f9e104e855e354f4d67e0fd86ad0625bfdcf60c7c42917f73889616a4:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmZmZjNmJjZTA0ZDkwMDBlNmU1N2M4NDg4MGQ4NTk4NTc3Yzc3NjE3MTQ5NzBiNGE4ZTk0YWI0YTc4MDVhNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImE3OTdmOGU3YWI4ODAyYjFmOTkyZTY1MDcwNjdlN2M2OGY2ZjFlYWQwZjEyNDk5NGM0ZmU1YzBlMDI3ODhhNGUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7e49c9591c3b41908a4ab11d124552fc",
+      "statement": "Under DOL Release 2026-31, a plan measured above 110% funded under the new corridor is not required to make a minimum contribution for that plan year; a sponsor may elect the excess for qualified replacement-plan transfers or retiree-health accounts, must notify participants within 30 days of electing relief, and receives no new sponsor reversion outside the existing statutory framework.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L19-L25",
+          "version": "repo-lines-v1:sha256:27f3620104d9ea3b108aa434cecec527d48ee724b25cf79931686a032f38a431:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdmNTcxMGE1MjdjMzYyNjI5ZDQyMjE4YjBmMjAxYjA5NDY1N2M0NDgxN2E5YzFmODk0ZjhmOWI5YmIxYjUxMSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWZkZjQxZjAzMDgxM2I5MTgwYjFhMDdiOWI3NTUxYjRiMTk0ZGExMDllN2E0ZTVmZWNkYmQ3NDU4YzkwYzg1MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2Q3MDdlMjJkNTQzMmZmNmI1NzAyZTQwOGMwZjczNDI4MmU2MWE2NWVmMzIwMjk0NTc1YzY5NzYyYzAwMjQ5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmQ2OTIxMzA4Njg0ZjFhNWM4NDJmZmNmMDMwNDdhNTc0YzM0YmJjZmMyMzk5ZmFkMjdiNDJmOGEyNmVjYjBhNiJ9"
+        },
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L33-L35",
+          "version": "repo-lines-v1:sha256:5714e62a73f10f09273f6e454b9de5d5b78e2cceb17d194cbf7ad9e4dadece98:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjlmYTE0MTBhM2E2NGVkNTI2NTQzMDI0NzQxYWNhOWJiZGU0ZjNlM2MzYTNjMzc1NjMxYzkxY2IyNzU2ZmIyMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjJlMTZhZjY1NzU5NDMxM2VjZDY1NDU4NWYwNjdiY2ZiZDhkZDc3OTJmODIyMTFjZjRjODU2ZTI3MmNjOGY0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGZmN2YzNzlmMzRlZGEzMTgzYThiMGYxMWQyNjRjYzM0OWU3NDI2NGU4YWI1M2VkNTM1MWY3NWVmNmU1MTk2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzc4ODE1MmU4ZTBmZjQxNGM0ZmFmZmU5MDgxNWZlZjE4ZjFlYjI5NmMyZTQ5NzM0ZWEwYWFhZTU4OGI0MmIyMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2da33b8a9ed546ac9def537fa260ae78",
+      "statement": "DOL Release 2026-31 P.2 and P.3 supersede FI-US-PENSION-LDI 2026-03 L.2's funding-rule premise for plan years beginning on or after 2027-01-01: the note says that a rule change allowing surplus release or re-risking can reverse its long-credit demand flow, and L.6 names altered discount-rate basis or reduced contributions as a condition that ends the recommendation.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L7-L21",
+          "version": "repo-lines-v1:sha256:62506c34ff5d31b9e9901487a00019a5f2d3253277ec862beed4a71bc25ec0c3:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhNjNiMmJmYzVkYTM1NDg0NGM4NWYyYTQyZDlmM2NhYzkwN2ZiODRlYmExNmQ1MGI3MWQyZDk1NGU5N2UzMWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0NDA0MzE4MDJiNjYyMTRlZjU0MTUxN2MwNGY1MmU4MGYzYWRhMThhYWZhMzIxNjVjOTU1NjlmN2FiNjkwZGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjE2MzQyNzlmZWRiZDMyMTEwYTE0ODFiNDlhNjYxNGUzZDNkOTIyMjBmNWU5ZDBkNjk5NjhjNTAzMDI5NTFhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjJiODU5MGUwZTAwM2UzMzgwNzkyMzJjYmZjYTYzNDAxMmM2YzJjOWM2ZDkzMGJiNTQ0YzFkODkzYzY2MGNjMmEifQ"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L18-L24",
+          "version": "repo-lines-v1:sha256:4c01e8924fdf6567e207297e90183ff23053b35629808d06a6b50eb86e431fb4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODMxOTAzNzc0NGM5NjNjNGE3ZGFhYzBiNjE2MzJjNDhiMjJhMzBjZDA5OTc1Y2ZlNzM5Nzc2OWY5MTgzYWZmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwY2UzNmMxMTM2OGQ1MGIyMDQ4MjMyNzk2NjlmMTY1MmI2ODJiMGRkYmVlNWNmMWI4ZGM3ZDIxM2ZkYzQzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDIxM2MxMDIwZTgwNWVlMWI0MzI4ZDk3MDc5ZjBlN2ZhM2Y3MGE3YWU1M2EyMjE1OWQ2ZTM2Nzk3MmE2ODgwYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L38-L46",
+          "version": "repo-lines-v1:sha256:7058095e803a71d7fed5e9df2bf4479970ad57c75aaf0b2ba8b70afd198a84a1:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGM2MWIwMDA2ZDU1OTNhNzg2ZThlMTVkODczNzZiYjg4YjM0NjM4MWVlMGRiMjhkMjhjNDJiNTdiNzhhODU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjgyY2Y0NThkNzAxODZmYWRkOGZjNTI1MzM5MGMwNWE1ZTM1OGNiOWI1MTlkMTYzYTkzZTM3NGFjYjI0MmVmMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGRjMDNmYTEzMDYxZDg2ODhlZjk3ZTQ0ZWYzNWEwY2JhYmE2OTIwM2Q1ZDI3ZjIxZmQ3ZmQxNmJhYTIzODkyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGQxZjI3Y2FhOTgzNGI5MjJmZDllYWRjYTYzY2U2OGU2NTEzYzcxZDZkODU4NjAwNTUwOTBlMzI0NjZiMTFkMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_e9b244f5dff9477399d061dd45e9865f",
+      "statement": "DOL Release 2026-31 P.5 preserves in full the requirements and restrictions applicable to plans below 80% funded, while leaving benefit accrual and vesting rules unchanged and leaving fiduciary investment standards to their own terms; this limited preservation does not restore the surplus-plan demand premise in FI-US-PENSION-LDI 2026-03 L.2.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/DOL/2026-08-funding-relief-and-discount-rates.md#L27-L31",
+          "version": "repo-lines-v1:sha256:4d959ce3b87e134f1de4ff6b9a5ef60b9cda845b84b829b9e2ff8d938317e956:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2Y1ZjU5YWUzZjBmYWMzYzU3Nzg0NDc1MjQ3M2I4ZmEwNGFlNTVlODdlNDY5N2I3Mjk1MzAwOGRiMzQ1NTJlZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGFiYTVjYzY5YWRkYjVkODc4NzA2ODY1Yzc5MTQ0MDRlZjdmMDM1NmEwZGUyYmNiZTJiMmI2MjY0NTU5YjkxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmIyYmU0ZmRmZTI2NGJmZDlhOTJlN2Q0MGI0ZWQ5ZWUyZWZkNDg4OGE5NzUzZmI5MWY3NTVjN2MyYjBlNDNiNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjYjNiZTU5NWEyZDNkZDhlYTdmYTY2NWRkNjg5YzZlNjMzY2E5YzRmZWU3MjQzNzcwOGM0MjA3ZWJmZmVmMCJ9"
+        },
+        {
+          "resource": "repo://internal_research/FI/US/PENSION-LDI/2026-03.md#L20-L24",
+          "version": "repo-lines-v1:sha256:6663c4efd9f3f887e0745a2a6c36aee02a2439dbe6bbff0f61b3c479932dd63c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2ZlMjM2Nzc1YjEzODE0MDA3MjJjMmNjMWM1Y2U0MGZmODM0ODZhMDNkYTNiNWEzZjFhZjNmYjhiNmFlZDY5MiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzEwY2UzNmMxMTM2OGQ1MGIyMDQ4MjMyNzk2NjlmMTY1MmI2ODJiMGRkYmVlNWNmMWI4ZGM3ZDIxM2ZkYzQzMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDlmZjJhMzU0MDA4YWFjNjgxNjA3YmQ3OGJlZjRhYTFmNjczZDhiMThlYjc3NDM4OTA2OTlhOTc3NDA2MDNmZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGQwOTI3NmQ3YWMwNmU0OWMyNWFkNmFlZjRjYWQ3YTkwNzQ3ZjA5MWQyNGU5ZjU1YWQ5NzViZWM0ZWYyMTExOSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}

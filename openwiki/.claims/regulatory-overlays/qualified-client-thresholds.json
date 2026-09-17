@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:89ef5cf6cec8f1f0940f4a37f6c7d88670c7f5ab6196166bff94a3fc4419fa4f",
+  "claims": [
+    {
+      "id": "claim_58dc6379518e4423b1939d369e046bce",
+      "statement": "SEC Order IA-7104 makes the Rule 205-3 assets-under-management test $1,400,000 and the net-worth test $2,700,000 effective 2026-06-29; the order applies the first immediately after entering the advisory contract and the second immediately prior to entering it.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
+          "version": "repo-lines-v1:sha256:47d005692d8086255f6776eb3d77c06d940b2ece5eca4f174a79835276ccaa59:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1NmZjNTAzMDhjYTVmNjgyMGE1NTg5ZTY1YjFjZWQ4YmI3ZTgwODg5MzE3MzA1Y2MzM2QzZDYxY2JhOTQzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBhYTQwZjJmODYxZjY2MTA5YTg4NTcwYTc0NzU5ZTE1YmQxOTAwZjRmZmE4NTM3YWIzMjQ0YzIwNDY4MTQzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_09a514244c50477089318cd313c8d3d9",
+      "statement": "For net-worth determinations under Order IA-7104, primary-residence value and related indebtedness up to fair market value are excluded, while a natural person may include jointly held spousal assets.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L20-L22",
+          "version": "repo-lines-v1:sha256:0873b419b8c28f5c86bf78e79bad9f9656965eb2fee1d214c28c70226cf8bf50:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODNkZmI2ZGNkM2I2NzY0Zjk1MmYwZjMxOGM5ZDA4ZDU2NDVmMGU5MjBmYTBkMmE5NzlkMDg2YjBkNjQ1NWUyNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmVlNmVlOGZiNzgwZjhhOThjN2RhZDhjNjA3MWI1NzNlYmRjYjkxNWMzY2NkZmE4OGMyM2EwYTRjOGU5YjljMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTdiYWUzOTFjMzQzNTEyMmMyNDFjNTA3MjYwNGE5ZWYwN2E4NTM4ZjczODQ0MzBmYjQwYjczZDAzYjY3N2FmNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RjZjYwZjZkM2VjYzMyOWNhYzk1NjE2NGZjYjUzZjAzNjYzZDc0N2ExNTE2NGE0NjBhOWQ4ODFhNDJkNDQ1NiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_219ce9fea0c0438988216b62e603f363",
+      "statement": "Order IA-7104 preserves a determination for a contract entered into or private-fund investment made before 2026-06-29 only with respect to that contract or investment, and expressly forbids relying on that pre-effective-date determination for a contract or investment made on or after the effective date.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+          "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_36a4fcdec0de400392fd63944dcb7c8b",
+      "statement": "The internal Private Markets Client Eligibility Determination Guide implements Order IA-7104 by requiring its Q.2 pathways for post-effective-date determinations and by preserving and labeling prior-threshold determinations without permitting their use for a new post-effective-date subscription.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L14-L18",
+          "version": "repo-lines-v1:sha256:47d005692d8086255f6776eb3d77c06d940b2ece5eca4f174a79835276ccaa59:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM1NmM3YjM5MDA4ZWFhODI1YzMzYWIwZTU3MTI3ZjNhYzYyMjIxOGY0NGYzNmRjZmY0ZjgyOTM3NmU4NzA4YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTI1NmZjNTAzMDhjYTVmNjgyMGE1NTg5ZTY1YjFjZWQ4YmI3ZTgwODg5MzE3MzA1Y2MzM2QzZDYxY2JhOTQzOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiMzhmNjAwOWIyMWVlMWUxYWRkOWMxZGQ4MDhkZDgyMTU2ODNjMzRjM2YyNzE0ZjhhMjZlM2Y4YTA4MWEzOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMjBhYTQwZjJmODYxZjY2MTA5YTg4NTcwYTc0NzU5ZTE1YmQxOTAwZjRmZmE4NTM3YWIzMjQ0YzIwNDY4MTQzYyJ9"
+        },
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L24-L28",
+          "version": "repo-lines-v1:sha256:41130b8473d87b7b961265d99b31ffb5c6a64adbdc185bdbf808c6aa0dd5d6b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiY2M0NWI4NzI4ODRjZWVkMmMzYmQxYThmOTE2NWNjNTBiMGVmYmRlOTk1Nzk2YjQyZGZmM2NjY2I4M2UxOWVmMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFmMTg4ZDRiNWIzNjU2YWQxZTVmMmIxNWVhMzFmYjg5ZTEzNjViYzI4MjRhNGI2OWVhMGUyYTdkY2M4Mzc4OCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGUzMjEzNDc1MjhjOGM5ZWRmNGM5ZmZiZTRlOTYxMDc4YWYxOTJjMGIyMmFmMGEzNzI3YmZjNWNkMjZhNGE1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGM0YTRhZjRlNmFjODIxNGRiYWQ3ZTM0ZTZmY2QzNGMwMDdiZmQ3ZTRhYTYzN2ViMTY3MTI0MmIxZGViMWRjYiJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L11-L21",
+          "version": "repo-lines-v1:sha256:510c3edab063efc432972f56bd0f6c7b27da514318bf2a6554d01a64a3b835d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdkN2Y3NWE1YTE5YmZlNzMyNDllN2JhOTI1MzM3N2JkY2RlMTc4MjVhYzZmNWY3NzdkZjdkNWEwZjY1ZDQ1NmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA1YTU4ZGY3YzJhNDYxOTkzZmI4NGUyMGE0NTA1OTY3ZjhjYmFkYzE0Zjg0MWE0ZjMxYjI0ZGU3N2MwM2M3NWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRhYTFjM2I1YzljNDBiMzljNDVjYWRhOGUwNDYxNzU2ZjA3MjhlOTNjZWM0ZjkzNzc5N2EzY2U1NDA1ZWI3NDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMyYzIyZTQ2MDUzYTI1Y2I2M2JkZjA1OGNmNjMxNjkxZjJjMjgwNWQzYjdmNmZhZjE3MjFkMDY0MWY0Nzk4MzQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a48175871953442f83eb05a3a2ebe2af",
+      "statement": "Order IA-7104 adjusts only Rule 205-3 dollar tests; it does not adjust Regulation D accredited-investor standards or the Investment Company Act section 2(a)(51) qualified-purchaser definition, each of which continues under its own terms.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L34-L36",
+          "version": "repo-lines-v1:sha256:23b8e8016ae320d75000313746c03caa5d5f169f45f878818280c04c5662e6c4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2YWJmNzA5ZTQyMmJkZmQyNWNmOTc0NzlhMThkYjRmYzkzYTUxNDBhNzA0MDE5MzQxN2Q0YzY3MzMxNWQzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAxMjc0YWM2Zjc3Y2NkYWNiNjhkYTg1ODdiYTIxZWUwNzdmMjE2MTcyY2RkOTMxZTQxMzE5NGY2NmVmNjMyOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDFhMTJjMTI1ODhkYTA1NTk2OGJmNzU5YmUzZTM4NmQ3MjcyZDM4MWIxOTZhM2IxM2NiODAwOTJlNWFhMzFhYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDk3NmZjN2FlYzMwZGM2YWNmNjI5NmE3YTg0NTRjMTczNWMxM2I4OGIyYzMwMmJiYjhkMWU4NGQwYjhhYWRhMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2b1cc79e4b4b43839b45a7a4e3317df3",
+      "statement": "Private-markets eligibility is a documented regulatory gate before an offer and is separate from accredited-investor status and from suitability; an eligible client still requires suitability and liquidity work before commitment.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L23-L35",
+          "version": "repo-lines-v1:sha256:c1e7ea40983c39f608be62889a928d481f648854e74a4e805d72d5214e376636:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQwNGI1N2RkMzA3OWM5YWYwOWViMGQzOWMyYWQ1YzEyNTQyYzEzOGFmZWNkNTQ3OTI0OGYxNWY1ZDNmNjQ4YzkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNjYzI1ZjJkMWE0MDNhYTJiMGMwMjQ1ZTMwMmVlY2I2N2ZhNzc1MzE0YTJiYWZkOTE1ZGYzOTEzY2ViNzQ3MDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJhODVlN2FmYjg4ZGM4MjBjOTEwODFlZGY0MGNhNWZmNzk3NWNhYmIwYjczYjBkODc5MzJhOTNiNTk1ZWE5ZjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYzgwMmE1NzgxMjZmMzQ1MmZhZDljZGZhMjdiYTc5ZTRkOTllZGM3MmJjMDZmZmJlNGVkMTAxNjUzODcxMmQzOCJ9"
+        },
+        {
+          "resource": "repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L36-L38",
+          "version": "repo-lines-v1:sha256:f8d5a78596fa85beda159f7f8ec2945347303f310be5c9a2edca97419bcf8e9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjQyNDQyNzNjN2U4NzE1ZDViN2MxNzBiNGE5MGY3ZDZhYmQ1NGFhYTQzNDBiNzJiOTlhNGU0YWMwMTlkM2U5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZlOTllZWUzMjgwZjNlMjQ3NDNjODdmYzU4ZGJlYjcwNDAzMWEwZTY0ZTdkMjRhZGU2MDc2ZjRmNDBhYzZhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGNkMDZmMjYzNWE3YWI0YzgxMGYxMmIwZGRiMjU0NGVkZjJkMDJjYzk5ZDA2MGJkY2ZiMDMyNmE0MzUxYjU3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGIxY2Q3ZjU2NjUwYzA3Y2E3MWRjZGI2YTE3NTExN2ZhYmY2MGRkNWFkZWE5OGY4YWYxYWUxMWRhNTVjNzU0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_dc71b6307add40ada6d5c92a53f0d035",
+      "statement": "A private-markets commitment requires the eligibility determination before approval is sought, and no approval level may clear a commitment for an ineligible client.",
+      "evidence": [
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L17-L29",
+          "version": "repo-lines-v1:sha256:38c93853d8d6ab5a143090c6ba253ff187b7785e3085d58df9137c736ce49f5c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQyMjJkZjZhZjExNDIzNTVjOWEzNDQ5MGYyZDhiNTFmNDk3ZmQwZWJmNDBkMzY3YzUyZmE3OWZjZjRkZWM0MTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ4ZWU5Yzc5ZTBmOTJhMDBlZDBhNWRlNjI1NWFkYjllOTNhNGY4ZTYxZjBmMTUwMTgyZWY4ZmQ5NDYwNTc1OGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlMzg3NTMzZTM2YTk2NzdiNzAzODM0MTMxYmQ0YTY1OWYwNjBjMDBhMzVjMjE0ZmE2MGY3NTY2ZWM2MzhjMGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ3NTI5OTk0MTVmYjExNTI0MGQ3MjY2ZmY2ZDY2ZTVmMmMyNDE3OThlNTlhYzk2N2M4MmJmMmI1YTE3MGZjNjUifQ"
+        },
+        {
+          "resource": "repo://internal_guidelines/authority/discretion-matrix.md#L39-L47",
+          "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2efc0ffbb5e54913be8995c25e6d61ed",
+      "statement": "An adviser relying on an Order IA-7104 determination must retain Rule 204-2(a)(8) records showing its basis, dollar test, and determination date; the internal guide additionally requires pathway, evidence, decision maker, and date and treats an undocumented basis as no determination in audit.",
+      "evidence": [
+        {
+          "resource": "repo://external_sources/SEC/2026-04-order-ia-7104-qualified-client.md#L30-L32",
+          "version": "repo-lines-v1:sha256:417ebc5f05c7207e99dc4f003b870a0f726e37874847b5a291e81aafadad24cd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTExYWM1ZDlmYzkxNjZmZDU3NTU0MzM2MjE3NzM0ODQ3NTk5ZGU0ODI5YjhjNmFhYzBkMTUyNzZmMTRlYzIwNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWRlYWM4YTk1MWM0MTFjNzgyNmU4MjRlNTZjMjUzZDg3ZWY5NmYzN2Y4NDEyYWRlYjhiZDgyOWNkMDc2ZTQ4OCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDI1N2Y2ZjlkNmJmMWZjMDI1NzQ4YTA2NDM1MWE5ZGVmODg5ZjM3YWMwYjViMzQxMWFmMGIyMWNkYTUwNDgxYSJ9"
+        },
+        {
+          "resource": "repo://internal_guidelines/suitability/private-markets-eligibility.md#L27-L29",
+          "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTRjNjdjNzk2YjA5NTU4MjVlOWRjYWY0N2U3NGM2NWI2OTM1MzIxYTk2M2U5NWM3YmRhM2MxN2FhMjY3ZmQ5NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T23:01:11.527Z"
+  }
+}
