@@ -78,7 +78,7 @@ Use exactly one of these verbs, in lower case, spelled as shown:
 
 Where one document both removes the basis of a view and preserves a neighbouring
 treatment, those are two propositions, not one. IRS Revenue Procedure 2025-32
-removes the after-tax basis for the private activity overweight at N.2 and leaves
+removes the after-tax basis for the private activity overweight at N.3 and leaves
 the qualified 501(c)(3) exception undisturbed at N.5; document both, because a
 reader who knows only the first will wrongly conclude the whole municipal view is
 dead.

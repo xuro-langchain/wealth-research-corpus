@@ -9,6 +9,15 @@ codes, release numbers and section numbering deliberately resemble industry conv
 corpus reads realistically, but all operative language is invented. The figures are illustrative
 and were written for this demo; they are not forecasts and not drawn from any real publication.
 
+Every document in `bulletins/` carries a **SYNTHETIC DOCUMENT** banner under its title, because
+those are the ones written in a regulator's voice and therefore the ones a reader could otherwise
+mistake for the real thing. The issuing bodies, release numbers, dates and dollar amounts are
+invented. **Statutory citations, by contrast, are to real provisions and are used accurately** —
+section 57(a)(5)(A) really does make specified private activity bond interest an item of tax
+preference, and section 57(a)(5)(C)(ii) really does except qualified 501(c)(3) bonds from it. That
+is deliberate: the invented facts sit on a real legal mechanism, which is what lets the corpus
+survive questions from someone who knows the area.
+
 ## Layout
 
 ```
@@ -73,27 +82,28 @@ openwiki visualize   # interactive graph over the generated wiki
 
 | Path | What it is |
 | --- | --- |
-| `research/FI/US/MUNI-CREDIT/2025-11.md` | municipal overweight; states its AMT assumption as load-bearing at M.2 |
-| `research/FI/US/DURATION-PATH/2026-01.md` | duration and curve positioning; rests on the Fed path at F.2 |
+| `research/FI/US/MUNI-CREDIT/2025-06.md` | municipal overweight; states its AMT threshold assumption as load-bearing at M.2 and names what would break it at M.7 |
+| `research/FI/US/DURATION-PATH/2026-10.md` | duration and curve positioning; reads the Fed statement narrowly per F.5 |
 | `research/FI/US/IG-SPREADS/2025-09.md` | investment grade underweight; funds the municipal overweight |
 | `research/EQ/US/SEMI-CAPEX/2025-06.md` | semiconductor capex overweight, superseded by 2026-02, marker in place |
 | `research/EQ/US/SEMI-CAPEX/2026-02.md` | semiconductor capex, current; cut to neutral on cycle position |
 | `research/EQ/GL/AI-INFRA-POWER/2026-01.md` | power as the binding constraint; modifies the semi capex view at S.4 |
 | `research/MA/GL/RATES-REGIME/2026-02.md` | rates regime; drives the duration underwriting in the bands guide |
-| `research/MA/GL/PRIVATE-MARKETS/2025-12.md` | private markets framework; defers eligibility to the SEC thresholds |
-| `bulletins/IRS/2026-03-amt-private-activity-bond-interest.md` | AMT change; removes the municipal basis at N.3, preserves 501(c)(3) at N.4 |
-| `bulletins/FED/2026-01-policy-rate-path-statement.md` | policy rate path guidance |
-| `bulletins/SEC/2025-08-qualified-purchaser-threshold.md` | qualified purchaser indexation; preserves accredited criteria at Q.3 |
+| `research/MA/GL/PRIVATE-MARKETS/2025-12.md` | private markets framework; defers eligibility to the rule 205-3 thresholds |
+| `bulletins/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md` | AMT amounts; resets the phase-out threshold at N.3, preserves the 501(c)(3) exception at N.5 |
+| `bulletins/FED/2026-09-fomc-statement.md` | target range raised; F.5 says it is a decision and not a path |
+| `bulletins/SEC/2026-04-order-ia-7104-qualified-client.md` | rule 205-3 dollar tests adjusted at Q.2; Q.4 preserves prior determinations, Q.6 leaves other standards alone |
 | `guidelines/allocation/us-taxable-fixed-income.md` | taxable sleeve weights; derives the municipal overweight from M.1/M.2 |
 | `guidelines/allocation/gl-multi-asset-bands.md` | strategic bands; underwrites duration per R.3 |
-| `guidelines/suitability/private-markets-eligibility.md` | implements the SEC thresholds at Q.2 |
+| `guidelines/suitability/private-markets-eligibility.md` | implements the rule 205-3 thresholds at Q.2 |
 | `guidelines/suitability/concentrated-positions.md` | concentrated position standard and unwind planning |
 | `guidelines/authority/discretion-matrix.md` | discretion tiers; D.4 governs a superseded note |
 
 The documents are deliberately cross-wired: the taxable fixed income guide derives its municipal
-weight from `FI-US-MUNI-CREDIT 2025-11 M.1` and its rationale from `M.2`; `IRS Notice 2026-18 N.3`
-removes that rationale while `N.4` preserves the 501(c)(3) treatment two of the three preferred
-sectors rely on; the discretion matrix at `D.4` says what a portfolio manager must do when a cited
-note is superseded; and the IG spreads underweight at `A.5` is explicitly paired to the municipal
-overweight, so suspending one suspends the other. That web is what makes a positioning question
-resolve across several documents, and what a chunk-based retriever cannot follow.
+weight from `FI-US-MUNI-CREDIT 2025-06 M.1` and its rationale from `M.2`; `Rev. Proc. 2025-41 N.3`
+removes that rationale while `N.5` preserves the qualified 501(c)(3) exception that two of the
+three preferred sectors rely on; the discretion matrix at `D.4` says what a portfolio manager must
+do when a cited note is superseded; and the IG spreads underweight at `A.5` is explicitly paired to
+the municipal overweight, so suspending one suspends the other. That web is what makes a
+positioning question resolve across several documents, and what a chunk-based retriever cannot
+follow.

@@ -10,19 +10,19 @@ No private markets strategy may be offered to a client until eligibility is dete
 
 ## P.2 Qualified Client Determination
 
-A client is a qualified client where the client meets either the assets-under-management test or the net worth test stated at Q.2 of SEC Order IA-6961, as determined on or after the effective date stated in that order.
+A client is a qualified client where the client meets either the assets-under-management test or the net worth test stated at Q.2 of SEC Order IA-7104, as determined on or after the effective date stated in that order.
 
 This guide implements the thresholds at Q.2 as required by that order. It does not restate them, because a restated threshold is a threshold that will eventually be wrong; read the order.
 
 ## P.3 Determinations Carried Forward
 
-A determination properly made before the effective date of SEC Order IA-6961 remains valid: Q.4 of that order preserves it, and the transition provisions of rule 205-3(c) provide that a person who satisfied the test in force at admission continues to satisfy it.
+A determination properly made before the effective date of SEC Order IA-7104 remains valid: Q.4 of that order preserves it, and the transition provisions of rule 205-3(c) provide that a person who satisfied the test in force at admission continues to satisfy it.
 
 The file must record that the determination was made under the prior thresholds. A carried-forward determination may not be used as the basis for a new subscription entered into on or after the effective date, which is tested at the adjusted amounts.
 
 ## P.4 Accredited Investor Status
 
-Accredited investor status is determined separately. SEC Order IA-6961 adjusts the rule 205-3 tests only and at Q.6 expressly leaves the accredited investor criteria and the qualified purchaser definition unchanged. A client may be accredited without being a qualified client, and the strategies available differ accordingly.
+Accredited investor status is determined separately. SEC Order IA-7104 adjusts the rule 205-3 tests only and at Q.6 expressly leaves the accredited investor criteria and the qualified purchaser definition unchanged. A client may be accredited without being a qualified client, and the strategies available differ accordingly.
 
 ## P.5 Documentation
 

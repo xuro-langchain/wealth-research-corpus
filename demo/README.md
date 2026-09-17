@@ -15,15 +15,17 @@ including the supersession marker on the edition being replaced.
 
 ## The supersession beat
 
-`MUNI-CREDIT/2026-04.md` is the one worth rehearsing, and the chain is real regulation rather than
-invented events:
+`MUNI-CREDIT/2026-04.md` is the one worth rehearsing. Every document in the chain is synthetic, but
+the *mechanism* is real law — the statutory citations are accurate, which is what makes the chain
+hold together under questioning:
 
 1. `FI-US-MUNI-CREDIT 2025-06` recommends a municipal overweight at `M.1` and states at `M.2` that
    it rests on the AMT phase-out thresholds then in force — naming, at `M.7`, a reduction in that
    threshold as the change that would invalidate it.
-2. `IRS Revenue Procedure 2025-32` does exactly that at `N.2`: the phase-out threshold for taxable
-   years beginning in 2026 drops to $500,000 / $1,000,000, from a 2025 exemption that did not reach
-   zero until $978,750 / $1,800,700. It is already in the corpus, and it is a real release.
+2. `IRS Revenue Procedure 2025-41` does exactly that at `N.3`: the phase-out threshold for taxable
+   years beginning on or after 2026-01-01 is set at $500,000 / $1,000,000, well below the level at
+   which the exemption previously reached zero, and it is expressly not indexed before 2030. It is
+   already in the corpus.
 3. `guidelines/allocation/us-taxable-fixed-income.md` derives a binding 22% municipal weight at
    `A.3` from that note, and pairs an IG corporate underweight to it at `A.5`.
 4. Ingesting `2026-04` marks `2025-06` superseded. Every claim citing `2025-06` is now a claim
