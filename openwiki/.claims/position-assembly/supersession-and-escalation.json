@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6fa7ac9058a7ec8334f85469281955a5e30df11e759677e81b68b28b9533be5c",
+  "claims": [
+    {
+      "id": "claim_c7c8fe9de24045cf914856dc04a2a09f",
+      "statement": "Frozen research editions are never edited in place: an earlier edition remains the basis of record for positions taken while it stood, even after a later edition is published.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L30-L35",
+          "version": "repo-lines-v1:sha256:cb7bcc197925a6d20fdca6ee0bfbb36392c5eccdf0f83ec0c9bd3f25e91c3396:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmNmYWQ1Yjg2ZDk3YjEwNDEzZjU4MTdjZDY5NjNiNzI2MjUzNjg0Y2Q0OGQwMWMxNWRiMGQ2M2MwNjI0ZGU5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjUxZGNlYzFkYmQ4MzY5YjU1ZjhhZmFhNTU0MmNkYjk2NGZhNmE2MzRhNDU2MDM0NjkzM2NiYzlkMDNhMWY2MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDc0ODJjODdmODRjMzViOGVhNjNiMzJkZDMwOWQ0ODJmZDU2NmRhZjg3ZTRkY2RjOTIzNjExOTUzZDFmNzIxYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU0YWM2Nzc4NzcwMTM0NTE0MjgyNzY4YTFjNTM1N2IxYjVjYjM2OWI2ZmU4YmRkNGQ0ZGMzOThjYWViNDE5YSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_48a0a8ce87ff4d708369e3b46ef58d72",
+      "statement": "EQ-US-SEMI-CAPEX 2026-02 supersedes the 2025-06 edition for positions taken on or after 2026-03-01 and sets the semiconductor capital-equipment view to neutral, while the superseded 2025-06 edition remains the basis of record for positions taken while it stood.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/US/SEMI-CAPEX/2025-06.md#L1-L7",
+          "version": "repo-lines-v1:sha256:a6f4accc634e8e45e051931eb312ddacf539905a55a63baca1e31747e1522ac6:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOTdmMDU5MWNhMGRiZGY4YjI2NTc1MDEwMWQ2MGZmZjhmMjA3ODAwNTE2NTM3NzRiMzliZDc2ZTk3MTQ2N2FmZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmUzNDZkMzE1ZTRiOTU5NDljODY2N2Y2Mjg0MzE0MTc2N2YwMzY4YzgxOGVjNTBmZGViN2ZlZTllY2I3YzI4MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDQyMGE3M2EwM2YwYWJiN2E5NjdkNzE5NzNlMGIzZjA4YzA0OGMzMTRmNTdiNmRlZTgzMmU2MTY4MmU4N2UyMSJ9"
+        },
+        {
+          "resource": "repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L1-L7",
+          "version": "repo-lines-v1:sha256:ab6f8f659ca0fe4b46f3b6530cf5c977375482d7f9fe9944aea3364582b5cd20:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMxOGIxNGM2NzUwOTFjMTdlZTcwMTMwZGViNzljMjRmMGY1NjFjNDg3NzI5YzY1ODUzN2E3ZjBhNWQ0ZGUzYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWJmZDAzOGE4Y2MxMDNjMzUwZWVjOGI1MDUyNzllOTUyZTZlMzI2NTNiMjNiNWQyYWY0YThiODA1N2E4ZjMxYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTNmNjAyNjljMjA1ODJjNDVhNWMzYjE3ZGE1MjcwNTkyNmY0NDAyOGU2MmI3YjVhZGU4OTIxNWFjZmM3OTNmZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d8c049a6a2de486ea861ec98027d3d6b",
+      "statement": "EQ-GL-AI-INFRA-POWER 2026-01 P.4 modifies EQ-US-SEMI-CAPEX 2026-02 S.4 by treating grid interconnection as a cap on the rate of capacity addition rather than eventual demand, not as authorization for a different semiconductor weight.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L19-L21",
+          "version": "repo-lines-v1:sha256:172759e37685263a763b27ecdacfc4248731c273dfc61a6c1ced1cfd91dcfa1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY4NDRkYjJiMWQ3MjUxYTBkN2Q4ZWYyNzA3NTk5Y2FkOTVjZTczNzVjNzA5NTQwYmM0MDYxMTg0MzM3MDE3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODAwMWZmMmY3YmI1YWQ1MGM0MGU0MmM4N2ZlOTI3OWZlNTU2YjYzZGY5MzQ0NWFiOTc5NTAyN2JlZDU5OWVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM2NTVmYjI1NmIyOTU2YTljZWM0NzQwNzljYWExMDdkNmE1OGVlZmIyNzQ4MTY4N2FiOWVjM2VhYzMxMzBjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U5MDNhNWJlMzcxOTE3ZmU0ZDM3MjMwMThlOThjNDYwMWJmMmVkMDg3ZmQxZTIyZWY5M2RmY2ZmNDVjZTAyYiJ9"
+        },
+        {
+          "resource": "repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L19-L25",
+          "version": "repo-lines-v1:sha256:754acab2b0d683d997bccff295b42f9f7179f9208f67cb21f8d0783f734c4856:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMyOWQ0NzhlOTIxZGU0ZDc1YjkzY2I5N2RjMzY5OWEyYTM2YzQ1ZTlmNzBlMWI0NmY0MGUzYjhkNTdiMWQ1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZWQwZWVlZmI4OGVlZTBkOTdmNTQ5NjllNWE3NTMxNzAyYTc1Y2QxYmIwYWI5ZjFhNDhmNmE2ZGM2ZjgwMzQxMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGRlZjk3ZmNmZDQyM2Q0ZmRiMmIxOTMyNzllODM0ZTYxZDUyMGJiMTZmMDliNDkzNmJmODA3MjliOWEwMDcyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzNkNjA0MzVlODI5YWZhN2I0Y2U4OTkxMzc3MjU3MjA5OGNiZWNlZDA2ZTFmY2FlYTk4YmE5ZGM4NzM4YzljOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7d25bd9d20e84d14bd6d1972ddc4f665",
+      "statement": "The taxable fixed-income guide binds a 22% municipal target for top-bracket accounts against an 18% neutral weight; its four-point overweight is adopted from FI-US-MUNI-CREDIT 2025-11 M.1 and rests on M.2.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
+          "version": "repo-lines-v1:sha256:856c59402d099e19d02fa3ca8c235dc58b5bb38b7f4a42f5eae2f10ec53983e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_255d6f0244b34299bf1e517bf290203f",
+      "statement": "FI-US-MUNI-CREDIT 2025-11 states that its private-activity municipal overweight depends on top-bracket holders largely being outside AMT; a lower AMT exemption or phase-out threshold that draws materially more holders into AMT invalidates that rationale, while fundamentals alone support only neutral to modest overweight.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-11.md#L11-L23",
+          "version": "repo-lines-v1:sha256:fc6c81633acd0b694156362e68a2f79edf04c5bb78743b323f2ef638fc08611c:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE0ODVlYjczN2U2MDljMmI1NWUxODE3Y2Y0YTU2MjU0NGRlNGFkMWI3MmM1YTg0MjFmMTUzN2Y4ZWQyMWI1OGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0MmZkNDY3MmFjMTkyZDE2M2M5Yjc0NmQ2Njg3NDY1Njk1ZmY2NDJkNzI0M2Y1ZTBmNmZkYzFkNGQyYmI3MjIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg0YTdlOWJjMjE4NTE5ZDk2ZWFmM2FhZTQxOTBiYmE5YWU2ZjVkZjgzNWVlZjA3ODE5ZTc1MDFiMTY2ZGQ0OWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA1NzIzNDI5ODVmYTA5ZjIyYTE1MTI1YTZmYmI4OWFjNWMxY2QzNzg3Mzk2MzMwYThiOGFjZmY1ZmU4MWU5ZDQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7f2e7656a84348e29e4d5df3436d085b",
+      "statement": "IRS Notice 2026-18 N.3 supersedes FI-US-MUNI-CREDIT 2025-11 M.2 for taxable years beginning on or after 2027-01-01 by reducing AMT thresholds while retaining post-1986 non-501(c)(3) private-activity interest as a preference item; no transition relief applies to obligations acquired earlier.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IRS/2026-03-amt-private-activity-bond-interest.md#L9-L31",
+          "version": "repo-lines-v1:sha256:7cf687bcd94c43b3aebed4aa18b7673551850f28054dd8ca32a29dce019fee6a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ5NGNiZjQzZTA3MDZmNGI0ZTVkNGEzYWM2MzQwM2I3NGM5OTVmNzg0YjRmYWFjYjVmZTQxYzg0NmM2NTY3ZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZTA1MTRjYjc3MjM5NDc2NzhiMjFlNDUxY2FlNzRkNThiY2IyYzZhMTBmZTdkYTE0Njk1ZmZlMjMzNzRiYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjBmMzZhOTdkNWM3NmEwZGU3ZGY2YjcwYjcxNDU5NjdiYWE1Y2YyZTJlMDhiNDU3NGQ5OWQ0OWQ4MGYyNTQ3YTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxMjI4ZmNhNWQ5ZjVhYzYyNjFmOGFhNGI1YTBiNWU1N2U0ZGZhMTExNmNjNGIzNzkxODU5Y2ZmYjkxNTgyMTAifQ"
+        },
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-11.md#L11-L17",
+          "version": "repo-lines-v1:sha256:8e4ed24034043927cb8d51e9991b5c05302e0a83114e20759730a9d71f4db39e:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NWViNzM3ZTYwOWMyYjU1ZTE4MTdjZjRhNTYyNTQ0ZGU0YWQxYjcyYzVhODQyMWYxNTM3ZjhlZDIxYjU4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MWE5NjY4YzkyMjdkYzUwMDNkZTlmMzlhYmY3MmM1YzY3YjM5MDU0ZjFkNTgyOTg1NzU5ODc2NjcxNjQ5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRhN2U5YmMyMTg1MTlkOTZlYWYzYWFlNDE5MGJiYTlhZTZmNWRmODM1ZWVmMDc4MTllNzUwMWIxNjZkZDQ5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_bd238afb9aba4a3aa43465097a9d154a",
+      "statement": "IRS Notice 2026-18 N.4 preserves qualified 501(c)(3) bond interest treatment: it is not an AMT preference and is unaffected by the notice.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IRS/2026-03-amt-private-activity-bond-interest.md#L23-L27",
+          "version": "repo-lines-v1:sha256:548e187405c54d22e52450fad3156d192813cc33ba551c1a927f294db24cb76a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA0ZjcxYWNlNmMwNGU2NDk1MjNiZWM4M2RlYWM5ODNkZjkzZWMxNTRlMmZhOWQ5NzdiOTUyNmQyMjY3ZmQ4NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY0MjNkNDdhNjQ3MDdjMGU0ODI3MjEzMDA1MzU3ODM1ODRlNWU3MGU4MmQ4N2Q5M2RhMDYyZDM4YzhjMTZjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNTkxZjdiZDIyMmU0ZDgxMTM4YmIwYWVjODMyNmI2YjQ0N2MxYzBjZjdhZmUzYThjMjAxNGI2MzIxNzRmMzdmYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGVhZmJhZTJhMmQ2ZDAzNzY0YTk1ODliOTBkMmZlMDAwMzFkMTU4YTczYmRkYTBiM2EzODQ5NzgwYzM5OTEzMSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7cd22750370f44aa985ab561acad857c",
+      "statement": "When a cited research note is superseded or withdrawn, the taxable fixed-income guide suspends the derived weight rather than carrying it forward until the Committee re-adopts it against a replacement; a suspension-driven band condition is not automatically rebalanced.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L43",
+          "version": "repo-lines-v1:sha256:f6719f24a72dd0a8751df9f3c96ee40e0d3fe4bdddcb3c507f08bbb18993a621:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg2NDE5MGZjNWYwOTExNzllZGM0OGM4ZDhmZmZmODhhMzk2YmM4NDgyNDNhZDQwMzRkMjVlZjE0Njk4YjhiZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiN2YxNTg4NWFiMTRmMDJiZTI2NzJkODcxYjc2MDQyMzk0NmE1NzYyZTQ2Y2Q3NjY3ZDRkNjRmNzhlNzFhYWFmOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzY3ZWFhM2NjODIzMjVkMDZmMTk0Yzk1YmM2M2NhOTFiNTU1MDk2NGY0NTA3MTEwMmU5ZWVlNzFlNDZmNWQ0YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmMxYzE5MmVjNmEzYzEyNjFiNTU4ZWJjOWU2ZDIxM2QwYTMxOTU2YjU2ZDU1M2U4MjIxNzg0MWM5ZGQxYzc2MCJ9"
+        },
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L7-L11",
+          "version": "repo-lines-v1:sha256:c222887e024fb196bbdb1a3f0e942a017c456e326a12f4fff3570a923c9c089a:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2FhNjczMDlhNTBjMjQ3ZDUzY2Y0OWU3YjEzMmQyZTkwMTE0ZGIxNTFjODgzYzcwYzgwZmVjYjBlYzRmZGI0MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmRjYmRiMzBjOTcyYWI5OWYyMmU0ZDg2Mjg1ZWVhZDE1YjU3OGE2MjdhMDFlZTMwOGE5OGQ1YTdiMmYyY2U3YyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzQzNGFmOWFmZDc1OWRiMTFjZDVhYWE0M2EzMjQ1NDc0MzRjYThhNTU1ZDE2MWRkYTk1NzE2ZGZhNjUyOGI1NCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY1MTI0NmY3ZWNhOGUzMGFjYmQwOGFlODcwZmQ0ZDI4NTkzNzFjOWYwMDAyNmU2ODExYWU2ZWQ2YTY0ZGZhMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8e4fc7568c2a4b6381cd1a25e5e71be9",
+      "statement": "Suspending the municipal overweight also suspends its paired four-point investment-grade corporate underweight and returns both to neutral because the corporate underweight funds the municipal allocation.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L33-L37",
+          "version": "repo-lines-v1:sha256:f70178ec8c85606d49ea4cb8e4dd637ae34ac777f44f4af37e3371c42c169a07:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGIwMTIwYWJkN2QzNWMxZDhhYmI2ZjJhZTZiMDMyMTI1YTU1ZWMyNmNkMzM3ZTczMzNlMzg3YWUwODU1ZTUwMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjdlYmYzNzkwMjAyNGQ3NjE3OWNjNzIyZmMxOTc5ZDQ5MWI1NjZlNmVlODlhMzE1OTRjODQ0YWFhOWEzYWU3NSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWM1NGJjYTMxNTgzMTcxOTcwZjQwMDhiYTY4Yjg5ZTdkZjI3YWIyMzQ1YjY3NzEyMDAwNjkzNTIyNzBjODRjYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmRiM2Y2MWQxZGQ0OGZlNDFmZGYwZmQ1OGUzZjJlMjk2NWZiZGVhMmM0MGM3ODg5YWEzZTI3ZjljMTYxNWQzNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a29c5408d2814a6da0c10b655c1d3b5a",
+      "statement": "On a superseded or withdrawn cited note, the escalation must identify the prior note, replacement if any, derived weights, and affected accounts; a manager may neither carry forward the old weight nor adopt replacement research as a binding weight, because that adoption is a Committee act.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L37",
+          "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_a8db1db880cb4e409a4e050c130b0597",
+      "statement": "A cleared escalation must record its condition, clearing authority, facts relied on, and date; without a recorded basis it is treated as an unapproved position in audit.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L49-L51",
+          "version": "repo-lines-v1:sha256:e1d23bae416f262400fdaeb78e9495d3f494cfb5d3f3e90b3a32a9002b861ac8:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzFiNGFkYzBlMWFkNzE4OWU2N2NhODY0ODA3NmZmNmRkZGY4Yjg1Mjc0NGVhYzlhOGUyMDNiZDY1MGM0NGNjYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYWFjOTYxNDcyNDcxYWExZGI4MmE2MjM0YzY2NzgzZmE0YjFkNThhNDQzOWU1ZTYwYWY4Zjc2NmVhOGM0YjkxMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_531ed74e8849406fad67b2d6ef3e4324",
+      "statement": "No approval may clear a position that breaches a stated regulatory requirement because regulatory requirements are not investment discretion.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L39-L47",
+          "version": "repo-lines-v1:sha256:89587d84de2f9ff547bb763fd03ef5e295223c0c0d7ac0b1046f767fa525290d:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzU5NmYyN2UzNzY3NzA0NzNkMmI0OTJjODgyYjllOGE4MGEwZTIzNDU5ZWZhMjdkNjI2YzA4ZGI2MzBlNTFmYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjk2MWNjYzY1MmJmMjk4YzVlYjBiNTVlZWQ2Yzk4ZDk1ZDMzMGY0YTk5NTk1ZWMwMTkwYWMxMzIzMDRjZGZkZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T02:15:41.124Z"
+  }
+}

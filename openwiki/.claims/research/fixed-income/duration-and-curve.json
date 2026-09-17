@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:11eba232701e1e7acf35c562793711f876b51bf9e1d1cf48e1e02cdd25fb7107",
+  "claims": [
+    {
+      "id": "claim_6ed55526b914485c898ae7f6a5ebfa2b",
+      "statement": "For positions taken on or after 2026-02-01, US Fixed Income Research recommends a modest +0.4-year duration position versus benchmark in the five-to-ten-year sector, expressed with a 2s10s steepening bias rather than a parallel extension.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L19-L21",
+          "version": "repo-lines-v1:sha256:2e79f8ca7c27d11977f3c0e25d297feff41309f53afb8ef40ebfe835f2e7b022:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiN2VlMmE3MzFkODQ2NWU4ZTJhZmMxYjc4MGI3NGNiY2ZiMDgxNDhkYTQ5MzBhZTllZDViOWU2NGJmNzlkM2JiMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTdhNjJjMjg0YTIyYWQwYzRkNzEyODFkN2UxOTczZGFmMzY1MTE2OTY0OGI4MWU4OWE4MDY2NzFiMTY4ZTQzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjM4OTVjMGUxNWRhZmMwOTAyNDdiZTQyNjJhZjY1YjY5NjM1YTk3YzAwZTU4NzFkNTNmNDQ5NDY2NDFmNGNiNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTM2YWQ4NmZmNTQzOWJkODg2YzZiNDBjMmQ3MzUzMmJhZWE3YjVhNzJjYjVjM2FlZGY5NzllOGEyN2U3ZGM0YiJ9"
+        },
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L3-L7",
+          "version": "repo-lines-v1:sha256:2dd9ba5a653be9d2f9995abc889fe9a7334e5edf1c1c3f9aa72afe5f38cd1c56:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWE3MDZhNjdiYjJhZjIxZDBlYzgzMThmN2YzM2Q3YzQ2N2Y5MjdhODI3MzE4NjJlODkxMTcwMTk0ZDMyOGUzNyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ4ZGEwYzhjNDBlZjVjYTRhNDdhNTlhNjFiNTdiYTA1Mzc5NGYyN2E1ZWFiMzhhYzg4YzdmNzJlMzU4ZTAxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjIsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGEwMmI1MmIxNmM5YjVjNmQ4YmI0OTc0ZWZiMWUyYzFiYTEyMGQ5ZGQxMjk2MmE5MjM5ODBmOWM3ZmJkYmQwNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTg4YWI1YjEyYzZjMzZjZGIwNmJiMjkxM2YzNjI0NjQ0YTU2MDQ4NGJiNGZmM2Q2NmRjZDAxYzk4Y2IwZGNlOCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_2eab8ac9bef2428eb086714af5b4c3ae",
+      "statement": "The duration view is a modest scenario deviation: the desk assumes three policy-rate reductions over 12 months versus 2.5 market-implied reductions, and states that this half-step difference is the whole recommendation rather than a conviction call.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L9-L13",
+          "version": "repo-lines-v1:sha256:38dd51861ee134282928d6cd09ae7ad43dd4bb95136aab5eeaba509a67ba8c1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc3YWU1NjQwZGQyYzk1MGQ0M2Y3ZTUyODBiOWVlN2Q2NGEyNzcwZmYzOWQ4NWQwYzBkNTllZjNiZWEyNDQyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M1NTU5NWQ0NWQ3YzhlOTdiZWFiNjYwMTc0NmVlNzU1YjMwZWViYTY5NmNkYzFmZjE5OTZjNjk4NzUyZjFkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU0MjMxZmE1YzEyZjM5NjRmZWU2N2I1ZGIwMTI0ZjM4ODViZTFjYjk5MmE5NDZkN2FjNTIzYTI5ZDVkMGUzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThiNzE2MGY2ZGRmYTNiZWNlMDA1YmRhMmJhYWQzZGE1YmE4ODMxYThhYWUwNDcxMWY5YmJjYTg3NjNlODEyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f6fcc2a2cc6447a2a8038ba9519be2b4",
+      "statement": "The Federal Reserve's January 2026 rate-path guidance makes measured reductions contingent on continued inflation progress and greater confidence that inflation is sustainably moving toward 2%; its projections are conditional on realised inflation and are not a commitment.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FED/2026-01-policy-rate-path-statement.md#L9-L13",
+          "version": "repo-lines-v1:sha256:b07aa4f7b62c78e8140a4a52477571dce62760ac6d8e693e070c206f0037267d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjBhMmY5MDVhMzJkNGVjY2ZkNDE1MTY4ZTJlYThlNDM1ZWExZWJlYWNlZDY0YmFmNGU3Y2RkMDZmMTg4MjYzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2EwZTg1YzM2MGE4YmQwNTM0ODdkZjQ0N2QxN2I1ZWZkNmE2YjA2ZDFjOTZjN2JiZmZiODU4ZWNkZGZiYjA2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNmMDFmNTY2YWZmMzc3ZjczMTJjMWE0OGQxZTQ2YTJhNDdiYzFhNmRhNTk0YmIxZmU0ZWYwNDUwYWNjNTJiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDRhMTcwNGQ3Mjc1N2Y1NzcwM2Q4YWU5ZTE5YmJkOGFlODQyNzBiZTMyNjEwNmY2OGZjYzlkYzMwZDE4NmUzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_0231b8fdf1ed4a918583b65fab258ad8",
+      "statement": "The view excludes a long-end duration expression because heavy long-end supply and no expected catalyst for term-premium compression would make it a term-premium view the desk does not hold.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L15-L17",
+          "version": "repo-lines-v1:sha256:880986461ae0fddda298978af32a55358053469fce396058114d12748df5f5ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOWU3MjlmZmYyMDc0Yjc2ZjE1OWRlYzZhMmNmMTc4M2ZjNGJlNTU4ZTAwOTgyZDEzODQ3NzY3NDdhZmFhNTYxYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGM4YWY3ZjE5YjdmZDRlNGQ2MWYzNGE5ODBkYmZhNWEyZmUwMzA0ZjRjODJiZWExZThjNTA4MWZkZGVkMmNhNSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWJhZjkxYTBmMGIwOTQyMmM2M2FjYzE4MGM1ZTRhNWUxMjI4MjdhMGIwYTMxMDY0ODA4ZTk4YzQ4OWQwYThhNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTY4OTBjN2NlY2Y2NjA4NmU2ZTI1ODFjMjhkMzMzZWQ0NzdmMGYyZjdjMzEyMjE4MzZiMTBlMjQ4YmNhNDIzMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c06f4a9521d5499696ba2bf57a6de242",
+      "statement": "A sequence of inflation prints that removes the F.2 contingency, a fiscal increase in long-end supply, and a disorderly term-premium repricing are stated risks; the latter can hurt the position despite its front-loaded expression.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L23-L25",
+          "version": "repo-lines-v1:sha256:9479f02ad7e518419fa6f82a3f8eefe6bad4c5b85894fccf2aa2334ffd1aa652:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTQwOTdkYWNhNWFhNDZkOWJhNjE0NmNlZDcyNzFiYjlkMjgxOGU1MjVhOWNmYzliNDQyMGE5OTU1MWY5NmZkYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmE4NDdhMDc2ZmY3ZmUzZDQ2MDQzMDg5MjE5MDkyZjI4Mjg2M2YxNjkxNWMxYWJiYTZkMTViYmM1MmFiMWJiNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWQ5Nzk1ODg2YjhkZTU5ZjdlODYwYTE4M2NmZTk5OWY5YmE0MGUyOWU0YjMxYTY3MDQyZDhkZjAzNjg1ZjQ0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODMwOTQ1YjJjODJjMTU4NmRhYjFmYzdhMmUwZDExOTNlOTJhNjlhZjA1NTVlYWJmZjQ5NDg2ZDk0OTQ3YmY5MSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_fca2330e708c4ea882feb58c0ada8759",
+      "statement": "Federal Reserve balance-sheet runoff continues at the previously announced pace with no announced change, while the Committee remains data-dependent and may adjust policy if risks impede its objectives.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FED/2026-01-policy-rate-path-statement.md#L15-L21",
+          "version": "repo-lines-v1:sha256:5a28074b987529c4465c0159ea054e67b118d9c27faa3551abdd6a5b2a448b2b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZlZmU5ZjNiMjdkNzAyZGYxY2JlNTEyZmZlZjNmMDRiMjVjMzA1MmRlMDk5OTMyNDczZmU5N2IzZGI1NGRlNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI3NTUyY2U3NTdiM2M1MGNlZDExM2ZhYWQ2MDQ5NDA3MWE0ZjJkYWQ4NGU1YTVhOTYyM2VjYTYxMDZhYjNkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2ZjMmYzNWE0ZTYxODk3N2I1MzIyNzM5Y2MwNzRjY2VkNDc2YzA5NTRkZjMwNDAzZTU5MGJkMGVhYjUwYjNjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTk2YjRmZTRjMmQ1NTdjOWU2YjEyZWYyNzc4ZTE5NTJiOTMzMWU2Mjc0NTk1MWRiMmY0OTBkZmFmNjBkYzZiZSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T02:15:41.124Z"
+  }
+}

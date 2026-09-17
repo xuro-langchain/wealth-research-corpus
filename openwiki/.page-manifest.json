@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "pages": {
+    "/openwiki/guidance/allocation/global-multi-asset-bands.md": {
+      "pageVersion": "sha256:53ebdea10124b7089b04ebd047d0acdec033f633a3d8fbc2ba019bb2aba5c10b",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/guidance/allocation/taxable-fixed-income.md": {
+      "pageVersion": "sha256:539d39dc3cf9035ba799a2c6817aefe397db7339665c28b2a2ee496ffbcc6959",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/guidance/authority/discretion-and-escalation.md": {
+      "pageVersion": "sha256:b1b4d7b5e396f23358ccc3249f1f307c793f00a0a6ff3ba9279e80270d0e5647",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/guidance/suitability/concentrated-positions.md": {
+      "pageVersion": "sha256:5c87caf76874c8ef9ad00115668dcddfc40e0a62c843f0e1a0fab08fad17fad3",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/guidance/suitability/private-markets-eligibility.md": {
+      "pageVersion": "sha256:390571109d560cb8b7b4169d16ec5a3651100e67a7e507e7fd7255dfecd263f8",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/position-assembly/supersession-and-escalation.md": {
+      "pageVersion": "sha256:6fa7ac9058a7ec8334f85469281955a5e30df11e759677e81b68b28b9533be5c",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/quickstart.md": {
+      "pageVersion": "sha256:6dd6ece626c060678e81974bc7718ed9dcf33e42d6e85fcade346fb478dad4de",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/regulatory/fed-policy-path.md": {
+      "pageVersion": "sha256:81649aee969a5a812866d9b6d21f4e14d69614177b5306e51c360c265b220ede",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/regulatory/irs-private-activity-bond-amt.md": {
+      "pageVersion": "sha256:9cc62eda49f907358a148b576d60f9bcaf7587db92525bbead087d9004978360",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/regulatory/sec-qualified-purchaser.md": {
+      "pageVersion": "sha256:6ffa775171a10a51b8ad87b40504d9e4ff9a20dd6d17da6014502d76fb763db8",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/equities/ai-infrastructure-power.md": {
+      "pageVersion": "sha256:9b855007ab32713b914033e2829b0d4b2b0d185b6185cc7a787bdac5b974bc0b",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/equities/semiconductor-capex.md": {
+      "pageVersion": "sha256:5764b610a47739fee2c851cd2c2dee398cd07aae4f9f9e4e573cef12486be104",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/fixed-income/duration-and-curve.md": {
+      "pageVersion": "sha256:11eba232701e1e7acf35c562793711f876b51bf9e1d1cf48e1e02cdd25fb7107",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/fixed-income/investment-grade-spreads.md": {
+      "pageVersion": "sha256:aea5e4fd72f232efa3c595acdc4511f14234afd178a859214f6308690a54b139",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/fixed-income/municipal-credit.md": {
+      "pageVersion": "sha256:f6451729f0322eb7c2b3fed18f530f7d98765fb4e88ec9cb402c63d5aa6137fb",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/multi-asset/private-markets.md": {
+      "pageVersion": "sha256:a9de96bb9b44f115acf0044dfcdd9090e6de7f75b7c64e8d78f78005d320d8e1",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    },
+    "/openwiki/research/multi-asset/rates-regime.md": {
+      "pageVersion": "sha256:63245d111b4d6dac90e27cfda63c1d846dc50417ce52bb74e1c5b160a0313bb9",
+      "completedBy": "openwiki/0.5.0",
+      "completedRunId": "f9702eec-4c4a-4844-9096-644d843b82c0",
+      "gitHead": "01751ef1a58b0e572950976cfad690ed8a7f9e0d",
+      "sourceFingerprint": "sha256:750201998b87ae9e5afa235d734a083ab71b087fd0837cb28709970ad6cb75cd"
+    }
+  }
+}

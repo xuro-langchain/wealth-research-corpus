@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:6dd6ece626c060678e81974bc7718ed9dcf33e42d6e85fcade346fb478dad4de",
+  "claims": [
+    {
+      "id": "claim_b6e25c59be744246be7c5bd35ac846c8",
+      "statement": "Research views, binding firm guidance, regulatory overlays, and position assembly have distinct authority: research informs a positioning decision, guidance owns binding controls, regulatory requirements constrain implementation, and the applicable edition remains the basis of record for positions taken while it stood.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L30-L39",
+          "version": "repo-lines-v1:sha256:6b60a73a4f29d6156a057ffda69e9a9b598ee2681173383ae36c97bdc8bf7e79:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJjZmFkNWI4NmQ5N2IxMDQxM2Y1ODE3Y2Q2OTYzYjcyNjI1MzY4NGNkNDhkMDFjMTVkYjBkNjNjMDYyNGRlOWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MzFmNGIxZDUyMmFkYzAyMmMxM2E2ZjA2OGExZWNhYzIwMDY2NTA2NzIyMGJhNDEwNDYwOWRkMDMzNWFjOWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA3NDgyYzg3Zjg0YzM1YjhlYTYzYjMyZGQzMDlkNDgyZmQ1NjZkYWY4N2U0ZGNkYzkyMzYxMTk1M2QxZjcyMWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3ZmM0NTI4N2Y3MGJiNTVjZDUwNGY1MWFhNTgyMThlYTUwYzc5MGRlODZhYzRhM2ZhNzA5YTdkMzg4N2JmZmQifQ"
+        },
+        {
+          "resource": "repo://bulletins/IRS/2026-03-amt-private-activity-bond-interest.md#L17-L31",
+          "version": "repo-lines-v1:sha256:c52546cb83e8a78511846a0ff2d09287ee99034ced648b98f46b31f3c3e8ef72:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzOWRlMGE5N2JjZTY0NmJmYTdjMTA0ZDQwZGRmZmIyZDg0MGUwM2I1Y2UwZTc1NjdiMTE0YTgzZjY2YjEzZTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZTA1MTRjYjc3MjM5NDc2NzhiMjFlNDUxY2FlNzRkNThiY2IyYzZhMTBmZTdkYTE0Njk1ZmZlMjMzNzRiYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxZTkxOWNjYjM3NTA4YjU5YmMwNDQ3MDE2MDczZTk2Y2Q5ZjFiOGIwYWEwZDljYWM5MGIyOWVlZGJlZTk3N2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxMjI4ZmNhNWQ5ZjVhYzYyNjFmOGFhNGI1YTBiNWU1N2U0ZGZhMTExNmNjNGIzNzkxODU5Y2ZmYjkxNTgyMTAifQ"
+        },
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L1-L11",
+          "version": "repo-lines-v1:sha256:abbdf4525f30f99b84c2eed045651601603d64b6eea992ab6e240d1b94be387d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlODFmMWIxZTFkMmMyZjJjNGUzOGRiYjUwYThkYjY4MDU5NDYzYTUzYjZjNWI3ZjE1NDhhZjJmNGFmNjQ3ZTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJkY2JkYjMwYzk3MmFiOTlmMjJlNGQ4NjI4NWVlYWQxNWI1NzhhNjI3YTAxZWUzMDhhOThkNWE3YjJmMmNlN2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU2NTEyNDZmN2VjYThlMzBhY2JkMDhhZTg3MGZkNGQyODU5MzcxYzlmMDAwMjZlNjgxMWFlNmVkNmE2NGRmYTMifQ"
+        },
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-11.md#L1-L17",
+          "version": "repo-lines-v1:sha256:8ef1fc73c97df57216c83158f3953b0cd2b92710053d22785f5ad78a8865457a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZlZTIzMWNhN2M4YmQzZGExNzg3N2M1ZDcxNzE3YzM5MDRhM2Y2MjRkZTdiMjEzZWVmY2YyMGFmM2MyNzgyZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU2ODFhOTY2OGM5MjI3ZGM1MDAzZGU5ZjM5YWJmNzJjNWM2N2IzOTA1NGYxZDU4Mjk4NTc1OTg3NjY3MTY0OTMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE2N2FmZGU2MmExNWQwZTE3YmQzZDVkNmY5YzcxOWFjZTkyZmQ4ZmU2NzNlYjU4Y2FiNjQwODI0ZmU1NmNjYmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ee2acb39f1b5416a9564d65c5c4b1ee3",
+      "statement": "For a research-dependent control that is superseded or withdrawn, the required response is to suspend and escalate rather than carry the control forward, re-derive it, automatically rebalance it, or directly adopt replacement research; Committee adoption creates any successor binding control.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L39-L51",
+          "version": "repo-lines-v1:sha256:f6d84b7588163e79d0fa6bac6e190f8ed5435686d46a86eeea084707acd484aa:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NjQxOTBmYzVmMDkxMTc5ZWRjNDhjOGQ4ZmZmZjg4YTM5NmJjODQ4MjQzYWQ0MDM0ZDI1ZWYxNDY5OGI4YmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2NmMxMzhmY2NhOGI3M2QxMjAwM2M1MDZhZDE2NGQ0YmNiNGM5ODA3YTU0M2QyZDI2NzIwYjY4YWM1ZGU1YmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc2N2VhYTNjYzgyMzI1ZDA2ZjE5NGM5NWJjNjNjYTkxYjU1NTA5NjRmNDUwNzExMDJlOWVlZTcxZTQ2ZjVkNGMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L31-L37",
+          "version": "repo-lines-v1:sha256:93c2875eb41c4d9d6bc1a7dd3f0c9f21808162dc3ced64387038d6a5ba1ea4c9:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDhmNWE2MzdlNjEwMmVlNzQ0NjAyMzU4ZjhlMmZkOGZlNDNkZjM3NTFkMTFhNzAwYWQ0NmRkMGU2ZGZiMWU1MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQxZTkxM2FkZThjMDBkMDJkZDFmMjIyYjI0MzhiNjY1Nzk0MWM1MGZiM2VmYWMxNWIwMmY5MDRiNDUwMmMzYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTY4MmMzZGQ5MTdiMDA2MjhmNDVhODI4ZmM3MzY1ZDlkNjlhOWMzYmVhYjQxNmEwNTM0NjQ0YTlhODIwYTY4MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWU4NjcwYjY2M2FjNjQ3MTc0ZTgyMjVlOTg1Y2JmYjEzOWExNDgzNGM2NzE3ZjZjOWVmNTdjOTQ5ZjE0ZDRlMCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c510c2078a374947b28acb325a4118d3",
+      "statement": "Private-markets eligibility is a documented pre-offer regulatory gate separate from suitability, liquidity, and commitment approval; a carried-forward determination cannot support a new commitment on or after the applicable effective date.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L19-L25",
+          "version": "repo-lines-v1:sha256:5e32b5872f76c6184f3ad941c72ec32b419f46ba6ab9756c82504d891071dafa:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA5NmM5ZjMzMjFhNDg2OGM5NTU4NjBmZDkyZWUwODI2MmY1NTc2NWE4ZTZiNjU5MmE0ODEyNDFmZjllNWVkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0YTcxMmRiOGExNzQ4YTMyNThlYTcyNGYwNzIxYTM0YjcwNjY5NTlhZjdkZjJjODk3ZWU5YzQ2Yzg1ZjJlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzE0NTJkYjQ4MDUxMjc1ODkxMDFiYzVlNGNkMjYzNWZmOThmMGQ2NzRlNjM4MTI2ZDgzYzg1MjgyN2MwYzQ4ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjEwNTRkZTY0NmRlODdkNjBhN2NjMjVhNWE2YTAzYjBlZDQ3NjUyMDJkMTBhMDAxNzJjZTNiMGZjODk3YmU5NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L27-L29",
+          "version": "repo-lines-v1:sha256:754af3c2bb5fb9f1d0c3e2e2b17a441956c3841230ab3ec17f76c69da45f7b00:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTA2ODQ3MjU0NzlkM2JjMzM3MjY1MDdkMTY0OWY2YjkzZDNjM2YzN2ExM2QzNjI1ZTUzOWJmYWQxNGMyYWJjZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhlZTljNzllMGY5MmEwMGVkMGE1ZGU2MjU1YWRiOWU5M2E0ZjhlNjFmMGYxNTAxODJlZjhmZDk0NjA1NzU4YSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDViYzUyYmYwYjQ1MTM4ZDhiZmE5ZDEyYmM2NzQwZTI0ZTVkYTczOGI5NmIyNDZlZTYwMDg5ZTllNzliODgwZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDc1Mjk5OTQxNWZiMTE1MjQwZDcyNjZmZjZkNjZlNWYyYzI0MTc5OGU1OWFjOTY3YzgyYmYyYjVhMTcwZmM2NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L7-L35",
+          "version": "repo-lines-v1:sha256:fe24d16b49d7b81f3777bf0f5fb8499ddee102133c443743dc51e1591c5adbd9:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwMWEzYmYxNjkxZTc4NGVlYWJiOTI3ZDJkNmFjNmMzOWRiYzk3YWZhZjdiMTBhNTdiZjEzMWFkMDE1YzJlNzMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNjYzI1ZjJkMWE0MDNhYTJiMGMwMjQ1ZTMwMmVlY2I2N2ZhNzc1MzE0YTJiYWZkOTE1ZGYzOTEzY2ViNzQ3MDAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAzY2MzMDNlMWZiYzNlMTM5ODE4NjJjZWRjOWI1NGEwZWM1YWYxY2UzNWZmNjkxNjAzZDQwMWFkZWYyYzkzZDEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_23d82f19947c41a3b2ff15fbc2dfcefb",
+      "statement": "IRS Notice 2026-18 N.3 supersedes the municipal note's private-activity after-tax rationale for affected 2027 taxable years, while N.4 preserves qualified 501(c)(3) bond treatment; the notice does not select a replacement municipal portfolio weight.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/IRS/2026-03-amt-private-activity-bond-interest.md#L17-L31",
+          "version": "repo-lines-v1:sha256:c52546cb83e8a78511846a0ff2d09287ee99034ced648b98f46b31f3c3e8ef72:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAzOWRlMGE5N2JjZTY0NmJmYTdjMTA0ZDQwZGRmZmIyZDg0MGUwM2I1Y2UwZTc1NjdiMTE0YTgzZjY2YjEzZTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZTA1MTRjYjc3MjM5NDc2NzhiMjFlNDUxY2FlNzRkNThiY2IyYzZhMTBmZTdkYTE0Njk1ZmZlMjMzNzRiYWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQxZTkxOWNjYjM3NTA4YjU5YmMwNDQ3MDE2MDczZTk2Y2Q5ZjFiOGIwYWEwZDljYWM5MGIyOWVlZGJlZTk3N2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUxMjI4ZmNhNWQ5ZjVhYzYyNjFmOGFhNGI1YTBiNWU1N2U0ZGZhMTExNmNjNGIzNzkxODU5Y2ZmYjkxNTgyMTAifQ"
+        },
+        {
+          "resource": "repo://guidelines/allocation/us-taxable-fixed-income.md#L17-L23",
+          "version": "repo-lines-v1:sha256:856c59402d099e19d02fa3ca8c235dc58b5bb38b7f4a42f5eae2f10ec53983e4:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjAyMWRmMWI4NGRmMGQ4YzMyMjAwNDk1NDRkNTVjNTAyNWQ5NmEyZDgxYTkyOTFlODEzYWVkZmRlNDM3ZjVlYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGE2MmFlYzgxYjk3MGYxYmYyZWYwNjQ2YTJiNGZkZWJhZmVhMzQ4ZTEyZTIyMWFkYTY0YjRhNjI3OWFlNWExNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc1NTdlY2U1YzE5ZjU0ZjY3MTE1NDMxM2QyNDg4Njc2NTE2MjcxMGMxMTk5MTE0MTUzOTZmOTIzNzVlYjU5MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjdmM2ZhNWNjZWZiMTQ5MDU3ODA3ZjEzODgxOTBmNjExODcyOGZkMTQwOGIwYmJmZmEyYmRlYTdmZTQyNzc3NCJ9"
+        },
+        {
+          "resource": "repo://research/FI/US/MUNI-CREDIT/2025-11.md#L11-L17",
+          "version": "repo-lines-v1:sha256:8e4ed24034043927cb8d51e9991b5c05302e0a83114e20759730a9d71f4db39e:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTQ4NWViNzM3ZTYwOWMyYjU1ZTE4MTdjZjRhNTYyNTQ0ZGU0YWQxYjcyYzVhODQyMWYxNTM3ZjhlZDIxYjU4ZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTY4MWE5NjY4YzkyMjdkYzUwMDNkZTlmMzlhYmY3MmM1YzY3YjM5MDU0ZjFkNTgyOTg1NzU5ODc2NjcxNjQ5MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODRhN2U5YmMyMTg1MTlkOTZlYWYzYWFlNDE5MGJiYTlhZTZmNWRmODM1ZWVmMDc4MTllNzUwMWIxNjZkZDQ5YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTY3YWZkZTYyYTE1ZDBlMTdiZDNkNWQ2ZjljNzE5YWNlOTJmZDhmZTY3M2ViNThjYWI2NDA4MjRmZTU2Y2NiYiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T02:15:41.124Z"
+  }
+}

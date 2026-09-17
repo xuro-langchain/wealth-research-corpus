@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9b855007ab32713b914033e2829b0d4b2b0d185b6185cc7a787bdac5b974bc0b",
+  "claims": [
+    {
+      "id": "claim_74ffdf8221b84eefa24e78ff74c426f1",
+      "statement": "EQ-GL-AI-INFRA-POWER edition 2026-01 is a global view, published 2026-01-22 and applicable to positions taken on or after 2026-02-01; it overweights regulated utilities with data-centre load growth in their territories and electrical-equipment manufacturers with transformer and switchgear capacity, while holding no directional compute-vendor view.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L1-L7",
+          "version": "repo-lines-v1:sha256:6af8d7919f40e7b0fb66a1982c6a72c652ada1bf4f43d2447d46213b851a6576:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdhMTBkODM0ZTM2ZWZlNjU2ZGY5ZTc4Y2FiZWE0YjA4ZDMyMjVkNDE1OWU5YTJkZTM4NzRlYzFkZjYwODg2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNTBkZDIxNGIzMTU3ZDU4YmYxMmExYTdmNjFkNzc2NzUzZWQ5MzJhYTExYWIxMTA0NzI1NzUzMzI1MjY5YzUxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjAsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDU4ZTI2OTQ1YjMyMjk1ZGYyOThjYzM5ZjUxNWYwMjJmYjNjY2U0NjhmNWU0YzEzZWIwZjEyM2FhNmMwY2RjYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_66b68b6f00254714949842fcebb75cfc",
+      "statement": "The 2026-01 power view expects the binding constraint on AI infrastructure build-out to move from accelerator supply through 2024 to electrical infrastructure through 2026—specifically interconnection queue position, transformer lead times, and, in some jurisdictions, generation adequacy—and bases its investment case on economic rent moving with that constraint.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L9-L13",
+          "version": "repo-lines-v1:sha256:4858b5a349e8f296c5de0ab79481077054fa72617353e16ce109ecf67082df25:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDU3YjM2NTQwNTc5NDI3Yzg1NjY4MjFmMmRhYmU5NWYyMzRkOWE4ZTQ0YWYwNzE3ZmQ3YjE3NWVkMzk2NDRiMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGIzY2U3ODhjOWQ1ODRiNzZiYjlmZjBlYWU4Y2E2OTU1YTY0MDUzY2JiZDZkN2RlZjNhNzAyYzE4OTljYzUxMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTRiY2MzMjc4NTYwMWExNTk3ZjBlNTViNzUwZTlhNGM0NWQyNDAyODNhYzA1M2YzNDY1ZGY4MzgxNWNmM2MxOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZiMTYxNGY5YjNjOTNjMjE4OTg1Y2ZhMTIyZjYzZTQzZWFkNDRhZGY4MDUwYWM0MGRjNmZkZjk1NGQzN2M1NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_8084898110a34d80b9f0ea10f0d6867c",
+      "statement": "The note reports that median interconnection-study completion in the largest US market operator exceeds 40 months and says queue reform reduced speculative-project counts without materially shortening timelines for projects that remain.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L15-L17",
+          "version": "repo-lines-v1:sha256:1ab219d4bc512e9a9e2ecd58bc13d18812795f225da703fa32f16c383210ac6f:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmIxOGUzMjlkYmVjN2QyNzM0OTQ0YTFlNDgyNzNjYThmMzZjMGU2YmY4NTU3OWViNGUyOWUwODNmNjE3MTdmZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjYwOGU3MDU3MGNiYzg3MTNhM2JhYmI1ZDdlYmI3MTY0OWQ1NDk1OTg4NTRkZDE1NzUyOTgwYWQ4MDllOWMzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2ZlZTU1NzYxMjQwOGI5NTAzMzFkZjcyMTQ0ODViYWY3ZGQ2NjdhOTQ3YTQyMGMzYjUwZDlmNDMwMzVhMTExZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWY3YTBiZGE2ZmZmMDc5YWVhNjE1NGViYTkzYzcwMmMzMDMyZjgzM2FlMWJiMjg0NzIwYmIyYmY4OThlYWY3OSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6001a28e04c14442a235e8ae6904c000",
+      "statement": "For the highest-voltage classes, the power view puts large power-transformer lead times at three to four years and models capacity additions announced through 2025 as insufficient to close the gap before 2029.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L23-L25",
+          "version": "repo-lines-v1:sha256:cd10e83d787a6959aa493affb126e748f19b372c7f892e43c96292cd9d9d01fa:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWZmMjQ4NDczMzhhMzhlMDIxM2JjZTJkM2I1OTQ0MGZiNDNhOTkxMjlkYWI0ZmMzYThjYTRkNGYwZDMyYzVkYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODJjZGVjYzIwYWUwZDhlZjMzMmQ4MWFmYzg5N2NkN2Q5MDE2YmE0ZDRkMTE2OGNlNjE3MjdlZTg3YjA1ZDk4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNThjYTIxZjEwYzZlYWM0MjkxZTAzZDQxZTQyZWU4NzkxZDMzZGRlMjgzN2M5ZWUwYjcxMDc1MmRhNTcyNzZkYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjIwNTYyMGJiY2E4MTZiMDQ0MWMwZWI5MTEzNjQzODdjMTgyZGJlMTI1OGM0MzFjNjVkYWVhMWFmM2ZmYjY2MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_48386320d674482e91789e072b59523c",
+      "statement": "EQ-GL-AI-INFRA-POWER 2026-01 P.4 modifies EQ-US-SEMI-CAPEX 2026-02 S.4 directionally: grid-interconnection timelines increasingly gate leading-edge fab siting, capping the rate of new capacity addition rather than the level of eventual demand.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L19-L21",
+          "version": "repo-lines-v1:sha256:172759e37685263a763b27ecdacfc4248731c273dfc61a6c1ced1cfd91dcfa1b:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTY4NDRkYjJiMWQ3MjUxYTBkN2Q4ZWYyNzA3NTk5Y2FkOTVjZTczNzVjNzA5NTQwYmM0MDYxMTg0MzM3MDE3YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODAwMWZmMmY3YmI1YWQ1MGM0MGU0MmM4N2ZlOTI3OWZlNTU2YjYzZGY5MzQ0NWFiOTc5NTAyN2JlZDU5OWVlNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTM2NTVmYjI1NmIyOTU2YTljZWM0NzQwNzljYWExMDdkNmE1OGVlZmIyNzQ4MTY4N2FiOWVjM2VhYzMxMzBjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2U5MDNhNWJlMzcxOTE3ZmU0ZDM3MjMwMThlOThjNDYwMWJmMmVkMDg3ZmQxZTIyZWY5M2RmY2ZmNDVjZTAyYiJ9"
+        },
+        {
+          "resource": "repo://research/EQ/US/SEMI-CAPEX/2026-02.md#L19-L21",
+          "version": "repo-lines-v1:sha256:a15e5426d3387894326482875631ff114153a5f22e797b64c3fcf9fe3629dbe4:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZWMyOWQ0NzhlOTIxZGU0ZDc1YjkzY2I5N2RjMzY5OWEyYTM2YzQ1ZTlmNzBlMWI0NmY0MGUzYjhkNTdiMWQ1YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGEyMTg1MzdiODlmMjBmOTRmOTBjOTdjYmRjZDZjMDA4Mzg2NTkyZWE5M2YwZDRkNzRiNzg2NjQ3YWQ0YTZmYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGRlZjk3ZmNmZDQyM2Q0ZmRiMmIxOTMyNzllODM0ZTYxZDUyMGJiMTZmMDliNDkzNmJmODA3MjliOWEwMDcyNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzkzOGExNjBlOTdhM2ZiZGU1Y2IxMGUzOTY1OTBlNWEwZTExNWE0ZWY1ODE4OTQ1ZGZlZWU1MzFlYTdmZmMxYiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d259810241bc48098e53d089879ed713",
+      "statement": "The power thesis identifies material improvement in compute energy efficiency, regulatory allocation of interconnection capacity away from data-centre load, and a slowdown in AI capital formation as risks to its load-growth premise.",
+      "evidence": [
+        {
+          "resource": "repo://research/EQ/GL/AI-INFRA-POWER/2026-01.md#L27-L29",
+          "version": "repo-lines-v1:sha256:51b460d097c9982d5e4fa4b55447551e406e978f0ff0d7939ea0538b1347a1d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA4ODlhN2JjYTc5OTZiZDIxMDJmOGI0ODg2YzY4NjZlZDQ5ZGI1OTA4YjE0M2E1MmQ5ZjgzOWZhYmMwYjkxYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWI0N2VlZDI2YmE1YmI0ZmNkZTgwODQ0YTMxNzM1M2U0ZGQ2MzU5ZDVkYmQ3OGFkYTc3MmI2MjAyMzU0OTc2MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDRhNjkxN2FhODFmY2JlNWViNmU4ZjAwZDMwZjI0MDg1NjIxMDg5NTU0NGQ2OGZiYTU4NzRiNTYzMjFkYzE2NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzNlODE3ZDJlNTNjZDc3MmY3YWYxNjhhYjMyMDhjYjFiZGQ1MzJhODFmYTViOTQwYmM2NWNmOGFmOGJjYWI5MSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T02:15:41.124Z"
+  }
+}

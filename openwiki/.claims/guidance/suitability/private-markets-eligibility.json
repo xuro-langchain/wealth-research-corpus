@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:390571109d560cb8b7b4169d16ec5a3651100e67a7e507e7fd7255dfecd263f8",
+  "claims": [
+    {
+      "id": "claim_e4ca8a546fe54236b01e06f27aa14a38",
+      "statement": "Firm guidance requires a documented eligibility determination before any private-markets strategy is offered; eligibility is a regulatory determination outside portfolio-manager discretion, and a private-markets commitment for an ineligible client cannot be cleared by approval.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/authority/discretion-matrix.md#L39-L45",
+          "version": "repo-lines-v1:sha256:ef47fcfd8f392ad900a391cdc3ef2f5b1f3899c7d500825df49ed8720c326dec:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDdjYjAwMGYxZWFkMjAxNTQzOGUwZjlkMjk5ZWVlNjUzZGMwMDRkMTRlNGRlYmM3YmU3MGQ2YjQ5OTgxZTQ0NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2JjOTA0MzU4YTM3YjJlNjgwOWM5ZWUzNTcwOGZlZjM4OWYzZGM2Yjk5MmVmOWJjM2FmMzU1YzE0MTJkNDQyNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTE3YjU5YzgyMTYwZmU3M2YxNmVlMTk4YzZjMTIzNjk2ZjllMzA3NzkwMmNkNjM0MWEyYzk2YWYxMzJmNzFiNiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWU4NTZkY2FhZjUwMGI2N2E1YzM3MmFhNTc3MjNjNzc4NGY2MWRkMGYyYjQzNDc5ZTFmMmZmY2Y3MzlkNWYzMiJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L7-L10",
+          "version": "repo-lines-v1:sha256:a98cab2f0d86cb9eccc6e88a7b13485a23afaf85b1c78ee1b6ab6e8331414c63:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjAxYTNiZjE2OTFlNzg0ZWVhYmI5MjdkMmQ2YWM2YzM5ZGJjOTdhZmFmN2IxMGE1N2JmMTMxYWQwMTVjMmU3MyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDNjYzMwM2UxZmJjM2UxMzk4MTg2MmNlZGM5YjU0YTBlYzVhZjFjZTM1ZmY2OTE2MDNkNDAxYWRlZjJjOTNkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWE3M2M1YmM5ZTQ3NzZkOTYwZDYyNzljM2Q4ZTI2YzQ2MDRkYzIzNjU5ZTVlM2M1ZWIzNWQyYmFiNzNkNGQ0ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6106bed4b06244babe2e9ec7160f771d",
+      "statement": "SEC Release 2025-08 Q.2 applies to determinations made on or after 2026-01-01, raises the qualified-purchaser investments threshold to $6.2 million for a natural person and $31 million for a family company, and provides for indexation every five years; firm guidance implements that release rather than treating a copied threshold as permanently operative.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L9-L13",
+          "version": "repo-lines-v1:sha256:f233c3fb9de6097c355d42adea277b94ff287c2c992ae03b0eb1ea4102cfcef6:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmExNDFiMmJiZGQ5ZTc5MTMyMDMzMTZlNzhlNjdkNzZjZmZhOWI0MTY5Nzg0MDJhY2QwMTY3ZmQ3NGYwZjIxYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTExZDZiODAxZmEwN2ExMjU2ZjNmZTk0NTQzZTliYzNjZTU0NWVjZjdlNTAzMWFkNWM0YmFlZWZkMjk1ZTE5NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjIyZjM2ZGEzZDlkNzhmZGIxZjc3MmY3OWMxMzkxODUzMmFiNDkyZDE0NGMzMzZkYzRiNmY4MDRmZGNiNmI3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZGU0M2JmN2JjZjNkN2MzMTBmMzU5MmM4YWQ2OTYzMWIxNTA2MDUzOWI1ZTcxMWQ5MjZlYmYyZTRkZmRlN2ZlOCJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L11-L15",
+          "version": "repo-lines-v1:sha256:f5a285ef98530aa200f6183964732c399711b67b37a30ff0ac7a91aad1c05fb5:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTJjNjM3N2FhMGY1NjdlZmZkNTU4ZTc5NzNkNDBkMjY1MmQ2M2ZmOGIzZjNlYTIyOGRlZjMxZjE3NmJmOTNkNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmFhYTM0NzIzNmVjMzk0ZjRjNmRlOGRmMzk5NmQ1NWY2NTFmMDA5NGRlMmU4ZGM2MTI5YjViY2E2NDQ4Y2NmZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGFhMWMzYjVjOWM0MGIzOWM0NWNhZGE4ZTA0NjE3NTZmMDcyOGU5M2NlYzRmOTM3Nzk3YTNjZTU0MDVlYjc0OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODdlMjc3ZjAxMWViNzZiZTlhYTZlMDBhMTJiMWYyZmU4ZThkMGVhMjk5ODU1YTdkNDkyYzczYjUwMzdlNjM3MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a790e58e53a4f8babbded23cef160db",
+      "statement": "A qualified-purchaser determination properly made before 2026-01-01 remains valid and does not require divestment, but it cannot support a new determination or a new commitment on or after the effective date; a carried-forward file must identify the prior thresholds used.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L19-L25",
+          "version": "repo-lines-v1:sha256:5e32b5872f76c6184f3ad941c72ec32b419f46ba6ab9756c82504d891071dafa:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODA5NmM5ZjMzMjFhNDg2OGM5NTU4NjBmZDkyZWUwODI2MmY1NTc2NWE4ZTZiNjU5MmE0ODEyNDFmZjllNWVkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0YTcxMmRiOGExNzQ4YTMyNThlYTcyNGYwNzIxYTM0YjcwNjY5NTlhZjdkZjJjODk3ZWU5YzQ2Yzg1ZjJlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzE0NTJkYjQ4MDUxMjc1ODkxMDFiYzVlNGNkMjYzNWZmOThmMGQ2NzRlNjM4MTI2ZDgzYzg1MjgyN2MwYzQ4ZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjEwNTRkZTY0NmRlODdkNjBhN2NjMjVhNWE2YTAzYjBlZDQ3NjUyMDJkMTBhMDAxNzJjZTNiMGZjODk3YmU5NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L17-L21",
+          "version": "repo-lines-v1:sha256:fc355941d1f60b85993e55ef036318271509b49496d19a6f019a6ce1cc4e71e3:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU4NDQ0MTQ1ZTI4NDlmYzUwZDJiZDcyOWE0MGJjZTg1Zjc5NjkwZDgzNGZiNTJkYTk2ODJjMjVkNTYwZTdhZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTlhNzY4ZDNiZjFjOTVhNDI1YzRiMjIzZjI5YzcxYWRkMTAwODJmODAxOTA4ZGI4Y2E1NzcyNWMwYWJiYzIyZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQxYTIzYTEyZjlhMjBiYzMxZmUzZWEyMGIxYjYzNmI1NmQwYmY5YWY4YjAwOWYyMDUyNzk2YzE1YmEzOGEwNCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMzJjMjJlNDYwNTNhMjVjYjYzYmRmMDU4Y2Y2MzE2OTFmMmMyODA1ZDNiN2Y2ZmFmMTcyMWQwNjQxZjQ3OTgzNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_943351ef5a7445b7a18e109d3c240e81",
+      "statement": "SEC Release 2025-08 preserves accredited-investor criteria, including the professional-certification pathway, so accredited-investor status must be determined separately from qualified-purchaser status and may permit a different set of strategies.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L15-L17",
+          "version": "repo-lines-v1:sha256:fe005610cecf54f9d24210704244edd92facce7a11da7817e9d0ee8b05108905:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRjNDNlNDE5ODNlYjNhNjliMWQwMmRkYjg4NDg0ZDNhYTg3ODg0YTg3ZTdjNDkyYzI0NmYyNjM4MmZhMDMxZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYjA2OTAxZmUxYmEzNGExZDJiZmIzNDg1NmMxOTNkNWFhZjY1ZDZlOWE4ODU2YTZjZDMxM2E3MzA0OWZmMWU2ZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjM3ZjU1MDBkMzc5MzhmNDY2MWMxYzIzZjhkMThmZWY2ZGIzMGM5NDc1MmJiM2NjNjJjOGM4NzgyN2RjYTcyNSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjRmNTdkNzU4OGYwNTJkMjAxMGFiZjAxYThiZWVhOWU5YWRmNTM4MzYwOGY0NjE4MzU4YjFiZTY0OGM1YmI1NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L23-L25",
+          "version": "repo-lines-v1:sha256:6d3d6abfeb006aeeed18bdb272771f5682ef366cc75a88e25730138c3e8e2df0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDA0YjU3ZGQzMDc5YzlhZjA5ZWIwZDM5YzJhZDVjMTI1NDJjMTM4YWZlY2Q1NDc5MjQ4ZjE1ZjVkM2Y2NDhjOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzJjYjMwYzRjODU0MjU1NmExYmRiODE0NGI1ZmZhNWQ4NDA1OTA5YTU3ZGRiNDRmOTJiYWZhOWQ0NWZkYmFmMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2JkMmM2ODI4MGY0Yzc5NDY5MWE5MGNiOGJhNDhiOWQ3OGQ2YTI2M2JhZTdiNWRlYzBlZjk5Y2NjYmVkYTNhZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTZjMzUxODJmZGFmNGI5NmFmZTI3ZGI0ZDUyNWFhOWFkYjFjNjUwYTM2YTQ1M2U4NDcwNTRlZjRhNTgwMTRhZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_f71b5e49650d40308797f8dd572c7750",
+      "statement": "Every eligibility determination must record its pathway, supporting evidence, determiner, and date; an adviser must retain the determination basis, and a record without that basis is treated as no determination in audit.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/SEC/2025-08-qualified-purchaser-threshold.md#L23-L25",
+          "version": "repo-lines-v1:sha256:2fe27da7e8d91dc5d54095faeeea410cc1d3d848e6c76b6c20062665446c1697:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmY5NzRjYmZhY2EwM2RiN2JiZjg1YmM2YzliMTg2OTgzMjlkNDdhYjFjMDE0MzExMjBkMjRkYzFmZjc3MGU1ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjc0YTcxMmRiOGExNzQ4YTMyNThlYTcyNGYwNzIxYTM0YjcwNjY5NTlhZjdkZjJjODk3ZWU5YzQ2Yzg1ZjJlMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmFlNDdiODA3MjM5YTI1YTU3ZjY2NTJiZDE3ZDAzYmMwZjE4YjY2MWVmYjJjMzdkNjIwNTU1YTgwZDEyMmEwMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjEwNTRkZTY0NmRlODdkNjBhN2NjMjVhNWE2YTAzYjBlZDQ3NjUyMDJkMTBhMDAxNzJjZTNiMGZjODk3YmU5NSJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L27-L29",
+          "version": "repo-lines-v1:sha256:e7fd253786852906faef1c0965a99f15fe99561af3415b8a30545629258e4ea3:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMmEzMWI3YjAxOWU0OTU5Yzc0YjljODA3OTMzYjBkOTAyZThiYjc2NjkwMTZiNmQ2MWIxNDlhMWJmYzhjMTQzYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWU4NmVmM2Q0OGQ4OTU5NTJiMjNjMGNhMTZjZDNmNGYzMjZjZWU0MWJlYjlmMzM4YmNjMzQzZmMyOTM3YzM0NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTQ4OTA1OTVjODE5ZTVmMGM3MGNlNDhkYzhkZTlmNjJlMzBjYmMwNjRiOTA0MjJjMzQ4MDQ5ZWZhMGE4Nzk5ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWIzZWFmOWI2NDJjZGRjYzEzZDIzMGVhMjlkNmFjOWRlZjMxODc4MjE0NjNkMTExYWNhODgxYWMzMjRjYmZkNSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_1ab435ea91104a0781d696dc7a9e0973",
+      "statement": "Eligibility is necessary but insufficient for a private-markets commitment: firm guidance separately requires suitability and compliance with the private-markets liquidity constraint, under which unfunded commitments may not exceed two years of liquid-portfolio spending and must be underwritten against spending needs.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L31-L35",
+          "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
+        },
+        {
+          "resource": "repo://guidelines/suitability/private-markets-eligibility.md#L31-L35",
+          "version": "repo-lines-v1:sha256:de8d782f2dd659d7afd5dba2c5f971d9b5fb02eea57532aca58174e96b9e381c:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMWNiZTUzMTRmYmViOThmZDU2NzNlMzU5M2E1NGExODhmZDliZTM5ZWRkY2QxZGVmODZjMjUwODkyN2NkZmVkMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2NjMjVmMmQxYTQwM2FhMmIwYzAyNDVlMzAyZWVjYjY3ZmE3NzUzMTRhMmJhZmQ5MTVkZjM5MTNjZWI3NDcwMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjk5ZTZkZjZmYzNhM2I0MGQwYzE3NWVmMWFhMmIyNmUyMTQ4YzdkNTFjYTFlY2ViMjUwYjlkMzRhMjVlMDdkZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        },
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L25-L27",
+          "version": "repo-lines-v1:sha256:f8d5a78596fa85beda159f7f8ec2945347303f310be5c9a2edca97419bcf8e9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZjQyNDQyNzNjN2U4NzE1ZDViN2MxNzBiNGE5MGY3ZDZhYmQ1NGFhYTQzNDBiNzJiOTlhNGU0YWMwMTlkM2U5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZlOTllZWUzMjgwZjNlMjQ3NDNjODdmYzU4ZGJlYjcwNDAzMWEwZTY0ZTdkMjRhZGU2MDc2ZjRmNDBhYzZhOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGNkMDZmMjYzNWE3YWI0YzgxMGYxMmIwZGRiMjU0NGVkZjJkMDJjYzk5ZDA2MGJkY2ZiMDMyNmE0MzUxYjU3NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGIxY2Q3ZjU2NjUwYzA3Y2E3MWRjZGI2YTE3NTExN2ZhYmY2MGRkNWFkZWE5OGY4YWYxYWUxMWRhNTVjNzU0MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_53800979ac8d42c0a7ba516a9193a221",
+      "statement": "MA-GL-PRIVATE-MARKETS 2025-12 is a research view, applicable to positions taken on or after 2026-01-01, that supports a 10–20% strategic allocation for eligible clients with a genuine ten-year horizon and favors secondaries and private credit over primary buyout; it expressly leaves eligibility to regulatory thresholds.",
+      "evidence": [
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L1-L11",
+          "version": "repo-lines-v1:sha256:f6322a7a11ee775d25140904cca3624bed6a48063f1398cb22dcac3a5578dc73:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRkODc3MDEzNWFhMjllMmMzY2EyNTgzOTc4MzVmMTg1MmU2MDhiMTQzY2FhZTgzZjMwZTRiMzM1OTY1NzdkYjciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZiNTE0ZmQ3ZGM5ZWM0OTZiYTE1MDg4ZDJiYTI2NGU4MTEzYWY4M2MzMmM1ZjZlN2I0ZWViOTA3YTY2MmY5MjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ4YWM0MWZjNmIwN2IzYTIwZmU3ZTM2YzhiOTI4YzBhMWJlY2VhYTVkZWE0YmE2YTNkYmUwODdhNWI0YjdjMTMifQ"
+        },
+        {
+          "resource": "repo://research/MA/GL/PRIVATE-MARKETS/2025-12.md#L13-L23",
+          "version": "repo-lines-v1:sha256:74fa6c32e1f134af2c26d982171be12cda47115dac85b6261fb0c74aa01ed524:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIyMDg4MzM3MTUzNDUyOTFmNTc3NTk3ZDA2MWRjMjZjMWY5OTEyYzdiNDQ0MDIxM2Y5NGYxODIzMmU3YmM5ZDkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQzODYwYWFjZmI2ODVlZmQ0MTA4NDI5OThjZjJhNTAyNzE1YTJiOTRhZDM3YzE5ZGE3N2RhYmFiYjU3YmU0ZWQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRiYjQwYjg1OGVmOTk5OGMxOWQxZTUyZTVmOTZlMmQxOTI5MGRjZGVhZGQ3MzgwYjIzN2E3ODgwMjhmMWYwZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjEyM2Y3YTcyNDI0YzYzNjNhYWM3NTFkYzc3ZmRhZGI0MDMwMDViNjJkNDcxMGIwN2JiYTU2YTdmYmRkMTcxNzQifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b0e68177259f4fa2b24e6d37f91c9dea",
+      "statement": "For global balanced mandates, the firm assigns a 10% private-markets strategic sleeve only to eligible clients and reallocates it pro rata across liquid sleeves for ineligible clients; private-markets exposure is managed by commitment pacing, with denominator-effect drift not traded and over-commitment drift escalated.",
+      "evidence": [
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L13-L19",
+          "version": "repo-lines-v1:sha256:b1d5c51a1cc233f51a4e7ee8dfa166a947e990fa164fa2354e106a03cf51a3b3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNmI3NzNkNWViMmFlZDEwMTJiYmI4ODdmMDM3NWRkOTE5NjM0OGI1MDUyODc5OTgzM2MyYjgyOWZlZTgwYjc4ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGUxOWUzYzMyNWNjMDM5ZDIwZTk3MjA3MTk5NzUxM2IyZDU3YjQ3NjZjZjFlNjRhYTJkOWFhYmYwNWM2NzI3MyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiY2ZkNGVhMjM2ZDk5ODM1M2ZmNzVjNmZhNmM2MGFmYzc2NjU3NDFiY2VlNDg3OGRkZjc1YTFkZTFiMWFmZTRjZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTJkOWVmZmYyOGI2ZDE2MTY0ZTRiMjhjNjg4YzBlMmI3NmY0MWIzNjNlMjNlZWRiY2I5YjQ5ODFmMzIwNmZmMSJ9"
+        },
+        {
+          "resource": "repo://guidelines/allocation/gl-multi-asset-bands.md#L31-L35",
+          "version": "repo-lines-v1:sha256:f69e8eac407437398838f954c58d089c7f0f4fab772446b87134814d5d8a99c8:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGVlOWE1ZGJhN2MxOWVjNDRhZWU0MDQ4YzhjYTU1NTU0MDRmMGVkZGRiNjBmNzI2M2M5ZDdlZTRlMGY0OThiOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNjRiMzNmYTJlNzllNzY0ZGRkN2ZlOTQzYjM5N2FkMTU4MmNhYWQyNmU3YjQ4ZjI0Y2ZkNWVhZDU3ZWM1NWFiNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNjUzNDAyNDJhMmNlZTQxOGMxNGQwMjFlYTU4MzQ1NDM3ZDk1NmM2OTg3MmM3MDNiZDljMWQ0NDBjZTQ4MDg0NSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMTc0Nzk3OWY1Yzc2YmMwMjhlOTQzNDhmZmMzNDAyYWYyMDIwNzEwMjU3YmMyMTRjOGZmODE4YWJlNzJhNDliMCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T02:15:41.124Z"
+  }
+}

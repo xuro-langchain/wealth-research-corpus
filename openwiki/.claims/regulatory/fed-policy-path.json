@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:81649aee969a5a812866d9b6d21f4e14d69614177b5306e51c360c265b220ede",
+  "claims": [
+    {
+      "id": "claim_9cd5de711d454cceb0a26022eafd973c",
+      "statement": "Federal Reserve Statement 2026-01 conditions measured target-range reductions on continued progress toward the inflation objective and says no further reduction is expected to be appropriate until the Committee has greater confidence that inflation is moving sustainably toward two percent; its projections are conditional on the realised inflation path and are not a commitment.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FED/2026-01-policy-rate-path-statement.md#L9-L13",
+          "version": "repo-lines-v1:sha256:b07aa4f7b62c78e8140a4a52477571dce62760ac6d8e693e070c206f0037267d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjBhMmY5MDVhMzJkNGVjY2ZkNDE1MTY4ZTJlYThlNDM1ZWExZWJlYWNlZDY0YmFmNGU3Y2RkMDZmMTg4MjYzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2EwZTg1YzM2MGE4YmQwNTM0ODdkZjQ0N2QxN2I1ZWZkNmE2YjA2ZDFjOTZjN2JiZmZiODU4ZWNkZGZiYjA2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNmMDFmNTY2YWZmMzc3ZjczMTJjMWE0OGQxZTQ2YTJhNDdiYzFhNmRhNTk0YmIxZmU0ZWYwNDUwYWNjNTJiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDRhMTcwNGQ3Mjc1N2Y1NzcwM2Q4YWU5ZTE5YmJkOGFlODQyNzBiZTMyNjEwNmY2OGZjYzlkYzMwZDE4NmUzYyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_76b56db823234e0b91109ea986fff651",
+      "statement": "The Federal Reserve will assess incoming data and the evolving outlook and may adjust policy if risks could impede its objectives; it separately continues previously announced Treasury and agency MBS balance-sheet reductions without changing their pace.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FED/2026-01-policy-rate-path-statement.md#L15-L21",
+          "version": "repo-lines-v1:sha256:5a28074b987529c4465c0159ea054e67b118d9c27faa3551abdd6a5b2a448b2b:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZlZmU5ZjNiMjdkNzAyZGYxY2JlNTEyZmZlZjNmMDRiMjVjMzA1MmRlMDk5OTMyNDczZmU5N2IzZGI1NGRlNSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGI3NTUyY2U3NTdiM2M1MGNlZDExM2ZhYWQ2MDQ5NDA3MWE0ZjJkYWQ4NGU1YTVhOTYyM2VjYTYxMDZhYjNkYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiN2ZjMmYzNWE0ZTYxODk3N2I1MzIyNzM5Y2MwNzRjY2VkNDc2YzA5NTRkZjMwNDAzZTU5MGJkMGVhYjUwYjNjOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTk2YjRmZTRjMmQ1NTdjOWU2YjEyZWYyNzc4ZTE5NTJiOTMzMWU2Mjc0NTk1MWRiMmY0OTBkZmFmNjBkYzZiZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_b540166a4ca94c60ba59c6328392d63c",
+      "statement": "The US Fixed Income research desk treats the Federal Reserve's measured, realised-disinflation-contingent guidance as the basis for its central case, but its assumption of three reductions in the next twelve months versus a market-implied two and a half is a desk assumption, not Federal Reserve guidance.",
+      "evidence": [
+        {
+          "resource": "repo://bulletins/FED/2026-01-policy-rate-path-statement.md#L9-L13",
+          "version": "repo-lines-v1:sha256:b07aa4f7b62c78e8140a4a52477571dce62760ac6d8e693e070c206f0037267d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjBhMmY5MDVhMzJkNGVjY2ZkNDE1MTY4ZTJlYThlNDM1ZWExZWJlYWNlZDY0YmFmNGU3Y2RkMDZmMTg4MjYzZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2EwZTg1YzM2MGE4YmQwNTM0ODdkZjQ0N2QxN2I1ZWZkNmE2YjA2ZDFjOTZjN2JiZmZiODU4ZWNkZGZiYjA2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGNmMDFmNTY2YWZmMzc3ZjczMTJjMWE0OGQxZTQ2YTJhNDdiYzFhNmRhNTk0YmIxZmU0ZWYwNDUwYWNjNTJiMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDRhMTcwNGQ3Mjc1N2Y1NzcwM2Q4YWU5ZTE5YmJkOGFlODQyNzBiZTMyNjEwNmY2OGZjYzlkYzMwZDE4NmUzYyJ9"
+        },
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L9-L13",
+          "version": "repo-lines-v1:sha256:38dd51861ee134282928d6cd09ae7ad43dd4bb95136aab5eeaba509a67ba8c1d:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzc3YWU1NjQwZGQyYzk1MGQ0M2Y3ZTUyODBiOWVlN2Q2NGEyNzcwZmYzOWQ4NWQwYzBkNTllZjNiZWEyNDQyZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M1NTU5NWQ0NWQ3YzhlOTdiZWFiNjYwMTc0NmVlNzU1YjMwZWViYTY5NmNkYzFmZjE5OTZjNjk4NzUyZjFkMSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYWU0MjMxZmE1YzEyZjM5NjRmZWU2N2I1ZGIwMTI0ZjM4ODViZTFjYjk5MmE5NDZkN2FjNTIzYTI5ZDVkMGUzZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNThiNzE2MGY2ZGRmYTNiZWNlMDA1YmRhMmJhYWQzZGE1YmE4ODMxYThhYWUwNDcxMWY5YmJjYTg3NjNlODEyNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_38a529852a61484caf76d5d076fecc2f",
+      "statement": "The duration note expresses its modest +0.4-year duration recommendation in the five-to-ten-year sector with a steepening bias, avoids long-end duration, and identifies loss of the F.2 inflation contingency, increased long-end supply, and disorderly term-premium repricing as risks.",
+      "evidence": [
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L15-L25",
+          "version": "repo-lines-v1:sha256:ffe2070334bfd1d216757d342eed1a7a67747a0dae0a78b6c956fbb705f2ce14:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjllNzI5ZmZmMjA3NGI3NmYxNTlkZWM2YTJjZjE3ODNmYzRiZTU1OGUwMDk4MmQxMzg0Nzc2NzQ3YWZhYTU2MWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZhODQ3YTA3NmZmN2ZlM2Q0NjA0MzA4OTIxOTA5MmYyODI4NjNmMTY5MTVjMWFiYmE2ZDE1YmJjNTJhYjFiYjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFiYWY5MWEwZjBiMDk0MjJjNjNhY2MxODBjNWU0YTVlMTIyODI3YTBiMGEzMTA2NDgwOGU5OGM0ODlkMGE4YTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgzMDk0NWIyYzgyYzE1ODZkYWIxZmM3YTJlMGQxMTkzZTkyYTY5YWYwNTU1ZWFiZmY0OTQ4NmQ5NDk0N2JmOTEifQ"
+        },
+        {
+          "resource": "repo://research/FI/US/DURATION-PATH/2026-01.md#L5-L7",
+          "version": "repo-lines-v1:sha256:3330260f3e0adf7e16854c3ed61e87472b3bf4aff79686785278907d5598b59d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDM2ZmQxMjFkNDA2ZjQwNTdhNmJjMTE5OGY3Mzg2ZTZmMzNlYjEyMDYzZGRkOTg2OTQzYThhY2IzYmE1NDIzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOGQ4ZGEwYzhjNDBlZjVjYTRhNDdhNTlhNjFiNTdiYTA1Mzc5NGYyN2E1ZWFiMzhhYzg4YzdmNzJlMzU4ZTAxYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzg0YmVkMDUxZTMwMzYxNTlmY2JmNWI4YmU2OTliODQxMDI2MDg0MmI2ZGY2MThiYTkxYjY3ZjA1MWI1MDZiYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTg4YWI1YjEyYzZjMzZjZGIwNmJiMjkxM2YzNjI0NjQ0YTU2MDQ4NGJiNGZmM2Q2NmRjZDAxYzk4Y2IwZGNlOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.0",
+    "at": "2026-09-17T02:15:41.124Z"
+  }
+}
