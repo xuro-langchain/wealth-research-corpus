@@ -1,33 +1,34 @@
-# Demo staging
+# Staged demo documents
 
-Nothing in this folder is part of the initial corpus. These files are introduced *during* the
-demo to trigger a real `openwiki --update` and show the change-propagation loop working.
+Documents held out of the corpus so they can be ingested live during a demo. `.openwikiignore`
+excludes this directory, so nothing here is visible to OpenWiki until it is deliberately committed
+into `research/` or `bulletins/` by the ingest API.
 
-Do not move them into `corpus/` before running `openwiki --init`.
+Do not move these into place by hand. The point of the demo is that the ingest API infers the
+destination from the document's content, shows the inference on a confirm screen, and commits it —
+including the supersession marker on the edition being replaced.
 
-## Step 3 — supersession and blast radius
+| File | Ingests as | What it demonstrates |
+| --- | --- | --- |
+| `SEC-2026-14.md` | `bulletins/SEC/2026-05-qualified-purchaser-exemption-relief-for-registered-advisers.md` | A net-new regulatory document. Small compile, and an honest blast radius of zero — nothing cites it yet. It `restores` access that `SEC Release 2025-08 Q.2` removed and `preserves` the family company threshold at `E.4`. |
+| `MUNI-CREDIT/2026-04.md` | `research/FI/US/MUNI-CREDIT/2026-04.md` | The heavier run. A re-issued research note that **supersedes** `2025-11`, which the taxable fixed income allocation guide derives its municipal overweight from. The impact analysis reports internal guidance resting on a withdrawn note. |
 
-1. Copy `HO-3/2022-03.md` to `corpus/forms/HO/MS/HO-3/2022-03.md`.
-2. Copy `HO-04-95/2022-03.md` to `corpus/forms/HO/MS/HO-04-95/2022-03.md`.
-3. Append the supersession block from `supersession-marker.md` to the top of
-   `corpus/forms/HO/MS/HO-3/2018-09.md`, directly under the title. Change nothing else in that
-   file.
-4. Run `openwiki --update`.
+## The supersession beat
 
-What to expect: every claim citing the 2018-09 form flags `stale` because that file's bytes
-changed. The Texas appetite guide and the claims-handling guidance both cite 2018-09 sections,
-so the pages covering them are force-queued for review even though those guidance files were not
-touched. That is the blast radius.
+`MUNI-CREDIT/2026-04.md` is the one worth rehearsing. The chain the agent has to walk:
 
-What should *not* happen: claims citing the 2011-05 edition must stay clean. That edition was
-already marked superseded and was not touched, and it still governs the policies written under
-it.
+1. `FI-US-MUNI-CREDIT 2025-11` recommends a municipal overweight at `M.1` and states at `M.2` that
+   the recommendation rests on an AMT assumption — naming, at `M.7`, the change that would
+   invalidate it.
+2. `IRS Notice 2026-18` makes exactly that change at `N.2` and `N.3`. It is already in the corpus.
+3. `guidelines/allocation/us-taxable-fixed-income.md` derives a binding 22% municipal weight at
+   `A.3` from that note, and pairs an IG corporate underweight to it at `A.5`.
+4. Ingesting `2026-04` marks `2025-11` superseded. Every claim citing `2025-11` is now a claim
+   resting on a withdrawn note — including the ones the allocation guide depends on.
+5. `guidelines/authority/discretion-matrix.md` at `D.4` says what a portfolio manager must then do,
+   and says explicitly that carrying the prior weight forward is not the conservative choice.
 
-## Step 5 — relocation on a living document
-
-Edit `corpus/guidelines/appetite/tx-homeowners.md` in place: change the roof age threshold in
-G.2 from fifteen years to ten years, and separately insert a new paragraph into G.1 above it.
-
-Run `openwiki --update`. The claim about the roof age threshold should flag `stale`. Claims about
-G.3 water backup and G.5 prior losses should *not* flag, even though the inserted paragraph
-shifted their line numbers. That is the relocation anchors working.
+The nuance that makes it a good demo rather than a dramatic one: `IRS Notice 2026-18 N.4`
+**preserves** the treatment of qualified 501(c)(3) interest, and two of the three preferred sectors
+at `M.5` are 501(c)(3) issuers. A report that says the whole municipal view is dead has over-read
+the notice. A correct report separates what was removed from what survived.

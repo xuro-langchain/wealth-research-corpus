@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/eugeneliu-86/openwiki-insurance-poc/contracts/compile-state.schema.json",
+  "$id": "https://github.com/xuro-langchain/wealth-research/contracts/compile-state.schema.json",
   "title": ".compile-state.json",
   "description": "Written only by the refresh workflow. Carries what OpenWiki's own state files do not: the claims delta, workflow provenance, and attempt count. additionalProperties is false so a field duplicated from .last-update.json or .page-manifest.json fails validation (C3).",
   "type": "object",

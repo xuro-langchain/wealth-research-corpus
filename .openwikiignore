@@ -16,18 +16,18 @@ demo/
 .compile-state.json
 .claims-index.json
 
-# Repository machinery, not coverage knowledge. The workflow file in particular
+# Repository machinery, not research knowledge. The workflow file in particular
 # is edited throughout phase 04, and every edit would otherwise register as a
 # corpus change and force a full 20-page regeneration.
 .github/
 
 # Instructions addressed to coding agents working ON this repo, as opposed to
-# the policy documents the wiki is built FROM.
+# the research and regulatory documents the wiki is built FROM.
 AGENTS.md
 CLAUDE.md
 
 # Phase 04 workflow machinery: the claims-delta, index-builder and callback
-# scripts, the vendored index code, and the compile-state schema. Not coverage
+# scripts, the vendored index code, and the compile-state schema. Not research
 # knowledge, and Python in the source fingerprint would make OpenWiki try to
 # document it as code.
 scripts/

@@ -10,7 +10,7 @@
 #
 #   scripts/sync-vendor.sh [path-to-poc-repo]
 set -euo pipefail
-POC="${1:-../openwiki-insurance-poc}"
+POC="${1:-../wealth-research}"
 here="$(cd "$(dirname "$0")" && pwd)"
 for rel in contracts/__init__.py contracts/evidence_anchor.py contracts/relation_types.py \
            contracts/corpus_manifest.py tools/__init__.py tools/claims_index.py tools/corpus_local.py; do

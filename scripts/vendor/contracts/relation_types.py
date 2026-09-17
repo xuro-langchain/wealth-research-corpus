@@ -1,21 +1,19 @@
 """Normalising a document relation to one of six types. Contract C11.
 
-The corpus brief defines six verbs and a direction rule. Measured effect of
-adding it, over one clean regeneration:
+The corpus brief defines six verbs and a direction rule, and asking the compile
+to use them is not the same as getting them. A large share of genuine relations
+come back in synonyms instead — "replaces", "overrides", "changes only", the
+noun "carve-out", "does not restore" — so the vocabulary constraint holds only
+part of the time.
 
-                                   before    after
-    relation candidates              84       123
-    stated with a controlled verb     8        43   (9% -> 34%)
-    direction correct, verifiable    1/3     23/33
-    distinct directed edges          22        25
+That is a tier-4 failure in the enforcement taxonomy, which is why the map lives
+here rather than being trusted from the claim text. The brief raises the signal;
+this produces the contract.
 
-The other 80 are GENUINE relations expressed in synonyms — "replaces",
-"overrides", "changes only", the noun "write-back", "does not restore". The
-information is there; the vocabulary constraint held about a third of the time.
-
-That is a tier-4 failure in the enforcement taxonomy, which is why the map
-lives here rather than being trusted from the claim text. The brief raises the
-signal; this produces the contract.
+The verbs are the insurance set this corpus was adapted from, with one rename:
+`writes-back` became `restores`, because what an exemption does to a trading
+restriction is restore a permitted action, and "write-back" is a policy-forms
+idiom that means nothing to an investment reader.
 """
 
 from __future__ import annotations
@@ -23,46 +21,50 @@ from __future__ import annotations
 import re
 
 #: Ordered most-specific first; first match wins. Order matters: "replaces"
-#: appears under both writes-back and supersedes, and an endorsement replacing
-#: an exclusion is a write-back while an edition replacing an edition is a
-#: supersession, so the exclusion-scoped pattern must be tried first.
+#: appears under both restores and supersedes, and an exemption replacing a
+#: restriction is a restoration while an edition replacing an edition is a
+#: supersession, so the restriction-scoped pattern must be tried first.
 PATTERNS: tuple[tuple[str, str], ...] = (
     (
-        "writes-back",
+        "restores",
         # `(?<!not )` because "does NOT restore" is a preserves, not a
-        # write-back, and this pattern is tried first. Without the lookbehind
+        # restoration, and this pattern is tried first. Without the lookbehind
         # every negated restoration inverts to its opposite.
-        r"\bwrit(?:e|es|ing|ten)[ -]back\b|\bwrite-back\b"
-        r"|(?<!not )\brestor(?:e|es|ing)\b"
-        # `[\s\S]` not `[^.]`: provision references contain dots ("A.3"), so a
-        # dot-excluding gap never reaches the word "exclusion".
-        r"|\boverrid(?:e|es)\b|\breplaces?\b[\s\S]{0,40}\bexclusion\b"
+        r"(?<!not )\brestor(?:e|es|ing)\b"
+        r"|\bcarves? out\b|\bcarve-out\b|\bexempt(?:s|ed|ion)?\b"
+        r"|\bsafe harbou?r\b|\bno-action relief\b|\brelief from\b"
+        # `[\s\S]` not `[^.]`: provision references contain dots ("Rule 2.1"),
+        # so a dot-excluding gap never reaches the word "restriction".
+        r"|\boverrid(?:e|es)\b|\breplaces?\b[\s\S]{0,40}\b(?:restriction|prohibition)\b"
         r"|\bnotwithstanding\b|\bexcept as provided\b",
     ),
     (
         "preserves",
         r"\bpreserv(?:e|es)\b|\bcontinues? to apply\b|\bremains? in (?:full )?(?:force|effect)\b"
-        r"|\bin full\b|\bunchanged\b|\bstill (?:applies|excluded)\b"
-        r"|\bdoes not (?:restore|extend|provide)\b",
+        r"|\bin full\b|\bunchanged\b|\bstill (?:applies|restricted|prohibited)\b"
+        r"|\bdoes not (?:restore|extend|exempt|disturb)\b",
     ),
     (
         "supersedes",
-        r"\bsupersede[sd]?\b|\bremains (?:the governing form|in force) for policies\b"
-        r"|\bedition in force\b|\bprior edition\b|\bgoverning (?:form|edition)\b",
+        r"\bsupersede[sd]?\b|\bwithdraw(?:n|s|al)?\b"
+        r"|\bremains the basis of record for positions\b"
+        r"|\bedition in force\b|\bprior edition\b|\bgoverning (?:note|edition)\b",
     ),
     (
         "implements",
-        r"\bimplement(?:s|ed|ing)?\b|\bas required by\b|\bpursuant to\b|\bcarries out\b",
+        r"\bimplement(?:s|ed|ing)?\b|\bas required by\b|\bpursuant to\b|\bcarries out\b"
+        r"|\bin response to\b",
     ),
     (
         "constrains",
-        r"\bmay not\b|\bmust not\b|\bprohibit(?:s|ed)?\b|\brequires? referral\b"
-        r"|\boutside appetite\b|\brequires? (?:inspection|approval)\b|\bauthority\b",
+        r"\bmay not\b|\bmust not\b|\bprohibit(?:s|ed)?\b|\brequires? (?:referral|escalation)\b"
+        r"|\boutside (?:mandate|the mandate)\b|\brequires? (?:approval|sign-off)\b|\bauthority\b",
     ),
     (
         "modifies",
         r"\bmodif(?:y|ies|ied)\b|\bamend(?:s|ed)?\b|\bchanges only\b|\bsubject to\b"
-        r"|\bschedule in\b|\bsublimit\b|\bdeductible\b|\bsettle[sd]?\b|\blimits? (?:to|the)\b",
+        r"|\bschedule in\b|\bsub-limit\b|\bsublimit\b|\btolerance band\b|\bthreshold\b"
+        r"|\breduces? the (?:target|weight|allocation)\b|\blimits? (?:to|the)\b",
     ),
 )
 
@@ -74,10 +76,10 @@ _COMPILED = tuple((name, re.compile(pattern, re.I)) for name, pattern in PATTERN
 def normalize(statement: str) -> str | None:
     """Return one of TYPES, or None.
 
-    None rather than a guess, deliberately. `preserves` and `writes-back` are
-    opposites — HO 04 90 writes back Section I A.3 and expressly preserves A.1
-    and A.2 — so a wrong type inverts a coverage answer. A missing type only
-    withholds one.
+    None rather than a guess, deliberately. `preserves` and `restores` are
+    opposites — SEC 2026-14 restores the qualified-purchaser exemption at
+    Rule 2.1 and expressly preserves the concentration limit at Rule 2.2 — so a
+    wrong type inverts an allocation answer. A missing type only withholds one.
     """
     text = statement or ""
     for name, pattern in _COMPILED:
