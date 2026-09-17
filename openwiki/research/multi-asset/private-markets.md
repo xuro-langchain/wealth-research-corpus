@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Private markets"
 openwiki_generated: true
 verified:

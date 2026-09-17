@@ -143,6 +143,15 @@ jobs:
         if: ${{ !cancelled() }}
         run: ./scripts/claim-diff.sh snapshot /tmp/claims-after.txt
 
+      # The compile honours the page-type vocabulary only partially (10 of 18
+      # pages came back `type: "Reference"` on the first clean run), and the
+      # agent reads `type` to decide what authority a page carries. Type is
+      # derivable from the wiki path, so derive it. Runs BEFORE the index, which
+      # is built from the pages.
+      - name: Normalise page types
+        if: ${{ !cancelled() }}
+        run: python3 scripts/normalise-page-types.py
+
       # C11. Imports the vendored phase 02 index code; never a reimplementation.
       - name: Build the claims index
         if: ${{ !cancelled() }}

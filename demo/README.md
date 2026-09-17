@@ -10,25 +10,31 @@ including the supersession marker on the edition being replaced.
 
 | File | Ingests as | What it demonstrates |
 | --- | --- | --- |
-| `SEC-2026-14.md` | `bulletins/SEC/2026-05-qualified-purchaser-exemption-relief-for-registered-advisers.md` | A net-new regulatory document. Small compile, and an honest blast radius of zero — nothing cites it yet. It `restores` access that `SEC Release 2025-08 Q.2` removed and `preserves` the family company threshold at `E.4`. |
-| `MUNI-CREDIT/2026-04.md` | `research/FI/US/MUNI-CREDIT/2026-04.md` | The heavier run. A re-issued research note that **supersedes** `2025-11`, which the taxable fixed income allocation guide derives its municipal overweight from. The impact analysis reports internal guidance resting on a withdrawn note. |
+| `FED-2026-09-16-implementation-note.md` | `bulletins/FED/2026-09-…` | A net-new regulatory document. Small compile, and an honest blast radius of zero — nothing cites it yet. It `implements` the FOMC statement at `F.1` and `preserves` the balance-sheet policy at `F.4`, so it exercises typed relations without invalidating anything. |
+| `MUNI-CREDIT/2026-04.md` | `research/FI/US/MUNI-CREDIT/2026-04.md` | The heavier run. A re-issued research note that **supersedes** `2025-06`, which the taxable fixed income allocation guide derives its municipal overweight from. The impact analysis reports internal guidance resting on a withdrawn note. |
 
 ## The supersession beat
 
-`MUNI-CREDIT/2026-04.md` is the one worth rehearsing. The chain the agent has to walk:
+`MUNI-CREDIT/2026-04.md` is the one worth rehearsing, and the chain is real regulation rather than
+invented events:
 
-1. `FI-US-MUNI-CREDIT 2025-11` recommends a municipal overweight at `M.1` and states at `M.2` that
-   the recommendation rests on an AMT assumption — naming, at `M.7`, the change that would
-   invalidate it.
-2. `IRS Notice 2026-18` makes exactly that change at `N.2` and `N.3`. It is already in the corpus.
+1. `FI-US-MUNI-CREDIT 2025-06` recommends a municipal overweight at `M.1` and states at `M.2` that
+   it rests on the AMT phase-out thresholds then in force — naming, at `M.7`, a reduction in that
+   threshold as the change that would invalidate it.
+2. `IRS Revenue Procedure 2025-32` does exactly that at `N.2`: the phase-out threshold for taxable
+   years beginning in 2026 drops to $500,000 / $1,000,000, from a 2025 exemption that did not reach
+   zero until $978,750 / $1,800,700. It is already in the corpus, and it is a real release.
 3. `guidelines/allocation/us-taxable-fixed-income.md` derives a binding 22% municipal weight at
    `A.3` from that note, and pairs an IG corporate underweight to it at `A.5`.
-4. Ingesting `2026-04` marks `2025-11` superseded. Every claim citing `2025-11` is now a claim
+4. Ingesting `2026-04` marks `2025-06` superseded. Every claim citing `2025-06` is now a claim
    resting on a withdrawn note — including the ones the allocation guide depends on.
 5. `guidelines/authority/discretion-matrix.md` at `D.4` says what a portfolio manager must then do,
    and says explicitly that carrying the prior weight forward is not the conservative choice.
 
-The nuance that makes it a good demo rather than a dramatic one: `IRS Notice 2026-18 N.4`
-**preserves** the treatment of qualified 501(c)(3) interest, and two of the three preferred sectors
-at `M.5` are 501(c)(3) issuers. A report that says the whole municipal view is dead has over-read
-the notice. A correct report separates what was removed from what survived.
+The nuance that makes it a good demo rather than a dramatic one: §57(a)(5)(C)(ii) excepts qualified
+501(c)(3) bonds from the preference treatment altogether, and the revenue procedure leaves that
+exception undisturbed at `N.5`. Two of the three preferred sectors at `M.5` — non-profit hospital
+systems and private higher education — are predominantly 501(c)(3) issuers.
+
+A report that says the whole municipal view is dead has over-read it. A correct report separates
+what the threshold reached from what the statute never exposed.

@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Investment grade spreads"
 openwiki_generated: true
 verified:

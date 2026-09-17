@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: allocation-guidance
 title: "Internal Guidance: Global Multi-Asset Bands"
 openwiki_generated: true
 verified:

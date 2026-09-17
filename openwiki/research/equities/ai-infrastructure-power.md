@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Ai infrastructure power"
 openwiki_generated: true
 verified:

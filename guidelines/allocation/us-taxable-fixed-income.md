@@ -2,7 +2,7 @@
 
 Internal investment guidance setting the fixed income sleeve weights for United States taxable client accounts. This is not a research note and not investment advice to any client. It translates the research desk's published views into binding portfolio weights, and it may never assert a view the research corpus does not support.
 
-Last revised 2025-12-02 by the Investment Policy Committee.
+Last revised 2025-07-15 by the Investment Policy Committee.
 
 ## A.1 Standing
 
@@ -18,13 +18,13 @@ The taxable fixed income sleeve is composed of United States Treasuries, agency 
 
 For clients in the top federal marginal bracket, municipal credit carries a target weight of twenty-two percent of the fixed income sleeve, against a neutral weight of eighteen percent.
 
-The four point overweight, and its concentration in the private activity segment, is adopted from FI-US-MUNI-CREDIT edition 2025-11 at M.1, and rests on the after-tax analysis at M.2 of that note. The committee adopted the desk's own framing: this is an after-tax position, not a credit position, and the fundamental case at M.3 supports only a portion of it.
+The four point overweight, and its concentration in the private activity segment, is adopted from FI-US-MUNI-CREDIT edition 2025-06 at M.1, and rests on the after-tax analysis at M.2 of that note. The committee adopted the desk's own framing: this is an after-tax position, not a credit position, and the fundamental case at M.3 supports only a portion of it.
 
 For clients below the top federal bracket, the municipal weight is the neutral eighteen percent and the private activity concentration does not apply. The after-tax advantage that justifies the overweight is a top-bracket advantage and does not exist for these accounts.
 
 ## A.4 Municipal Sector Limits
 
-Within the municipal allocation, the sector preferences at M.5 of FI-US-MUNI-CREDIT 2025-11 are binding as limits and not merely as preferences.
+Within the municipal allocation, the sector preferences at M.5 of FI-US-MUNI-CREDIT 2025-06 are binding as limits and not merely as preferences.
 
 No more than thirty-five percent of the municipal allocation may sit in any one of the preferred sectors named at M.5. No position may be taken in the sectors the desk is underweight at M.5 — standalone senior living, single-asset student housing, and single-obligor industrial development paper — without approval under D.3.
 
@@ -48,4 +48,4 @@ Harvesting within the municipal allocation must respect the sector limits at A.4
 
 ## A.8 Review
 
-This guide is reviewed quarterly, and out of cycle whenever a research note it cites is re-issued or withdrawn. The notes it currently rests on are FI-US-MUNI-CREDIT 2025-11 and FI-US-IG-SPREADS 2025-09.
+This guide is reviewed quarterly, and out of cycle whenever a research note it cites is re-issued or withdrawn. The notes it currently rests on are FI-US-MUNI-CREDIT 2025-06 and FI-US-IG-SPREADS 2025-09.

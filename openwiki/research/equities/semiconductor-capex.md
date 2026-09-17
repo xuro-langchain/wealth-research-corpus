@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Semiconductor capex"
 openwiki_generated: true
 verified:

@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: allocation-guidance
 title: "Internal Guidance: US Taxable Fixed Income"
 openwiki_generated: true
 verified:

@@ -1,5 +1,5 @@
 ---
-type: suitability-guidance
+type: authority-guidance
 title: "Internal Guidance: Discretion and Escalation"
 description: "Internal authority guidance for portfolio-manager discretion, mandatory approvals, superseded-research escalation, non-clearable conditions, and audit records. Use it with the applicable mandate and suitability guides; it does not provide client investment advice."
 tags: [authority, discretion, escalation, approvals, audit]

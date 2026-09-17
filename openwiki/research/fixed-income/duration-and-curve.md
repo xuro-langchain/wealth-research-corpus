@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "US Duration and Curve: 2026-01 View"
 openwiki_generated: true
 verified:

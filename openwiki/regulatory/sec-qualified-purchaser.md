@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: regulatory-overlay
 title: "Regulatory Overlay: SEC Qualified Purchaser Thresholds"
 openwiki_generated: true
 verified:

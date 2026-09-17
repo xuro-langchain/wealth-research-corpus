@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: suitability-guidance
 title: "Internal Guidance: Private Markets Eligibility and Suitability"
 openwiki_generated: true
 verified:

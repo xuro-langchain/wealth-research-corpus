@@ -1,5 +1,5 @@
 ---
-type: "Reference"
+type: market-view
 title: "Global Rates Regime: 2026-02 View"
 openwiki_generated: true
 verified:
