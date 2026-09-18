@@ -25,7 +25,6 @@ import logging
 import os
 import pathlib
 import tarfile
-import tempfile
 
 from dataclasses import dataclass, field
 
@@ -36,7 +35,17 @@ logger = logging.getLogger(__name__)
 OWNER = os.environ.get("CORPUS_OWNER", "eugeneliu-86")
 REPO = os.environ.get("CORPUS_REPO", "wealth-research-corpus")
 
-CACHE_ROOT = pathlib.Path(tempfile.gettempdir()) / "research-agent-corpus"
+#: TMPDIR read directly rather than through tempfile.gettempdir(), which walks a
+#: candidate list and calls os.getcwd() on the way. That is a blocking syscall,
+#: and this module is imported lazily on any build where tools/claims.py is not
+#: in the tool list -- so the call lands inside an async tool call and
+#: blockbuster refuses it. On the default build the claims tools import this at
+#: startup, outside the event loop, and it resolves once; the grep-only branch
+#: drops them, and every tool call then raised BlockingError, returned an empty
+#: answer in six seconds, and scored as though the build were merely worse.
+#: Import order is not a guarantee, so the syscall goes rather than the ordering
+#: being relied on.
+CACHE_ROOT = pathlib.Path(os.environ.get("TMPDIR") or "/tmp") / "research-agent-corpus"
 
 #: Text extensions worth preloading. Everything the tools read is text; the
 #: whole corpus is 1.2 MB, so holding it in memory costs nothing and removes an
