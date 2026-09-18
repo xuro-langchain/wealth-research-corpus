@@ -29,6 +29,8 @@ and the index is derived from the pages.
 """
 from __future__ import annotations
 
+import hashlib
+import json
 import pathlib
 import re
 import sys
@@ -90,6 +92,55 @@ def is_index(rel: str) -> bool:
     return rel.endswith("index.md") or rel == "quickstart.md"
 
 
+CLAIMS = WIKI / ".claims"
+
+
+def sync_page_versions(check_only: bool) -> list[str]:
+    """Bring each sidecar's `pageVersion` up to the page it describes.
+
+    WHY THIS IS NEEDED, AND WHY IT IS SAFE.
+
+    OpenWiki hashes a page when it verifies that page's claims and stores the
+    hash as `pageVersion`. This script then rewrites the page's `type`
+    frontmatter, which changes those bytes -- so the sidecar is left describing
+    a version of the page that no longer exists. OpenWiki's next run reads that
+    mismatch and refuses: "Cannot advance page coverage ...; Markdown and
+    verified Claims are not durable", exit 1. The refresh workflow has been
+    failing on exactly this, and it could not recover on its own, because each
+    run normalised again and re-broke what it had just rebuilt.
+
+    Rehashing asserts nothing false. The only bytes this script touches are a
+    frontmatter `type:` line, and no claim's evidence points at a wiki page --
+    every pointer is a `repo://` range in a SOURCE document. The claims are
+    unchanged; only the record of which page text they were read from needs to
+    catch up. A genuine edit to a page's prose still has to go through a
+    compile, and this does not hide one: it runs immediately after the
+    normaliser, inside the same workflow step, where the normaliser is the only
+    thing that can have touched a page since OpenWiki verified it.
+    """
+    if not CLAIMS.is_dir():
+        return []
+    synced: list[str] = []
+    for side in sorted(CLAIMS.rglob("*.json")):
+        rel = side.relative_to(CLAIMS).with_suffix(".md")
+        page = WIKI / rel
+        if not page.exists():
+            continue
+        try:
+            data = json.loads(side.read_text())
+        except json.JSONDecodeError:
+            print(f"  WARNING: {side} is not valid JSON; left alone", file=sys.stderr)
+            continue
+        actual = "sha256:" + hashlib.sha256(page.read_bytes()).hexdigest()
+        if data.get("pageVersion") == actual:
+            continue
+        synced.append(f"{rel}: pageVersion {str(data.get('pageVersion'))[7:19]} -> {actual[7:19]}")
+        if not check_only:
+            data["pageVersion"] = actual
+            side.write_text(json.dumps(data, indent=2) + "\n")
+    return synced
+
+
 def main(check_only: bool) -> int:
     if not WIKI.is_dir():
         print("no openwiki/ — nothing to normalise")
@@ -149,17 +200,31 @@ def main(check_only: bool) -> int:
             path.write_text(f"---\n{new_block}\n---\n{text[m.end():]}")
         changed.append(f"{rel}: {current!r} -> {want}")
 
+    # Always, not only when a page changed: a sidecar can be born stale, because
+    # OpenWiki commits the hash it verified alongside a page this script has
+    # already rewritten in the same run. Three of this corpus's pages were in
+    # that state with no later normalisation to explain it.
+    synced = sync_page_versions(check_only)
+
     for line in changed:
+        print(f"  {line}")
+    for line in synced:
         print(f"  {line}")
     if unmapped:
         print("\nNOT MAPPED — add a rule in RULES or these pages carry no type:")
         for rel in unmapped:
             print(f"  {rel}")
 
-    if check_only and (changed or unmapped):
-        print(f"\n{len(changed)} page(s) would change, {len(unmapped)} unmapped")
+    # `synced` counts too. A stale pageVersion is what makes OpenWiki's next run
+    # refuse the page, so CI has to fail on it rather than report it and pass --
+    # that is how eleven of this corpus's sixteen pages drifted unnoticed until
+    # the compile stopped.
+    if check_only and (changed or unmapped or synced):
+        print(f"\n{len(changed)} page(s) would change, {len(synced)} pageVersion(s) "
+              f"stale, {len(unmapped)} unmapped")
         return 1
-    print(f"\n{len(changed)} page(s) normalised, {len(unmapped)} unmapped")
+    print(f"\n{len(changed)} page(s) normalised, {len(synced)} pageVersion(s) synced, "
+          f"{len(unmapped)} unmapped")
     return 0
 
 

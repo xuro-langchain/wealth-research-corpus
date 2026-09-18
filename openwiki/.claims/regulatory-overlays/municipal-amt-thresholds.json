@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:feedcf2ed8ad3d9855e63161d6986dcd43262f98bb1506c4ca222c0a76f1afa2",
+  "pageVersion": "sha256:0fd360d9dbda51ba3743a01d86da79d36b6848e2cc3aadea4860076750a62258",
   "claims": [
     {
       "id": "claim_1d8528a5b2824b98855168b580e04e6d",
@@ -18,7 +18,7 @@
     },
     {
       "id": "claim_ac688dafba0f4ad99171d25b879b7013",
-      "statement": "IRS Revenue Procedure 2025-41 N.5 preserves qualified 501(c)(3) bond interest as outside the private-activity-bond AMT preference and AMTI, maintaining the distinction relevant to the municipal note’s predominantly qualified-501(c)(3) nonprofit hospital and private-higher-education preferred sectors, but not its predominantly non-qualified airport special-facility sector.",
+      "statement": "IRS Revenue Procedure 2025-41 N.5 preserves qualified 501(c)(3) bond interest as outside the private-activity-bond AMT preference and AMTI, maintaining the distinction relevant to the municipal note\u2019s predominantly qualified-501(c)(3) nonprofit hospital and private-higher-education preferred sectors, but not its predominantly non-qualified airport special-facility sector.",
       "evidence": [
         {
           "resource": "repo://external_sources/IRS/2025-08-rev-proc-2025-41-amt-thresholds.md#L30-L34",

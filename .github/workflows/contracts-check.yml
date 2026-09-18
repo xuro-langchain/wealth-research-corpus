@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Page types and sidecar pageVersions are in sync
+        # A stale pageVersion makes OpenWiki refuse the page on its next run
+        # ("Markdown and verified Claims are not durable"), which took the
+        # refresh workflow down for a day. Eleven of sixteen pages had drifted
+        # before anything noticed, so it is asserted here rather than left for
+        # the compile to discover.
+        run: python3 scripts/normalise-page-types.py --check
       - name: Workflow and ignore-file assertions
         timeout-minutes: 2   # a regex regression once hung this rather than failing it
         run: python3 scripts/check-workflow.py

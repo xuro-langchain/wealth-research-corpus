@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:a1851d367f149c96532cc8b8914a0722c1ea24ef2ad81198616b831e512dd86a",
+  "pageVersion": "sha256:d63feec86f303c57d07abdd04eb1ce1fa4da169403b9dd4a495dd59deefeae96",
   "claims": [
     {
       "id": "claim_14954e52de074faea1bc755d4b61e664",
@@ -18,7 +18,7 @@
     },
     {
       "id": "claim_19aee29fc90843b89c693466dda6bb5d",
-      "statement": "For eligible clients with a ten-year horizon, edition 2025-12 recommends a 10–20% strategic private-markets allocation, weighted to secondaries and private credit and away from primary buyout.",
+      "statement": "For eligible clients with a ten-year horizon, edition 2025-12 recommends a 10\u201320% strategic private-markets allocation, weighted to secondaries and private credit and away from primary buyout.",
       "evidence": [
         {
           "resource": "repo://internal_research/MA/GL/PRIVATE-MARKETS/2025-12.md#L12-L18",
@@ -66,7 +66,7 @@
     },
     {
       "id": "claim_0950ea9cfa234aee888805c56137a450",
-      "statement": "The guide's 10% private-markets weight is a separate strategic default for eligible global balanced clients and is reallocated pro rata to liquid sleeves for ineligible clients, rather than making the research note's 10–20% range binding.",
+      "statement": "The guide's 10% private-markets weight is a separate strategic default for eligible global balanced clients and is reallocated pro rata to liquid sleeves for ineligible clients, rather than making the research note's 10\u201320% range binding.",
       "evidence": [
         {
           "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L7-L19",
