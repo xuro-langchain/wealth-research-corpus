@@ -14,7 +14,7 @@
     },
     {
       "id": "claim_c4ab77c3971e4462bb2928268ec42a8c",
-      "statement": "The IG-spreads note describes an approximate four-percentage-point taxable-sleeve underweight whose proceeds are available for a higher-conviction sleeve position, but the allocation guide\u2014not the research note\u2014sets binding weights and controls suspension of weights derived from superseded or withdrawn research.",
+      "statement": "The IG-spreads note describes an approximate four-percentage-point taxable-sleeve underweight whose proceeds are available for a higher-conviction sleeve position, but the allocation guide—not the research note—sets binding weights and controls suspension of weights derived from superseded or withdrawn research.",
       "evidence": [
         {
           "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L33-L43",
@@ -88,7 +88,7 @@
     },
     {
       "id": "claim_ca2b43e763ec409b8aebb1420b0f40cb",
-      "statement": "FI-US-DURATION-PATH 2026-10 recommends a modest +0.4-year duration position expressed in the 5\u201310-year sector with a steepening bias, while specifically avoiding long-end duration because of fair-to-cheap term premium, heavy long-end supply, and no expected compression catalyst.",
+      "statement": "FI-US-DURATION-PATH 2026-10 recommends a modest +0.4-year duration position expressed in the 5–10-year sector with a steepening bias, while specifically avoiding long-end duration because of fair-to-cheap term premium, heavy long-end supply, and no expected compression catalyst.",
       "evidence": [
         {
           "resource": "repo://internal_research/FI/US/DURATION-PATH/2026-10.md#L16-L18",
@@ -102,7 +102,7 @@
     },
     {
       "id": "claim_e56ebfd66414470881d25a62fdc3dd1a",
-      "statement": "The duration view rests on a central case of one further rate increase over 12 months versus 1.5 priced by markets; the September FOMC statement raised the target range to 3.75%\u20134.00% but expressly did not commit to a future adjustment sequence.",
+      "statement": "The duration view rests on a central case of one further rate increase over 12 months versus 1.5 priced by markets; the September FOMC statement raised the target range to 3.75%–4.00% but expressly did not commit to a future adjustment sequence.",
       "evidence": [
         {
           "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L10-L16",
@@ -120,7 +120,7 @@
     },
     {
       "id": "claim_e4f18618e724475aa601d6d8c4f6e5c9",
-      "statement": "FED Implementation Note 2026-09-16 I.1\u2013I.4 implements FED Statement 2026-09-16 F.1 by setting the administered reserve-balance and primary-credit rates effective 2026-09-17; it does not modify or extend the statement or provide path guidance beyond it.",
+      "statement": "FED Implementation Note 2026-09-16 I.1–I.4 implements FED Statement 2026-09-16 F.1 by setting the administered reserve-balance and primary-credit rates effective 2026-09-17; it does not modify or extend the statement or provide path guidance beyond it.",
       "evidence": [
         {
           "resource": "repo://external_sources/FED/2026-09-fomc-statement.md#L10-L12",

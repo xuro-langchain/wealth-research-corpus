@@ -18,7 +18,7 @@
     },
     {
       "id": "claim_5869d710b7554cc496e5c66c2ce7960b",
-      "statement": "The ordinary tolerance bands are \u00b15 percentage points for equities and fixed income and \u00b13 for real assets; private markets has no ordinary band because it cannot be traded, and a weight outside a stated band requires approval under the discretion matrix.",
+      "statement": "The ordinary tolerance bands are ±5 percentage points for equities and fixed income and ±3 for real assets; private markets has no ordinary band because it cannot be traded, and a weight outside a stated band requires approval under the discretion matrix.",
       "evidence": [
         {
           "resource": "repo://internal_guidelines/allocation/gl-multi-asset-bands.md#L17-L19",

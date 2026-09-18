@@ -46,7 +46,7 @@
     },
     {
       "id": "claim_1b054a5dffcf4c689152e899583b2b88",
-      "statement": "The guide makes municipal implementation limits binding: a 35% maximum in any preferred sector, approval for positions in the named underweight sectors, an 8\u201315-year municipal duration band, and approval-only extensions beyond 15 years that cannot be granted portfolio-wide.",
+      "statement": "The guide makes municipal implementation limits binding: a 35% maximum in any preferred sector, approval for positions in the named underweight sectors, an 8–15-year municipal duration band, and approval-only extensions beyond 15 years that cannot be granted portfolio-wide.",
       "evidence": [
         {
           "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L25-L31",
@@ -74,7 +74,7 @@
     },
     {
       "id": "claim_1493e84ec6fc481a984d77ec4bac49a4",
-      "statement": "Each target has a \u00b12 percentage-point market-value tolerance measured at month-end, with ordinary out-of-band drift rebalanced in the next monthly cycle; a breach caused by suspension is not automatically rebalanced and instead requires escalation.",
+      "statement": "Each target has a ±2 percentage-point market-value tolerance measured at month-end, with ordinary out-of-band drift rebalanced in the next monthly cycle; a breach caused by suspension is not automatically rebalanced and instead requires escalation.",
       "evidence": [
         {
           "resource": "repo://internal_guidelines/allocation/us-taxable-fixed-income.md#L39-L43",
