@@ -39,7 +39,7 @@ check(re.search(r"uses:\s*actions/checkout@[0-9a-f]{40}[^\n]*\n\s+with:[^\n]*\n(
       "checkout uses ref: main (a dispatch queued behind a push otherwise recompiles an already-compiled tree)")
 check("COMMIT_OUTCOME: ${{ steps.commit.outcome }}" in WF and "id: commit" in WF,
       "the callback knows whether the commit landed (a rejected push must not report complete)")
-check("COMMIT_LANDED: ${{ steps.commit.outputs.landed }}" in WF and "landed=superseded" in WF and "-- forms bulletins guidelines" in WF,
+check("COMMIT_LANDED: ${{ steps.commit.outputs.landed }}" in WF and "landed=superseded" in WF and "-- internal_research external_sources internal_guidelines" in WF,
       "a push lost to a newer SOURCE commit is reported superseded, not failed; a non-source commit is rebased over")
 check("steps.commit.outputs.landed != 'superseded'" in WF, "a superseded compile does not re-dispatch a resume")
 

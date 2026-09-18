@@ -11,6 +11,13 @@
 #   claim-diff.sh write-state <before> <after> <outcome> <run-url> <attempt> <prev-compiled-from>
 set -euo pipefail
 
+#: The three source directories, named once. They were renamed from the
+#: insurance corpus this was adapted from -- forms, bulletins, guidelines --
+#: and two path lists in this repository were not renamed with them, so both a
+#: change summary and a race detector silently matched nothing. Unexpanded on
+#: purpose at the use sites: these are separate pathspec arguments to git.
+SOURCE_DIRS="internal_research external_sources internal_guidelines"
+
 claim_ids() {
   [ -d openwiki/.claims ] || return 0
   find openwiki/.claims -name '*.json' -exec jq -r '.claims[].id' {} + | sort -u
@@ -83,11 +90,35 @@ case "${1:-}" in
       # hopefully. A mismatch means the compile ran against a different tree than
       # the one being committed, and every downstream answer would be pinned to a
       # commit that does not contain what it claims.
+      #
+      # Scoped to the SOURCE directories, because what the assertion is really
+      # about is whether the wiki still describes this tree. OpenWiki's fast
+      # path does not advance gitHead when there is nothing to recompile, so a
+      # commit that touches only derived output -- a claims-index rebuild, a
+      # vendored-contract sync -- leaves gitHead behind HEAD with the wiki still
+      # perfectly accurate. Asserting against HEAD made every such commit fail
+      # the next scheduled run, which is what happened: seven index and vendor
+      # commits landed after a compile at a4412d69, and the 12:14Z cron went
+      # FATAL against an unchanged corpus. Unscoped, the check cries wolf daily
+      # and cannot self-heal, because each run finds nothing to compile and then
+      # fails the same assertion.
       if [ "$ow_head" != "$head" ]; then
-        echo "FATAL: OpenWiki documented $ow_head but HEAD is $head" >&2
-        exit 1
+        if ! git cat-file -e "$ow_head^{commit}" 2>/dev/null; then
+          # A shallow clone hides it; refusing is right, but say why.
+          echo "FATAL: OpenWiki documented $ow_head, which is not in this clone" >&2
+          echo "       (full history is required to tell a source change from a derived one)" >&2
+          exit 1
+        fi
+        if [ -n "$(git diff --name-only "$ow_head" "$head" -- $SOURCE_DIRS)" ]; then
+          echo "FATAL: source documents changed between $ow_head and HEAD $head" >&2
+          echo "       OpenWiki compiled the older tree; the wiki does not describe this one" >&2
+          git diff --name-only "$ow_head" "$head" -- $SOURCE_DIRS | sed 's/^/       /' >&2
+          exit 1
+        fi
+        echo "OpenWiki documented $ow_head; HEAD is $head but no source document" >&2
+        echo "  changed between them, so the wiki still describes this tree." >&2
       fi
-      state_head="$head"
+      state_head="$ow_head"
     fi
     # An interrupted OpenWiki run exits non-zero and leaves status=interrupted.
     # A non-zero exit WITH metadata written and status=complete is still a
@@ -98,7 +129,7 @@ case "${1:-}" in
 
     changed="[]"
     if [ -n "$prev" ] && git cat-file -e "$prev^{commit}" 2>/dev/null; then
-      changed=$(git diff --name-only "$prev" "$head" -- forms bulletins guidelines | jq -R . | jq -s 'unique')
+      changed=$(git diff --name-only "$prev" "$head" -- $SOURCE_DIRS | jq -R . | jq -s 'unique')
     fi
 
     jq -n --arg head "$state_head" --arg status "$ow_status" \

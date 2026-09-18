@@ -5,7 +5,14 @@
 # told about. Wrapped with `|| true` by the caller: this is an optimization,
 # .compile-state.json in git is the mechanism.
 set -uo pipefail
-: "${REFRESH_CALLBACK_URL:?}" "${REFRESH_CALLBACK_SECRET:?}"
+# Unconfigured is the normal case for a scheduled run, and the header above says
+# this is an optimization rather than the mechanism. `:?` turned that into a
+# noisy "parameter null or not set" line in every run's log, which reads like a
+# failure in a job that already failed for another reason.
+if [ -z "${REFRESH_CALLBACK_URL:-}" ] || [ -z "${REFRESH_CALLBACK_SECRET:-}" ]; then
+  echo "no refresh callback configured; .compile-state.json in git is the mechanism" >&2
+  exit 0
+fi
 [ -f .compile-state.json ] || { echo "no .compile-state.json; nothing to report" >&2; exit 0; }
 # The commit step decides what landed. Superseded means a newer source push
 # won the race and the run it triggered recompiles — reported as such, not as
