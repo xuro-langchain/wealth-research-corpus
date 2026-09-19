@@ -127,9 +127,8 @@ async def _get_json(url: str, token: str | None) -> dict:
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    # A commit pushed seconds ago can 404 on the API for a few seconds while it
-    # propagates. The ingest run is dispatched right after the push, so this is
-    # the normal case, not a corner: retry briefly before calling it missing.
+    # A commit pushed seconds ago can 404 while it propagates, and the ingest run
+    # is dispatched right after the push -- so this is the normal case.
     import asyncio
 
     async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
