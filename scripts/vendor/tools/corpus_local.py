@@ -1,16 +1,9 @@
 """The app-process copy of the corpus.
 
 Authored tools cannot reach the sandbox: `@tool` puts a `ToolRuntime` parameter
-into args_schema under every annotation form, so a tool declaring one fails
-every call with "Field required: runtime" -- and run_in_sandbox needs one. So
-the app process fetches its own copy, one codeload call per commit, 1.2 MB,
-alongside the git-tree manifest it already fetches.
-
-    sandbox /workspace/corpus   the MODEL, via native ls/grep/glob/read_file
-    this local cache            authored TOOLS, hashing and indexing
-
-Neither copy is trusted for having been downloaded; both are verified against
-the same git-tree manifest by the same blob-SHA formula.
+into args_schema, so a tool declaring one fails every call with "Field required:
+runtime". So the app process fetches its own copy for hashing and indexing while
+the model uses the sandbox copy. Both are verified against the same manifest.
 """
 
 from __future__ import annotations

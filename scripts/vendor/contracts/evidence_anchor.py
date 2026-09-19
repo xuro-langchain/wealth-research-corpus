@@ -1,27 +1,15 @@
 """Deterministic verification of an OpenWiki relocation anchor. Contract C7/C11.
 
-Reverse-engineered against the live corpus rather than read out of OpenWiki's
-source; all 630 evidence pointers reproduce exactly.
-
     version = "repo-lines-v1:sha256:<content_hash>:<base64 json metadata>"
+    content_hash = sha256("\n".join(selected_lines) + "\n")
 
-    content_hash          = sha256("\n".join(selected_lines) + "\n")
-    firstSelectedLineHash = sha256(first_selected_line + "\n")
-    lastSelectedLineHash  = sha256(last_selected_line  + "\n")
-    precedingContextHash  = sha256("\n".join(3 lines before) + "\n")
-    followingContextHash  = sha256("\n".join(3 lines after)  + "\n")
+Note the trailing newline -- joining with LF alone does NOT reproduce the hash.
+Reverse-engineered against the corpus; all 630 pointers reproduce exactly.
 
-Note the trailing newline in every case -- joining with LF alone does NOT
-reproduce the hash, and that is the detail worth writing down.
-
-RELOCATION. When the block at the recorded lines no longer hashes, the text may
-simply have MOVED: the first live supersession prepended a three-line marker and
-every anchor into that file failed while the cited language was untouched. So
-the verifier scans for spans of the same length whose first, last and content
-hashes all match; a unique span is the relocation, several are disambiguated by
-the context hashes, still ambiguous means not relocated. Text that CHANGED
-between unchanged contexts stays `content_changed` -- that is the staleness
-signal, and relocation must never paper over it.
+When a block no longer hashes it may have MOVED (a supersession marker shifts
+every line below it), so the verifier scans for a same-length span whose first,
+last and content hashes match. Text that CHANGED between unchanged contexts
+stays `content_changed` -- relocation must never paper over staleness.
 """
 
 from __future__ import annotations

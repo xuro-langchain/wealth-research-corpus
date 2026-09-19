@@ -1,23 +1,10 @@
 """Corpus integrity manifest. Contract C7.
 
-`execute` gives the agent a shell on the sandbox. It can chmod the corpus
-writable and edit a document, and neither the read-only middleware (which
-guards only write_file/edit_file/delete) nor the SHA marker (which records
-which commit was fetched, not what the files contain) would notice. The agent
-would then cite text no filed document contains.
-
-Two choices make this a boundary rather than a speed bump:
-
-1. THE MANIFEST IS AUTHORITATIVE. It is fetched from GitHub's git tree API at
-   the pinned SHA, not computed from what we downloaded, so one mechanism
-   catches a tampered file, a truncated download and a bad extraction.
-
-2. IT LIVES IN THE APP PROCESS. `execute` runs on a separate machine, so shell
-   access cannot reach it -- there is no file to rewrite and no path to it.
-   On the sandbox it would be as tamperable as the thing it verifies.
-
-Identifiers are git blob SHAs, so they compare directly to what the tree API
-returns with no second hashing scheme to keep in sync.
+Fetched from GitHub's git tree API at the pinned SHA, not computed from what we
+downloaded, so one mechanism catches tampering, truncation and bad extraction.
+It lives in the app process, which `execute` cannot reach -- on the sandbox it
+would be as tamperable as the thing it verifies. Identifiers are git blob SHAs,
+directly comparable to what the tree API returns.
 """
 
 from __future__ import annotations

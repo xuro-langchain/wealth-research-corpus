@@ -1,12 +1,11 @@
-"""In-process reverse index over the claim sidecars. Phase 02 §3.
+"""In-process reverse index over the claim sidecars.
 
-Read from the app-process corpus copy, so no runtime and no sandbox call.
-Cached per SHA because the corpus is immutable at a commit.
+Read from the app-process corpus copy, so no runtime and no sandbox call, and
+cached per SHA because the corpus is immutable at a commit.
 
-Why an index rather than letting the model grep `.claims/`: answering "which
-claims overlap L120-L131" is interval arithmetic across 20 JSON files, and a
-model driving grep gets it subtly wrong in a way that looks exactly like a right
-answer.
+An index rather than letting the model grep `.claims/`: answering "which claims
+overlap L120-L131" is interval arithmetic across 20 JSON files, and a model
+driving grep gets it subtly wrong in a way that looks exactly like right.
 """
 
 from __future__ import annotations

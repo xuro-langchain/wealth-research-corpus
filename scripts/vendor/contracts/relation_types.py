@@ -1,16 +1,8 @@
 """Normalising a document relation to one of six types. Contract C11.
 
-The corpus brief defines six verbs and a direction rule, and asking the compile
-to use them is not the same as getting them: a large share come back as
-synonyms instead -- "replaces", "overrides", "changes only", the noun
-"carve-out", "does not restore". The brief raises the signal; this map produces
-the contract, which is why it lives here rather than being trusted from the
-claim text.
-
-The verbs are the insurance set this corpus was adapted from, with one rename:
-`writes-back` became `restores`, because what an exemption does to a trading
-restriction is restore a permitted action, and "write-back" is a forms idiom
-that means nothing to an investment reader.
+Asking the compile to use the six verbs is not the same as getting them: a large
+share come back as synonyms. The brief raises the signal; this map produces the
+contract.
 """
 
 from __future__ import annotations
