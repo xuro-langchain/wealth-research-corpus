@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Claims delta and .compile-state.json — enforces C4 of 00-contracts.md.
+# Claims delta and .compile-state.json — enforces C4 of 00-shared.md.
 #
 # The delta is SET ARITHMETIC over sidecar claim ids, captured before and after
 # the compile. It depends on nothing OpenWiki prints, so a change to its console

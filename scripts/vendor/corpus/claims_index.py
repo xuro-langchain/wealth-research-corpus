@@ -14,7 +14,7 @@ import hashlib
 import json
 from dataclasses import dataclass, field
 
-from shared.evidence_anchor import parse_resource
+from corpus.anchors import parse_resource
 
 #: Role precedence for relation direction: the acting document comes first.
 #: A regulator acts on a research view; internal guidance acts on both, because
@@ -134,12 +134,12 @@ INDEX_SCHEMA_VERSION = 1
 def relation_edges(index: ClaimsIndex) -> list[dict]:
     """Typed, directed document relations derived from multi-role claims.
 
-    Moved here from find_relations in ph. 04 so the workflow's index builder and
+    Moved here from find_relations in so the workflow's index builder and
     the tool share one implementation. Two copies of this logic would disagree
     on exactly the hard cases — a claim spanning three roles, a negated
     relation — and only one of them would be under test.
     """
-    from shared.relation_types import is_legal, normalize
+    from corpus.relations import is_legal, normalize
 
     edges: dict[tuple[str, str], dict] = {}
     for claim in index.claims:
@@ -213,9 +213,9 @@ def sidecar_fingerprint(corpus) -> str:
 
 
 def to_committed(index: ClaimsIndex, corpus) -> dict:
-    """Serialise for `.claims-index.json` (C11), written by the refresh workflow.
+    """Serialise for `.claims-index.json` (the committed index shape), written by the refresh workflow.
 
-    `resources` and `relations` are the C11 shape, for humans and the UI. The
+    `resources` and `relations` are the shape the workflow commits, for humans and the UI. The
     `claims` array is the extra that makes this a complete replacement for
     scanning: it carries every pointer with its anchor `version`. Without it the
     index could answer "what depends on this" but never "is it still true".
@@ -291,7 +291,7 @@ def from_committed(text: str, sha: str, corpus) -> ClaimsIndex:
 _INDEXES: dict[str, ClaimsIndex] = {}
 
 #: What ensure_index used last, per SHA: "committed" or "scan". Read by tests
-#: and by repo_status so the source of an answer is observable (C13).
+#: and by repo_status so the source of an answer is observable (trace metadata).
 INDEX_SOURCE: dict[str, str] = {}
 
 
@@ -305,7 +305,7 @@ async def ensure_index(sha: str, blobs: dict[str, str] | None = None) -> ClaimsI
     """
     index = _INDEXES.get(sha)
     if index is None:
-        from tools.corpus_local import ensure_local_corpus
+        from corpus.snapshot import ensure_local_corpus
 
         corpus = await ensure_local_corpus(sha, blobs)
         try:

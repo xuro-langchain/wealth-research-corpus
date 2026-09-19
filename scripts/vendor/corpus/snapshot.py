@@ -17,7 +17,7 @@ import tarfile
 
 from dataclasses import dataclass, field
 
-from shared.corpus_manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha  # noqa: F401
+from corpus.manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha  # noqa: F401
 
 logger = logging.getLogger(__name__)
 

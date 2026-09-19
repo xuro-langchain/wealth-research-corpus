@@ -23,7 +23,7 @@ from typing import Literal
 
 RESOURCE_RE = re.compile(r"^repo://([^#]+)#L(\d+)-L(\d+)$")
 
-#: The supersession marker (C5), spelled as contracts/corpus_paths.py writes it.
+#: The supersession marker (C5), spelled as shared/corpus_paths.py writes it.
 #: Duplicated rather than imported because this module is vendored into the
 #: corpus repo on its own; tests/test_evidence_anchor.py asserts the two agree.
 #: `mark_superseded` inserts, directly after the title line: one blank line,
