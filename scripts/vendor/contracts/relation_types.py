@@ -17,18 +17,14 @@ from __future__ import annotations
 
 import re
 
-#: EVERY ALTERNATIVE BELOW IS A VERB OR A VERB PHRASE. Bare nouns were tried and
-#: removed: `threshold`, `sublimit`, `tolerance band` and `schedule in` sat in
-#: the `modifies` pattern and matched any claim that mentioned one, so an
-#: effective-date sentence — "the IRS AMT threshold procedure applies to taxable
-#: years beginning on or after 2026-01-01" — came back as a modification. A noun
-#: identifies the SUBJECT a claim is about; only a verb describes what one
-#: document does to another, which is the only thing this map is for.
+#: EVERY ALTERNATIVE IS A VERB OR VERB PHRASE. Bare nouns were tried and removed:
+#: `threshold` and `sublimit` sat in the `modifies` pattern and matched any claim
+#: mentioning one, so an effective-date sentence came back as a modification. A
+#: noun names the SUBJECT; only a verb says what one document does to another.
 #:
-#: Ordered most-specific first; first match wins. Order matters: "replaces"
-#: appears under both restores and supersedes, and an exemption replacing a
-#: restriction is a restoration while an edition replacing an edition is a
-#: supersession, so the restriction-scoped pattern must be tried first.
+#: Most-specific first, first match wins. "replaces" appears under both restores
+#: and supersedes -- an exemption replacing a restriction is a restoration, an
+#: edition replacing an edition is a supersession -- so order decides.
 PATTERNS: tuple[tuple[str, str], ...] = (
     (
         "restores",
@@ -108,28 +104,20 @@ def normalize(statement: str) -> str | None:
 
 # --- who may do what to whom -----------------------------------------------
 #
-# The keyword map above reads a claim's PROSE and knows nothing about the two
-# documents the claim connects. That is where it goes wrong, and patching the
-# patterns one synonym at a time does not fix it: "weights derived from
-# superseded research" and "2026-04 supersedes 2025-06" look nearly identical to
-# a regex, and only the first is a policy statement rather than a relation.
+# The keyword map reads a claim's PROSE and knows nothing about the two documents
+# it connects. Patching synonyms does not fix that: "weights derived from
+# superseded research" and "2026-04 supersedes 2025-06" look alike to a regex,
+# and only the second is a relation. These constraints are orthogonal to wording
+# -- they come from the brief's definitions and hold however a claim is phrased:
 #
-# These constraints are orthogonal to wording. They come from the corpus brief's
-# own definitions of the verbs, and they hold however a claim is phrased:
+#   implements  only guidance implements, and only a regulator's document can be
+#   supersedes  a later edition, or a regulatory change removing a view's basis
+#   restores    an exemption or relief undoing a restriction -- a regulator's act
+#   constrains  guidance or a requirement limiting a position; a note constrains
+#               nothing
 #
-#   implements  "internal guidance carries out a requirement imposed by a
-#               regulator" — so only guidance implements, and only a regulator's
-#               document can be implemented.
-#   supersedes  a later edition, or a regulatory change removing a view's basis.
-#               Internal guidance has no such power over either.
-#   restores    an exemption or relief restoring what a restriction removed.
-#               That is a regulator's act.
-#   constrains  "internal guidance or a regulatory requirement limits when or how
-#               a position may be taken" — a research note constrains nothing.
-#
-# Anything not listed here is unconstrained: `modifies` and `preserves` are
-# available to every role, because any document can leave another's provision
-# intact or change a limit it set.
+# `modifies` and `preserves` are unconstrained: any document can leave another's
+# provision intact or change a limit it set.
 _ACTOR_MUST_BE: dict[str, frozenset[str]] = {
     "implements": frozenset({"guideline"}),
     "supersedes": frozenset({"bulletin", "cross-asset-note", "asset-note"}),
