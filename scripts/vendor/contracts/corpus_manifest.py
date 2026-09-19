@@ -1,35 +1,23 @@
-"""Corpus integrity manifest — enforces C7 of 00-contracts.md.
+"""Corpus integrity manifest. Contract C7.
 
-The problem this closes. `execute` gives the agent a shell on the sandbox. It
-can `chmod +w` the corpus and edit a form, and neither the read-only middleware
-(which only guards write_file / edit_file / delete) nor the SHA marker (which
-records which commit was fetched, not what the files contain) would notice. The
-agent would then cite text no filed form ever contained — the exact
-fabricated-grounding failure the whole design exists to prevent, arriving by a
-side door.
+`execute` gives the agent a shell on the sandbox. It can chmod the corpus
+writable and edit a document, and neither the read-only middleware (which
+guards only write_file/edit_file/delete) nor the SHA marker (which records
+which commit was fetched, not what the files contain) would notice. The agent
+would then cite text no filed document contains.
 
-Two design choices make this a real boundary rather than a speed bump.
+Two choices make this a boundary rather than a speed bump:
 
-1. THE MANIFEST IS AUTHORITATIVE, NOT SELF-REFERENTIAL.
+1. THE MANIFEST IS AUTHORITATIVE. It is fetched from GitHub's git tree API at
+   the pinned SHA, not computed from what we downloaded, so one mechanism
+   catches a tampered file, a truncated download and a bad extraction.
 
-   It is not computed from the files we downloaded. It is fetched from GitHub's
-   git tree API at the pinned SHA, so it is an independent statement of what the
-   corpus contains. That catches a tampered file, a truncated download, and a
-   corrupted extraction with one mechanism.
+2. IT LIVES IN THE APP PROCESS. `execute` runs on a separate machine, so shell
+   access cannot reach it -- there is no file to rewrite and no path to it.
+   On the sandbox it would be as tamperable as the thing it verifies.
 
-2. THE MANIFEST LIVES IN THE APP PROCESS, NOT ON THE SANDBOX.
-
-   Middleware and tools run in the deployed LangGraph app. `execute` runs
-   commands on the sandbox, which is a separate machine reached through the
-   backend. So shell access cannot reach the manifest: there is no file to
-   rewrite and no path to it. Storing it on the sandbox filesystem would have
-   made it exactly as tamperable as the thing it verifies.
-
-Identifiers are git blob SHAs — sha1 of `blob <bytelen>\\0<content>` — so they
-are directly comparable to what the tree API returns, with no separate hashing
-scheme to keep in sync. Verified against this corpus: git reports
-78c39dfc765e0a4982801c7d084e71f7337cc68c for internal_research/FI/US/MUNI-CREDIT/2025-06.md, and
-`git_blob_sha` below reproduces it exactly.
+Identifiers are git blob SHAs, so they compare directly to what the tree API
+returns with no second hashing scheme to keep in sync.
 """
 
 from __future__ import annotations

@@ -15,7 +15,7 @@ here="$(cd "$(dirname "$0")" && pwd)"
 for rel in contracts/__init__.py contracts/evidence_anchor.py contracts/relation_types.py \
            contracts/corpus_manifest.py tools/__init__.py tools/claims_index.py tools/corpus_local.py; do
   mkdir -p "$here/vendor/$(dirname "$rel")"
-  cp "$POC/agent/$rel" "$here/vendor/$rel"
+  cp "$POC/src/agent/$rel" "$here/vendor/$rel"
 done
 git -C "$POC" rev-parse HEAD > "$here/vendor/VENDORED_FROM"
 echo "vendored from poc $(cat "$here/vendor/VENDORED_FROM")"

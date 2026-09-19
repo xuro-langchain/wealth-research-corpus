@@ -1,20 +1,16 @@
-"""The app-process copy of the corpus. Phase 02 §2.
+"""The app-process copy of the corpus.
 
-WHY A SECOND COPY
-
-Authored tools cannot reach the sandbox. `@tool` puts a `ToolRuntime` parameter
-into `args_schema` under every annotation form, so a tool declaring one fails
-every call with "Field required: runtime" — and `run_in_sandbox` needs one. So
-the app process fetches its own copy: one codeload call per commit, 1.2 MB,
+Authored tools cannot reach the sandbox: `@tool` puts a `ToolRuntime` parameter
+into args_schema under every annotation form, so a tool declaring one fails
+every call with "Field required: runtime" -- and run_in_sandbox needs one. So
+the app process fetches its own copy, one codeload call per commit, 1.2 MB,
 alongside the git-tree manifest it already fetches.
-
-Both copies are justified and neither is trusted for having been downloaded:
 
     sandbox /workspace/corpus   the MODEL, via native ls/grep/glob/read_file
     this local cache            authored TOOLS, hashing and indexing
 
-This copy is verified against the same git-tree manifest by the same blob-SHA
-formula as the sandbox copy.
+Neither copy is trusted for having been downloaded; both are verified against
+the same git-tree manifest by the same blob-SHA formula.
 """
 
 from __future__ import annotations

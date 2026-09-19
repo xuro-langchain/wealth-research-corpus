@@ -1,6 +1,6 @@
-"""Vendored copies of the phase-00 contracts.
+"""The contracts every layer is built to: paths, manifests, anchors, output shape.
 
-Copied rather than symlinked so the `.mda/build` archive is self-contained.
-`scripts/check-contracts.sh` asserts these match the originals under
-docs/specs/mda-initial-build/contracts/ — edit there, then re-vendor.
+These are the originals. The corpus repo vendors copies of them under
+`scripts/vendor/` so its CI can validate without this checkout —
+`scripts/sync-vendor.sh` there pulls them across.
 """

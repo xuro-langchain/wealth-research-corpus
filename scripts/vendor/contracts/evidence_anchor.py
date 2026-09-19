@@ -1,34 +1,27 @@
 """Deterministic verification of an OpenWiki relocation anchor. Contract C7/C11.
 
-Every formula here was reverse-engineered against the live corpus rather than
-read out of OpenWiki's source, and all 630 evidence pointers reproduce exactly:
+Reverse-engineered against the live corpus rather than read out of OpenWiki's
+source; all 630 evidence pointers reproduce exactly.
 
     version = "repo-lines-v1:sha256:<content_hash>:<base64 json metadata>"
 
-    content_hash          = sha256("\\n".join(selected_lines) + "\\n")
-    firstSelectedLineHash = sha256(first_selected_line + "\\n")
-    lastSelectedLineHash  = sha256(last_selected_line  + "\\n")
-    precedingContextHash  = sha256("\\n".join(3 lines before) + "\\n")
-    followingContextHash  = sha256("\\n".join(3 lines after)  + "\\n")
+    content_hash          = sha256("\n".join(selected_lines) + "\n")
+    firstSelectedLineHash = sha256(first_selected_line + "\n")
+    lastSelectedLineHash  = sha256(last_selected_line  + "\n")
+    precedingContextHash  = sha256("\n".join(3 lines before) + "\n")
+    followingContextHash  = sha256("\n".join(3 lines after)  + "\n")
 
-Note the trailing newline in every case — joining with LF alone does NOT
-reproduce the hash, which is the one detail that makes this worth writing down.
+Note the trailing newline in every case -- joining with LF alone does NOT
+reproduce the hash, and that is the detail worth writing down.
 
-This is the grounding check we can run ourselves, with no model involved.
-
-RELOCATION (phase 02 P5, closed). When the block at the recorded line numbers
-no longer hashes, the text may simply have MOVED — the first live supersession
-prepended a three-line marker to the old edition and every anchor into it
-failed at its recorded lines while the cited language was untouched. So the
-verifier now does what OpenWiki's resolver does for unchanged text
-(`locateUnchangedLineRange` in src/claims/evidence/repository/resolver.ts):
-scan the file for spans of the same length whose first and last line hashes
-and content hash all match; a unique span is the relocation; several are
-disambiguated by the context hashes; still ambiguous means NOT relocated. A
-relocated pointer is `clean` with `relocated=True` and the current lines in
-`start`/`end`. Text that changed BETWEEN unchanged contexts is still
-`content_changed` — that is the staleness signal, and relocation must never
-paper over it.
+RELOCATION. When the block at the recorded lines no longer hashes, the text may
+simply have MOVED: the first live supersession prepended a three-line marker and
+every anchor into that file failed while the cited language was untouched. So
+the verifier scans for spans of the same length whose first, last and content
+hashes all match; a unique span is the relocation, several are disambiguated by
+the context hashes, still ambiguous means not relocated. Text that CHANGED
+between unchanged contexts stays `content_changed` -- that is the staleness
+signal, and relocation must never paper over it.
 """
 
 from __future__ import annotations
