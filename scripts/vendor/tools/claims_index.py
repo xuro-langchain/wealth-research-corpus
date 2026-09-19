@@ -197,13 +197,10 @@ SIDECAR_PREFIX = "openwiki/.claims/"
 def sidecar_fingerprint(corpus) -> str:
     """sha256 over every sidecar's path and content, in path order.
 
-    This — not the commit — is what decides whether a committed index is valid
-    for the tree a run is pinned to. The workflow builds the index at the
-    compile commit and commits it together with the sidecars; every later commit
-    that touches only source documents carries the SAME sidecars, so the index
-    is still exactly right for it. Keying validity on commit equality would make
-    every real run fall back to scanning. Keying it on the sidecars makes the
-    index valid for precisely the commits it describes.
+    This, not the commit, decides whether a committed index is valid for the
+    tree a run is pinned to: later commits touching only source documents carry
+    the SAME sidecars, so the index is still exactly right for them. Keying on
+    commit equality would send every real run back to scanning.
     """
     h = hashlib.sha256()
     for rel in corpus.paths(prefix=SIDECAR_PREFIX, suffix=".json"):
@@ -218,13 +215,10 @@ def sidecar_fingerprint(corpus) -> str:
 def to_committed(index: ClaimsIndex, corpus) -> dict:
     """Serialise for `.claims-index.json` (C11), written by the refresh workflow.
 
-    The C11 shape — `resources` and `relations` — is for humans and the UI.
-    The `claims` array is the extra that makes this a COMPLETE replacement for
-    scanning: it carries every evidence pointer with its anchor `version`, which
-    read_evidence and grounding_status need and which C11's per-resource
-    summary does not hold. Without it the committed index could answer "what
-    depends on this" but never "is it still true", and the tools would have to
-    scan sidecars anyway.
+    `resources` and `relations` are the C11 shape, for humans and the UI. The
+    `claims` array is the extra that makes this a complete replacement for
+    scanning: it carries every pointer with its anchor `version`. Without it the
+    index could answer "what depends on this" but never "is it still true".
     """
     resources: dict[str, dict] = {}
     for claim in index.claims:
@@ -302,16 +296,12 @@ INDEX_SOURCE: dict[str, str] = {}
 
 
 async def ensure_index(sha: str, blobs: dict[str, str] | None = None) -> ClaimsIndex:
-    """No runtime parameter — see phase 02 §2.
+    """Prefer the committed `.claims-index.json`, fall back to scanning sidecars.
 
-    Ph. 04 (P1): prefer the committed `.claims-index.json`, fall back to
-    scanning the sidecars. The signature is unchanged and both paths produce
-    identical results — `test_the_committed_index_matches_a_live_scan` pins that.
-
-    The fallback is not defensive padding. Every commit before ph. 04, including
-    the pinned corpus every existing test runs against, has no index and never
-    will. And a corrupt index must not take the agent down: scanning is slower
-    and always correct.
+    Both paths produce identical results, pinned by
+    test_the_committed_index_matches_a_live_scan. The fallback is not defensive
+    padding: older commits have no index and never will, and a corrupt one must
+    not take the agent down -- scanning is slower and always correct.
     """
     index = _INDEXES.get(sha)
     if index is None:

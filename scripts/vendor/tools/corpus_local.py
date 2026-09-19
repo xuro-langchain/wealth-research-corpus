@@ -46,17 +46,11 @@ TEXT_SUFFIXES = frozenset({".md", ".json", ".yml", ".yaml", ".txt"})
 class LocalCorpus:
     """The corpus at one commit, fully in memory.
 
-    WHY PRELOADED RATHER THAN READ ON DEMAND
-
-    LangGraph's dev server runs `blockbuster`, which raises `BlockingError` on
-    synchronous I/O inside the event loop — and it catches `rglob` (a
-    ScandirIterator), not just reads. Sprinkling `asyncio.to_thread` over every
-    call site works but leaves the next filesystem access one refactor away
-    from reintroducing the error.
-
-    So all filesystem work happens in ONE thread hop per commit, and every
-    consumer downstream is pure CPU over this dict. There is no path from a tool
-    to a blocking call.
+    Preloaded rather than read on demand because the dev server runs
+    `blockbuster`, which raises on synchronous I/O in the event loop -- and it
+    catches `rglob`, not just reads. One thread hop per commit, and every
+    consumer downstream is pure CPU over this dict, so no refactor can
+    reintroduce a blocking call from a tool.
     """
 
     corpus_sha: str

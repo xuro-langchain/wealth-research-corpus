@@ -82,18 +82,13 @@ async def fetch_manifest(
 ) -> CorpusManifest:
     """Build the manifest from GitHub's git tree at `sha`.
 
-    One extra API call per populate, which is why this is affordable: the
-    populate step already runs once per thread per SHA.
+    One API call per populate, which runs once per thread per SHA. `token` is
+    optional (the repo is public) and only raises the rate limit; it runs in the
+    app process, so it never reaches the sandbox.
 
-    `token` is optional because the corpus repo is public. Supplying one only
-    raises the rate limit from 60 requests/hour to 5000. This call runs in the
-    app process, so a token given here never reaches the sandbox.
-
-    The tree API sets `truncated: true` for very large trees rather than
-    paginating. This corpus has 77 tracked files, so truncation is not expected
-    — but it is recorded rather than ignored, because a silently partial
-    manifest would turn `verify` into a no-op for every path it omitted, which
-    is worse than having no manifest at all.
+    The tree API sets `truncated: true` rather than paginating. Recorded rather
+    than ignored: a silently partial manifest turns `verify` into a no-op for
+    every path it omits, which is worse than having no manifest.
     """
     url = f"https://api.github.com/repos/{owner}/{repo}/git/trees/{sha}?recursive=1"
     payload = await _get_json(url, token)   # raises on any non-200
