@@ -29,7 +29,7 @@ REPO = os.environ.get("CORPUS_REPO", "wealth-research-corpus")
 #: and this module is imported lazily on any build where tools/claims.py is not
 #: in the tool list -- so the call lands inside an async tool call and
 #: blockbuster refuses it. On the default build the claims tools import this at
-#: startup, outside the event loop, and it resolves once; the grep-only branch
+#: startup, outside the event loop, and it resolves once; the search-only control
 #: drops them, and every tool call then raised BlockingError, returned an empty
 #: answer in six seconds, and scored as though the build were merely worse.
 #: Import order is not a guarantee, so the syscall goes rather than the ordering
