@@ -12,8 +12,9 @@
 set -euo pipefail
 POC="${1:-../wealth-research}"
 here="$(cd "$(dirname "$0")" && pwd)"
+rm -rf "$here/vendor/corpus"
 for rel in corpus/__init__.py corpus/anchors.py corpus/relations.py \
-           corpus/manifest.py corpus/claims_index.py corpus/snapshot.py; do
+           corpus/integrity.py corpus/claims_index.py corpus/local_copy.py; do
   mkdir -p "$here/vendor/$(dirname "$rel")"
   cp "$POC/src/agent/$rel" "$here/vendor/$rel"
 done

@@ -1,16 +1,4 @@
-"""Verifying an OpenWiki evidence anchor. Deterministic, no model.
-
-    version = "repo-lines-v1:sha256:<content_hash>:<base64 json metadata>"
-    content_hash = sha256("\n".join(selected_lines) + "\n")
-
-Note the trailing newline -- joining with LF alone does NOT reproduce the hash.
-Reverse-engineered against the corpus; all 630 pointers reproduce exactly.
-
-When a block no longer hashes it may have MOVED (a supersession marker shifts
-every line below it), so the verifier scans for a same-length span whose first,
-last and content hashes match. Text that CHANGED between unchanged contexts
-stays `content_changed` -- relocation must never paper over staleness.
-"""
+"""Verifying an OpenWiki evidence anchor. Deterministic, no model."""
 
 from __future__ import annotations
 
@@ -23,13 +11,8 @@ from typing import Literal
 
 RESOURCE_RE = re.compile(r"^repo://([^#]+)#L(\d+)-L(\d+)$")
 
-#: The supersession marker (the write-domain rule), spelled as corpus/paths.py writes it.
-#: Duplicated rather than imported because this module is vendored into the
-#: corpus repo on its own; tests/test_evidence_anchor.py asserts the two agree.
-#: `mark_superseded` inserts, directly after the title line: one blank line,
-#: then the marker's quote lines. That block is the ONE insertion the corpus
-#: makes inside existing documents, so it is the one insertion the verifier
-#: knows how to see through when it lands inside a cited range.
+#: The supersession marker, as paths.py writes it (copied, since this file is vendored alone).
+#: It is the one insertion the corpus makes inside a document, so the verifier sees through it.
 SUPERSEDED_MARKER_RE = re.compile(r"^> (?:\*\*)?SUPERSEDED(?:\*\*)? by .+")
 
 Verdict = Literal["clean", "content_changed", "range_missing", "unparseable"]
@@ -40,14 +23,7 @@ def _sha(text: str) -> str:
 
 
 def block_hash(lines: list[str]) -> str:
-    """OpenWiki's formula: join with LF, then append one trailing LF.
-
-    An EMPTY block hashes to sha256("") — not sha256("\n"). This matters at
-    file boundaries: a citation starting at line 1 has no preceding context, and
-    OpenWiki records precedingContextLineCount 0 with the empty-string digest
-    e3b0c442... Getting this wrong made 162 of 630 pointers (26%) report
-    context_shifted, every one of them at a boundary and none of them real.
-    """
+    """OpenWiki's formula: join with LF, then append one trailing LF."""
     if not lines:
         return _sha("")
     return _sha("\n".join(lines) + "\n")
@@ -58,19 +34,14 @@ class AnchorCheck:
     resource: str
     verdict: Verdict
     detail: str = ""
-    #: Selected text is intact but its surroundings changed, so the line numbers
-    #: are drifting. Reported, deliberately NOT a failure — see verify_anchor.
+    #: The text is intact but its surroundings changed. Reported, not a failure.
     context_shifted: bool = False
-    #: The cited text was found intact at DIFFERENT line numbers than the
-    #: pointer records (see the module docstring). `start`/`end` then hold the
-    #: current location; callers that quote must read from there.
+    #: The text was found intact at other line numbers; `start`/`end` hold where it is now.
     relocated: bool = False
-    #: Where the cited text currently is (1-based, inclusive). Equal to the
-    #: pointer's own range unless `relocated`. None when the verdict is not clean.
+    #: Where the cited text is now (1-based, inclusive); None unless the verdict is clean.
     start: int | None = None
     end: int | None = None
-    #: The supersession marker block now sits INSIDE the cited range: the cited
-    #: language is intact around it, and `start`..`end` spans marker included.
+    #: The supersession marker now sits inside the cited range, which still spans it.
     marker_inside: bool = False
 
     @property
@@ -110,14 +81,7 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
     except Exception as exc:  # noqa: BLE001 - every decode failure is one verdict
         return AnchorCheck(resource, "unparseable", f"metadata undecodable: {exc}")
 
-    # The VERSION is authoritative about the block it hashes. OpenWiki keeps the
-    # resource string as the claim's identifier but, when it re-anchors text
-    # that changed between unchanged contexts, records the new block's length
-    # in `selectedLineCount` — the two live title-block pointers into the
-    # superseded HO 04 90 read L1-L4 and L1-L8 while their versions hash the
-    # marked file's 8 and 12 lines. Verifying the resource's range against a
-    # version for a different one can never succeed, so the metadata's length
-    # wins and the resource's end is treated as stale bookkeeping.
+    # The version's line count wins over the resource's range, which OpenWiki leaves stale on re-anchor.
     declared = int(meta.get("selectedLineCount") or 0)
     if declared > 0 and declared != end - start + 1:
         end = start + declared - 1
@@ -133,14 +97,7 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
                 start=start,
                 end=end,
             )
-        # Selected text intact where the pointer says. Context tells us whether
-        # its surroundings MOVED.
-        #
-        # A shift is not staleness. If the text still hashes, the claim is still
-        # grounded in the language it was built on, even at new line numbers.
-        # Treating a shift as a failure would flag every claim in any file where
-        # someone added a heading — the exact false alarm relocation anchors
-        # exist to prevent.
+        # The text is intact; a shift in its surroundings is reported, not treated as stale.
         return AnchorCheck(resource, "clean", context_shifted=_context_shifted(file_lines, start, end, meta), start=start, end=end)
 
     # Not where the pointer says. Is it somewhere else, intact?
@@ -157,9 +114,7 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
             end=new_end,
         )
 
-    # The one insertion this corpus makes inside a document: the supersession
-    # marker under the title. If the cited range straddles it, the cited text
-    # is intact on both sides — the block merely sits between them.
+    # A cited range that straddles the supersession marker is still intact on both sides.
     marker = _marker_block(file_lines)
     if marker is not None:
         m_start, m_len = marker
@@ -169,8 +124,6 @@ def verify_anchor(resource: str, version: str, file_lines: list[str]) -> AnchorC
             span = (start, end)
         else:
             span = relocate(stripped, end - start + 1, content_hash, meta)
-        # The block is inside the span when the insertion index falls strictly
-        # after the span's first line and no later than its last.
         if span is not None and span[0] - 1 < m_start <= span[1] - 1:
             new_start, new_end = span[0], span[1] + m_len
             return AnchorCheck(

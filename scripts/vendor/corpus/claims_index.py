@@ -1,12 +1,4 @@
-"""In-process reverse index over the claim sidecars.
-
-Read from the app-process corpus copy, so no runtime and no sandbox call, and
-cached per SHA because the corpus is immutable at a commit.
-
-An index rather than letting the model grep `.claims/`: answering "which claims
-overlap L120-L131" is interval arithmetic across 20 JSON files, and a model
-driving grep gets it subtly wrong in a way that looks exactly like right.
-"""
+"""In-process reverse index over the claim sidecars."""
 
 from __future__ import annotations
 
@@ -14,14 +6,9 @@ import hashlib
 import json
 from dataclasses import dataclass, field
 
-from corpus.anchors import parse_resource
+from .anchors import parse_resource
 
-#: Role precedence for relation direction: the acting document comes first.
-#: A regulator acts on a research view; internal guidance acts on both, because
-#: it is the thing that turns a view into something the firm is bound by. A
-#: multi-asset note acts on a single-asset note — the cross-asset desk's regime
-#: call modifies what the equity and fixed income desks conclude, not the other
-#: way round.
+#: Which document acts on which: guidance on regulators and research, regulators on research.
 PRECEDENCE = ("guideline", "bulletin", "cross-asset-note", "asset-note")
 #: The desk code whose notes take a view across asset classes.
 CROSS_ASSET = frozenset({"MA"})
@@ -57,13 +44,7 @@ class ClaimsIndex:
     def citing(
         self, document: str, start: int | None = None, end: int | None = None
     ) -> list[dict]:
-        """Claims whose evidence touches `document`, optionally overlapping a range.
-
-        OVERLAP, not containment. A claim citing L120-L131 is affected by a
-        change to L125 and by one spanning L100-L140 alike, so the test is the
-        standard interval one. Containment would silently miss every
-        partially-overlapping claim, which is most of them.
-        """
+        """Claims whose evidence touches `document`, optionally overlapping a range."""
         hits: list[dict] = []
         for claim in self.claims:
             for item in claim["evidence"]:
@@ -90,12 +71,7 @@ class ClaimsIndex:
 
 
 def _scan_sidecars(corpus) -> list[dict]:
-    """Pure function over the preloaded corpus — no filesystem access.
-
-    Filesystem work happens once, in a thread, inside ensure_local_corpus.
-    Doing it here instead raised BlockingError from LangGraph's blockbuster,
-    which catches rglob as well as reads.
-    """
+    """Pure function over the preloaded corpus — no filesystem access."""
     prefix = "openwiki/.claims/"
     out: list[dict] = []
     for rel in corpus.paths(prefix=prefix, suffix=".json"):
@@ -126,20 +102,13 @@ def _scan_sidecars(corpus) -> list[dict]:
     return out
 
 
-#: The committed index carries this. Bumped only for an incompatible shape; a
-#: reader seeing another value falls back to scanning rather than guessing.
+#: Bumped for an incompatible shape; any other value falls back to scanning.
 INDEX_SCHEMA_VERSION = 1
 
 
 def relation_edges(index: ClaimsIndex) -> list[dict]:
-    """Typed, directed document relations derived from multi-role claims.
-
-    Moved here from find_relations in so the workflow's index builder and
-    the tool share one implementation. Two copies of this logic would disagree
-    on exactly the hard cases — a claim spanning three roles, a negated
-    relation — and only one of them would be under test.
-    """
-    from corpus.relations import is_legal, normalize
+    """Typed, directed document relations derived from multi-role claims."""
+    from .relations import is_legal, normalize
 
     edges: dict[tuple[str, str], dict] = {}
     for claim in index.claims:
@@ -149,13 +118,9 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
             if e["document"] and document_role(e["document"])
         }
         if len(set(roles.values())) < 2:
-            # Two editions of the same base form are the same provision in two
-            # documents, not a relationship.
+            # Two editions of one document are not a relationship.
             continue
-        # Every DISTINCT-ROLE PAIR, not just highest-to-lowest. A claim citing a
-        # guideline, a regulator notice and a research note carries two real
-        # relations — the guideline constrains the note, and the notice acts
-        # back the base form. Collapsing to one edge loses the middle one.
+        # Every distinct-role pair: a claim citing three roles carries more than one relation.
         kind = normalize(claim["statement"])
         ordered = sorted(roles.items(), key=lambda kv: PRECEDENCE.index(kv[1]))
         for i, (acting, acting_role) in enumerate(ordered):
@@ -167,9 +132,7 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
                     {"from": acting, "to": target, "types": {}, "claim_ids": []},
                 )
                 edge["claim_ids"].append(claim["id"])
-                # The wording produced a verb; the roles decide whether it is
-                # possible. An allocation guide reading "weights derived from
-                # superseded research" is not superseding anything.
+                # The wording gives a verb; the roles decide whether it is possible.
                 if kind and is_legal(kind, acting_role, target_role):
                     edge["types"][kind] = edge["types"].get(kind, 0) + 1
 
@@ -179,8 +142,7 @@ def relation_edges(index: ClaimsIndex) -> list[dict]:
             {
                 "from": edge["from"],
                 "to": edge["to"],
-                # None rather than a guess: preserves and restores are
-                # opposites, so a wrong type inverts a positioning answer.
+                # None rather than a guess: a wrong type can invert an answer.
                 "type": max(edge["types"], key=edge["types"].get) if edge["types"] else None,
                 "types": edge["types"],
                 "claim_count": len(edge["claim_ids"]),
@@ -195,13 +157,7 @@ SIDECAR_PREFIX = "openwiki/.claims/"
 
 
 def sidecar_fingerprint(corpus) -> str:
-    """sha256 over every sidecar's path and content, in path order.
-
-    This, not the commit, decides whether a committed index is valid for the
-    tree a run is pinned to: later commits touching only source documents carry
-    the SAME sidecars, so the index is still exactly right for them. Keying on
-    commit equality would send every real run back to scanning.
-    """
+    """sha256 over every sidecar's path and content, in path order."""
     h = hashlib.sha256()
     for rel in corpus.paths(prefix=SIDECAR_PREFIX, suffix=".json"):
         content = "\n".join(corpus.lines(rel)).encode("utf-8")
@@ -213,13 +169,7 @@ def sidecar_fingerprint(corpus) -> str:
 
 
 def to_committed(index: ClaimsIndex, corpus) -> dict:
-    """Serialise for `.claims-index.json` (the committed index shape), written by the refresh workflow.
-
-    `resources` and `relations` are the shape the workflow commits, for humans and the UI. The
-    `claims` array is the extra that makes this a complete replacement for
-    scanning: it carries every pointer with its anchor `version`. Without it the
-    index could answer "what depends on this" but never "is it still true".
-    """
+    """Serialise for `.claims-index.json` (the committed index shape), written by the refresh workflow."""
     resources: dict[str, dict] = {}
     for claim in index.claims:
         for item in claim["evidence"]:
@@ -249,8 +199,7 @@ def to_committed(index: ClaimsIndex, corpus) -> dict:
 
     return {
         "schema_version": INDEX_SCHEMA_VERSION,
-        # Informational: the commit the compile ran against. Validity is decided
-        # by sidecar_fingerprint, not by this — see that function.
+        # Informational; validity is decided by sidecar_fingerprint.
         "compiled_from": index.corpus_sha,
         "sidecar_fingerprint": sidecar_fingerprint(corpus),
         "claim_count": len(index.claims),
@@ -262,21 +211,13 @@ def to_committed(index: ClaimsIndex, corpus) -> dict:
 
 
 def from_committed(text: str, sha: str, corpus) -> ClaimsIndex:
-    """Rebuild a ClaimsIndex from `.claims-index.json`, for the tree in `corpus`.
-
-    Raises ValueError for anything that is not a usable index for THIS tree —
-    wrong schema version, a sidecar fingerprint that does not match the sidecars
-    actually present, or a missing claims array. Callers fall back to scanning;
-    they never guess.
-    """
+    """Rebuild a ClaimsIndex from `.claims-index.json`, for the tree in `corpus`."""
     data = json.loads(text)
     if data.get("schema_version") != INDEX_SCHEMA_VERSION:
         raise ValueError(f"unsupported .claims-index.json schema_version {data.get('schema_version')!r}")
     expected = sidecar_fingerprint(corpus)
     if data.get("sidecar_fingerprint") != expected:
-        # The index describes a different set of sidecars than this tree holds.
-        # Using it would answer blast-radius questions about claims that are
-        # not the ones the run is pinned to.
+        # Built from different sidecars than this tree holds.
         raise ValueError(".claims-index.json does not match the sidecars in this tree")
     claims = data.get("claims")
     if not isinstance(claims, list) or not claims:
@@ -290,22 +231,15 @@ def from_committed(text: str, sha: str, corpus) -> ClaimsIndex:
 
 _INDEXES: dict[str, ClaimsIndex] = {}
 
-#: What ensure_index used last, per SHA: "committed" or "scan". Read by tests
-#: and by repo_status so the source of an answer is observable (trace metadata).
+#: Per SHA, whether ensure_index used the committed index or a scan. Shown by repo_status.
 INDEX_SOURCE: dict[str, str] = {}
 
 
 async def ensure_index(sha: str, blobs: dict[str, str] | None = None) -> ClaimsIndex:
-    """Prefer the committed `.claims-index.json`, fall back to scanning sidecars.
-
-    Both paths produce identical results, pinned by
-    test_the_committed_index_matches_a_live_scan. The fallback is not defensive
-    padding: older commits have no index and never will, and a corrupt one must
-    not take the agent down -- scanning is slower and always correct.
-    """
+    """Prefer the committed `.claims-index.json`, fall back to scanning sidecars."""
     index = _INDEXES.get(sha)
     if index is None:
-        from corpus.snapshot import ensure_local_corpus
+        from .local_copy import ensure_local_corpus
 
         corpus = await ensure_local_corpus(sha, blobs)
         try:

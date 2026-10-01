@@ -1,10 +1,4 @@
-"""The app-process copy of the corpus.
-
-Authored tools cannot reach the sandbox: `@tool` puts a `ToolRuntime` parameter
-into args_schema, so a tool declaring one fails every call with "Field required:
-runtime". So the app process fetches its own copy for hashing and indexing while
-the model uses the sandbox copy. Both are verified against the same manifest.
-"""
+"""The app-process copy of the corpus."""
 
 from __future__ import annotations
 
@@ -17,41 +11,23 @@ import tarfile
 
 from dataclasses import dataclass, field
 
-from corpus.manifest import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha  # noqa: F401
+from .integrity import CorpusIntegrityError, CorpusUnavailableError, git_blob_sha  # noqa: F401
 
 logger = logging.getLogger(__name__)
 
 OWNER = os.environ.get("CORPUS_OWNER", "eugeneliu-86")
 REPO = os.environ.get("CORPUS_REPO", "wealth-research-corpus")
 
-#: TMPDIR read directly rather than through tempfile.gettempdir(), which walks a
-#: candidate list and calls os.getcwd() on the way. That is a blocking syscall,
-#: and this module is imported lazily on any build where tools/claims.py is not
-#: in the tool list -- so the call lands inside an async tool call and
-#: blockbuster refuses it. On the default build the claims tools import this at
-#: startup, outside the event loop, and it resolves once; the search-only control
-#: drops them, and every tool call then raised BlockingError, returned an empty
-#: answer in six seconds, and scored as though the build were merely worse.
-#: Import order is not a guarantee, so the syscall goes rather than the ordering
-#: being relied on.
+#: TMPDIR directly: tempfile.gettempdir() makes a blocking call that blockbuster refuses in the event loop.
 CACHE_ROOT = pathlib.Path(os.environ.get("TMPDIR") or "/tmp") / "research-agent-corpus"
 
-#: Text extensions worth preloading. Everything the tools read is text; the
-#: whole corpus is 1.2 MB, so holding it in memory costs nothing and removes an
-#: entire class of bug — see the note on BlockingError below.
+#: Preloaded extensions. The corpus is 1.2 MB of text, so all of it is held in memory.
 TEXT_SUFFIXES = frozenset({".md", ".json", ".yml", ".yaml", ".txt"})
 
 
 @dataclass
 class LocalCorpus:
-    """The corpus at one commit, fully in memory.
-
-    Preloaded rather than read on demand because the dev server runs
-    `blockbuster`, which raises on synchronous I/O in the event loop -- and it
-    catches `rglob`, not just reads. One thread hop per commit, and every
-    consumer downstream is pure CPU over this dict, so no refactor can
-    reintroduce a blocking call from a tool.
-    """
+    """The corpus at one commit, fully in memory."""
 
     corpus_sha: str
     root: pathlib.Path
@@ -85,10 +61,7 @@ def _lock(sha: str) -> asyncio.Lock:
 async def _download(sha: str) -> bytes:
     import httpx
 
-    # codeload first (no rate limit), then its `legacy.tar.gz` path (a different
-    # edge cache key — the plain path kept serving a 404 for a fresh commit
-    # after the tree API had it), then the API tarball endpoint (anonymous
-    # 60/hour, so last). Same order as the sandbox fetch in corpus_guard.
+    # Same order as corpus_guard's sandbox fetch: codeload twice, then the rate-limited API.
     urls = [
         f"https://codeload.github.com/{OWNER}/{REPO}/tar.gz/{sha}",
         f"https://codeload.github.com/{OWNER}/{REPO}/legacy.tar.gz/{sha}",
@@ -170,19 +143,13 @@ def _load(dest: pathlib.Path, sha: str, blobs: dict[str, str] | None) -> LocalCo
             continue
         if path.suffix.lower() not in TEXT_SUFFIXES:
             continue
-        # Split on LF only: the anchor formula joins with LF, so splitlines()
-        # would disagree on any file containing a lone CR or a form feed.
+        # LF only, to match the anchor hash; splitlines() also splits on CR and form feeds.
         files[rel] = path.read_text(encoding="utf-8").split("\n")
     return LocalCorpus(corpus_sha=sha, root=dest, files=files, verified_count=count)
 
 
 async def ensure_local_corpus(sha: str, blobs: dict[str, str] | None = None) -> LocalCorpus:
-    """Return the corpus at `sha`, verified and fully loaded.
-
-    `blobs` is the git-tree manifest the guard already fetched. When supplied,
-    the extracted copy is verified against it — an unverified copy is exactly
-    what the manifest exists to prevent.
-    """
+    """Return the corpus at `sha`, verified and fully loaded."""
     cached = _CORPORA.get(sha)
     if cached is not None:
         return cached
