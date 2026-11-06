@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "compiled_from": "531bc7dbef8f0d06af241232e44593cc3aeb161a",
+  "compiled_from": "6a0a1d150158e992cd01f4d19929b7a0610f1ee1",
   "status": "complete",
-  "compiled_at": "2026-11-05T15:30:14Z",
+  "compiled_at": "2026-11-06T15:06:08Z",
   "attempts": 1,
-  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/42055515706",
+  "workflow_run_url": "https://github.com/xuro-langchain/wealth-research-corpus/actions/runs/42239813970",
   "claims": {
     "total": 124,
     "added": 0,
